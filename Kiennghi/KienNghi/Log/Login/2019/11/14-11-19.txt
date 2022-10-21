@@ -1,0 +1,4 @@
+
+
+
+LOGIN|http://localhost:1434/Home/Login:1434|KNCT|2019/11/14 08:56:03:563|null|admin|::1|Home/Login|1|0

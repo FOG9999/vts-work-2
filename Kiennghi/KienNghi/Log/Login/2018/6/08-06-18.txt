@@ -1,0 +1,28 @@
+
+
+
+LOGIN|http://192.168.1.113:83/Home/Login:83|KNCT|2018/06/08 04:52:11:5211|null|admin|192.168.1.113|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.113:83/Home/Login:83|KNCT|2018/06/08 05:01:41:141|null|admin|192.168.1.113|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.113:83/Home/Login/:83|KNCT|2018/06/08 05:03:08:38|null|admin|192.168.1.113|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.113:83/Home/Login:83|KNCT|2018/06/08 05:10:15:1015|null|admin|192.168.1.113|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.113:83/Home/Login:83|KNCT|2018/06/08 05:10:34:1034|null|admin|192.168.1.5|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.113:83/Home/Login:83|KNCT|2018/06/08 05:12:56:1256|null|admin|192.168.1.5|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.113:83/Home/Login:83|KNCT|2018/06/08 05:12:57:1257|null|admin|192.168.1.113|Home/Login|1|0

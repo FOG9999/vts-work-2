@@ -1,0 +1,70 @@
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2020/03/20 08:59:22:5922|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\HomeController.cs:line 411|Đăng xuất|1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2020/03/20 10:19:10:1910|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\HomeController.cs:line 411|Đăng xuất|1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2020/03/20 02:08:36:836|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\HomeController.cs:line 411|Đăng xuất|1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2020/03/20 02:18:39:1839|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\HomeController.cs:line 411|Đăng xuất|1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2020/03/20 02:18:52:1852|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\HomeController.cs:line 411|Đăng xuất|1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2020/03/20 02:20:14:2014|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\HomeController.cs:line 411|Đăng xuất|1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2020/03/20 02:20:25:2025|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\HomeController.cs:line 411|Đăng xuất|1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2020/03/20 02:27:12:2712|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\HomeController.cs:line 411|Đăng xuất|1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2020/03/20 02:27:45:2745|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\HomeController.cs:line 411|Đăng xuất|1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2020/03/20 02:32:09:329|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\HomeController.cs:line 411|Đăng xuất|1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2020/03/20 02:35:10:3510|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\HomeController.cs:line 411|Đăng xuất|1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Kntc/Ajax_Vanbanluanchuyendonthu_insert:80|KNCT|2020/03/20 03:12:26:1226|unknow|Input string was not in a correct format.:    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at KienNghi.Controllers.KntcController.Ajax_Vanbanluanchuyendonthu_insert(FormCollection fc, HttpPostedFileBase file) in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\KntcController.cs:line 1280|Thêm mới văn bản luân chuyển đơn thư|1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Kntc/Ajax_Vanbanluanchuyendonthu_insert:80|KNCT|2020/03/20 03:13:22:1322|unknow|Input string was not in a correct format.:    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at KienNghi.Controllers.KntcController.Ajax_Vanbanluanchuyendonthu_insert(FormCollection fc, HttpPostedFileBase file) in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\KntcController.cs:line 1280|Thêm mới văn bản luân chuyển đơn thư|1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2020/03/20 03:25:02:252|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\HomeController.cs:line 411|Đăng xuất|1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2020/03/20 03:31:08:318|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\HomeController.cs:line 411|Đăng xuất|1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2020/03/20 04:16:57:1657|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\HomeController.cs:line 411|Đăng xuất|1

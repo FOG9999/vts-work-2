@@ -1,0 +1,22 @@
+
+
+
+ERROR|http://192.168.1.113:83/Home/Logout/:83|KNCT|2018/05/11 10:12:35:1235|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.113:83/Home/Logout/:83|KNCT|2018/05/11 10:15:38:1538|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Datraloi/?trangthai=0?&post_per_page=50:83|KNCT|2018/05/11 02:53:20:5320|unknow|Input string was not in a correct format.:    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at KienNghi.Controllers.KntcController.Datraloi(Int32 page) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KntcController.cs:line 3333|Hiển thị danh sách đơn khiếu nại đã chuyển xử lý|1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Datraloi/?trangthai=0?&post_per_page=50:83|KNCT|2018/05/11 02:53:31:5331|unknow|Input string was not in a correct format.:    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at KienNghi.Controllers.KntcController.Datraloi(Int32 page) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KntcController.cs:line 3333|Hiển thị danh sách đơn khiếu nại đã chuyển xử lý|1

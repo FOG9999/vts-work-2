@@ -1,0 +1,28 @@
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2021/01/26 07:09:18:918|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\HomeController.cs:line 411|Đăng xuất|1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2021/01/26 07:09:18:918|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\HomeController.cs:line 411|Đăng xuất|1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2021/01/26 08:20:54:2054|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\HomeController.cs:line 411|Đăng xuất|1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2021/01/26 08:55:50:5550|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\HomeController.cs:line 411|Đăng xuất|1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2021/01/26 01:53:03:533|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\HomeController.cs:line 411|Đăng xuất|1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2021/01/26 02:40:42:4042|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\HomeController.cs:line 411|Đăng xuất|1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2021/01/26 02:40:42:4042|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\HomeController.cs:line 411|Đăng xuất|1

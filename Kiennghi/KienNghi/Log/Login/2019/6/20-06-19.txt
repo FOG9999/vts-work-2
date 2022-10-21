@@ -1,0 +1,12 @@
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/06/20 09:34:39:3439|null|dienbien01|::1|Home/Login|1|0
+
+
+
+LOGOUT|http://localhost:1234/Home/Logout/:1234|KNCT|2019/06/20 09:35:08:358|null|dienbien01|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/06/20 09:35:20:3520|null|angiang01|::1|Home/Login|1|0

@@ -1,0 +1,12 @@
+
+
+
+ERROR|http://localhost:8093/Kntc/Dontrung_Exl/?cNoiDung=&dTuNgay=&dDenngay=&iNguonDon=0&iDiaPhuong_0=0&iNguoiNhap=0&iLoaiDon=0&iLinhVuc=0&iNoiDung=0&iTinhChat=0&iTinhTrangXuLy=-1&iThamQuyenDonVi=0:8093|KNCT|2019/07/02 09:17:45:1745|select * from QUOCHOI_COQUAN where 1 = 1 and IHIENTHI = :p_IHIENTHI and IDELETE = :p_IDELETE|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 240||1
+
+
+
+ERROR|http://localhost:8093/Kntc/Tracuu/?cNoiDung=&dTuNgay=&dDenngay=&iNguonDon=0&iDiaPhuong_0=0&iNguoiNhap=0&iLoaiDon=0&iLinhVuc=0&iNoiDung=0&iTinhChat=0&iTinhTrangXuLy=-1&iThamQuyenDonVi=0:8093|KNCT|2019/07/02 09:20:32:2032|select * from QUOCHOI_COQUAN where 1 = 1 and IHIENTHI = :p_IHIENTHI and IDELETE = :p_IDELETE|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 240||1
+
+
+
+ERROR|http://localhost:8093/Kntc/Tracuu/?cNoiDung=&dTuNgay=&dDenngay=&iNguonDon=0&iDiaPhuong_0=0&iNguoiNhap=0&iLoaiDon=0&iLinhVuc=0&iNoiDung=0&iTinhChat=0&iTinhTrangXuLy=-1&iThamQuyenDonVi=0:8093|KNCT|2019/07/02 09:21:33:2133|select * from QUOCHOI_COQUAN where 1 = 1 and IHIENTHI = :p_IHIENTHI and IDELETE = :p_IDELETE|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 240||1

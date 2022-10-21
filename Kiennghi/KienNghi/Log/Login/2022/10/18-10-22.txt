@@ -1,0 +1,12 @@
+
+
+
+LOGIN|http://localhost:1434/Home/Login:1434|KNCT|2022/10/18 10:23:24:2324|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1434/Home/Login:1434|KNCT|2022/10/18 10:46:40:4640|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1434/Home/Login:1434|KNCT|2022/10/18 11:03:12:312|null|admin|::1|Home/Login|1|0

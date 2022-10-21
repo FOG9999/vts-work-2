@@ -1,0 +1,24 @@
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2017/12/29 07:55:05:555|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2017/12/29 08:56:08:568|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2017/12/29 03:30:48:3048|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2017/12/29 04:51:56:5156|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2017/12/29 04:55:47:5547|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2017/12/29 05:11:02:112|null|admin|::1|Home/Login|1|0

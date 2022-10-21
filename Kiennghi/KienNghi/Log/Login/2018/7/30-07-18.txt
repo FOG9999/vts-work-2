@@ -1,0 +1,40 @@
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2018/07/30 02:28:10:2810|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.113:83/Home/Login:83|KNCT|2018/07/30 02:40:26:4026|null|admin|192.168.1.113|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.113:83/Home/Login/:83|KNCT|2018/07/30 02:41:32:4132|null|admin|192.168.1.113|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.113:83/Home/Login/:83|KNCT|2018/07/30 02:42:06:426|null|admin|192.168.1.113|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.113:83/Home/Login/:83|KNCT|2018/07/30 02:42:33:4233|null|admin|192.168.1.113|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2018/07/30 02:55:27:5527|null|admin|127.0.0.1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2018/07/30 03:09:32:932|null|admin|127.0.0.1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login/:1234|KNCT|2018/07/30 03:10:53:1053|null|admin|127.0.0.1|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.113:83/Home/Login:83|KNCT|2018/07/30 03:15:30:1530|null|admin|192.168.1.113|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.113:83/Home/Login/:83|KNCT|2018/07/30 03:19:23:1923|null|admin|192.168.1.113|Home/Login|1|0

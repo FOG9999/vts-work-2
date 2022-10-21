@@ -1,0 +1,48 @@
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/03/04 09:10:14:1014|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/03/04 02:57:21:5721|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login/:2121|KNCT|2018/03/04 10:10:23:1023|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/03/04 10:43:23:4323|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/03/04 10:53:20:5320|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/03/04 11:00:12:012|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/03/04 11:05:36:536|null|admin|127.0.0.1|Home/Login|1|0
+
+
+
+LOGOUT|http://localhost:2121/Home/Logout/:2121|KNCT|2018/03/04 11:06:19:619|null|admin|127.0.0.1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login/:2121|KNCT|2018/03/04 11:06:29:629|null|admin|127.0.0.1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/03/04 11:17:08:178|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/03/04 11:22:20:2220|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/03/04 11:30:20:3020|null|admin|127.0.0.1|Home/Login|1|0

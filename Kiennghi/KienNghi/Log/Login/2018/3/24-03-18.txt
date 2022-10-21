@@ -1,0 +1,72 @@
+
+
+
+LOGIN|http://192.168.1.13:83/Home/Login:83|KNCT|2018/03/24 08:56:43:5643|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:83/Home/Login/:83|KNCT|2018/03/24 09:32:30:3230|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:83/Home/Login:83|KNCT|2018/03/24 09:42:45:4245|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGOUT|http://192.168.1.13:83/Home/Logout/:83|KNCT|2018/03/24 09:56:52:5652|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:83/Home/Login:83|KNCT|2018/03/24 09:56:54:5654|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGOUT|http://192.168.1.13:83/Home/Logout/:83|KNCT|2018/03/24 09:59:14:5914|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:83/Home/Login:83|KNCT|2018/03/24 09:59:17:5917|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:83/Home/Login/:83|KNCT|2018/03/24 10:17:27:1727|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:83/Home/Login:83|KNCT|2018/03/24 10:22:47:2247|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/03/24 10:28:42:2842|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:83/Home/Login:83|KNCT|2018/03/24 10:30:19:3019|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:83/Home/Login/:83|KNCT|2018/03/24 10:34:23:3423|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/03/24 10:41:16:4116|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/03/24 10:45:38:4538|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/03/24 10:47:10:4710|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:83/Home/Login:83|KNCT|2018/03/24 10:48:39:4839|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/03/24 09:15:05:155|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/03/24 09:29:40:2940|null|admin|::1|Home/Login|1|0

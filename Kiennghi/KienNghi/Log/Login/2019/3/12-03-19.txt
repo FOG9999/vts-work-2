@@ -1,0 +1,36 @@
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/03/12 03:27:25:2725|null|ADMIN|::1|Home/Login|0|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/03/12 03:27:34:2734|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:8093/Home/Login:8093|KNCT|2019/03/12 03:39:15:3915|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/03/12 03:49:10:4910|null|admin|::1|Home/Login|1|0
+
+
+
+LOGOUT|http://localhost:1234/Home/Logout/:1234|KNCT|2019/03/12 03:58:37:5837|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/03/12 03:58:39:5839|null|admin|::1|Home/Login|1|0
+
+
+
+LOGOUT|http://localhost:1234/Home/Logout/:1234|KNCT|2019/03/12 03:58:54:5854|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/03/12 03:58:59:5859|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:8093/Home/Login:8093|KNCT|2019/03/12 04:13:04:134|null|admin|::1|Home/Login|1|0

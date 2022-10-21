@@ -1,0 +1,12 @@
+
+
+
+LOGIN|http://10.60.156.49:8006/Home/Login:8006|KNCT|2020/05/25 10:06:50:650|null|tuantm14|10.61.184.183|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn:8006/Home/Login:8006|KNCT|2020/05/25 10:35:48:3548|null|tuantm14|27.68.241.28|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn:8006/Home/Login:8006|KNCT|2020/05/25 10:37:23:3723|null|hungnn|113.191.249.100|Home/Login|1|0

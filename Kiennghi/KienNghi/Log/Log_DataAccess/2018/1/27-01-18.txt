@@ -1,0 +1,23 @@
+
+
+
+ERROR|http://192.168.1.15:81/Tiepdan/Thuongxuyen/:81|KNCT|2018/01/27 09:52:10:5210|ExecuteSqlTextNoQueryWithTrans|ORA-06550: line 1, column 7:
+PLS-00201: identifier 'PKG_TCD_VUVIEC.PRC_PHANTRANG_TIEPDANVUVIEC' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Project\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.15:81/Tiepdan/Thuongxuyen/:81|KNCT|2018/01/27 09:52:10:5210|GetListObjetReport|ORA-06550: line 1, column 7:
+PLS-00201: identifier 'PKG_TCD_VUVIEC.PRC_PHANTRANG_TIEPDANVUVIEC' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Project\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Project\DataAccess\Repository\BaseRepository.cs:line 588||1

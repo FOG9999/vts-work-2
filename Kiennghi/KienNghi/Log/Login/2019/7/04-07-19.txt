@@ -1,0 +1,4 @@
+
+
+
+LOGIN|http://localhost:8093/Home/Login:8093|KNCT|2019/07/04 03:16:52:1652|null|admin|::1|Home/Login|1|0

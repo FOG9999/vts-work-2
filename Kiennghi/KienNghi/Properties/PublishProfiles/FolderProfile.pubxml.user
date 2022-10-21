@@ -1,0 +1,3475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\kiennghi-build</_PublishTargetUrl>
+    <History>True|2022-10-19T06:27:01.3274004Z;True|2022-10-18T17:56:52.9255809+07:00;True|2022-10-18T15:46:48.2229985+07:00;True|2022-10-12T16:34:25.9912040+07:00;True|2022-10-12T15:22:24.9165022+07:00;False|2022-10-12T15:08:50.2293250+07:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_HDND_Baocao_ChiTietCongVanDonDoc_3G.xls">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_HDND_Baocao_ChuaTraLoi.xls">
+      <publishTime>10/18/2022 15:45:38</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_HDND_Baocao_ChuaTraLoi_3C.xls">
+      <publishTime>10/18/2022 15:45:38</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_HDND_Baocao_ChuaTraLoi_3D.xls">
+      <publishTime>10/18/2022 15:45:38</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_HDND_Baocao_DanhSachCacDonViDaTraLoi_4A.xls">
+      <publishTime>10/18/2022 15:45:38</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_HDND_Baocao_DanhSachCongVanDonDoc_3F.xls">
+      <publishTime>10/18/2022 15:45:38</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_HDND_Baocao_KetQuaTiepNhanXuLyDonChiTiet_4F.xls">
+      <publishTime>10/12/2022 15:19:51</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_HDND_Baocao_KetQuaTiepNhanXuLyDonChiTiet_4G.xls">
+      <publishTime>10/18/2022 15:45:38</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_HDND_Baocao_PhieuChuyenDon_3E.xls">
+      <publishTime>10/18/2022 15:45:38</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_HDND_Baocao_TiepNhanXuLyGiamSat_4E.xls">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_HDND_Baocao_TongHopKetQuaTiepNhanDon.xls">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_HDND_Baocao_TongHopKetQuaXuLyDon_4B.xls">
+      <publishTime>10/18/2022 11:43:02</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_HDND_Baocao_TongHopKetQuaXuLyDon_4C.xls">
+      <publishTime>10/12/2022 16:33:44</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_HDND_Baocao_TongHopKetQuaXuLyDon_4D.xls">
+      <publishTime>10/12/2022 16:33:44</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_QH_Baocao_ChiTietCongVanDonDoc_3G.xls">
+      <publishTime>10/18/2022 15:45:38</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_QH_Baocao_ChuaTraLoi.xls">
+      <publishTime>10/18/2022 15:45:38</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_QH_Baocao_ChuaTraLoi_3C.xls">
+      <publishTime>10/18/2022 15:45:38</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_QH_Baocao_ChuaTraLoi_3D.xls">
+      <publishTime>10/18/2022 15:45:38</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_QH_Baocao_DanhSachCacDonViDaTraLoi_4A.xls">
+      <publishTime>10/18/2022 15:45:38</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_QH_Baocao_DanhSachCongVanDonDoc_3F.xls">
+      <publishTime>10/18/2022 15:45:38</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_QH_Baocao_KetQuaTiepNhanXuLyDonChiTiet_4F.xls">
+      <publishTime>10/12/2022 15:19:51</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_QH_Baocao_KetQuaTiepNhanXuLyDonChiTiet_4G.xls">
+      <publishTime>10/18/2022 15:45:38</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_QH_Baocao_PhieuChuyenDon_3E.xls">
+      <publishTime>10/18/2022 15:45:38</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_QH_Baocao_TiepNhanXuLyGiamSat_4E.xls">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_QH_Baocao_TongHopKetQuaTiepNhanDon.xls">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_QH_Baocao_TongHopKetQuaXuLyDon_4B.xls">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_QH_Baocao_TongHopKetQuaXuLyDon_4C.xls">
+      <publishTime>10/12/2022 16:33:44</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_QH_Baocao_TongHopKetQuaXuLyDon_4D.xls">
+      <publishTime>10/12/2022 16:33:44</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_QH_HDND_Baocao_ChuaTraLoi.xls">
+      <publishTime>10/18/2022 15:45:38</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_QH_HDND_Baocao_ChuaTraLoi_3D.xls">
+      <publishTime>10/18/2022 15:45:38</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_TongHop_Baocao_ChuaTraLoi_3C.xls">
+      <publishTime>10/18/2022 15:45:38</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_TongHop_Baocao_DanhSachCacDonViDaTraLoi_4A.xls">
+      <publishTime>10/18/2022 15:45:38</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_Tonghop_Baocao_DanhSachCongVanDonDoc_3F.xls">
+      <publishTime>10/18/2022 15:45:38</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_TongHop_Baocao_KetQuaTiepNhanXuLyDonChiTiet_4F.xls">
+      <publishTime>10/12/2022 15:19:51</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_TongHop_Baocao_KetQuaTiepNhanXuLyDonChiTiet_4G.xls">
+      <publishTime>10/18/2022 15:45:38</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_TongHop_Baocao_TiepNhanXuLyGiamSat_4E.xls">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_Tonghop_Baocao_TongHopKetQuaTiepNhanDon.xls">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_TongHop_Baocao_TongHopKetQuaXuLyDon_4B.xls">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_TongHop_Baocao_TongHopKetQuaXuLyDon_4C.xls">
+      <publishTime>10/12/2022 16:33:44</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKhieuNai/rpt_KN_TongHop_Baocao_TongHopKetQuaXuLyDon_4D.xls">
+      <publishTime>10/12/2022 16:33:44</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKienNghi/BaocaoDanhMucKienNghi.xls">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKienNghi/rpt_KN_BaoCao_BaoCaoTongHopHuyen.xls">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKienNghi/rpt_KN_HDND_BaoCaoTongHopHuyen.xls">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKienNghi/rpt_KN_HDND_Baocao_TapHopKienNghiThamQuyenTinh.xls">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKienNghi/rpt_KN_HDND_Baocao_TapHop_DTL.xls">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKienNghi/rpt_KN_HDND_Baocao_TapHop_DTL_2B.xls">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKienNghi/rpt_KN_HDND_Baocao_ThuocBNTW.xls">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKienNghi/rpt_KN_HĐND_BaoCao1ADanhMucCuTri.xlsx">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKienNghi/rpt_KN_HĐND_BaoCao1B1TongHopYKienCuTri.xlsx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKienNghi/rpt_KN_HĐND_BaoCao1BTongHopYKienCuTri.xlsx">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKienNghi/rpt_KN_QH_BaoCao1ADanhMucCuTri.xlsx">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKienNghi/rpt_KN_QH_BaoCao1B1TongHopYKienCuTri.xlsx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKienNghi/rpt_KN_QH_BaoCao1BTongHopYKienCuTri.xlsx">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKienNghi/rpt_KN_QH_BaoCaoTongHopHuyen.xls">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKienNghi/rpt_KN_QH_Baocao_TapHopKienNghiThamQuyenTinh.xls">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKienNghi/rpt_KN_QH_Baocao_TapHop_DTL.xls">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKienNghi/rpt_KN_QH_Baocao_TapHop_DTL_2B.xls">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKienNghi/rpt_KN_QH_Baocao_ThuocBNTW.xls">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKienNghi/rpt_KN_QH_HDND_Baocao_TapHop_DTL.xls">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKienNghi/rpt_KN_QH_HDND_Baocao_TapHop_DTL_2B.xls">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKienNghi/rpt_KN_QH_HDND_Baocao_ThuocBNTW.xls">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKienNghi/rpt_KN_TongHop_BaoCao1ADanhMucCuTri.xlsx">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKienNghi/rpt_KN_TongHop_BaoCao1B1TongHopYKienCuTri.xlsx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKienNghi/rpt_KN_TongHop_BaoCao1BTongHopYKienCuTri.xlsx">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="Application/ReportTemplate/ReportKienNghi/rpt_KN_TongHop_Baocao_TapHopKienNghiThamQuyenTinh.xls">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>10/07/2022 13:57:15</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>10/19/2022 13:26:43</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>10/19/2022 13:26:43</publishTime>
+    </File>
+    <File Include="bin/Aspose.Cells.dll">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="bin/ClosedXML.dll">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="bin/DataAccess.dll">
+      <publishTime>10/18/2022 15:46:14</publishTime>
+    </File>
+    <File Include="bin/DataAccess.dll.config">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="bin/DataAccess.pdb">
+      <publishTime>10/18/2022 15:46:14</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.Data.Edm.resources.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.Data.OData.resources.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/de/System.Spatial.resources.dll">
+      <publishTime>10/07/2022 13:57:15</publishTime>
+    </File>
+    <File Include="bin/DocumentFormat.OpenXml.dll">
+      <publishTime>10/07/2022 13:58:01</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.AspNet.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.Core.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OAuth.Consumer.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OAuth.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OpenId.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OpenId.RelyingParty.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/Elastic.Apm.AspNetFullFramework.dll">
+      <publishTime>10/07/2022 13:58:01</publishTime>
+    </File>
+    <File Include="bin/Elastic.Apm.dll">
+      <publishTime>10/07/2022 13:58:01</publishTime>
+    </File>
+    <File Include="bin/Entities.dll">
+      <publishTime>10/12/2022 16:34:05</publishTime>
+    </File>
+    <File Include="bin/Entities.dll.config">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="bin/Entities.pdb">
+      <publishTime>10/12/2022 16:34:05</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>10/07/2022 13:58:01</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>10/07/2022 13:58:01</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.Data.Edm.resources.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.Data.OData.resources.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/es/System.Spatial.resources.dll">
+      <publishTime>10/07/2022 13:57:15</publishTime>
+    </File>
+    <File Include="bin/ExcelNumberFormat.dll">
+      <publishTime>10/07/2022 13:58:01</publishTime>
+    </File>
+    <File Include="bin/FlexCel.AspNet.dll">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="bin/FlexCel.dll">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.Data.Edm.resources.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.Data.OData.resources.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/fr/System.Spatial.resources.dll">
+      <publishTime>10/07/2022 13:57:15</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.Data.Edm.resources.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.Data.OData.resources.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/it/System.Spatial.resources.dll">
+      <publishTime>10/07/2022 13:57:15</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.Data.Edm.resources.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.Data.OData.resources.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/ja/System.Spatial.resources.dll">
+      <publishTime>10/07/2022 13:57:15</publishTime>
+    </File>
+    <File Include="bin/KienNghi.dll">
+      <publishTime>10/19/2022 13:26:23</publishTime>
+    </File>
+    <File Include="bin/KienNghi.pdb">
+      <publishTime>10/19/2022 13:26:23</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.Data.Edm.resources.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.Data.OData.resources.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/ko/System.Spatial.resources.dll">
+      <publishTime>10/07/2022 13:57:15</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>10/07/2022 13:57:15</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Data.Edm.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Data.OData.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Diagnostics.FastSerialization.dll">
+      <publishTime>10/07/2022 13:58:01</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Diagnostics.Tracing.TraceEvent.dll">
+      <publishTime>10/07/2022 13:58:01</publishTime>
+    </File>
+    <File Include="bin/Microsoft.mshtml.dll">
+      <publishTime>08/25/2022 08:27:33</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Mvc.FixedDisplayModes.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.WebPages.OAuth.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/Mono.Math.dll">
+      <publishTime>10/07/2022 13:58:01</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/Oracle.ManagedDataAccess.dll">
+      <publishTime>10/07/2022 13:58:01</publishTime>
+    </File>
+    <File Include="bin/Oracle.ManagedDataAccess.EntityFramework.dll">
+      <publishTime>10/07/2022 13:58:01</publishTime>
+    </File>
+    <File Include="bin/Org.Mentalis.Security.Cryptography.dll">
+      <publishTime>10/07/2022 13:58:01</publishTime>
+    </File>
+    <File Include="bin/OSExtensions.dll">
+      <publishTime>10/07/2022 13:58:01</publishTime>
+    </File>
+    <File Include="bin/PagedList.dll">
+      <publishTime>10/07/2022 13:57:14</publishTime>
+    </File>
+    <File Include="bin/PagedList.Mvc.dll">
+      <publishTime>10/07/2022 13:57:14</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.Data.Edm.resources.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.Data.OData.resources.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/ru/System.Spatial.resources.dll">
+      <publishTime>10/07/2022 13:57:15</publishTime>
+    </File>
+    <File Include="bin/Spire.Barcode.dll">
+      <publishTime>10/07/2022 13:57:15</publishTime>
+    </File>
+    <File Include="bin/Spire.Common.dll">
+      <publishTime>10/07/2022 13:57:15</publishTime>
+    </File>
+    <File Include="bin/Spire.DataExport.dll">
+      <publishTime>10/07/2022 13:57:15</publishTime>
+    </File>
+    <File Include="bin/Spire.DataExport.ResourceMgr.dll">
+      <publishTime>10/07/2022 13:57:15</publishTime>
+    </File>
+    <File Include="bin/Spire.Doc.dll">
+      <publishTime>10/07/2022 13:57:15</publishTime>
+    </File>
+    <File Include="bin/Spire.DocViewer.Forms.dll">
+      <publishTime>10/07/2022 13:57:15</publishTime>
+    </File>
+    <File Include="bin/Spire.Email.dll">
+      <publishTime>10/07/2022 13:57:15</publishTime>
+    </File>
+    <File Include="bin/Spire.License.dll">
+      <publishTime>10/07/2022 13:57:15</publishTime>
+    </File>
+    <File Include="bin/Spire.OfficeViewer.Forms.dll">
+      <publishTime>10/07/2022 13:57:15</publishTime>
+    </File>
+    <File Include="bin/Spire.Pdf.dll">
+      <publishTime>10/07/2022 13:57:15</publishTime>
+    </File>
+    <File Include="bin/Spire.PdfViewer.Asp.dll">
+      <publishTime>10/07/2022 13:57:15</publishTime>
+    </File>
+    <File Include="bin/Spire.PdfViewer.Forms.dll">
+      <publishTime>10/07/2022 13:57:15</publishTime>
+    </File>
+    <File Include="bin/Spire.Presentation.dll">
+      <publishTime>10/07/2022 13:57:15</publishTime>
+    </File>
+    <File Include="bin/Spire.Spreadsheet.dll">
+      <publishTime>10/07/2022 13:57:15</publishTime>
+    </File>
+    <File Include="bin/Spire.XLS.dll">
+      <publishTime>10/07/2022 13:57:15</publishTime>
+    </File>
+    <File Include="bin/System.Buffers.dll">
+      <publishTime>10/07/2022 13:58:02</publishTime>
+    </File>
+    <File Include="bin/System.Collections.Immutable.dll">
+      <publishTime>10/07/2022 13:58:02</publishTime>
+    </File>
+    <File Include="bin/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>10/07/2022 13:58:02</publishTime>
+    </File>
+    <File Include="bin/System.Memory.dll">
+      <publishTime>10/07/2022 13:58:02</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/System.Numerics.Vectors.dll">
+      <publishTime>10/07/2022 13:58:02</publishTime>
+    </File>
+    <File Include="bin/System.Reflection.Metadata.dll">
+      <publishTime>10/07/2022 13:58:02</publishTime>
+    </File>
+    <File Include="bin/System.Runtime.CompilerServices.Unsafe.dll">
+      <publishTime>10/07/2022 13:58:02</publishTime>
+    </File>
+    <File Include="bin/System.Spatial.dll">
+      <publishTime>10/07/2022 13:57:15</publishTime>
+    </File>
+    <File Include="bin/System.Threading.Tasks.Dataflow.dll">
+      <publishTime>10/07/2022 13:58:02</publishTime>
+    </File>
+    <File Include="bin/System.Threading.Tasks.Extensions.dll">
+      <publishTime>10/07/2022 13:58:02</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.OData.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/TraceReloggerLib.dll">
+      <publishTime>10/07/2022 13:58:01</publishTime>
+    </File>
+    <File Include="bin/Utilities.dll">
+      <publishTime>10/18/2022 15:46:14</publishTime>
+    </File>
+    <File Include="bin/Utilities.dll.config">
+      <publishTime>10/07/2022 13:58:02</publishTime>
+    </File>
+    <File Include="bin/Utilities.pdb">
+      <publishTime>10/18/2022 15:46:14</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>10/07/2022 13:57:15</publishTime>
+    </File>
+    <File Include="bin/WebMatrix.Data.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/WebMatrix.WebData.dll">
+      <publishTime>10/07/2022 13:58:01</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.Data.Edm.resources.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.Data.OData.resources.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Spatial.resources.dll">
+      <publishTime>10/07/2022 13:57:15</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.Data.Edm.resources.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.Data.OData.resources.dll">
+      <publishTime>10/07/2022 13:57:13</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Spatial.resources.dll">
+      <publishTime>10/07/2022 13:57:15</publishTime>
+    </File>
+    <File Include="Content/PagedList.css">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_222222_256x240.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_454545_256x240.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_888888_256x240.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery-ui.css">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.accordion.css">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.all.css">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.autocomplete.css">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.base.css">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.button.css">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.core.css">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.datepicker.css">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.dialog.css">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.progressbar.css">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.resizable.css">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.selectable.css">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.slider.css">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.tabs.css">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.theme.css">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_222222_256x240.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_454545_256x240.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_888888_256x240.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery-ui.min.css">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.accordion.min.css">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.autocomplete.min.css">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.button.min.css">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.core.min.css">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.datepicker.min.css">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.dialog.min.css">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.progressbar.min.css">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.resizable.min.css">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.selectable.min.css">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.slider.min.css">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.tabs.min.css">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.theme.min.css">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="css/bootstrap-responsive.min.css">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/bootstrap-tokenfield.css">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/bootstrap.min.css">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/capcha.css">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="css/dtts.css">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/font-awesome.min.css">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/font/AqP7QX0TdaZHs8pWxeHdZbuN_EGWRdJKo47bSfPIsDJSjxrNWc6TL5x1_u3zzrgH.woff">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/font/AqP7QX0TdaZHs8pWxeHdZc_32bS09Ag8SxUgyUOuyPIC1LhKU8qFLLahJuQDJSaO.woff">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/font/AqP7QX0TdaZHs8pWxeHdZRsGXIQKIALcS8KNu_A2Z1oC1LhKU8qFLLahJuQDJSaO.woff">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/font/AqP7QX0TdaZHs8pWxeHdZTzKTEI69E9S2U4mxrykgLFSjxrNWc6TL5x1_u3zzrgH.woff">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/font/AqP7QX0TdaZHs8pWxeHdZUMGCTnVAERXWDZ9l7jUM3NSjxrNWc6TL5x1_u3zzrgH.woff">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/font/AqP7QX0TdaZHs8pWxeHdZUrD3sL4gWk4Fk49AGqi9dZSjxrNWc6TL5x1_u3zzrgH.woff">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/font/Descr.WD3">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/font/fontawesome-webfont.eot">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/font/fontawesome-webfont.eot%40v=3.0.1">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/font/fontawesome-webfont.ttf">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/font/fontawesome-webfont.woff">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/font/OpenSans-Bold.ttf">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/font/OpenSans-BoldItalic.ttf">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/font/OpenSans-ExtraBold.ttf">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/font/OpenSans-ExtraBoldItalic.ttf">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/font/OpenSans-Italic.ttf">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/font/OpenSans-Light.ttf">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/font/OpenSans-LightItalic.ttf">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/font/OpenSans-Regular.ttf">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/font/OpenSans-Semibold.ttf">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/font/OpenSans-SemiboldItalic.ttf">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/font/SairaSemiCondensed-Bold.ttf">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/font/SairaSemiCondensed-Regular.ttf">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/font/SairaSemiCondensed-SemiBold.ttf">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/new.css">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/plugin.css">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/plugins/chosen/chosen.css">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="css/plugins/colorbox/colorbox.css">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/plugins/colorpicker/colorpicker.css">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/plugins/datatable/TableTools.css">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/plugins/datepicker/datepicker.css">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/plugins/dynatree/icons.gif">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/plugins/dynatree/loading.gif">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/plugins/dynatree/ui.dynatree.css">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/plugins/elfinder/elfinder.min.css">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/plugins/elfinder/theme.css">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/plugins/fullcalendar/fullcalendar.css">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/plugins/fullcalendar/fullcalendar.print.css">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/plugins/gmap/gmap3-menu.css">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/plugins/gritter/jquery.gritter.css">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/plugins/img/arrows-active.html">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/plugins/jquery-ui/smoothness/images/animated-overlay.gif">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/plugins/jquery-ui/smoothness/jquery-ui.css">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/plugins/jquery-ui/smoothness/jquery.ui.theme.css">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/plugins/multiselect/multi-select.css">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="css/plugins/pageguide/pageguide.css">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/plugins/plupload/jquery.plupload.queue.css">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/plugins/tagsinput/jquery.tagsinput.css">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/plugins/timepicker/bootstrap-timepicker.min.css">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/plugins/xeditable/bootstrap-editable.css">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/qldt.css">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="css/qldt1.css">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/responsive.css">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="css/style_mobile.css">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/style_plugin.css">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/style_print.css">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="css/tokenfield-typeahead.css">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="Images/accent.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Images/ajax-loader.gif">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Images/bg-more.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Images/bgcapcha.jpg">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Images/bg_footer.jpg">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Images/bg_header.jpg">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Images/bg_loginloop.jpg">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Images/bullet.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Images/heroAccent.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Images/img_login.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Images/kiennghi.xlsx">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Images/kiennghi_example.xls">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Images/kiennghi_example.xlsx">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Images/orderedList0.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Images/orderedList1.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Images/orderedList2.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Images/orderedList3.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Images/orderedList4.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Images/orderedList5.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Images/orderedList6.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Images/orderedList7.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Images/orderedList8.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Images/orderedList9.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="Images/quochuy.png">
+      <publishTime>10/07/2022 13:57:09</publishTime>
+    </File>
+    <File Include="img/apple-touch-icon-precomposed.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/1.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/10.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/11.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/12.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/13.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/14.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/15.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/2.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/3.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/4.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/5.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/6.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/7.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/8.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/9.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/big/1.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/big/10.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/big/11.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/big/12.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/big/13.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/big/14.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/big/15.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/big/2.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/big/3.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/big/4.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/big/5.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/big/6.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/big/7.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/big/8.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/big/9.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/big/Descr.WD3">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/Descr.WD3">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/directd.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/locked.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/mastercard.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/paypal.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/user-1.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/user-2.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/user-3.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/user-4.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/user-5.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/user-6.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/user-avatar.jpg">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/demo/visa.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/Descr.WD3">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/favicon.ico">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/glyphicons-halflings-white.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/glyphicons-halflings.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/loading.gif">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/logo-big.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/logo.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/logo_402x.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/chosen/chosen-sprite.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/chosen/Descr.WD3">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/colorbox/controls.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/colorbox/Descr.WD3">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/colorbox/loading.gif">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/colorpicker/alpha.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/colorpicker/Descr.WD3">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/colorpicker/hue.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/colorpicker/saturation.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/elfinder/arrows-active.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/elfinder/arrows-normal.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/elfinder/crop.gif">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/elfinder/Descr.WD3">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/elfinder/dialogs.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/elfinder/icons-big.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/elfinder/icons-small.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/elfinder/logo.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/elfinder/progress.gif">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/elfinder/quicklook-bg.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/elfinder/quicklook-icons.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/elfinder/resize.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/elfinder/spinner-mini.gif">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/elfinder/toolbar.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/gmap/Descr.WD3">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/gmap/here.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/gmap/icon_greenA.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/gmap/icon_greenB.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/gmap/zoomin.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/gmap/zoomout.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/gritter/Descr.WD3">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/gritter/gritter-light.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/gritter/gritter.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/gritter/ie-spacer.gif">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/multiselect/Descr.WD3">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/multiselect/switch.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/pageguide/Descr.WD3">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/pageguide/pageguide_arrow.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/plupload/backgrounds.gif">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/plupload/buttons-disabled.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/plupload/buttons.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/plupload/delete.gif">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/plupload/Descr.WD3">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/plupload/done.gif">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/plupload/error.gif">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/plupload/transp50.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/xeditable/clear.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/xeditable/Descr.WD3">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/plugins/xeditable/loading.gif">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/sorting-asc.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/sorting-desc.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="img/sorting.png">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/application.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/bootstrap-tabcollapse.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/bootstrap-typeahead.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/bootstrap.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/demonstration.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/eakroko.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/eakroko.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/flot/excanvas.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/flot/jquery.flot.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/flot/jquery.flot.pie.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/flot/jquery.flot.selection.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/functions.js">
+      <publishTime>10/18/2022 17:56:01</publishTime>
+    </File>
+    <File Include="js/jquery.min.js">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="js/moment.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/bootbox/jquery.bootbox.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/chosen/chosen.jquery.min.js">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="js/plugins/ckeditor/ckeditor.js">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="js/plugins/colorbox/jquery.colorbox-min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/colorpicker/bootstrap-colorpicker.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/datatable/ColReorder.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/datatable/ColVis.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/datatable/dataTables.scroller.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/datatable/FixedColumns.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/datatable/jquery.dataTables.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/datatable/TableTools.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/datepicker/bootstrap-datepicker.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/elfinder/elfinder.min.js">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="js/plugins/fileupload/bootstrap-fileupload.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/flot/jquery.flot.bar.order.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/flot/jquery.flot.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/flot/jquery.flot.pie.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/flot/jquery.flot.resize.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/flot/jquery.flot.stack.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/form/jquery.form.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/fullcalendar/fullcalendar.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/gmap/gmap3-menu.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/gmap/gmap3.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/gritter/jquery.gritter.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/imagesLoaded/jquery.imagesloaded.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/jquery-ui/jquery-ui.js">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="js/plugins/jquery-ui/jquery.ui.core.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/jquery-ui/jquery.ui.draggable.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/jquery-ui/jquery.ui.droppable.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/jquery-ui/jquery.ui.mouse.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/jquery-ui/jquery.ui.resizable.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/jquery-ui/jquery.ui.selectable.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/jquery-ui/jquery.ui.slider.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/jquery-ui/jquery.ui.spinner.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/jquery-ui/jquery.ui.widget.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/maskedinput/jquery.maskedinput.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/mockjax/jquery.mockjax.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/momentjs/jquery.moment.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/multiselect/jquery.multi-select.js">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="js/plugins/pageguide/jquery.pageguide.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/plupload/jquery.plupload.queue.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/plupload/plupload.full.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/slimscroll/jquery.slimscroll.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/tagsinput/jquery.tagsinput.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/timepicker/bootstrap-timepicker.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/touch-punch/jquery.touch-punch.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/validation/additional-methods.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/validation/jquery.validate.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/vmap/jquery.vmap.min.js">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="js/plugins/vmap/jquery.vmap.sampledata.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/vmap/jquery.vmap.world.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/wizard/jquery.form.wizard.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/xeditable/address.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/xeditable/bootstrap-editable.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/plugins/xeditable/demo.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="js/typeahead.bundle.min.js">
+      <publishTime>10/07/2022 13:57:11</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>10/19/2022 13:26:26</publishTime>
+    </File>
+    <File Include="ScriptDatabase/Index/Index.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/MasterData/DIAPHUONG.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/MasterData/DONVI_LINHVUC.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/MasterData/KIENNGHI_NGUONDON.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/MasterData/KNTC_LOAIDON.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/MasterData/KNTC_NGUONDON.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/MasterData/KNTC_NOIDUNGDON.sql">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="ScriptDatabase/MasterData/KN_NGUONDON.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/MasterData/KN_TRALOI_PHANLOAI.sql">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="ScriptDatabase/MasterData/LINHVUC.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/MasterData/LINHVUC_COQUAN.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/MasterData/QUOCHOI_COQUAN.sql">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="ScriptDatabase/MasterData/USERS.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/MasterData/USER_ACTION.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/MasterData/USER_CHUCVU.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/MasterData/USER_GROUP.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/MasterData/USER_GROUP_ACTION.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/MasterData/USER_PHONGBAN.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/MasterData/USER_TYPE.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/Package/PKG_KHIEUNAI_TOCAO.body.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/Package/PKG_KHIEUNAI_TOCAO.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/Package/PKG_KIENNGHI_BAOCAO.body.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/Package/PKG_KIENNGHI_BAOCAO.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/Package/PKG_KIENNGHI_CUTRI.body.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/Package/PKG_KIENNGHI_CUTRI.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/Package/PKG_KNTC_BAOCAO.body.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/Package/PKG_KNTC_BAOCAO.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/Package/PKG_TCD_BAOCAO.body.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/Package/PKG_TCD_BAOCAO.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/Package/PKG_TCD_VUVIEC.body.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/Package/PKG_TCD_VUVIEC.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/Package/PKG_TD_VUVIEC.body.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/Package/PKG_TD_VUVIEC.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/Package/PKG_THIETLAP_HETHONG.body.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/Package/PKG_THIETLAP_HETHONG.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/Package/PKG_VANBAN.body.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/Package/PKG_VANBAN.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/Sequense/Sequences.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/StoreProcedure/PRC_GET_THKIENNGHI.sql">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="ScriptDatabase/StoreProcedure/PRC_KIENNGHI_IMPORT_LISTKN.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/StoreProcedure/PRC_KIENNGHI_LIST_TRACUU.sql">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="ScriptDatabase/StoreProcedure/PRC_KIENNGHI_LIST_TRUNG.sql">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="ScriptDatabase/StoreProcedure/PRC_KIENNGHI_MOICAPNHAT_CHANGE.sql">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="ScriptDatabase/StoreProcedure/PRC_KIENNGHI_TAMXOA.sql">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="ScriptDatabase/StoreProcedure/PRC_KIENNGHI_TONGHOP_HDNDTINH.sql">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="ScriptDatabase/StoreProcedure/PRC_KNTC_DONCHOXULY.sql">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="ScriptDatabase/StoreProcedure/PRC_KNTC_DONDAPHANLOAI.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/StoreProcedure/PRC_KNTC_IMPORT_LISTDON.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/StoreProcedure/PRC_KNTC_LISTDACHUYENXULYCOTRALOI.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/StoreProcedure/PRC_LIST_KIENNGHI_BY_TONGHOP.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/StoreProcedure/PRC_LIST_TONGHOP_CHUATRALOI.sql">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="ScriptDatabase/StoreProcedure/PRC_TONGHOP_KIENNGHI_BDN.sql">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="ScriptDatabase/StoreProcedure/PRC_TONGHOP_KIENNGHI_HUYEN.sql">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="ScriptDatabase/StoreProcedure/RPT_KNTC_BAOCAO_CHUACOTRALOI_3B_3C.sql">
+      <publishTime>10/18/2022 17:56:01</publishTime>
+    </File>
+    <File Include="ScriptDatabase/StoreProcedure/RPT_KNTC_BAOCAO_CHUACOTRALOI_THEOLINHVUC_3D.sql">
+      <publishTime>10/18/2022 17:56:01</publishTime>
+    </File>
+    <File Include="ScriptDatabase/StoreProcedure/RPT_KNTC_BAOCAO_DANHSACHCACDONVIDACOTRALOI_4A.sql">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="ScriptDatabase/StoreProcedure/RPT_KNTC_BAOCAO_DANHSACHDONDOC_3F.sql">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="ScriptDatabase/StoreProcedure/RPT_KNTC_BAOCAO_TIEPNHANXULYGIAMSAT_4E.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/StoreProcedure/RPT_KNTC_BAOCAO_TONGHOPKETQUAXULYDON_4B.sql">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="ScriptDatabase/StoreProcedure/RPT_KNTC_BAOCAO_TONGHOPKETQUAXULYDON_4C.sql">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="ScriptDatabase/StoreProcedure/RPT_KNTC_BAOCAO_TONGHOPKETQUAXULYDON_4D.sql">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="ScriptDatabase/StoreProcedure/RPT_KNTC_BAOCAO_TONGHOPKETQUAXULYDON_4F.sql">
+      <publishTime>10/12/2022 15:19:51</publishTime>
+    </File>
+    <File Include="ScriptDatabase/StoreProcedure/RPT_KNTC_BAOCAO_TONGHOPKETQUAXULYDON_4G.sql">
+      <publishTime>10/12/2022 16:33:44</publishTime>
+    </File>
+    <File Include="ScriptDatabase/StoreProcedure/RPT_KNTC_DONCHOXULIPHANLOAI.sql">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="ScriptDatabase/StoreProcedure/RPT_KN_BAOCAO_TONGHOPYKIEN_1B.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/StoreProcedure/RPT_KN_BAOCAO_TONGHOPYKIEN_1B1.sql">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="ScriptDatabase/StoreProcedure/RPT_KN_HDND_DANHMUCCUTRI_1A.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/StoreProcedure/RPT_KN_HDND_TAPHOPKNTHAMQUYENTINH.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/StoreProcedure/RPT_KN_QH_BAOCAO_KNCT_TAPHOP_DACOTRALOI.sql">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="ScriptDatabase/StoreProcedure/RPT_KN_QH_BAOCAO_KNCT_THUOC_TRUNGUONG.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="ScriptDatabase/StoreProcedure/RPT_KN_QH_BAOCAO_TONGHOP_HUYEN.sql">
+      <publishTime>10/12/2022 15:19:51</publishTime>
+    </File>
+    <File Include="ScriptDatabase/Tables/Tables.sql">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.8.2.js">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.8.2.min.js">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.8.24.js">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.8.24.min.js">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Scripts/jquery.unobtrusive-ajax.js">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Scripts/jquery.unobtrusive-ajax.min.js">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Scripts/knockout-2.2.0.debug.js">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Scripts/knockout-2.2.0.js">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Template/Import/khieunaitocao_template.xlsx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocao/Kiennghi_1.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocao/Kiennghi_form_1.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocao/Kiennghi_form_10.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocao/Kiennghi_form_2.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocao/Kiennghi_form_3.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocao/Kiennghi_form_4.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocao/Kiennghi_form_5.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocao/Kiennghi_form_6.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocao/Kiennghi_form_7.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocao/Kiennghi_form_8.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocao/Kiennghi_form_9.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocao/Kntc_Baocaodonthuhangtuan.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocao/Kntc_Baocaothang.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocao/Kntc_Thongkechitietdon.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocao/Kntc_Thongkecoquanchuyendon.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocao/Kntc_Thongkecoquanthamquyen.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocao/Kntc_Thongkediaban.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocao/Kntc_Thongkeloaikhieuto.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocao/Kntc_Thongkenguoinhapdon.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocao/Kntc_Thongkenguoixuly.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocao/Kntc_Thongkenoiguidon.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocao/Kntc_Thongkesolieudon.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocao/Kntc_Thongketongsodon.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocao/Kntc_Thongketrungdon.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocao/Kntc_Tonghopcongvanchuyendon.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocao/TD_Phuluc.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocao/TD_Solieutinh.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocaokiennghi/Ketqua_preview.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocaokiennghi/Kiennghi_1.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocaokiennghi/Kiennghi_2.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocaokiennghi/Kiennghi_3.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocaokiennghi/Kiennghi_4.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocaokiennghi/Kiennghi_5.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocaokiennghi/Kiennghi_5b.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocaokiennghi/Kiennghi_6.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocaokiennghi/Kiennghi_9.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocaokiennghi/Phanloai.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocaokiennghi/Traloi.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocaokiennghi/TraloiKNTC.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Baocaokiennghi/TraloiKN_DenDBQH.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Add_Kiennghi_gop.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Change_Phanloai_traloi.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Chondaibieu.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Chondiaphuong.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Chuongtrinh_chitiet_add.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Chuongtrinh_chitiet_edit.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Chuongtrinh_info.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Chuongtrinh_search.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Chuyendonvi.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Chuyen_Donvi_xuly.aspx">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Chuyen_tonghop.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Chuyen_Xuly_Chuyenvien.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Chuyen_Xuly_tonghop.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Chuyen_Xuly_Tralai.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Duthao_add.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Duthao_edit.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Export_Chuaxuly.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Export_Dacotraloi.aspx">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Export_Dangxuly.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Export_Giaitrinh.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Export_Traloi.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Giamsat_add.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Giamsat_edit.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Giamsat_ykien_add.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Giamsat_ykien_edit.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Hoanthanh_result.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Import_add.aspx">
+      <publishTime>10/19/2022 13:26:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Import_add_view_file.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Import_edit.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Kiemtrung.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Kiennghi_danhgia.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Kiennghi_danhgia_chuyenkysau_edit.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Kiennghi_danhgia_edit.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Kiennghi_giamsat_add.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Kiennghi_giamsat_edit.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Kiennghi_Hoanthanh_search.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Kiennghi_info.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Kiennghi_lichsu.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Kiennghi_moicapnhat_search.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Kiennghi_tra.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Kiennghi_traloi.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Kiennghi_traloi_edit.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Kiennghi_tra_chuagiaiquyet.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Kiennghi_tra_chuagiaiquyet_edit.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Kiennghi_tra_chualotrinh.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Kiennghi_tra_chualotrinh_edit.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Kiennghi_tra_chuyenkysau.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Kiennghi_tra_chuyenkysau_edit.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Kiennghi_tra_edit.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Kiennghi_tra_lotrinh.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Kiennghi_tra_lotrinh_edit.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Kiennghi_tra_nguonluc.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Kiennghi_tra_nguonluc_edit.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Kiennghi_trung_dong.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Kiennghi_trung_info.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Load_lichtiep.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Load_lichtiep_edit.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Load_lichtiep_row.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Load_Panel_Kiennghi_Dagop.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/search_bandannguyen_chuyen.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/search_chuatraloi.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/search_chuaxuly.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/search_chuongtrinh.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/search_dacotraloi.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/search_dangxuly.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/search_giaitrinh.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/search_giamsat.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/search_moicapnhat.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/search_moicapnhat_popup.aspx">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/search_tamxoa.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/search_theodoi_chuyengiaiquyet.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/search_theodoi_dannguyen.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/search_theodoi_diaphuong.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/search_theodoi_kiennghi_chuyenkysau.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/search_theodoi_kiennghi_dannguyen.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/search_theodoi_kiennghi_dannguyen_result.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/search_theodoi_kiennghi_diaphuong.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/search_theodoi_kiennghi_tralai.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/search_theodoi_kiennghi_tralai_khongxuly.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/search_theodoi_luu.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/search_tonghop.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/search_tonghop_bandannguyen.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/search_tonghop_bandannguyen_chuyen.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/search_tonghop_bandannguyen_dachuyen.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/search_tonghop_chuyendannguyen.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/search_tonghop_chuyendiaphuong.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/search_tonghop_diaphuongchuyen.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/search_tonghop_huyen.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/search_tonghop_tinh.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/search_traloi.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Sua_Congvan.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Themkiennghi_giamsat.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Themkiennghi_giamsat_search.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Themkiennghi_gop.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Themkiennghi_tonghop.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Themkiennghi_tonghop_search.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Themmoi.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Timkiem.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Tonghop_info.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Tonghop_lichsu.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Tonghop_list_kiennghi.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Tonghop_search.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Tonghop_traloi.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Tonghop_traloi_edit.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Tracuu_result.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/Traloi.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/xuat_tonghop_bandannguyen.aspx">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/xuat_tonghop_huyen.aspx">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kiennghi/xuat_tonghop_tinh.aspx">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Ajax_DanhGia.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Choxuly_formexport.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Choxuly_formsearch.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Choxuly_search.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Chuatraloi_formsearch.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Chuyendon_khongthuocthamquyen.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Chuyenxuly_donvi.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Chuyenxuly_formsearch.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Chuyenxuly_noibo.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Chuyenxuly_search.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Chuyen_Xuly.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/CongVanDonDocPrint.aspx">
+      <publishTime>10/12/2022 16:33:44</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Dachuyenxuly_formsearch.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Dahuongdan_formsearch.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Daluanchuyenxuly_formsearch.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Dangxuly_formsearch.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Dangxuly_search.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Danhanxuly_formsearch.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Datraloi_formexport.aspx">
+      <publishTime>10/18/2022 17:56:01</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Datraloi_formsearch.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Daxuly_formsearch.aspx">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Daxuly_search.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Don_info.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Don_lichsu.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Dudieukien_formsearch.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Dudieukien_search.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Giamsat_add.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Giamsat_edit.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Huongdan_traloi.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Import_add.aspx">
+      <publishTime>10/19/2022 13:26:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Import_add_view_file.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Khongdudieukien_formsearch.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Khongdudieukien_search.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Khongthuly.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Khongthuocthamquyen_formsearch.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Khongthuocthamquyen_search.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Khongxuly_formsearch.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Khongxuly_search.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Kiemtrung.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Luutheodoi.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Lydotrung.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Moicapnhat_formsearch.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Moicapnhat_search.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/PhieuChuyenDonPrint.aspx">
+      <publishTime>10/12/2022 16:33:44</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Tamxoa_formsearch.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Thuocthamquyen_formsearch.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Thuocthamquyen_search.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Tracuu_result.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Vanbandondoc_add.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Vanbanluanchuyen_add.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Vanbanxulylaidon_add.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Vanban_add.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/Vanban_lienquan.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Kntc/xuat_kntc_chuatraloi.aspx">
+      <publishTime>10/18/2022 17:56:01</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Chucvu_add.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Chucvu_edit.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Coquan_add.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Coquan_edit.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Coquan_import.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Coquan_search.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Daibieu_add.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Daibieu_edit.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/DaiBieu_KyHop_add.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Dantoc_add.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Dantoc_edit.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Diaphuong_add.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Diaphuong_edit.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Khoa_add.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Khoa_edit.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Kyhop_add.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Kyhop_edit.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Linhvuc_add.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Linhvuc_Coquan_add.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Linhvuc_Coquan_edit.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/LinhVuc_DonVi_add.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Linhvuc_edit.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Loaidon_add.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Loaidon_edit.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Nghenghiep_add.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Nghenghiep_edit.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Nguondon_add.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Nguondon_edit.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Nguonkiennghi_add.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Nguonkiennghi_edit.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Nhomquyen_add.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Nhomquyen_edit.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/NhomTaiKhoanIndexRowPartial.cshtml">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Noidungdon_add.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Noidungdon_edit.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Phongban_add.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Phongban_edit.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Quoctich_add.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Quoctich_edit.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Taikhoan_add.aspx">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Taikhoan_edit.aspx">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Taikhoan_info.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Taikhoan_lichsu.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Tinhchatdon_add.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Tinhchatdon_edit.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Traloi_Phanloai_add.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Traloi_Phanloai_edit.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Vanban_add.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Thietlap/Vanban_edit.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Tiepdan/Capnhatnoidung.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Tiepdan/Dinhky_add.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Tiepdan/Dinhky_edit.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Tiepdan/Dinhky_info.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Tiepdan/Dinhky_result.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Tiepdan/Dinhky_search.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Tiepdan/Dinhky_tracuu.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Tiepdan/Dinhky_vuviec.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Tiepdan/Dinhky_vuviec_info.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Tiepdan/Dotxuat_search.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Tiepdan/Huongdantructiep.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Tiepdan/Huongdan_traloi.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Tiepdan/Ketqua_Xuly.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Tiepdan/Ketqua_XulyCQBH.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Tiepdan/Kiemtrung.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Tiepdan/Kiemtrung1.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Tiepdan/Noidung.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Tiepdan/Thuongxuyen_info.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Tiepdan/Thuongxuyen_kiemtrung.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Tiepdan/Thuongxuyen_result.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Tiepdan/Thuongxuyen_search.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Tiepdan/Tiepdan_giamsat.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Tiepdan/Tiepdan_giamsat_edit.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Tiepdan/Traloichuyenxuly.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Tiepdan/Traloichuyenxuly_edit.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Tiepdan/Traloivuviec_edit.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Ajax/Tiepdan/Traloixuly.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Tiepdan/Vuviec_add.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Tiepdan/Vuviec_edit.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Ajax/Tiepdan/Vuviec_info.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Tiepdan/Vuviec_result.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Tiepdan/VuViec_Trung.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Tiepdan/VuViec_Trung2.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Vanban/Tracuu.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Ajax/Vanban/Vanban_formsearch.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Baocaokiennghi/Ketqua.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Baocaokiennghi/Kiennghi_phanloai_word.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Baocaokiennghi/Phanloai.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Baocaokiennghi/Phuluc1.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Baocaokiennghi/Phuluc2.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Baocaokiennghi/Phuluc3.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Baocaokiennghi/Phuluc4.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Baocaokiennghi/Phuluc5.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Baocaokiennghi/Phuluc5b.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Baocaokiennghi/Phuluc6.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Baocaokiennghi/Phuluc9.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Baocaokiennghi/Traloi.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Baocaokiennghi/TraloiKNTC.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Baocaokiennghi/TraloiKN_DenDBQH.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Baocaokiennghi/Traloi_word.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Baocaokntc/Baocaodonthuhangtuan.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Baocaokntc/Baocaothang.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Baocaokntc/Chitietdon.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Baocaokntc/Congvanchuyendon.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Baocaokntc/Coquanchuyendon.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Baocaokntc/Coquanthamquyen.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Baocaokntc/Loaikhieuto.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Baocaokntc/Nguoinhapdon.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Baocaokntc/Nguoixuly.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Baocaokntc/Noiguidon.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Baocaokntc/Solieudon.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Baocaokntc/Theodiaban.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Baocaokntc/Theodoigiaiquyetdon.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Baocaokntc/Tongsodon.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Baocaokntc/Trungdon.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Baocaotiepdan/Phuluc.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Baocaotiepdan/Solieu.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Home/Error.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Home/Error_Exception.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Home/Index.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Home/Login.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Home/Taikhoan.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Home/Test.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Add_Kiennghi_gop.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Change_Phanloai_traloi.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Chondaibieu.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Chondiaphuong.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Chontonghop.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Chuatraloi.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Chuaxuly.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Chuongtrinh.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Chuongtrinh_chitiet.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Chuongtrinh_chitiet_add.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Chuongtrinh_chitiet_edit.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Chuongtrinh_info.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Chuongtrinh_search.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Chuyendonvi.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Chuyenxuly.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Chuyen_Donvi_xuly.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Chuyen_tonghop.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Chuyen_Xuly_tonghop.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Dacotraloi.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Dangxuly.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Download_kiennghi_bytonghop.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Duthao.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Duthao_add.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Duthao_edit.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Giaitrinh.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Giamsat.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Giamsat_add.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Giamsat_edit.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Giamsat_kiennghi.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Giamsat_ykien.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Giamsat_ykien_add.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Giamsat_ykien_edit.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Hoanthanh.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Hoanthanh_result.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Import.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Import_add.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Import_kiennghi.aspx">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Import_taphop.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Kiemtrung.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Kiennghi_danhgia.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Kiennghi_danhgia_chuyenkysau_edit.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Kiennghi_danhgia_edit.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Kiennghi_giamsat_add.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Kiennghi_giamsat_edit.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Kiennghi_gop_list.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Kiennghi_Hoanthanh_search.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Kiennghi_info.aspx">
+      <publishTime>10/18/2022 17:56:01</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Kiennghi_lichsu.aspx">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Kiennghi_moicapnhat_search.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Kiennghi_tra.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Kiennghi_traloi.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Kiennghi_traloi_edit.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Kiennghi_tra_chuagiaiquyet.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Kiennghi_tra_chuagiaiquyet_edit.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Kiennghi_tra_chualotrinh.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Kiennghi_tra_chualotrinh_edit.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Kiennghi_tra_chuyenkysau.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Kiennghi_tra_chuyenkysau_edit.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Kiennghi_tra_edit.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Kiennghi_tra_lotrinh.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Kiennghi_tra_lotrinh_edit.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Kiennghi_tra_nguonluc.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Kiennghi_tra_nguonluc_edit.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Kiennghi_trung_dong.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Kiennghi_trung_info.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Load_lichtiep.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Load_lichtiep_edit.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Load_lichtiep_row.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Load_Panel_Kiennghi_Dagop.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Moicapnhat.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Moicapnhat1.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/search_bandannguyen_chuyen.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/search_chuatraloi.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/search_chuaxuly.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/search_chuongtrinh.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/search_dacotraloi.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/search_dangxuly.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/search_giaitrinh.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/search_giamsat.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/search_moicapnhat.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/search_theodoi_chuyengiaiquyet.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/search_theodoi_dannguyen.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/search_theodoi_diaphuong.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/search_theodoi_kiennghi_chuyenkysau.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/search_theodoi_kiennghi_dannguyen.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/search_theodoi_kiennghi_dannguyen_result.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/search_theodoi_kiennghi_diaphuong.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/search_theodoi_kiennghi_tralai.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/search_theodoi_kiennghi_tralai_khongxuly.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/search_theodoi_luu.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/search_tonghop.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/search_tonghop_bandannguyen.aspx">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/search_tonghop_bandannguyen_chuyen.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/search_tonghop_bandannguyen_dachuyen.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/search_tonghop_chuyendannguyen.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/search_tonghop_chuyendiaphuong.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/search_tonghop_diaphuongchuyen.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/search_traloi.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Sua.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Suachuongtrinh.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Tamxoa.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Themkiennghi_giamsat.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Themkiennghi_giamsat_search.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Themkiennghi_gop.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Themkiennghi_tonghop.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Themkiennghi_tonghop_search.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Themmoi.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Themmoichuongtrinh.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Theodoi_chuyengiaiquyet.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Theodoi_dannguyen.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Theodoi_diaphuong.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Theodoi_kiennghi_chuyenkysau.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Theodoi_kiennghi_dannguyen.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Theodoi_kiennghi_diaphuong.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Theodoi_kiennghi_tralai.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Theodoi_kiennghi_tralai_khongxuly.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Theodoi_luu.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Timkiem.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Tonghop.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Tonghop_bandannguyen_chuyen.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Tonghop_bandannguyen_dachuyen.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Tonghop_chonkiennghi.aspx">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Tonghop_chontrung.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Tonghop_chuyen.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Tonghop_chuyendannguyen.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Tonghop_chuyendiaphuong.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Tonghop_diaphuongchuyen.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Tonghop_Huyen.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Tonghop_info.aspx">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Tonghop_kiennghi.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Tonghop_kiennghi_doan.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Tonghop_lichsu.aspx">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Tonghop_list_kiennghi.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Tonghop_search.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Tonghop_sua.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Tonghop_Tinh.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Tonghop_traloi.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Tonghop_traloi_edit.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Tonghop_traloi_kiennghi.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Tonghop_TW.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Tracuu.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Tracuu_result.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kiennghi/Traloi.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Kntc/Choxuly.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kntc/Chuatraloi.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Kntc/Chuyenxuly.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kntc/Dachuyenxuly.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kntc/Dahuongdan.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Kntc/Daluanchuyen.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kntc/Dangxuly.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kntc/Danhanxuly.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kntc/Datraloi.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Kntc/Daxuly.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kntc/DeXuatXuLyDonKhieuNai.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kntc/Don_info.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kntc/Dudieukien.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Kntc/Giamsat.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kntc/GiayBaoTin1.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kntc/GiayBaoTin2.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kntc/HoSoDon.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kntc/HuongDanGuiDon.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kntc/Import.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kntc/Import_don.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kntc/Khongdudieukien.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Kntc/KhongThuLyGiaiQuyet.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kntc/Khongthuocthamquyen.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kntc/Khongxuly.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Kntc/Kiemtrung.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kntc/Moicapnhat.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kntc/Phanloai.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kntc/PheuChuyenDonCoBaoCao.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kntc/PheuChuyenDonKhongBaoCao.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Kntc/Sua.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kntc/Tamxoa.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Kntc/Thuocthamquyen.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kntc/Tiepnhan.aspx">
+      <publishTime>10/12/2022 10:13:38</publishTime>
+    </File>
+    <File Include="Views/Kntc/Tiepnhan1.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Kntc/Tracuu.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Kntc/TraDonKhieuNai.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Shared/Site.Master">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Shared/_Header.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Shared/_Left_Baocao.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Shared/_Left_Knct.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Shared/_Left_Kntc.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Shared/_Left_Thietlap.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Shared/_Left_Tiepdan.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Shared/_Left_Vanban.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Shared/_LoginPartial.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Thietlap/Chucvu.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Thietlap/Coquan.aspx">
+      <publishTime>10/12/2022 10:11:58</publishTime>
+    </File>
+    <File Include="Views/Thietlap/Daibieu.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Thietlap/Dantoc.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Thietlap/Diaphuong.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Thietlap/Khoa.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Thietlap/Kyhop.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Thietlap/Linhvuc.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Thietlap/Linhvuc_Coquan.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Thietlap/Loaidon.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Thietlap/Loaivanban.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Thietlap/Nghenghiep.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Thietlap/Nguondon.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Thietlap/Nguonkiennghi.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Thietlap/Nhomtaikhoan.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Thietlap/Nhomtaikhoan_cog.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Thietlap/Noidungdon.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Thietlap/Phongban.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Thietlap/Quoctich.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Thietlap/Taikhoan.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Thietlap/Taikhoan_Lichsu.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Thietlap/Taikhoan_phanquyen.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Thietlap/Timkiemlichsu.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Thietlap/Tinhchatdon.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Thietlap/Traloiphanloai.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Tiepdan/Dinhky.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Tiepdan/Dinhky_tracuu.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Tiepdan/Dinhky_vuviec.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Tiepdan/Dotxuat.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Tiepdan/Kiemtrung.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Tiepdan/Kiemtrung1.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Tiepdan/Sua.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Tiepdan/Tamxoa.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Tiepdan/Themmoi.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Tiepdan/Thuongxuyen.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Tiepdan/Thuongxuyen_add.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Tiepdan/Thuongxuyen_edit.aspx">
+      <publishTime>10/07/2022 13:58:00</publishTime>
+    </File>
+    <File Include="Views/Tiepdan/Thuongxuyen_kiemtrung.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Tiepdan/Thuongxuyen_tracuu.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Tiepdan/Traloixuly.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Tiepdan/Word_Chuyenxuly.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Tiepdan/Word_Nhandon.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Tiepdan/Word_Phieuhuongdan.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Tiepdan/Xemchitiet.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Vanban/ChinhSua.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Vanban/Duyet.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Vanban/Moicapnhat.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Vanban/Quahan.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Vanban/Themmoi.aspx">
+      <publishTime>10/18/2022 10:01:26</publishTime>
+    </File>
+    <File Include="Views/Vanban/Tracuu.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Vanban/Tracuu_nhanh.aspx">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>10/07/2022 13:57:10</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/12/2022 15:08:49</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

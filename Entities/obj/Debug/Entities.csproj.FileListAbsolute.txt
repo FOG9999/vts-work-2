@@ -1,0 +1,14 @@
+D:\kntc_tha_develop\kntc_bdn_vpqh\SourceCode\Entities\bin\Debug\Entities.dll.config
+D:\kntc_tha_develop\kntc_bdn_vpqh\SourceCode\Entities\bin\Debug\Entities.dll
+D:\kntc_tha_develop\kntc_bdn_vpqh\SourceCode\Entities\bin\Debug\Entities.pdb
+D:\kntc_tha_develop\kntc_bdn_vpqh\SourceCode\Entities\bin\Debug\EntityFramework.dll
+D:\kntc_tha_develop\kntc_bdn_vpqh\SourceCode\Entities\bin\Debug\EntityFramework.SqlServer.dll
+D:\kntc_tha_develop\kntc_bdn_vpqh\SourceCode\Entities\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\kntc_tha_develop\kntc_bdn_vpqh\SourceCode\Entities\bin\Debug\Oracle.ManagedDataAccess.EntityFramework.dll
+D:\kntc_tha_develop\kntc_bdn_vpqh\SourceCode\Entities\bin\Debug\EntityFramework.xml
+D:\kntc_tha_develop\kntc_bdn_vpqh\SourceCode\Entities\bin\Debug\EntityFramework.SqlServer.xml
+D:\kntc_tha_develop\kntc_bdn_vpqh\SourceCode\Entities\obj\Debug\Entities.csproj.AssemblyReference.cache
+D:\kntc_tha_develop\kntc_bdn_vpqh\SourceCode\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+D:\kntc_tha_develop\kntc_bdn_vpqh\SourceCode\Entities\obj\Debug\Entities.csproj.CopyComplete
+D:\kntc_tha_develop\kntc_bdn_vpqh\SourceCode\Entities\obj\Debug\Entities.dll
+D:\kntc_tha_develop\kntc_bdn_vpqh\SourceCode\Entities\obj\Debug\Entities.pdb

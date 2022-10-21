@@ -1,0 +1,19 @@
+
+
+
+ERROR|http://dannguyen.quochoi.vn:8006/Kntc/Ajax_Lydotrung_insert:8006|KNCT|2020/07/01 10:33:03:333|unknow|Input string was not in a correct format.:    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at KienNghi.Controllers.KntcController.Ajax_Lydotrung_insert(FormCollection fc) in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\KntcController.cs:line 1563|Thêm mới ly do trùng|1
+
+
+
+ERROR|http://dannguyen.quochoi.vn:8006/Home/Logout/:8006|KNCT|2020/07/01 10:36:38:3638|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\HomeController.cs:line 411|Đăng xuất|1
+
+
+
+ERROR|http://dannguyen.quochoi.vn:8006/Home/Logout/:8006|KNCT|2020/07/01 02:59:10:5910|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\HomeController.cs:line 411|Đăng xuất|1
+
+
+
+ERROR|http://dannguyen.quochoi.vn:8006/Home/Logout/:8006|KNCT|2020/07/01 02:59:10:5910|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\HomeController.cs:line 411|Đăng xuất|1

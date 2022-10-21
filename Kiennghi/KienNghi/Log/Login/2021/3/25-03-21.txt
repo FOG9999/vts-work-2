@@ -1,0 +1,104 @@
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/03/25 01:31:51:3151|null|kienpht|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/03/25 01:31:58:3158|null|kienpt|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/03/25 01:32:00:320|null|kienpt|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/03/25 01:32:16:3216|null|kienpt|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/03/25 01:32:44:3244|null|kienpht@qh.gov.vn|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/03/25 01:32:59:3259|null|kienpht@qh.gov.vn|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/03/25 01:33:11:3311|null|kienpht@qh.gov.vn|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/03/25 01:33:31:3331|null|kienpht|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/03/25 01:34:01:341|null|kienpt|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/03/25 01:40:54:4054|null|kienpt|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/03/25 01:41:07:417|null|kienpt|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/03/25 01:43:00:430|null|kienpt|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/03/25 01:43:13:4313|null|kienpt|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/03/25 01:43:37:4337|null|kienpht|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/03/25 01:44:08:448|null|kienpht@quochoi.vn|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/03/25 01:44:25:4425|null|kienpht@quochoi.vn|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/03/25 01:45:22:4522|null|kienpt|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/03/25 01:45:33:4533|null|kienpt|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/03/25 01:45:54:4554|null|kienpt|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/03/25 01:46:09:469|null|kienpt|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/03/25 01:46:23:4623|null|kienpt|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/03/25 01:46:42:4642|null|kienpht|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/03/25 01:46:52:4652|null|kienpht|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/03/25 01:48:57:4857|null|kienpt|113.191.249.100|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login/:80|KNCT|2021/03/25 02:12:24:1224|null|kienpt|113.191.249.100|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login/:80|KNCT|2021/03/25 04:08:42:842|null|kienpt|113.191.249.100|Home/Login|1|0

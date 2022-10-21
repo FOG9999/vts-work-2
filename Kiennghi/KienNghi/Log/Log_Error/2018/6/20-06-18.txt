@@ -1,0 +1,19 @@
+
+
+
+ERROR|http://192.168.1.113:83/Home/Logout/:83|KNCT|2018/06/20 04:12:21:1221|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Don_info/?id=OTQ1fGtudGM1:83|KNCT|2018/06/20 04:16:47:1647|unknow|Nullable object must have a value.:    at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at KienNghi.App_Code.Khieunai.List_DonTrungDetail(List`1 list, String url_cookie) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\App_Code\Khieunai.cs:line 1057
+   at KienNghi.Controllers.KntcController.Don_info(String id) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KntcController.cs:line 3099|Chi tiết đơn khiếu nại tố cáo|1
+
+
+
+ERROR|http://192.168.1.113:83/Home/Logout/:83|KNCT|2018/06/20 04:32:09:329|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.113:83/Home/Logout/:83|KNCT|2018/06/20 04:43:42:4342|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1

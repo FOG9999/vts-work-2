@@ -1,0 +1,84 @@
+
+
+
+LOGIN|http://dannguyen.quochoi.vn:8006/Home/Login:8006|KNCT|2020/06/23 08:45:36:4536|null|hungnn|113.191.249.100|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn:8006/Home/Login:8006|KNCT|2020/06/23 08:45:41:4541|null|hungnn|113.191.249.100|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn:8006/Home/Login/:8006|KNCT|2020/06/23 08:46:33:4633|null|hungnn|113.191.249.100|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn:8006/Home/Login/:8006|KNCT|2020/06/23 09:34:00:340|null|hungnn|113.191.249.100|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn:8006/Home/Login:8006|KNCT|2020/06/23 09:52:35:5235|null|kienpt|113.191.249.100|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn:8006/Home/Login:8006|KNCT|2020/06/23 09:54:35:5435|null|nhungph|113.191.249.100|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn:8006/Home/Login/:8006|KNCT|2020/06/23 10:39:28:3928|null|nhungph|113.191.249.100|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn:8006/Home/Login:8006|KNCT|2020/06/23 02:44:55:4455|null|kienpt|113.191.249.100|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn:8006/Home/Login:8006|KNCT|2020/06/23 04:25:22:2522|null|tokhuongduy|113.191.249.100|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn:8006/Home/Login:8006|KNCT|2020/06/23 04:26:42:2642|null|thanhnga|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn:8006/Home/Login:8006|KNCT|2020/06/23 04:26:51:2651|null|nguyenthihuonggiang1@quochoi.vn|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn:8006/Home/Login:8006|KNCT|2020/06/23 04:27:02:272|null|nguyenthihuonggiang1@quochoi.vn|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn:8006/Home/Login:8006|KNCT|2020/06/23 04:27:04:274|null|nguyenthihuonggiang1@quochoi.vn|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn:8006/Home/Login:8006|KNCT|2020/06/23 04:27:11:2711|null|thanhnga@quochoi.vn|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn:8006/Home/Login:8006|KNCT|2020/06/23 04:27:18:2718|null|thanhnga@quochoi.vn|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn:8006/Home/Login:8006|KNCT|2020/06/23 04:27:29:2729|null|thanhnga@quochoi.vn|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn:8006/Home/Login:8006|KNCT|2020/06/23 04:27:50:2750|null|thanhnga@quochoi.vn|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn:8006/Home/Login:8006|KNCT|2020/06/23 04:28:31:2831|null|nguyenthihuonggiang1@quochoi.vn|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn:8006/Home/Login:8006|KNCT|2020/06/23 04:28:38:2838|null|nguyenthihuonggiang1@quochoi.vn|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn:8006/Home/Login:8006|KNCT|2020/06/23 05:03:54:354|null|nguyenthihuonggiang1|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn:8006/Home/Login:8006|KNCT|2020/06/23 05:04:20:420|null|nguyenthihuonggiang1|113.191.249.100|Home/Login|0|0

@@ -1,0 +1,12 @@
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/04/05 01:15:35:1535|null|buiphuonganh1|113.191.249.100|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/04/05 01:43:26:4326|null|buiphuonganh1|113.191.249.100|Home/Login|1|0
+
+
+
+LOGOUT|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2021/04/05 02:10:56:1056|null|buiphuonganh1|113.191.249.100|Home/Login|1|0

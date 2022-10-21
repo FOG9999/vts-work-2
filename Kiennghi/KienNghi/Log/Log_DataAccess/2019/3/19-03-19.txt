@@ -1,0 +1,62 @@
+
+
+
+ERROR|http://localhost:1234/Baocaokntc/Ajax_Xembaocao_Tongsodon:1234|KNCT|2019/03/19 10:50:28:5028|ExecuteSqlTextNoQueryWithTrans|Specified cast is not valid.:    at Oracle.DataAccess.Client.OracleDataReader.GetDecimal(Int32 i)
+   at Oracle.DataAccess.Client.OracleDataReader.GetValue(Int32 i)
+   at Oracle.DataAccess.Client.OracleDataReader.GetValues(Object[] values)
+   at System.Data.ProviderBase.DataReaderContainer.CommonLanguageSubsetDataReader.GetValues(Object[] values)
+   at System.Data.ProviderBase.SchemaMapping.LoadDataRow()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.LoadAdapter.FillFromReader(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.DataTable.Load(IDataReader reader, LoadOption loadOption, FillErrorEventHandler errorHandler)
+   at System.Data.DataTable.Load(IDataReader reader)
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 563||1
+
+
+
+ERROR|http://localhost:1234/Baocaokntc/Ajax_Xembaocao_Tongsodon:1234|KNCT|2019/03/19 10:50:28:5028|GetListObjetReport|Specified cast is not valid.:    at Oracle.DataAccess.Client.OracleDataReader.GetDecimal(Int32 i)
+   at Oracle.DataAccess.Client.OracleDataReader.GetValue(Int32 i)
+   at Oracle.DataAccess.Client.OracleDataReader.GetValues(Object[] values)
+   at System.Data.ProviderBase.DataReaderContainer.CommonLanguageSubsetDataReader.GetValues(Object[] values)
+   at System.Data.ProviderBase.SchemaMapping.LoadDataRow()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.LoadAdapter.FillFromReader(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.DataTable.Load(IDataReader reader, LoadOption loadOption, FillErrorEventHandler errorHandler)
+   at System.Data.DataTable.Load(IDataReader reader)
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1
+
+
+
+ERROR|http://localhost:1234/Baocaokntc/Ajax_Xembaocao_Tongsodon:1234|KNCT|2019/03/19 10:50:44:5044|ExecuteSqlTextNoQueryWithTrans|Specified cast is not valid.:    at Oracle.DataAccess.Client.OracleDataReader.GetDecimal(Int32 i)
+   at Oracle.DataAccess.Client.OracleDataReader.GetValue(Int32 i)
+   at Oracle.DataAccess.Client.OracleDataReader.GetValues(Object[] values)
+   at System.Data.ProviderBase.DataReaderContainer.CommonLanguageSubsetDataReader.GetValues(Object[] values)
+   at System.Data.ProviderBase.SchemaMapping.LoadDataRow()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.LoadAdapter.FillFromReader(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.DataTable.Load(IDataReader reader, LoadOption loadOption, FillErrorEventHandler errorHandler)
+   at System.Data.DataTable.Load(IDataReader reader)
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 563||1
+
+
+
+ERROR|http://localhost:1234/Baocaokntc/Ajax_Xembaocao_Tongsodon:1234|KNCT|2019/03/19 10:50:44:5044|GetListObjetReport|Specified cast is not valid.:    at Oracle.DataAccess.Client.OracleDataReader.GetDecimal(Int32 i)
+   at Oracle.DataAccess.Client.OracleDataReader.GetValue(Int32 i)
+   at Oracle.DataAccess.Client.OracleDataReader.GetValues(Object[] values)
+   at System.Data.ProviderBase.DataReaderContainer.CommonLanguageSubsetDataReader.GetValues(Object[] values)
+   at System.Data.ProviderBase.SchemaMapping.LoadDataRow()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.LoadAdapter.FillFromReader(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.DataTable.Load(IDataReader reader, LoadOption loadOption, FillErrorEventHandler errorHandler)
+   at System.Data.DataTable.Load(IDataReader reader)
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1

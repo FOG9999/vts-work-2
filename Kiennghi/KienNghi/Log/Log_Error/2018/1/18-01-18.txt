@@ -1,0 +1,54 @@
+
+
+
+ERROR|http://192.168.1.15/Home/Logout/:80|KNCT|2018/01/18 08:34:45:3445|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\HomeController.cs:line 408|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.15/Home/Logout/:80|KNCT|2018/01/18 08:37:59:3759|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\HomeController.cs:line 408|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/01/18 01:46:36:4636|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\HomeController.cs:line 408|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.15/Home/Logout/:80|KNCT|2018/01/18 01:47:05:475|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\HomeController.cs:line 408|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.15/Home/Logout/:80|KNCT|2018/01/18 02:57:20:5720|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\HomeController.cs:line 408|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.15/Home/Logout/:80|KNCT|2018/01/18 03:22:25:2225|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\HomeController.cs:line 408|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.15/Kntc/Tiepnhan/:80|KNCT|2018/01/18 03:22:40:2240|unknow|Index was outside the bounds of the array.:    at KienNghi.App_Code.Khieunai.Option_Domat(Int32 iDoMat) in e:\Solution\KienNghi\Project\KienNghi\KienNghi\App_Code\Khieunai.cs:line 1253
+   at KienNghi.Controllers.KntcController.Tiepnhan() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\KntcController.cs:line 1295|Tiếp nhận đơn thư|1
+
+
+
+ERROR|http://192.168.1.15/Kntc/Moicapnhat/:80|KNCT|2018/01/18 03:53:18:5318|unknow|Object reference not set to an instance of an object.:    at Utilities.Funtions.TomTatNoiDung(String noidung, String id_noidung) in e:\Solution\KienNghi\Project\Utilities\Funtions.cs:line 114
+   at KienNghi.App_Code.Khieunai.Don_Moicapnhat(List`1 don, TaikhoanAtion act, Int32 page) in e:\Solution\KienNghi\Project\KienNghi\KienNghi\App_Code\Khieunai.cs:line 160
+   at KienNghi.Controllers.KntcController.Moicapnhat(Int32 page) in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\KntcController.cs:line 1257|Hiển thị danh sách đơn thư mới cập nhất|1
+
+
+
+ERROR|http://192.168.1.15/Kntc/Kiemtrung/?id=Mjk0fDhkNDE1:80|KNCT|2018/01/18 04:00:13:013|unknow|Object reference not set to an instance of an object.:    at KienNghi.App_Code.Khieunai.KNTC_Detail(Int32 id, String id_encr) in e:\Solution\KienNghi\Project\KienNghi\KienNghi\App_Code\Khieunai.cs:line 188
+   at KienNghi.Controllers.KntcController.Kiemtrung(String id) in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\KntcController.cs:line 1437|Kiểm trùng đơn|1
+
+
+
+ERROR|http://192.168.1.15/Kntc/Moicapnhat/:80|KNCT|2018/01/18 04:00:27:027|unknow|Object reference not set to an instance of an object.:    at Utilities.Funtions.TomTatNoiDung(String noidung, String id_noidung) in e:\Solution\KienNghi\Project\Utilities\Funtions.cs:line 114
+   at KienNghi.App_Code.Khieunai.Don_Moicapnhat(List`1 don, TaikhoanAtion act, Int32 page) in e:\Solution\KienNghi\Project\KienNghi\KienNghi\App_Code\Khieunai.cs:line 160
+   at KienNghi.Controllers.KntcController.Moicapnhat(Int32 page) in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\KntcController.cs:line 1257|Hiển thị danh sách đơn thư mới cập nhất|1
+
+
+
+ERROR|http://192.168.1.15/Home/Logout/:80|KNCT|2018/01/18 04:33:38:3338|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\HomeController.cs:line 408|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.15/Home/Logout/:80|KNCT|2018/01/18 05:04:50:450|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\HomeController.cs:line 408|Đăng xuất|1

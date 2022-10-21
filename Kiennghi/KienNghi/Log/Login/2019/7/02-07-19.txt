@@ -1,0 +1,88 @@
+
+
+
+LOGIN|http://localhost:8093/Home/Login:8093|KNCT|2019/07/02 08:29:51:2951|null|angiang01|::1|Home/Login|1|0
+
+
+
+LOGOUT|http://localhost:8093/Home/Logout/:8093|KNCT|2019/07/02 08:30:01:301|null|angiang01|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:8093/Home/Login:8093|KNCT|2019/07/02 08:30:08:308|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:8093/Home/Login:8093|KNCT|2019/07/02 09:15:41:1541|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:8093/Home/Login/:8093|KNCT|2019/07/02 09:29:42:2942|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/07/02 09:46:21:4621|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/07/02 09:57:41:5741|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/07/02 10:03:30:330|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:8093/Home/Login/:8093|KNCT|2019/07/02 10:17:01:171|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/07/02 10:27:12:2712|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:8093/Home/Login/:8093|KNCT|2019/07/02 10:36:51:3651|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:8093/Home/Login:8093|KNCT|2019/07/02 11:14:25:1425|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:8093/Home/Login:8093|KNCT|2019/07/02 11:14:58:1458|null|admin|::1|Home/Login|1|0
+
+
+
+LOGOUT|http://localhost:8093/Home/Logout/:8093|KNCT|2019/07/02 11:15:31:1531|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:8093/Home/Login:8093|KNCT|2019/07/02 11:15:36:1536|null|angiang01|::1|Home/Login|1|0
+
+
+
+LOGOUT|http://localhost:8093/Home/Logout/:8093|KNCT|2019/07/02 11:18:16:1816|null|angiang01|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:8093/Home/Login:8093|KNCT|2019/07/02 11:18:23:1823|null|admin|::1|Home/Login|1|0
+
+
+
+LOGOUT|http://localhost:8093/Home/Logout/:8093|KNCT|2019/07/02 11:18:53:1853|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:8093/Home/Login:8093|KNCT|2019/07/02 11:18:57:1857|null|angiang01|::1|Home/Login|1|0
+
+
+
+LOGOUT|http://localhost:8093/Home/Logout/:8093|KNCT|2019/07/02 11:23:27:2327|null|angiang01|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:8093/Home/Login:8093|KNCT|2019/07/02 11:23:31:2331|null|angiang01|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:8093/Home/Login:8093|KNCT|2019/07/02 11:26:33:2633|null|angiang01|::1|Home/Login|1|0

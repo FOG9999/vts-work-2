@@ -1,0 +1,64 @@
+
+
+
+ERROR|http://localhost:2121/Kntc/Ajax_Tracuu_result?cNguoiGuiDon=A&cNoiDung=&dTuNgay=&dDenNgay=&iNguonDon=0&iDiaPhuong_0=0&iLoaiDon=-1&iLinhVuc=-1&iNoiDung=-1&iTinhChat=-1&iTinhTrangXuLy=-1&iThamQuyenDonVi=4:2121|KNCT|2018/03/09 08:39:14:3914|ExecuteSqlTextDataTable|ORA-00933: SQL command not properly ended:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextDataTable(String mySql, Object commandParameters) in e:\Solution\KienNghi\Project\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 225||1
+
+
+
+ERROR|http://localhost:2121/Kntc/Ajax_Tracuu_result?cNguoiGuiDon=Nhơn&cNoiDung=&dTuNgay=&dDenNgay=&iNguonDon=0&iDiaPhuong_0=0&iLoaiDon=-1&iLinhVuc=-1&iNoiDung=-1&iTinhChat=-1&iTinhTrangXuLy=-1&iThamQuyenDonVi=4:2121|KNCT|2018/03/09 08:39:20:3920|ExecuteSqlTextDataTable|ORA-00933: SQL command not properly ended:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextDataTable(String mySql, Object commandParameters) in e:\Solution\KienNghi\Project\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 225||1
+
+
+
+ERROR|http://localhost:2121/Kntc/Ajax_Tracuu_result?cNguoiGuiDon=Nhơn&cNoiDung=&dTuNgay=&dDenNgay=&iNguonDon=0&iDiaPhuong_0=0&iLoaiDon=-1&iLinhVuc=-1&iNoiDung=-1&iTinhChat=-1&iTinhTrangXuLy=-1&iThamQuyenDonVi=4:2121|KNCT|2018/03/09 08:39:42:3942|ExecuteSqlTextDataTable|ORA-00933: SQL command not properly ended:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextDataTable(String mySql, Object commandParameters) in e:\Solution\KienNghi\Project\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 225||1
+
+
+
+ERROR|http://localhost:2121/Kntc/Ajax_Tracuu_result?cNguoiGuiDon=Nhơn&cNoiDung=&dTuNgay=&dDenNgay=&iNguonDon=0&iDiaPhuong_0=0&iLoaiDon=-1&iLinhVuc=-1&iNoiDung=-1&iTinhChat=-1&iTinhTrangXuLy=-1&iThamQuyenDonVi=4:2121|KNCT|2018/03/09 08:40:06:406|ExecuteSqlTextDataTable|ORA-00933: SQL command not properly ended:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextDataTable(String mySql, Object commandParameters) in e:\Solution\KienNghi\Project\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 225||1
+
+
+
+ERROR|http://localhost:2121/Kntc/Ajax_Tracuu_result?cNguoiGuiDon=Nhơn&cNoiDung=&dTuNgay=&dDenNgay=&iNguonDon=0&iDiaPhuong_0=0&iLoaiDon=-1&iLinhVuc=-1&iNoiDung=-1&iTinhChat=-1&iTinhTrangXuLy=-1&iThamQuyenDonVi=4:2121|KNCT|2018/03/09 08:42:43:4243|ExecuteSqlTextDataTable|ORA-00933: SQL command not properly ended:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextDataTable(String mySql, Object commandParameters) in e:\Solution\KienNghi\Project\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 225||1
+
+
+
+ERROR|http://localhost:2121/Kntc/Ajax_Tracuu_result?cNguoiGuiDon=Nhơn&cNoiDung=&dTuNgay=&dDenNgay=&iNguonDon=0&iDiaPhuong_0=0&iLoaiDon=-1&iLinhVuc=-1&iNoiDung=-1&iTinhChat=-1&iTinhTrangXuLy=-1&iThamQuyenDonVi=4:2121|KNCT|2018/03/09 08:44:17:4417|ExecuteSqlTextDataTable|ORA-00933: SQL command not properly ended:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextDataTable(String mySql, Object commandParameters) in e:\Solution\KienNghi\Project\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 225||1
+
+
+
+ERROR|http://localhost:2121/Kntc/Ajax_Tracuu_result?cNguoiGuiDon=Linh&cNoiDung=&dTuNgay=&dDenNgay=&iNguonDon=0&iDiaPhuong_0=0&iLoaiDon=-1&iLinhVuc=-1&iNoiDung=-1&iTinhChat=-1&iTinhTrangXuLy=-1&iThamQuyenDonVi=4:2121|KNCT|2018/03/09 08:44:35:4435|ExecuteSqlTextDataTable|ORA-00933: SQL command not properly ended:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextDataTable(String mySql, Object commandParameters) in e:\Solution\KienNghi\Project\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 225||1
+
+
+
+ERROR|http://localhost:2121/Kntc/Ajax_Tracuu_result?cNguoiGuiDon=L&cNoiDung=&dTuNgay=&dDenNgay=&iNguonDon=0&iDiaPhuong_0=0&iLoaiDon=-1&iLinhVuc=-1&iNoiDung=-1&iTinhChat=-1&iTinhTrangXuLy=-1&iThamQuyenDonVi=4:2121|KNCT|2018/03/09 08:44:43:4443|ExecuteSqlTextDataTable|ORA-00933: SQL command not properly ended:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextDataTable(String mySql, Object commandParameters) in e:\Solution\KienNghi\Project\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 225||1

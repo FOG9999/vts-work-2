@@ -1,0 +1,16 @@
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login/:80|KNCT|2020/11/02 09:12:29:1229|null|hangnv|113.191.249.100|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/11/02 02:34:46:3446|null|maihuyquang|113.163.216.239|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/11/02 02:49:51:4951|null|kienpt|113.191.249.100|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login/:80|KNCT|2020/11/02 04:17:46:1746|null|kienpt|113.191.249.100|Home/Login|1|0

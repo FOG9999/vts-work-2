@@ -1,0 +1,7 @@
+
+
+
+ERROR|http://localhost:2121/Thietlap/Ajax_Noidungdon_insert:2121|KNCT|2018/03/24 10:43:48:4348|ExecuteSqlTextNoQuery|ORA-00904: "IVITRI": invalid identifier:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextNoQuery(String mySql, List`1 commandParameters) in e:\Solution\KienNghi\UPDATE\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 112||1

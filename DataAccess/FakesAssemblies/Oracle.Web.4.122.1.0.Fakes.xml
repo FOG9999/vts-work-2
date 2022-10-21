@@ -1,0 +1,1943 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Oracle.Web.4.122.1.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.QualityTools.Testing.Fakes.Delegates.OracleWebDelegates">
+            <summary>Contains custom delegates used for the stubs and shims of Oracle.Web</summary>
+        </member>
+        <member name="T:Oracle.Web.Caching.Fakes.ShimOracleCacheDependency">
+            <summary>Shim type of Oracle.Web.Caching.OracleCacheDependency</summary>
+        </member>
+        <member name="M:Oracle.Web.Caching.Fakes.ShimOracleCacheDependency.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Oracle.Web.Caching.Fakes.ShimOracleCacheDependency.#ctor(Oracle.Web.Caching.OracleCacheDependency)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Oracle.Web.Caching.Fakes.ShimOracleCacheDependency.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Oracle.Web.Caching.Fakes.ShimOracleCacheDependency.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Oracle.Web.Caching.Fakes.ShimOracleCacheDependency.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Oracle.Web.Caching.Fakes.ShimOracleCacheDependency.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Oracle.Web.Caching.Fakes.ShimOracleCacheDependency.ConstructorOracleCommand">
+            <summary>Sets the shim of OracleCacheDependency.OracleCacheDependency(OracleCommand cmd)</summary>
+        </member>
+        <member name="P:Oracle.Web.Caching.Fakes.ShimOracleCacheDependency.DependencyDispose">
+            <summary>Sets the shim of OracleCacheDependency.DependencyDispose()</summary>
+        </member>
+        <member name="P:Oracle.Web.Caching.Fakes.ShimOracleCacheDependency.GetUniqueID">
+            <summary>Sets the shim of OracleCacheDependency.GetUniqueID()</summary>
+        </member>
+        <member name="P:Oracle.Web.Caching.Fakes.ShimOracleCacheDependency.OnNotificationObjectOracleNotificationEventArgs">
+            <summary>Sets the shim of OracleCacheDependency.OnNotification(Object src, OracleNotificationEventArgs arg)</summary>
+        </member>
+        <member name="T:Oracle.Web.Caching.Fakes.ShimOracleCacheDependency.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Oracle.Web.Caching.Fakes.ShimOracleCacheDependency.AllInstances.DependencyDispose">
+            <summary>Sets the shim of OracleCacheDependency.DependencyDispose()</summary>
+        </member>
+        <member name="P:Oracle.Web.Caching.Fakes.ShimOracleCacheDependency.AllInstances.GetUniqueID">
+            <summary>Sets the shim of OracleCacheDependency.GetUniqueID()</summary>
+        </member>
+        <member name="P:Oracle.Web.Caching.Fakes.ShimOracleCacheDependency.AllInstances.OnNotificationObjectOracleNotificationEventArgs">
+            <summary>Sets the shim of OracleCacheDependency.OnNotification(Object src, OracleNotificationEventArgs arg)</summary>
+        </member>
+        <member name="T:Oracle.Web.Management.Fakes.ShimOracleWebEventProvider">
+            <summary>Shim type of Oracle.Web.Management.OracleWebEventProvider</summary>
+        </member>
+        <member name="M:Oracle.Web.Management.Fakes.ShimOracleWebEventProvider.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Oracle.Web.Management.Fakes.ShimOracleWebEventProvider.#ctor(Oracle.Web.Management.OracleWebEventProvider)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Oracle.Web.Management.Fakes.ShimOracleWebEventProvider.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Oracle.Web.Management.Fakes.ShimOracleWebEventProvider.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Oracle.Web.Management.Fakes.ShimOracleWebEventProvider.AddParametersOracleCommand">
+            <summary>Sets the shim of OracleWebEventProvider.AddParameters(OracleCommand command)</summary>
+        </member>
+        <member name="P:Oracle.Web.Management.Fakes.ShimOracleWebEventProvider.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Oracle.Web.Management.Fakes.ShimOracleWebEventProvider.CommandTimeoutGet">
+            <summary>Sets the shim of OracleWebEventProvider.get_CommandTimeout()</summary>
+        </member>
+        <member name="P:Oracle.Web.Management.Fakes.ShimOracleWebEventProvider.Constructor">
+            <summary>Sets the shim of OracleWebEventProvider.OracleWebEventProvider()</summary>
+        </member>
+        <member name="P:Oracle.Web.Management.Fakes.ShimOracleWebEventProvider.FillParametersOracleCommandWebBaseEventCollection">
+            <summary>Sets the shim of OracleWebEventProvider.FillParameters(OracleCommand command, WebBaseEventCollection events)</summary>
+        </member>
+        <member name="P:Oracle.Web.Management.Fakes.ShimOracleWebEventProvider.InitializeStringNameValueCollection">
+            <summary>Sets the shim of OracleWebEventProvider.Initialize(String name, NameValueCollection config)</summary>
+        </member>
+        <member name="P:Oracle.Web.Management.Fakes.ShimOracleWebEventProvider.LogToOracleWebBaseEventCollection">
+            <summary>Sets the shim of OracleWebEventProvider.LogToOracle(WebBaseEventCollection events)</summary>
+        </member>
+        <member name="P:Oracle.Web.Management.Fakes.ShimOracleWebEventProvider.ProcessEventFlushWebEventBufferFlushInfo">
+            <summary>Sets the shim of OracleWebEventProvider.ProcessEventFlush(WebEventBufferFlushInfo flushInfo)</summary>
+        </member>
+        <member name="P:Oracle.Web.Management.Fakes.ShimOracleWebEventProvider.ProcessEventWebBaseEvent">
+            <summary>Sets the shim of OracleWebEventProvider.ProcessEvent(WebBaseEvent eventRaised)</summary>
+        </member>
+        <member name="P:Oracle.Web.Management.Fakes.ShimOracleWebEventProvider.Shutdown">
+            <summary>Sets the shim of OracleWebEventProvider.Shutdown()</summary>
+        </member>
+        <member name="T:Oracle.Web.Management.Fakes.ShimOracleWebEventProvider.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Oracle.Web.Management.Fakes.ShimOracleWebEventProvider.AllInstances.AddParametersOracleCommand">
+            <summary>Sets the shim of OracleWebEventProvider.AddParameters(OracleCommand command)</summary>
+        </member>
+        <member name="P:Oracle.Web.Management.Fakes.ShimOracleWebEventProvider.AllInstances.CommandTimeoutGet">
+            <summary>Sets the shim of OracleWebEventProvider.get_CommandTimeout()</summary>
+        </member>
+        <member name="P:Oracle.Web.Management.Fakes.ShimOracleWebEventProvider.AllInstances.FillParametersOracleCommandWebBaseEventCollection">
+            <summary>Sets the shim of OracleWebEventProvider.FillParameters(OracleCommand command, WebBaseEventCollection events)</summary>
+        </member>
+        <member name="P:Oracle.Web.Management.Fakes.ShimOracleWebEventProvider.AllInstances.InitializeStringNameValueCollection">
+            <summary>Sets the shim of OracleWebEventProvider.Initialize(String name, NameValueCollection config)</summary>
+        </member>
+        <member name="P:Oracle.Web.Management.Fakes.ShimOracleWebEventProvider.AllInstances.LogToOracleWebBaseEventCollection">
+            <summary>Sets the shim of OracleWebEventProvider.LogToOracle(WebBaseEventCollection events)</summary>
+        </member>
+        <member name="P:Oracle.Web.Management.Fakes.ShimOracleWebEventProvider.AllInstances.ProcessEventFlushWebEventBufferFlushInfo">
+            <summary>Sets the shim of OracleWebEventProvider.ProcessEventFlush(WebEventBufferFlushInfo flushInfo)</summary>
+        </member>
+        <member name="P:Oracle.Web.Management.Fakes.ShimOracleWebEventProvider.AllInstances.ProcessEventWebBaseEvent">
+            <summary>Sets the shim of OracleWebEventProvider.ProcessEvent(WebBaseEvent eventRaised)</summary>
+        </member>
+        <member name="P:Oracle.Web.Management.Fakes.ShimOracleWebEventProvider.AllInstances.Shutdown">
+            <summary>Sets the shim of OracleWebEventProvider.Shutdown()</summary>
+        </member>
+        <member name="T:Oracle.Web.Management.Fakes.StubOracleWebEventProvider">
+            <summary>Stub type of Oracle.Web.Management.OracleWebEventProvider</summary>
+        </member>
+        <member name="M:Oracle.Web.Management.Fakes.StubOracleWebEventProvider.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="F:Oracle.Web.Management.Fakes.StubOracleWebEventProvider.DescriptionGet">
+            <summary>Sets the stub of ProviderBase.get_Description()</summary>
+        </member>
+        <member name="M:Oracle.Web.Management.Fakes.StubOracleWebEventProvider.Flush">
+            <summary>Sets the stub of BufferedWebEventProvider.Flush()</summary>
+        </member>
+        <member name="F:Oracle.Web.Management.Fakes.StubOracleWebEventProvider.Flush01">
+            <summary>Sets the stub of BufferedWebEventProvider.Flush()</summary>
+        </member>
+        <member name="M:Oracle.Web.Management.Fakes.StubOracleWebEventProvider.Initialize(System.String,System.Collections.Specialized.NameValueCollection)">
+            <summary>Sets the stub of OracleWebEventProvider.Initialize(String name, NameValueCollection config)</summary>
+        </member>
+        <member name="F:Oracle.Web.Management.Fakes.StubOracleWebEventProvider.InitializeStringNameValueCollection">
+            <summary>Sets the stub of OracleWebEventProvider.Initialize(String name, NameValueCollection config)</summary>
+        </member>
+        <member name="M:Oracle.Web.Management.Fakes.StubOracleWebEventProvider.InitializeStub">
+            <summary>Initializes a new instance of type StubOracleWebEventProvider</summary>
+        </member>
+        <member name="F:Oracle.Web.Management.Fakes.StubOracleWebEventProvider.NameGet">
+            <summary>Sets the stub of ProviderBase.get_Name()</summary>
+        </member>
+        <member name="M:Oracle.Web.Management.Fakes.StubOracleWebEventProvider.ProcessEvent(System.Web.Management.WebBaseEvent)">
+            <summary>Sets the stub of OracleWebEventProvider.ProcessEvent(WebBaseEvent eventRaised)</summary>
+        </member>
+        <member name="M:Oracle.Web.Management.Fakes.StubOracleWebEventProvider.ProcessEventFlush(System.Web.Management.WebEventBufferFlushInfo)">
+            <summary>Sets the stub of OracleWebEventProvider.ProcessEventFlush(WebEventBufferFlushInfo flushInfo)</summary>
+        </member>
+        <member name="F:Oracle.Web.Management.Fakes.StubOracleWebEventProvider.ProcessEventFlushWebEventBufferFlushInfo">
+            <summary>Sets the stub of OracleWebEventProvider.ProcessEventFlush(WebEventBufferFlushInfo flushInfo)</summary>
+        </member>
+        <member name="F:Oracle.Web.Management.Fakes.StubOracleWebEventProvider.ProcessEventWebBaseEvent">
+            <summary>Sets the stub of OracleWebEventProvider.ProcessEvent(WebBaseEvent eventRaised)</summary>
+        </member>
+        <member name="M:Oracle.Web.Management.Fakes.StubOracleWebEventProvider.Shutdown">
+            <summary>Sets the stub of OracleWebEventProvider.Shutdown()</summary>
+        </member>
+        <member name="F:Oracle.Web.Management.Fakes.StubOracleWebEventProvider.Shutdown01">
+            <summary>Sets the stub of OracleWebEventProvider.Shutdown()</summary>
+        </member>
+        <member name="P:Oracle.Web.Management.Fakes.StubOracleWebEventProvider.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Oracle.Web.Management.Fakes.StubOracleWebEventProvider.Description">
+            <summary>Sets the stub of ProviderBase.get_Description()</summary>
+        </member>
+        <member name="P:Oracle.Web.Management.Fakes.StubOracleWebEventProvider.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Oracle.Web.Management.Fakes.StubOracleWebEventProvider.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:Oracle.Web.Management.Fakes.StubOracleWebEventProvider.Name">
+            <summary>Sets the stub of ProviderBase.get_Name()</summary>
+        </member>
+        <member name="T:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider">
+            <summary>Shim type of Oracle.Web.Personalization.OraclePersonalizationProvider</summary>
+        </member>
+        <member name="M:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.#ctor(Oracle.Web.Personalization.OraclePersonalizationProvider)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.ApplicationNameGet">
+            <summary>Sets the shim of OraclePersonalizationProvider.get_ApplicationName()</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.ApplicationNameSetString">
+            <summary>Sets the shim of OraclePersonalizationProvider.set_ApplicationName(String value)</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.CommandTimeoutGet">
+            <summary>Sets the shim of OraclePersonalizationProvider.get_CommandTimeout()</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.Constructor">
+            <summary>Sets the shim of OraclePersonalizationProvider.OraclePersonalizationProvider()</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.FindSharedPersonalizationStateStringInt32Int32Int32Out">
+            <summary>Sets the shim of OraclePersonalizationProvider.FindSharedPersonalizationState(String sharedPath, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.FindStatePersonalizationScopePersonalizationStateQueryInt32Int32Int32Out">
+            <summary>Sets the shim of OraclePersonalizationProvider.FindState(PersonalizationScope scope, PersonalizationStateQuery query, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.FindUserPersonalizationStateStringStringDateTimeInt32Int32Int32Out">
+            <summary>Sets the shim of OraclePersonalizationProvider.FindUserPersonalizationState(String sharedPath, String userName, DateTime userInactiveSinceDate, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.GetCountOfSharedPersonalizationStateString">
+            <summary>Sets the shim of OraclePersonalizationProvider.GetCountOfSharedPersonalizationState(String sharedPath)</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.GetCountOfStatePersonalizationScopePersonalizationStateQuery">
+            <summary>Sets the shim of OraclePersonalizationProvider.GetCountOfState(PersonalizationScope scope, PersonalizationStateQuery query)</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.GetCountOfUserPersonalizationStateStringStringDateTime">
+            <summary>Sets the shim of OraclePersonalizationProvider.GetCountOfUserPersonalizationState(String sharedPath, String userName, DateTime userInactiveSinceDate)</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.InitializeStringNameValueCollection">
+            <summary>Sets the shim of OraclePersonalizationProvider.Initialize(String name, NameValueCollection config)</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.LoadPersonalizationBlobsWebPartManagerStringStringByteArrayRefByteArrayRef">
+            <summary>Sets the shim of OraclePersonalizationProvider.LoadPersonalizationBlobs(WebPartManager webPartManager, String path, String userName, Byte[]&amp; sharedDataBlob, Byte[]&amp; userDataBlob)</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.ResetPersonalizationBlobWebPartManagerStringString">
+            <summary>Sets the shim of OraclePersonalizationProvider.ResetPersonalizationBlob(WebPartManager webPartManager, String path, String userName)</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.ResetSharedStateStringArray">
+            <summary>Sets the shim of OraclePersonalizationProvider.ResetSharedState(String[] paths)</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.ResetStatePersonalizationScopeStringArrayStringArray">
+            <summary>Sets the shim of OraclePersonalizationProvider.ResetState(PersonalizationScope scope, String[] paths, String[] usernames)</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.ResetUserStateStringArrayStringArray">
+            <summary>Sets the shim of OraclePersonalizationProvider.ResetUserState(String[] paths, String[] userNames)</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.ResetUserStateStringDateTime">
+            <summary>Sets the shim of OraclePersonalizationProvider.ResetUserState(String path, DateTime userInactiveSinceDate)</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.SavePersonalizationBlobWebPartManagerStringStringByteArray">
+            <summary>Sets the shim of OraclePersonalizationProvider.SavePersonalizationBlob(WebPartManager webPartManager, String path, String userName, Byte[] dataBlob)</summary>
+        </member>
+        <member name="T:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.AllInstances.ApplicationNameGet">
+            <summary>Sets the shim of OraclePersonalizationProvider.get_ApplicationName()</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.AllInstances.ApplicationNameSetString">
+            <summary>Sets the shim of OraclePersonalizationProvider.set_ApplicationName(String value)</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.AllInstances.CommandTimeoutGet">
+            <summary>Sets the shim of OraclePersonalizationProvider.get_CommandTimeout()</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.AllInstances.FindSharedPersonalizationStateStringInt32Int32Int32Out">
+            <summary>Sets the shim of OraclePersonalizationProvider.FindSharedPersonalizationState(String sharedPath, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.AllInstances.FindStatePersonalizationScopePersonalizationStateQueryInt32Int32Int32Out">
+            <summary>Sets the shim of OraclePersonalizationProvider.FindState(PersonalizationScope scope, PersonalizationStateQuery query, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.AllInstances.FindUserPersonalizationStateStringStringDateTimeInt32Int32Int32Out">
+            <summary>Sets the shim of OraclePersonalizationProvider.FindUserPersonalizationState(String sharedPath, String userName, DateTime userInactiveSinceDate, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.AllInstances.GetCountOfSharedPersonalizationStateString">
+            <summary>Sets the shim of OraclePersonalizationProvider.GetCountOfSharedPersonalizationState(String sharedPath)</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.AllInstances.GetCountOfStatePersonalizationScopePersonalizationStateQuery">
+            <summary>Sets the shim of OraclePersonalizationProvider.GetCountOfState(PersonalizationScope scope, PersonalizationStateQuery query)</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.AllInstances.GetCountOfUserPersonalizationStateStringStringDateTime">
+            <summary>Sets the shim of OraclePersonalizationProvider.GetCountOfUserPersonalizationState(String sharedPath, String userName, DateTime userInactiveSinceDate)</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.AllInstances.InitializeStringNameValueCollection">
+            <summary>Sets the shim of OraclePersonalizationProvider.Initialize(String name, NameValueCollection config)</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.AllInstances.LoadPersonalizationBlobsWebPartManagerStringStringByteArrayRefByteArrayRef">
+            <summary>Sets the shim of OraclePersonalizationProvider.LoadPersonalizationBlobs(WebPartManager webPartManager, String path, String userName, Byte[]&amp; sharedDataBlob, Byte[]&amp; userDataBlob)</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.AllInstances.ResetPersonalizationBlobWebPartManagerStringString">
+            <summary>Sets the shim of OraclePersonalizationProvider.ResetPersonalizationBlob(WebPartManager webPartManager, String path, String userName)</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.AllInstances.ResetSharedStateStringArray">
+            <summary>Sets the shim of OraclePersonalizationProvider.ResetSharedState(String[] paths)</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.AllInstances.ResetStatePersonalizationScopeStringArrayStringArray">
+            <summary>Sets the shim of OraclePersonalizationProvider.ResetState(PersonalizationScope scope, String[] paths, String[] usernames)</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.AllInstances.ResetUserStateStringArrayStringArray">
+            <summary>Sets the shim of OraclePersonalizationProvider.ResetUserState(String[] paths, String[] userNames)</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.AllInstances.ResetUserStateStringDateTime">
+            <summary>Sets the shim of OraclePersonalizationProvider.ResetUserState(String path, DateTime userInactiveSinceDate)</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.ShimOraclePersonalizationProvider.AllInstances.SavePersonalizationBlobWebPartManagerStringStringByteArray">
+            <summary>Sets the shim of OraclePersonalizationProvider.SavePersonalizationBlob(WebPartManager webPartManager, String path, String userName, Byte[] dataBlob)</summary>
+        </member>
+        <member name="T:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider">
+            <summary>Stub type of Oracle.Web.Personalization.OraclePersonalizationProvider</summary>
+        </member>
+        <member name="M:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="F:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.ApplicationNameGet">
+            <summary>Sets the stub of OraclePersonalizationProvider.get_ApplicationName()</summary>
+        </member>
+        <member name="F:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.ApplicationNameSetString">
+            <summary>Sets the stub of OraclePersonalizationProvider.set_ApplicationName(String value)</summary>
+        </member>
+        <member name="M:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.AttachBackingFieldToApplicationName">
+            <summary>Attaches delegates to emulate StubOraclePersonalizationProvider.ApplicationName as a property with a backing field.</summary>
+        </member>
+        <member name="M:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.CreateSupportedUserCapabilities">
+            <summary>Sets the stub of PersonalizationProvider.CreateSupportedUserCapabilities()</summary>
+        </member>
+        <member name="F:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.CreateSupportedUserCapabilities01">
+            <summary>Sets the stub of PersonalizationProvider.CreateSupportedUserCapabilities()</summary>
+        </member>
+        <member name="F:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.DescriptionGet">
+            <summary>Sets the stub of ProviderBase.get_Description()</summary>
+        </member>
+        <member name="M:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.DetermineInitialScope(System.Web.UI.WebControls.WebParts.WebPartManager,System.Web.UI.WebControls.WebParts.PersonalizationState)">
+            <summary>Sets the stub of PersonalizationProvider.DetermineInitialScope(WebPartManager webPartManager, PersonalizationState loadedState)</summary>
+        </member>
+        <member name="F:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.DetermineInitialScopeWebPartManagerPersonalizationState">
+            <summary>Sets the stub of PersonalizationProvider.DetermineInitialScope(WebPartManager webPartManager, PersonalizationState loadedState)</summary>
+        </member>
+        <member name="M:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.DetermineUserCapabilities(System.Web.UI.WebControls.WebParts.WebPartManager)">
+            <summary>Sets the stub of PersonalizationProvider.DetermineUserCapabilities(WebPartManager webPartManager)</summary>
+        </member>
+        <member name="F:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.DetermineUserCapabilitiesWebPartManager">
+            <summary>Sets the stub of PersonalizationProvider.DetermineUserCapabilities(WebPartManager webPartManager)</summary>
+        </member>
+        <member name="M:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.FindState(System.Web.UI.WebControls.WebParts.PersonalizationScope,System.Web.UI.WebControls.WebParts.PersonalizationStateQuery,System.Int32,System.Int32,System.Int32@)">
+            <summary>Sets the stub of OraclePersonalizationProvider.FindState(PersonalizationScope scope, PersonalizationStateQuery query, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="F:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.FindStatePersonalizationScopePersonalizationStateQueryInt32Int32Int32Out">
+            <summary>Sets the stub of OraclePersonalizationProvider.FindState(PersonalizationScope scope, PersonalizationStateQuery query, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="M:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.GetCountOfState(System.Web.UI.WebControls.WebParts.PersonalizationScope,System.Web.UI.WebControls.WebParts.PersonalizationStateQuery)">
+            <summary>Sets the stub of OraclePersonalizationProvider.GetCountOfState(PersonalizationScope scope, PersonalizationStateQuery query)</summary>
+        </member>
+        <member name="F:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.GetCountOfStatePersonalizationScopePersonalizationStateQuery">
+            <summary>Sets the stub of OraclePersonalizationProvider.GetCountOfState(PersonalizationScope scope, PersonalizationStateQuery query)</summary>
+        </member>
+        <member name="M:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.Initialize(System.String,System.Collections.Specialized.NameValueCollection)">
+            <summary>Sets the stub of OraclePersonalizationProvider.Initialize(String name, NameValueCollection config)</summary>
+        </member>
+        <member name="F:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.InitializeStringNameValueCollection">
+            <summary>Sets the stub of OraclePersonalizationProvider.Initialize(String name, NameValueCollection config)</summary>
+        </member>
+        <member name="M:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.InitializeStub">
+            <summary>Initializes a new instance of type StubOraclePersonalizationProvider</summary>
+        </member>
+        <member name="M:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.LoadPersonalizationBlobs(System.Web.UI.WebControls.WebParts.WebPartManager,System.String,System.String,System.Byte[]@,System.Byte[]@)">
+            <summary>Sets the stub of OraclePersonalizationProvider.LoadPersonalizationBlobs(WebPartManager webPartManager, String path, String userName, Byte[]&amp; sharedDataBlob, Byte[]&amp; userDataBlob)</summary>
+        </member>
+        <member name="F:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.LoadPersonalizationBlobsWebPartManagerStringStringByteArrayRefByteArrayRef">
+            <summary>Sets the stub of OraclePersonalizationProvider.LoadPersonalizationBlobs(WebPartManager webPartManager, String path, String userName, Byte[]&amp; sharedDataBlob, Byte[]&amp; userDataBlob)</summary>
+        </member>
+        <member name="M:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.LoadPersonalizationState(System.Web.UI.WebControls.WebParts.WebPartManager,System.Boolean)">
+            <summary>Sets the stub of PersonalizationProvider.LoadPersonalizationState(WebPartManager webPartManager, Boolean ignoreCurrentUser)</summary>
+        </member>
+        <member name="F:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.LoadPersonalizationStateWebPartManagerBoolean">
+            <summary>Sets the stub of PersonalizationProvider.LoadPersonalizationState(WebPartManager webPartManager, Boolean ignoreCurrentUser)</summary>
+        </member>
+        <member name="F:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.NameGet">
+            <summary>Sets the stub of ProviderBase.get_Name()</summary>
+        </member>
+        <member name="M:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.ResetPersonalizationBlob(System.Web.UI.WebControls.WebParts.WebPartManager,System.String,System.String)">
+            <summary>Sets the stub of OraclePersonalizationProvider.ResetPersonalizationBlob(WebPartManager webPartManager, String path, String userName)</summary>
+        </member>
+        <member name="F:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.ResetPersonalizationBlobWebPartManagerStringString">
+            <summary>Sets the stub of OraclePersonalizationProvider.ResetPersonalizationBlob(WebPartManager webPartManager, String path, String userName)</summary>
+        </member>
+        <member name="M:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.ResetPersonalizationState(System.Web.UI.WebControls.WebParts.WebPartManager)">
+            <summary>Sets the stub of PersonalizationProvider.ResetPersonalizationState(WebPartManager webPartManager)</summary>
+        </member>
+        <member name="F:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.ResetPersonalizationStateWebPartManager">
+            <summary>Sets the stub of PersonalizationProvider.ResetPersonalizationState(WebPartManager webPartManager)</summary>
+        </member>
+        <member name="M:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.ResetState(System.Web.UI.WebControls.WebParts.PersonalizationScope,System.String[],System.String[])">
+            <summary>Sets the stub of OraclePersonalizationProvider.ResetState(PersonalizationScope scope, String[] paths, String[] usernames)</summary>
+        </member>
+        <member name="F:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.ResetStatePersonalizationScopeStringArrayStringArray">
+            <summary>Sets the stub of OraclePersonalizationProvider.ResetState(PersonalizationScope scope, String[] paths, String[] usernames)</summary>
+        </member>
+        <member name="M:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.ResetUserState(System.String,System.DateTime)">
+            <summary>Sets the stub of OraclePersonalizationProvider.ResetUserState(String path, DateTime userInactiveSinceDate)</summary>
+        </member>
+        <member name="F:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.ResetUserStateStringDateTime">
+            <summary>Sets the stub of OraclePersonalizationProvider.ResetUserState(String path, DateTime userInactiveSinceDate)</summary>
+        </member>
+        <member name="M:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.SavePersonalizationBlob(System.Web.UI.WebControls.WebParts.WebPartManager,System.String,System.String,System.Byte[])">
+            <summary>Sets the stub of OraclePersonalizationProvider.SavePersonalizationBlob(WebPartManager webPartManager, String path, String userName, Byte[] dataBlob)</summary>
+        </member>
+        <member name="F:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.SavePersonalizationBlobWebPartManagerStringStringByteArray">
+            <summary>Sets the stub of OraclePersonalizationProvider.SavePersonalizationBlob(WebPartManager webPartManager, String path, String userName, Byte[] dataBlob)</summary>
+        </member>
+        <member name="M:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.SavePersonalizationState(System.Web.UI.WebControls.WebParts.PersonalizationState)">
+            <summary>Sets the stub of PersonalizationProvider.SavePersonalizationState(PersonalizationState state)</summary>
+        </member>
+        <member name="F:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.SavePersonalizationStatePersonalizationState">
+            <summary>Sets the stub of PersonalizationProvider.SavePersonalizationState(PersonalizationState state)</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.ApplicationName">
+            <summary>Sets the stub of OraclePersonalizationProvider.get_ApplicationName()</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.Description">
+            <summary>Sets the stub of ProviderBase.get_Description()</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:Oracle.Web.Personalization.Fakes.StubOraclePersonalizationProvider.Name">
+            <summary>Sets the stub of ProviderBase.get_Name()</summary>
+        </member>
+        <member name="T:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider">
+            <summary>Shim type of Oracle.Web.Profile.OracleProfileProvider</summary>
+        </member>
+        <member name="M:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.#ctor(Oracle.Web.Profile.OracleProfileProvider)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.ApplicationNameGet">
+            <summary>Sets the shim of OracleProfileProvider.get_ApplicationName()</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.ApplicationNameSetString">
+            <summary>Sets the shim of OracleProfileProvider.set_ApplicationName(String value)</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.CommandTimeoutGet">
+            <summary>Sets the shim of OracleProfileProvider.get_CommandTimeout()</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.Constructor">
+            <summary>Sets the shim of OracleProfileProvider.OracleProfileProvider()</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.CreateInputParamStringOracleDbTypeObject">
+            <summary>Sets the shim of OracleProfileProvider.CreateInputParam(String paramName, OracleDbType dbType, Object objValue)</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.DeleteInactiveProfilesProfileAuthenticationOptionDateTime">
+            <summary>Sets the shim of OracleProfileProvider.DeleteInactiveProfiles(ProfileAuthenticationOption authenticationOption, DateTime userInactiveSinceDate)</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.DeleteProfilesProfileInfoCollection">
+            <summary>Sets the shim of OracleProfileProvider.DeleteProfiles(ProfileInfoCollection profiles)</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.DeleteProfilesStringArray">
+            <summary>Sets the shim of OracleProfileProvider.DeleteProfiles(String[] usernames)</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.FindInactiveProfilesByUserNameProfileAuthenticationOptionStringDateTimeInt32Int32Int32Out">
+            <summary>Sets the shim of OracleProfileProvider.FindInactiveProfilesByUserName(ProfileAuthenticationOption authenticationOption, String usernameToMatch, DateTime userInactiveSinceDate, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.FindProfilesByUserNameProfileAuthenticationOptionStringInt32Int32Int32Out">
+            <summary>Sets the shim of OracleProfileProvider.FindProfilesByUserName(ProfileAuthenticationOption authenticationOption, String usernameToMatch, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.GetAllInactiveProfilesProfileAuthenticationOptionDateTimeInt32Int32Int32Out">
+            <summary>Sets the shim of OracleProfileProvider.GetAllInactiveProfiles(ProfileAuthenticationOption authenticationOption, DateTime userInactiveSinceDate, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.GetAllProfilesProfileAuthenticationOptionInt32Int32Int32Out">
+            <summary>Sets the shim of OracleProfileProvider.GetAllProfiles(ProfileAuthenticationOption authenticationOption, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.GetNumberOfInactiveProfilesProfileAuthenticationOptionDateTime">
+            <summary>Sets the shim of OracleProfileProvider.GetNumberOfInactiveProfiles(ProfileAuthenticationOption authenticationOption, DateTime userInactiveSinceDate)</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.GetProfilesForQueryOracleParameterArrayProfileAuthenticationOptionInt32Int32Int32Out">
+            <summary>Sets the shim of OracleProfileProvider.GetProfilesForQuery(OracleParameter[] args, ProfileAuthenticationOption authenticationOption, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.GetPropertyValuesFromDBStringSettingsPropertyValueCollection">
+            <summary>Sets the shim of OracleProfileProvider.GetPropertyValuesFromDB(String userName, SettingsPropertyValueCollection svc)</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.GetPropertyValuesSettingsContextSettingsPropertyCollection">
+            <summary>Sets the shim of OracleProfileProvider.GetPropertyValues(SettingsContext sc, SettingsPropertyCollection properties)</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.InitializeStringNameValueCollection">
+            <summary>Sets the shim of OracleProfileProvider.Initialize(String name, NameValueCollection config)</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.ParseDataFromDBStringArrayStringByteArraySettingsPropertyValueCollection">
+            <summary>Sets the shim of OracleProfileProvider.ParseDataFromDB(String[] names, String values, Byte[] buf, SettingsPropertyValueCollection properties)</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.PrepareDataForSavingStringRefStringRefByteArrayRefBooleanSettingsPropertyValueCollectionBoolean">
+            <summary>Sets the shim of OracleProfileProvider.PrepareDataForSaving(String&amp; allNames, String&amp; allValues, Byte[]&amp; buf, Boolean binarySupported, SettingsPropertyValueCollection properties, Boolean userIsAuthenticated)</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.SetPropertyValuesSettingsContextSettingsPropertyValueCollection">
+            <summary>Sets the shim of OracleProfileProvider.SetPropertyValues(SettingsContext sc, SettingsPropertyValueCollection properties)</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.StaticConstructor">
+            <summary>Sets the shim of OracleProfileProvider.OracleProfileProvider()</summary>
+        </member>
+        <member name="T:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.AllInstances.ApplicationNameGet">
+            <summary>Sets the shim of OracleProfileProvider.get_ApplicationName()</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.AllInstances.ApplicationNameSetString">
+            <summary>Sets the shim of OracleProfileProvider.set_ApplicationName(String value)</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.AllInstances.CommandTimeoutGet">
+            <summary>Sets the shim of OracleProfileProvider.get_CommandTimeout()</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.AllInstances.CreateInputParamStringOracleDbTypeObject">
+            <summary>Sets the shim of OracleProfileProvider.CreateInputParam(String paramName, OracleDbType dbType, Object objValue)</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.AllInstances.DeleteInactiveProfilesProfileAuthenticationOptionDateTime">
+            <summary>Sets the shim of OracleProfileProvider.DeleteInactiveProfiles(ProfileAuthenticationOption authenticationOption, DateTime userInactiveSinceDate)</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.AllInstances.DeleteProfilesProfileInfoCollection">
+            <summary>Sets the shim of OracleProfileProvider.DeleteProfiles(ProfileInfoCollection profiles)</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.AllInstances.DeleteProfilesStringArray">
+            <summary>Sets the shim of OracleProfileProvider.DeleteProfiles(String[] usernames)</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.AllInstances.FindInactiveProfilesByUserNameProfileAuthenticationOptionStringDateTimeInt32Int32Int32Out">
+            <summary>Sets the shim of OracleProfileProvider.FindInactiveProfilesByUserName(ProfileAuthenticationOption authenticationOption, String usernameToMatch, DateTime userInactiveSinceDate, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.AllInstances.FindProfilesByUserNameProfileAuthenticationOptionStringInt32Int32Int32Out">
+            <summary>Sets the shim of OracleProfileProvider.FindProfilesByUserName(ProfileAuthenticationOption authenticationOption, String usernameToMatch, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.AllInstances.GetAllInactiveProfilesProfileAuthenticationOptionDateTimeInt32Int32Int32Out">
+            <summary>Sets the shim of OracleProfileProvider.GetAllInactiveProfiles(ProfileAuthenticationOption authenticationOption, DateTime userInactiveSinceDate, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.AllInstances.GetAllProfilesProfileAuthenticationOptionInt32Int32Int32Out">
+            <summary>Sets the shim of OracleProfileProvider.GetAllProfiles(ProfileAuthenticationOption authenticationOption, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.AllInstances.GetNumberOfInactiveProfilesProfileAuthenticationOptionDateTime">
+            <summary>Sets the shim of OracleProfileProvider.GetNumberOfInactiveProfiles(ProfileAuthenticationOption authenticationOption, DateTime userInactiveSinceDate)</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.AllInstances.GetProfilesForQueryOracleParameterArrayProfileAuthenticationOptionInt32Int32Int32Out">
+            <summary>Sets the shim of OracleProfileProvider.GetProfilesForQuery(OracleParameter[] args, ProfileAuthenticationOption authenticationOption, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.AllInstances.GetPropertyValuesFromDBStringSettingsPropertyValueCollection">
+            <summary>Sets the shim of OracleProfileProvider.GetPropertyValuesFromDB(String userName, SettingsPropertyValueCollection svc)</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.AllInstances.GetPropertyValuesSettingsContextSettingsPropertyCollection">
+            <summary>Sets the shim of OracleProfileProvider.GetPropertyValues(SettingsContext sc, SettingsPropertyCollection properties)</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.AllInstances.InitializeStringNameValueCollection">
+            <summary>Sets the shim of OracleProfileProvider.Initialize(String name, NameValueCollection config)</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.ShimOracleProfileProvider.AllInstances.SetPropertyValuesSettingsContextSettingsPropertyValueCollection">
+            <summary>Sets the shim of OracleProfileProvider.SetPropertyValues(SettingsContext sc, SettingsPropertyValueCollection properties)</summary>
+        </member>
+        <member name="T:Oracle.Web.Profile.Fakes.StubOracleProfileProvider">
+            <summary>Stub type of Oracle.Web.Profile.OracleProfileProvider</summary>
+        </member>
+        <member name="M:Oracle.Web.Profile.Fakes.StubOracleProfileProvider.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="F:Oracle.Web.Profile.Fakes.StubOracleProfileProvider.ApplicationNameGet">
+            <summary>Sets the stub of OracleProfileProvider.get_ApplicationName()</summary>
+        </member>
+        <member name="F:Oracle.Web.Profile.Fakes.StubOracleProfileProvider.ApplicationNameSetString">
+            <summary>Sets the stub of OracleProfileProvider.set_ApplicationName(String value)</summary>
+        </member>
+        <member name="M:Oracle.Web.Profile.Fakes.StubOracleProfileProvider.AttachBackingFieldToApplicationName">
+            <summary>Attaches delegates to emulate StubOracleProfileProvider.ApplicationName as a property with a backing field.</summary>
+        </member>
+        <member name="M:Oracle.Web.Profile.Fakes.StubOracleProfileProvider.DeleteInactiveProfiles(System.Web.Profile.ProfileAuthenticationOption,System.DateTime)">
+            <summary>Sets the stub of OracleProfileProvider.DeleteInactiveProfiles(ProfileAuthenticationOption authenticationOption, DateTime userInactiveSinceDate)</summary>
+        </member>
+        <member name="F:Oracle.Web.Profile.Fakes.StubOracleProfileProvider.DeleteInactiveProfilesProfileAuthenticationOptionDateTime">
+            <summary>Sets the stub of OracleProfileProvider.DeleteInactiveProfiles(ProfileAuthenticationOption authenticationOption, DateTime userInactiveSinceDate)</summary>
+        </member>
+        <member name="M:Oracle.Web.Profile.Fakes.StubOracleProfileProvider.DeleteProfiles(System.String[])">
+            <summary>Sets the stub of OracleProfileProvider.DeleteProfiles(String[] usernames)</summary>
+        </member>
+        <member name="M:Oracle.Web.Profile.Fakes.StubOracleProfileProvider.DeleteProfiles(System.Web.Profile.ProfileInfoCollection)">
+            <summary>Sets the stub of OracleProfileProvider.DeleteProfiles(ProfileInfoCollection profiles)</summary>
+        </member>
+        <member name="F:Oracle.Web.Profile.Fakes.StubOracleProfileProvider.DeleteProfilesProfileInfoCollection">
+            <summary>Sets the stub of OracleProfileProvider.DeleteProfiles(ProfileInfoCollection profiles)</summary>
+        </member>
+        <member name="F:Oracle.Web.Profile.Fakes.StubOracleProfileProvider.DeleteProfilesStringArray">
+            <summary>Sets the stub of OracleProfileProvider.DeleteProfiles(String[] usernames)</summary>
+        </member>
+        <member name="F:Oracle.Web.Profile.Fakes.StubOracleProfileProvider.DescriptionGet">
+            <summary>Sets the stub of ProviderBase.get_Description()</summary>
+        </member>
+        <member name="M:Oracle.Web.Profile.Fakes.StubOracleProfileProvider.FindInactiveProfilesByUserName(System.Web.Profile.ProfileAuthenticationOption,System.String,System.DateTime,System.Int32,System.Int32,System.Int32@)">
+            <summary>Sets the stub of OracleProfileProvider.FindInactiveProfilesByUserName(ProfileAuthenticationOption authenticationOption, String usernameToMatch, DateTime userInactiveSinceDate, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="F:Oracle.Web.Profile.Fakes.StubOracleProfileProvider.FindInactiveProfilesByUserNameProfileAuthenticationOptionStringDateTimeInt32Int32Int32Out">
+            <summary>Sets the stub of OracleProfileProvider.FindInactiveProfilesByUserName(ProfileAuthenticationOption authenticationOption, String usernameToMatch, DateTime userInactiveSinceDate, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="M:Oracle.Web.Profile.Fakes.StubOracleProfileProvider.FindProfilesByUserName(System.Web.Profile.ProfileAuthenticationOption,System.String,System.Int32,System.Int32,System.Int32@)">
+            <summary>Sets the stub of OracleProfileProvider.FindProfilesByUserName(ProfileAuthenticationOption authenticationOption, String usernameToMatch, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="F:Oracle.Web.Profile.Fakes.StubOracleProfileProvider.FindProfilesByUserNameProfileAuthenticationOptionStringInt32Int32Int32Out">
+            <summary>Sets the stub of OracleProfileProvider.FindProfilesByUserName(ProfileAuthenticationOption authenticationOption, String usernameToMatch, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="M:Oracle.Web.Profile.Fakes.StubOracleProfileProvider.GetAllInactiveProfiles(System.Web.Profile.ProfileAuthenticationOption,System.DateTime,System.Int32,System.Int32,System.Int32@)">
+            <summary>Sets the stub of OracleProfileProvider.GetAllInactiveProfiles(ProfileAuthenticationOption authenticationOption, DateTime userInactiveSinceDate, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="F:Oracle.Web.Profile.Fakes.StubOracleProfileProvider.GetAllInactiveProfilesProfileAuthenticationOptionDateTimeInt32Int32Int32Out">
+            <summary>Sets the stub of OracleProfileProvider.GetAllInactiveProfiles(ProfileAuthenticationOption authenticationOption, DateTime userInactiveSinceDate, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="M:Oracle.Web.Profile.Fakes.StubOracleProfileProvider.GetAllProfiles(System.Web.Profile.ProfileAuthenticationOption,System.Int32,System.Int32,System.Int32@)">
+            <summary>Sets the stub of OracleProfileProvider.GetAllProfiles(ProfileAuthenticationOption authenticationOption, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="F:Oracle.Web.Profile.Fakes.StubOracleProfileProvider.GetAllProfilesProfileAuthenticationOptionInt32Int32Int32Out">
+            <summary>Sets the stub of OracleProfileProvider.GetAllProfiles(ProfileAuthenticationOption authenticationOption, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="M:Oracle.Web.Profile.Fakes.StubOracleProfileProvider.GetNumberOfInactiveProfiles(System.Web.Profile.ProfileAuthenticationOption,System.DateTime)">
+            <summary>Sets the stub of OracleProfileProvider.GetNumberOfInactiveProfiles(ProfileAuthenticationOption authenticationOption, DateTime userInactiveSinceDate)</summary>
+        </member>
+        <member name="F:Oracle.Web.Profile.Fakes.StubOracleProfileProvider.GetNumberOfInactiveProfilesProfileAuthenticationOptionDateTime">
+            <summary>Sets the stub of OracleProfileProvider.GetNumberOfInactiveProfiles(ProfileAuthenticationOption authenticationOption, DateTime userInactiveSinceDate)</summary>
+        </member>
+        <member name="M:Oracle.Web.Profile.Fakes.StubOracleProfileProvider.GetPropertyValues(System.Configuration.SettingsContext,System.Configuration.SettingsPropertyCollection)">
+            <summary>Sets the stub of OracleProfileProvider.GetPropertyValues(SettingsContext sc, SettingsPropertyCollection properties)</summary>
+        </member>
+        <member name="F:Oracle.Web.Profile.Fakes.StubOracleProfileProvider.GetPropertyValuesSettingsContextSettingsPropertyCollection">
+            <summary>Sets the stub of OracleProfileProvider.GetPropertyValues(SettingsContext sc, SettingsPropertyCollection properties)</summary>
+        </member>
+        <member name="M:Oracle.Web.Profile.Fakes.StubOracleProfileProvider.Initialize(System.String,System.Collections.Specialized.NameValueCollection)">
+            <summary>Sets the stub of OracleProfileProvider.Initialize(String name, NameValueCollection config)</summary>
+        </member>
+        <member name="F:Oracle.Web.Profile.Fakes.StubOracleProfileProvider.InitializeStringNameValueCollection">
+            <summary>Sets the stub of OracleProfileProvider.Initialize(String name, NameValueCollection config)</summary>
+        </member>
+        <member name="M:Oracle.Web.Profile.Fakes.StubOracleProfileProvider.InitializeStub">
+            <summary>Initializes a new instance of type StubOracleProfileProvider</summary>
+        </member>
+        <member name="F:Oracle.Web.Profile.Fakes.StubOracleProfileProvider.NameGet">
+            <summary>Sets the stub of ProviderBase.get_Name()</summary>
+        </member>
+        <member name="M:Oracle.Web.Profile.Fakes.StubOracleProfileProvider.SetPropertyValues(System.Configuration.SettingsContext,System.Configuration.SettingsPropertyValueCollection)">
+            <summary>Sets the stub of OracleProfileProvider.SetPropertyValues(SettingsContext sc, SettingsPropertyValueCollection properties)</summary>
+        </member>
+        <member name="F:Oracle.Web.Profile.Fakes.StubOracleProfileProvider.SetPropertyValuesSettingsContextSettingsPropertyValueCollection">
+            <summary>Sets the stub of OracleProfileProvider.SetPropertyValues(SettingsContext sc, SettingsPropertyValueCollection properties)</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.StubOracleProfileProvider.ApplicationName">
+            <summary>Sets the stub of OracleProfileProvider.get_ApplicationName()</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.StubOracleProfileProvider.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.StubOracleProfileProvider.Description">
+            <summary>Sets the stub of ProviderBase.get_Description()</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.StubOracleProfileProvider.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.StubOracleProfileProvider.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:Oracle.Web.Profile.Fakes.StubOracleProfileProvider.Name">
+            <summary>Sets the stub of ProviderBase.get_Name()</summary>
+        </member>
+        <member name="T:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider">
+            <summary>Shim type of Oracle.Web.Security.OracleMembershipProvider</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.#ctor(Oracle.Web.Security.OracleMembershipProvider)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.ApplicationNameGet">
+            <summary>Sets the shim of OracleMembershipProvider.get_ApplicationName()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.ApplicationNameSetString">
+            <summary>Sets the shim of OracleMembershipProvider.set_ApplicationName(String value)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.ChangePasswordQuestionAndAnswerStringStringStringString">
+            <summary>Sets the shim of OracleMembershipProvider.ChangePasswordQuestionAndAnswer(String username, String password, String newPasswordQuestion, String newPasswordAnswer)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.ChangePasswordStringStringString">
+            <summary>Sets the shim of OracleMembershipProvider.ChangePassword(String username, String oldPassword, String newPassword)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.CheckPasswordStringStringBooleanBoolean">
+            <summary>Sets the shim of OracleMembershipProvider.CheckPassword(String username, String password, Boolean updateLastLoginActivityDate, Boolean failIfNotApproved)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.CheckPasswordStringStringBooleanBooleanStringOutInt32Out">
+            <summary>Sets the shim of OracleMembershipProvider.CheckPassword(String username, String password, Boolean updateLastLoginActivityDate, Boolean failIfNotApproved, String&amp; salt, Int32&amp; passwordFormat)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.CommandTimeoutGet">
+            <summary>Sets the shim of OracleMembershipProvider.get_CommandTimeout()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.Constructor">
+            <summary>Sets the shim of OracleMembershipProvider.OracleMembershipProvider()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.CreateInputParamStringOracleDbTypeObject">
+            <summary>Sets the shim of OracleMembershipProvider.CreateInputParam(String paramName, OracleDbType dbType, Object objValue)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.CreateUserStringStringStringStringStringBooleanObjectMembershipCreateStatusOut">
+            <summary>Sets the shim of OracleMembershipProvider.CreateUser(String username, String password, String email, String passwordQuestion, String passwordAnswer, Boolean isApproved, Object providerUserKey, MembershipCreateStatus&amp; status)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.DecodePasswordStringInt32">
+            <summary>Sets the shim of OracleMembershipProvider.DecodePassword(String pass, Int32 passwordFormat)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.DeleteUserStringBoolean">
+            <summary>Sets the shim of OracleMembershipProvider.DeleteUser(String username, Boolean deleteAllRelatedData)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.EnablePasswordResetGet">
+            <summary>Sets the shim of OracleMembershipProvider.get_EnablePasswordReset()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.EnablePasswordRetrievalGet">
+            <summary>Sets the shim of OracleMembershipProvider.get_EnablePasswordRetrieval()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.EncodePasswordStringInt32String">
+            <summary>Sets the shim of OracleMembershipProvider.EncodePassword(String pass, Int32 passwordFormat, String salt)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.FindUsersByEmailStringInt32Int32Int32Out">
+            <summary>Sets the shim of OracleMembershipProvider.FindUsersByEmail(String emailToMatch, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.FindUsersByNameStringInt32Int32Int32Out">
+            <summary>Sets the shim of OracleMembershipProvider.FindUsersByName(String usernameToMatch, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.GeneratePassword">
+            <summary>Sets the shim of OracleMembershipProvider.GeneratePassword()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.GenerateSalt">
+            <summary>Sets the shim of OracleMembershipProvider.GenerateSalt()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.GetAllUsersInt32Int32Int32Out">
+            <summary>Sets the shim of OracleMembershipProvider.GetAllUsers(Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.GetEncodedPasswordAnswerStringString">
+            <summary>Sets the shim of OracleMembershipProvider.GetEncodedPasswordAnswer(String username, String passwordAnswer)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.GetMachineKeySection">
+            <summary>Sets the shim of OracleMembershipProvider.GetMachineKeySection()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.GetNullableStringOracleDataReaderInt32">
+            <summary>Sets the shim of OracleMembershipProvider.GetNullableString(OracleDataReader reader, Int32 col)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.GetNumberOfUsersOnline">
+            <summary>Sets the shim of OracleMembershipProvider.GetNumberOfUsersOnline()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.GetPasswordFromDBStringStringBooleanInt32OutInt32Out">
+            <summary>Sets the shim of OracleMembershipProvider.GetPasswordFromDB(String username, String passwordAnswer, Boolean requiresQuestionAndAnswer, Int32&amp; passwordFormat, Int32&amp; status)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.GetPasswordStringString">
+            <summary>Sets the shim of OracleMembershipProvider.GetPassword(String username, String passwordAnswer)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.GetUserNameByEmailString">
+            <summary>Sets the shim of OracleMembershipProvider.GetUserNameByEmail(String email)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.GetUserObjectBoolean">
+            <summary>Sets the shim of OracleMembershipProvider.GetUser(Object providerUserKey, Boolean userIsOnline)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.GetUserStringBoolean">
+            <summary>Sets the shim of OracleMembershipProvider.GetUser(String username, Boolean userIsOnline)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.InitializeStringNameValueCollection">
+            <summary>Sets the shim of OracleMembershipProvider.Initialize(String name, NameValueCollection config)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.IsStatusDueToBadPasswordInt32">
+            <summary>Sets the shim of OracleMembershipProvider.IsStatusDueToBadPassword(Int32 status)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.MaxInvalidPasswordAttemptsGet">
+            <summary>Sets the shim of OracleMembershipProvider.get_MaxInvalidPasswordAttempts()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.MinRequiredNonAlphanumericCharactersGet">
+            <summary>Sets the shim of OracleMembershipProvider.get_MinRequiredNonAlphanumericCharacters()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.MinRequiredPasswordLengthGet">
+            <summary>Sets the shim of OracleMembershipProvider.get_MinRequiredPasswordLength()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.PasswordAttemptWindowGet">
+            <summary>Sets the shim of OracleMembershipProvider.get_PasswordAttemptWindow()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.PasswordCompatModeGet">
+            <summary>Sets the shim of OracleMembershipProvider.get_PasswordCompatMode()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.PasswordFormatGet">
+            <summary>Sets the shim of OracleMembershipProvider.get_PasswordFormat()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.PasswordStrengthRegularExpressionGet">
+            <summary>Sets the shim of OracleMembershipProvider.get_PasswordStrengthRegularExpression()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.RequiresQuestionAndAnswerGet">
+            <summary>Sets the shim of OracleMembershipProvider.get_RequiresQuestionAndAnswer()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.RequiresUniqueEmailGet">
+            <summary>Sets the shim of OracleMembershipProvider.get_RequiresUniqueEmail()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.ResetPasswordStringString">
+            <summary>Sets the shim of OracleMembershipProvider.ResetPassword(String username, String passwordAnswer)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.RoundToSecondsDateTime">
+            <summary>Sets the shim of OracleMembershipProvider.RoundToSeconds(DateTime dt)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.StaticConstructor">
+            <summary>Sets the shim of OracleMembershipProvider.OracleMembershipProvider()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.UnlockUserString">
+            <summary>Sets the shim of OracleMembershipProvider.UnlockUser(String username)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.UpdateUserMembershipUser">
+            <summary>Sets the shim of OracleMembershipProvider.UpdateUser(MembershipUser user)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.ValidateUserStringString">
+            <summary>Sets the shim of OracleMembershipProvider.ValidateUser(String username, String password)</summary>
+        </member>
+        <member name="T:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.ApplicationNameGet">
+            <summary>Sets the shim of OracleMembershipProvider.get_ApplicationName()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.ApplicationNameSetString">
+            <summary>Sets the shim of OracleMembershipProvider.set_ApplicationName(String value)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.ChangePasswordQuestionAndAnswerStringStringStringString">
+            <summary>Sets the shim of OracleMembershipProvider.ChangePasswordQuestionAndAnswer(String username, String password, String newPasswordQuestion, String newPasswordAnswer)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.ChangePasswordStringStringString">
+            <summary>Sets the shim of OracleMembershipProvider.ChangePassword(String username, String oldPassword, String newPassword)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.CheckPasswordStringStringBooleanBoolean">
+            <summary>Sets the shim of OracleMembershipProvider.CheckPassword(String username, String password, Boolean updateLastLoginActivityDate, Boolean failIfNotApproved)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.CheckPasswordStringStringBooleanBooleanStringOutInt32Out">
+            <summary>Sets the shim of OracleMembershipProvider.CheckPassword(String username, String password, Boolean updateLastLoginActivityDate, Boolean failIfNotApproved, String&amp; salt, Int32&amp; passwordFormat)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.CommandTimeoutGet">
+            <summary>Sets the shim of OracleMembershipProvider.get_CommandTimeout()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.CreateInputParamStringOracleDbTypeObject">
+            <summary>Sets the shim of OracleMembershipProvider.CreateInputParam(String paramName, OracleDbType dbType, Object objValue)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.CreateUserStringStringStringStringStringBooleanObjectMembershipCreateStatusOut">
+            <summary>Sets the shim of OracleMembershipProvider.CreateUser(String username, String password, String email, String passwordQuestion, String passwordAnswer, Boolean isApproved, Object providerUserKey, MembershipCreateStatus&amp; status)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.DecodePasswordStringInt32">
+            <summary>Sets the shim of OracleMembershipProvider.DecodePassword(String pass, Int32 passwordFormat)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.DeleteUserStringBoolean">
+            <summary>Sets the shim of OracleMembershipProvider.DeleteUser(String username, Boolean deleteAllRelatedData)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.EnablePasswordResetGet">
+            <summary>Sets the shim of OracleMembershipProvider.get_EnablePasswordReset()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.EnablePasswordRetrievalGet">
+            <summary>Sets the shim of OracleMembershipProvider.get_EnablePasswordRetrieval()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.EncodePasswordStringInt32String">
+            <summary>Sets the shim of OracleMembershipProvider.EncodePassword(String pass, Int32 passwordFormat, String salt)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.FindUsersByEmailStringInt32Int32Int32Out">
+            <summary>Sets the shim of OracleMembershipProvider.FindUsersByEmail(String emailToMatch, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.FindUsersByNameStringInt32Int32Int32Out">
+            <summary>Sets the shim of OracleMembershipProvider.FindUsersByName(String usernameToMatch, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.GeneratePassword">
+            <summary>Sets the shim of OracleMembershipProvider.GeneratePassword()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.GenerateSalt">
+            <summary>Sets the shim of OracleMembershipProvider.GenerateSalt()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.GetAllUsersInt32Int32Int32Out">
+            <summary>Sets the shim of OracleMembershipProvider.GetAllUsers(Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.GetEncodedPasswordAnswerStringString">
+            <summary>Sets the shim of OracleMembershipProvider.GetEncodedPasswordAnswer(String username, String passwordAnswer)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.GetMachineKeySection">
+            <summary>Sets the shim of OracleMembershipProvider.GetMachineKeySection()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.GetNullableStringOracleDataReaderInt32">
+            <summary>Sets the shim of OracleMembershipProvider.GetNullableString(OracleDataReader reader, Int32 col)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.GetNumberOfUsersOnline">
+            <summary>Sets the shim of OracleMembershipProvider.GetNumberOfUsersOnline()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.GetPasswordFromDBStringStringBooleanInt32OutInt32Out">
+            <summary>Sets the shim of OracleMembershipProvider.GetPasswordFromDB(String username, String passwordAnswer, Boolean requiresQuestionAndAnswer, Int32&amp; passwordFormat, Int32&amp; status)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.GetPasswordStringString">
+            <summary>Sets the shim of OracleMembershipProvider.GetPassword(String username, String passwordAnswer)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.GetPasswordWithFormatStringBooleanInt32OutStringOutInt32OutStringOutInt32OutInt32OutBooleanOutDateTimeOutDateTimeOut">
+            <summary>Sets the shim of OracleMembershipProvider.GetPasswordWithFormat(String username, Boolean updateLastLoginActivityDate, Int32&amp; status, String&amp; password, Int32&amp; passwordFormat, String&amp; passwordSalt, Int32&amp; failedPasswordAttemptCount, Int32&amp; failedPasswordAnswerAttemptCount, Boolean&amp; isApproved, DateTime&amp; lastLoginDate, DateTime&amp; lastActivityDate)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.GetUserNameByEmailString">
+            <summary>Sets the shim of OracleMembershipProvider.GetUserNameByEmail(String email)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.GetUserObjectBoolean">
+            <summary>Sets the shim of OracleMembershipProvider.GetUser(Object providerUserKey, Boolean userIsOnline)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.GetUserStringBoolean">
+            <summary>Sets the shim of OracleMembershipProvider.GetUser(String username, Boolean userIsOnline)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.InitializeStringNameValueCollection">
+            <summary>Sets the shim of OracleMembershipProvider.Initialize(String name, NameValueCollection config)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.IsStatusDueToBadPasswordInt32">
+            <summary>Sets the shim of OracleMembershipProvider.IsStatusDueToBadPassword(Int32 status)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.MaxInvalidPasswordAttemptsGet">
+            <summary>Sets the shim of OracleMembershipProvider.get_MaxInvalidPasswordAttempts()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.MinRequiredNonAlphanumericCharactersGet">
+            <summary>Sets the shim of OracleMembershipProvider.get_MinRequiredNonAlphanumericCharacters()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.MinRequiredPasswordLengthGet">
+            <summary>Sets the shim of OracleMembershipProvider.get_MinRequiredPasswordLength()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.PasswordAttemptWindowGet">
+            <summary>Sets the shim of OracleMembershipProvider.get_PasswordAttemptWindow()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.PasswordCompatModeGet">
+            <summary>Sets the shim of OracleMembershipProvider.get_PasswordCompatMode()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.PasswordFormatGet">
+            <summary>Sets the shim of OracleMembershipProvider.get_PasswordFormat()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.PasswordStrengthRegularExpressionGet">
+            <summary>Sets the shim of OracleMembershipProvider.get_PasswordStrengthRegularExpression()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.RequiresQuestionAndAnswerGet">
+            <summary>Sets the shim of OracleMembershipProvider.get_RequiresQuestionAndAnswer()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.RequiresUniqueEmailGet">
+            <summary>Sets the shim of OracleMembershipProvider.get_RequiresUniqueEmail()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.ResetPasswordStringString">
+            <summary>Sets the shim of OracleMembershipProvider.ResetPassword(String username, String passwordAnswer)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.RoundToSecondsDateTime">
+            <summary>Sets the shim of OracleMembershipProvider.RoundToSeconds(DateTime dt)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.UnlockUserString">
+            <summary>Sets the shim of OracleMembershipProvider.UnlockUser(String username)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.UpdateUserMembershipUser">
+            <summary>Sets the shim of OracleMembershipProvider.UpdateUser(MembershipUser user)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleMembershipProvider.AllInstances.ValidateUserStringString">
+            <summary>Sets the shim of OracleMembershipProvider.ValidateUser(String username, String password)</summary>
+        </member>
+        <member name="T:Oracle.Web.Security.Fakes.ShimOracleRoleProvider">
+            <summary>Shim type of Oracle.Web.Security.OracleRoleProvider</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.ShimOracleRoleProvider.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.ShimOracleRoleProvider.#ctor(Oracle.Web.Security.OracleRoleProvider)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.ShimOracleRoleProvider.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.ShimOracleRoleProvider.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleRoleProvider.AddUsersToRolesStringArrayStringArray">
+            <summary>Sets the shim of OracleRoleProvider.AddUsersToRoles(String[] userNames, String[] roleNames)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleRoleProvider.ApplicationNameGet">
+            <summary>Sets the shim of OracleRoleProvider.get_ApplicationName()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleRoleProvider.ApplicationNameSetString">
+            <summary>Sets the shim of OracleRoleProvider.set_ApplicationName(String value)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleRoleProvider.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleRoleProvider.CommandTimeoutGet">
+            <summary>Sets the shim of OracleRoleProvider.get_CommandTimeout()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleRoleProvider.Constructor">
+            <summary>Sets the shim of OracleRoleProvider.OracleRoleProvider()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleRoleProvider.CreateRoleString">
+            <summary>Sets the shim of OracleRoleProvider.CreateRole(String roleName)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleRoleProvider.DeleteRoleStringBoolean">
+            <summary>Sets the shim of OracleRoleProvider.DeleteRole(String roleName, Boolean throwOnPopulatedRole)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleRoleProvider.FindUsersInRoleStringString">
+            <summary>Sets the shim of OracleRoleProvider.FindUsersInRole(String roleName, String userNameToMatch)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleRoleProvider.GetAllRoles">
+            <summary>Sets the shim of OracleRoleProvider.GetAllRoles()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleRoleProvider.GetRolesForUserString">
+            <summary>Sets the shim of OracleRoleProvider.GetRolesForUser(String userName)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleRoleProvider.GetUsersInRoleString">
+            <summary>Sets the shim of OracleRoleProvider.GetUsersInRole(String roleName)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleRoleProvider.InitializeStringNameValueCollection">
+            <summary>Sets the shim of OracleRoleProvider.Initialize(String name, NameValueCollection config)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleRoleProvider.IsUserInRoleStringString">
+            <summary>Sets the shim of OracleRoleProvider.IsUserInRole(String userName, String roleName)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleRoleProvider.RemoveUsersFromRolesStringArrayStringArray">
+            <summary>Sets the shim of OracleRoleProvider.RemoveUsersFromRoles(String[] userNames, String[] roleNames)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleRoleProvider.RoleExistsString">
+            <summary>Sets the shim of OracleRoleProvider.RoleExists(String roleName)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleRoleProvider.StaticConstructor">
+            <summary>Sets the shim of OracleRoleProvider.OracleRoleProvider()</summary>
+        </member>
+        <member name="T:Oracle.Web.Security.Fakes.ShimOracleRoleProvider.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleRoleProvider.AllInstances.AddUsersToRolesStringArrayStringArray">
+            <summary>Sets the shim of OracleRoleProvider.AddUsersToRoles(String[] userNames, String[] roleNames)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleRoleProvider.AllInstances.ApplicationNameGet">
+            <summary>Sets the shim of OracleRoleProvider.get_ApplicationName()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleRoleProvider.AllInstances.ApplicationNameSetString">
+            <summary>Sets the shim of OracleRoleProvider.set_ApplicationName(String value)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleRoleProvider.AllInstances.CommandTimeoutGet">
+            <summary>Sets the shim of OracleRoleProvider.get_CommandTimeout()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleRoleProvider.AllInstances.CreateRoleString">
+            <summary>Sets the shim of OracleRoleProvider.CreateRole(String roleName)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleRoleProvider.AllInstances.DeleteRoleStringBoolean">
+            <summary>Sets the shim of OracleRoleProvider.DeleteRole(String roleName, Boolean throwOnPopulatedRole)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleRoleProvider.AllInstances.FindUsersInRoleStringString">
+            <summary>Sets the shim of OracleRoleProvider.FindUsersInRole(String roleName, String userNameToMatch)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleRoleProvider.AllInstances.GetAllRoles">
+            <summary>Sets the shim of OracleRoleProvider.GetAllRoles()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleRoleProvider.AllInstances.GetRolesForUserString">
+            <summary>Sets the shim of OracleRoleProvider.GetRolesForUser(String userName)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleRoleProvider.AllInstances.GetUsersInRoleString">
+            <summary>Sets the shim of OracleRoleProvider.GetUsersInRole(String roleName)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleRoleProvider.AllInstances.InitializeStringNameValueCollection">
+            <summary>Sets the shim of OracleRoleProvider.Initialize(String name, NameValueCollection config)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleRoleProvider.AllInstances.IsUserInRoleStringString">
+            <summary>Sets the shim of OracleRoleProvider.IsUserInRole(String userName, String roleName)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleRoleProvider.AllInstances.RemoveUsersFromRolesStringArrayStringArray">
+            <summary>Sets the shim of OracleRoleProvider.RemoveUsersFromRoles(String[] userNames, String[] roleNames)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.ShimOracleRoleProvider.AllInstances.RoleExistsString">
+            <summary>Sets the shim of OracleRoleProvider.RoleExists(String roleName)</summary>
+        </member>
+        <member name="T:Oracle.Web.Security.Fakes.StubOracleMembershipProvider">
+            <summary>Stub type of Oracle.Web.Security.OracleMembershipProvider</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.ApplicationNameGet">
+            <summary>Sets the stub of OracleMembershipProvider.get_ApplicationName()</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.ApplicationNameSetString">
+            <summary>Sets the stub of OracleMembershipProvider.set_ApplicationName(String value)</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.AttachBackingFieldToApplicationName">
+            <summary>Attaches delegates to emulate StubOracleMembershipProvider.ApplicationName as a property with a backing field.</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.ChangePassword(System.String,System.String,System.String)">
+            <summary>Sets the stub of OracleMembershipProvider.ChangePassword(String username, String oldPassword, String newPassword)</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.ChangePasswordQuestionAndAnswer(System.String,System.String,System.String,System.String)">
+            <summary>Sets the stub of OracleMembershipProvider.ChangePasswordQuestionAndAnswer(String username, String password, String newPasswordQuestion, String newPasswordAnswer)</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.ChangePasswordQuestionAndAnswerStringStringStringString">
+            <summary>Sets the stub of OracleMembershipProvider.ChangePasswordQuestionAndAnswer(String username, String password, String newPasswordQuestion, String newPasswordAnswer)</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.ChangePasswordStringStringString">
+            <summary>Sets the stub of OracleMembershipProvider.ChangePassword(String username, String oldPassword, String newPassword)</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.CreateUser(System.String,System.String,System.String,System.String,System.String,System.Boolean,System.Object,System.Web.Security.MembershipCreateStatus@)">
+            <summary>Sets the stub of OracleMembershipProvider.CreateUser(String username, String password, String email, String passwordQuestion, String passwordAnswer, Boolean isApproved, Object providerUserKey, MembershipCreateStatus&amp; status)</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.CreateUserStringStringStringStringStringBooleanObjectMembershipCreateStatusOut">
+            <summary>Sets the stub of OracleMembershipProvider.CreateUser(String username, String password, String email, String passwordQuestion, String passwordAnswer, Boolean isApproved, Object providerUserKey, MembershipCreateStatus&amp; status)</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.DecryptPassword(System.Byte[])">
+            <summary>Sets the stub of MembershipProvider.DecryptPassword(Byte[] encodedPassword)</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.DecryptPasswordByteArray">
+            <summary>Sets the stub of MembershipProvider.DecryptPassword(Byte[] encodedPassword)</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.DeleteUser(System.String,System.Boolean)">
+            <summary>Sets the stub of OracleMembershipProvider.DeleteUser(String username, Boolean deleteAllRelatedData)</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.DeleteUserStringBoolean">
+            <summary>Sets the stub of OracleMembershipProvider.DeleteUser(String username, Boolean deleteAllRelatedData)</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.DescriptionGet">
+            <summary>Sets the stub of ProviderBase.get_Description()</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.EnablePasswordResetGet">
+            <summary>Sets the stub of OracleMembershipProvider.get_EnablePasswordReset()</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.EnablePasswordRetrievalGet">
+            <summary>Sets the stub of OracleMembershipProvider.get_EnablePasswordRetrieval()</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.EncryptPassword(System.Byte[])">
+            <summary>Sets the stub of MembershipProvider.EncryptPassword(Byte[] password)</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.EncryptPassword(System.Byte[],System.Web.Configuration.MembershipPasswordCompatibilityMode)">
+            <summary>Sets the stub of MembershipProvider.EncryptPassword(Byte[] password, MembershipPasswordCompatibilityMode legacyPasswordCompatibilityMode)</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.EncryptPasswordByteArray">
+            <summary>Sets the stub of MembershipProvider.EncryptPassword(Byte[] password)</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.EncryptPasswordByteArrayMembershipPasswordCompatibilityMode">
+            <summary>Sets the stub of MembershipProvider.EncryptPassword(Byte[] password, MembershipPasswordCompatibilityMode legacyPasswordCompatibilityMode)</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.FindUsersByEmail(System.String,System.Int32,System.Int32,System.Int32@)">
+            <summary>Sets the stub of OracleMembershipProvider.FindUsersByEmail(String emailToMatch, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.FindUsersByEmailStringInt32Int32Int32Out">
+            <summary>Sets the stub of OracleMembershipProvider.FindUsersByEmail(String emailToMatch, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.FindUsersByName(System.String,System.Int32,System.Int32,System.Int32@)">
+            <summary>Sets the stub of OracleMembershipProvider.FindUsersByName(String usernameToMatch, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.FindUsersByNameStringInt32Int32Int32Out">
+            <summary>Sets the stub of OracleMembershipProvider.FindUsersByName(String usernameToMatch, Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.GeneratePassword">
+            <summary>Sets the stub of OracleMembershipProvider.GeneratePassword()</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.GeneratePassword01">
+            <summary>Sets the stub of OracleMembershipProvider.GeneratePassword()</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.GetAllUsers(System.Int32,System.Int32,System.Int32@)">
+            <summary>Sets the stub of OracleMembershipProvider.GetAllUsers(Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.GetAllUsersInt32Int32Int32Out">
+            <summary>Sets the stub of OracleMembershipProvider.GetAllUsers(Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.GetNumberOfUsersOnline">
+            <summary>Sets the stub of OracleMembershipProvider.GetNumberOfUsersOnline()</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.GetNumberOfUsersOnline01">
+            <summary>Sets the stub of OracleMembershipProvider.GetNumberOfUsersOnline()</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.GetPassword(System.String,System.String)">
+            <summary>Sets the stub of OracleMembershipProvider.GetPassword(String username, String passwordAnswer)</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.GetPasswordStringString">
+            <summary>Sets the stub of OracleMembershipProvider.GetPassword(String username, String passwordAnswer)</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.GetUser(System.Object,System.Boolean)">
+            <summary>Sets the stub of OracleMembershipProvider.GetUser(Object providerUserKey, Boolean userIsOnline)</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.GetUser(System.String,System.Boolean)">
+            <summary>Sets the stub of OracleMembershipProvider.GetUser(String username, Boolean userIsOnline)</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.GetUserNameByEmail(System.String)">
+            <summary>Sets the stub of OracleMembershipProvider.GetUserNameByEmail(String email)</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.GetUserNameByEmailString">
+            <summary>Sets the stub of OracleMembershipProvider.GetUserNameByEmail(String email)</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.GetUserObjectBoolean">
+            <summary>Sets the stub of OracleMembershipProvider.GetUser(Object providerUserKey, Boolean userIsOnline)</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.GetUserStringBoolean">
+            <summary>Sets the stub of OracleMembershipProvider.GetUser(String username, Boolean userIsOnline)</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.Initialize(System.String,System.Collections.Specialized.NameValueCollection)">
+            <summary>Sets the stub of OracleMembershipProvider.Initialize(String name, NameValueCollection config)</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.InitializeStringNameValueCollection">
+            <summary>Sets the stub of OracleMembershipProvider.Initialize(String name, NameValueCollection config)</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.InitializeStub">
+            <summary>Initializes a new instance of type StubOracleMembershipProvider</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.MaxInvalidPasswordAttemptsGet">
+            <summary>Sets the stub of OracleMembershipProvider.get_MaxInvalidPasswordAttempts()</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.MinRequiredNonAlphanumericCharactersGet">
+            <summary>Sets the stub of OracleMembershipProvider.get_MinRequiredNonAlphanumericCharacters()</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.MinRequiredPasswordLengthGet">
+            <summary>Sets the stub of OracleMembershipProvider.get_MinRequiredPasswordLength()</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.NameGet">
+            <summary>Sets the stub of ProviderBase.get_Name()</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.OnValidatingPassword(System.Web.Security.ValidatePasswordEventArgs)">
+            <summary>Sets the stub of MembershipProvider.OnValidatingPassword(ValidatePasswordEventArgs e)</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.OnValidatingPasswordValidatePasswordEventArgs">
+            <summary>Sets the stub of MembershipProvider.OnValidatingPassword(ValidatePasswordEventArgs e)</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.PasswordAttemptWindowGet">
+            <summary>Sets the stub of OracleMembershipProvider.get_PasswordAttemptWindow()</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.PasswordFormatGet">
+            <summary>Sets the stub of OracleMembershipProvider.get_PasswordFormat()</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.PasswordStrengthRegularExpressionGet">
+            <summary>Sets the stub of OracleMembershipProvider.get_PasswordStrengthRegularExpression()</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.RequiresQuestionAndAnswerGet">
+            <summary>Sets the stub of OracleMembershipProvider.get_RequiresQuestionAndAnswer()</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.RequiresUniqueEmailGet">
+            <summary>Sets the stub of OracleMembershipProvider.get_RequiresUniqueEmail()</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.ResetPassword(System.String,System.String)">
+            <summary>Sets the stub of OracleMembershipProvider.ResetPassword(String username, String passwordAnswer)</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.ResetPasswordStringString">
+            <summary>Sets the stub of OracleMembershipProvider.ResetPassword(String username, String passwordAnswer)</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.UnlockUser(System.String)">
+            <summary>Sets the stub of OracleMembershipProvider.UnlockUser(String username)</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.UnlockUserString">
+            <summary>Sets the stub of OracleMembershipProvider.UnlockUser(String username)</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.UpdateUser(System.Web.Security.MembershipUser)">
+            <summary>Sets the stub of OracleMembershipProvider.UpdateUser(MembershipUser user)</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.UpdateUserMembershipUser">
+            <summary>Sets the stub of OracleMembershipProvider.UpdateUser(MembershipUser user)</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.ValidateUser(System.String,System.String)">
+            <summary>Sets the stub of OracleMembershipProvider.ValidateUser(String username, String password)</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.ValidateUserStringString">
+            <summary>Sets the stub of OracleMembershipProvider.ValidateUser(String username, String password)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.ApplicationName">
+            <summary>Sets the stub of OracleMembershipProvider.get_ApplicationName()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.Description">
+            <summary>Sets the stub of ProviderBase.get_Description()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.EnablePasswordReset">
+            <summary>Sets the stub of OracleMembershipProvider.get_EnablePasswordReset()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.EnablePasswordRetrieval">
+            <summary>Sets the stub of OracleMembershipProvider.get_EnablePasswordRetrieval()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.MaxInvalidPasswordAttempts">
+            <summary>Sets the stub of OracleMembershipProvider.get_MaxInvalidPasswordAttempts()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.MinRequiredNonAlphanumericCharacters">
+            <summary>Sets the stub of OracleMembershipProvider.get_MinRequiredNonAlphanumericCharacters()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.MinRequiredPasswordLength">
+            <summary>Sets the stub of OracleMembershipProvider.get_MinRequiredPasswordLength()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.Name">
+            <summary>Sets the stub of ProviderBase.get_Name()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.PasswordAttemptWindow">
+            <summary>Sets the stub of OracleMembershipProvider.get_PasswordAttemptWindow()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.PasswordFormat">
+            <summary>Sets the stub of OracleMembershipProvider.get_PasswordFormat()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.PasswordStrengthRegularExpression">
+            <summary>Sets the stub of OracleMembershipProvider.get_PasswordStrengthRegularExpression()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.RequiresQuestionAndAnswer">
+            <summary>Sets the stub of OracleMembershipProvider.get_RequiresQuestionAndAnswer()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.StubOracleMembershipProvider.RequiresUniqueEmail">
+            <summary>Sets the stub of OracleMembershipProvider.get_RequiresUniqueEmail()</summary>
+        </member>
+        <member name="T:Oracle.Web.Security.Fakes.StubOracleRoleProvider">
+            <summary>Stub type of Oracle.Web.Security.OracleRoleProvider</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleRoleProvider.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleRoleProvider.AddUsersToRoles(System.String[],System.String[])">
+            <summary>Sets the stub of OracleRoleProvider.AddUsersToRoles(String[] userNames, String[] roleNames)</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleRoleProvider.AddUsersToRolesStringArrayStringArray">
+            <summary>Sets the stub of OracleRoleProvider.AddUsersToRoles(String[] userNames, String[] roleNames)</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleRoleProvider.ApplicationNameGet">
+            <summary>Sets the stub of OracleRoleProvider.get_ApplicationName()</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleRoleProvider.ApplicationNameSetString">
+            <summary>Sets the stub of OracleRoleProvider.set_ApplicationName(String value)</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleRoleProvider.AttachBackingFieldToApplicationName">
+            <summary>Attaches delegates to emulate StubOracleRoleProvider.ApplicationName as a property with a backing field.</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleRoleProvider.CreateRole(System.String)">
+            <summary>Sets the stub of OracleRoleProvider.CreateRole(String roleName)</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleRoleProvider.CreateRoleString">
+            <summary>Sets the stub of OracleRoleProvider.CreateRole(String roleName)</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleRoleProvider.DeleteRole(System.String,System.Boolean)">
+            <summary>Sets the stub of OracleRoleProvider.DeleteRole(String roleName, Boolean throwOnPopulatedRole)</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleRoleProvider.DeleteRoleStringBoolean">
+            <summary>Sets the stub of OracleRoleProvider.DeleteRole(String roleName, Boolean throwOnPopulatedRole)</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleRoleProvider.DescriptionGet">
+            <summary>Sets the stub of ProviderBase.get_Description()</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleRoleProvider.FindUsersInRole(System.String,System.String)">
+            <summary>Sets the stub of OracleRoleProvider.FindUsersInRole(String roleName, String userNameToMatch)</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleRoleProvider.FindUsersInRoleStringString">
+            <summary>Sets the stub of OracleRoleProvider.FindUsersInRole(String roleName, String userNameToMatch)</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleRoleProvider.GetAllRoles">
+            <summary>Sets the stub of OracleRoleProvider.GetAllRoles()</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleRoleProvider.GetAllRoles01">
+            <summary>Sets the stub of OracleRoleProvider.GetAllRoles()</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleRoleProvider.GetRolesForUser(System.String)">
+            <summary>Sets the stub of OracleRoleProvider.GetRolesForUser(String userName)</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleRoleProvider.GetRolesForUserString">
+            <summary>Sets the stub of OracleRoleProvider.GetRolesForUser(String userName)</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleRoleProvider.GetUsersInRole(System.String)">
+            <summary>Sets the stub of OracleRoleProvider.GetUsersInRole(String roleName)</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleRoleProvider.GetUsersInRoleString">
+            <summary>Sets the stub of OracleRoleProvider.GetUsersInRole(String roleName)</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleRoleProvider.Initialize(System.String,System.Collections.Specialized.NameValueCollection)">
+            <summary>Sets the stub of OracleRoleProvider.Initialize(String name, NameValueCollection config)</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleRoleProvider.InitializeStringNameValueCollection">
+            <summary>Sets the stub of OracleRoleProvider.Initialize(String name, NameValueCollection config)</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleRoleProvider.InitializeStub">
+            <summary>Initializes a new instance of type StubOracleRoleProvider</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleRoleProvider.IsUserInRole(System.String,System.String)">
+            <summary>Sets the stub of OracleRoleProvider.IsUserInRole(String userName, String roleName)</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleRoleProvider.IsUserInRoleStringString">
+            <summary>Sets the stub of OracleRoleProvider.IsUserInRole(String userName, String roleName)</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleRoleProvider.NameGet">
+            <summary>Sets the stub of ProviderBase.get_Name()</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleRoleProvider.RemoveUsersFromRoles(System.String[],System.String[])">
+            <summary>Sets the stub of OracleRoleProvider.RemoveUsersFromRoles(String[] userNames, String[] roleNames)</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleRoleProvider.RemoveUsersFromRolesStringArrayStringArray">
+            <summary>Sets the stub of OracleRoleProvider.RemoveUsersFromRoles(String[] userNames, String[] roleNames)</summary>
+        </member>
+        <member name="M:Oracle.Web.Security.Fakes.StubOracleRoleProvider.RoleExists(System.String)">
+            <summary>Sets the stub of OracleRoleProvider.RoleExists(String roleName)</summary>
+        </member>
+        <member name="F:Oracle.Web.Security.Fakes.StubOracleRoleProvider.RoleExistsString">
+            <summary>Sets the stub of OracleRoleProvider.RoleExists(String roleName)</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.StubOracleRoleProvider.ApplicationName">
+            <summary>Sets the stub of OracleRoleProvider.get_ApplicationName()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.StubOracleRoleProvider.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.StubOracleRoleProvider.Description">
+            <summary>Sets the stub of ProviderBase.get_Description()</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.StubOracleRoleProvider.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.StubOracleRoleProvider.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:Oracle.Web.Security.Fakes.StubOracleRoleProvider.Name">
+            <summary>Sets the stub of ProviderBase.get_Name()</summary>
+        </member>
+        <member name="T:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore">
+            <summary>Shim type of Oracle.Web.SessionState.OracleSessionStateStore</summary>
+        </member>
+        <member name="M:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.#ctor(Oracle.Web.SessionState.OracleSessionStateStore)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.CommandTimeoutGet">
+            <summary>Sets the shim of OracleSessionStateStore.get_CommandTimeout()</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.Constructor">
+            <summary>Sets the shim of OracleSessionStateStore.OracleSessionStateStore()</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.CreateNewStoreDataHttpContextInt32">
+            <summary>Sets the shim of OracleSessionStateStore.CreateNewStoreData(HttpContext context, Int32 timeout)</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.CreateUninitializedItemHttpContextStringInt32">
+            <summary>Sets the shim of OracleSessionStateStore.CreateUninitializedItem(HttpContext context, String id, Int32 timeout)</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.DeserializeHttpContextStream">
+            <summary>Sets the shim of OracleSessionStateStore.Deserialize(HttpContext context, Stream stream)</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.Dispose">
+            <summary>Sets the shim of OracleSessionStateStore.Dispose()</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.EndRequestHttpContext">
+            <summary>Sets the shim of OracleSessionStateStore.EndRequest(HttpContext context)</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.InitializeRequestHttpContext">
+            <summary>Sets the shim of OracleSessionStateStore.InitializeRequest(HttpContext context)</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.InitializeStringNameValueCollection">
+            <summary>Sets the shim of OracleSessionStateStore.Initialize(String name, NameValueCollection config)</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.ReleaseItemExclusiveHttpContextStringObject">
+            <summary>Sets the shim of OracleSessionStateStore.ReleaseItemExclusive(HttpContext context, String id, Object lockId)</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.RemoveItemHttpContextStringObjectSessionStateStoreData">
+            <summary>Sets the shim of OracleSessionStateStore.RemoveItem(HttpContext context, String id, Object lockId, SessionStateStoreData item)</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.ResetItemTimeoutHttpContextString">
+            <summary>Sets the shim of OracleSessionStateStore.ResetItemTimeout(HttpContext context, String id)</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.SerializeSessionStateStoreDataSessionStateStoreDataInt32ByteArrayOutInt32Out">
+            <summary>Sets the shim of OracleSessionStateStore.SerializeSessionStateStoreData(SessionStateStoreData item, Int32 initialStreamSize, Byte[]&amp; buffer, Int32&amp; length)</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.SerializeSessionStateStoreDataStream">
+            <summary>Sets the shim of OracleSessionStateStore.Serialize(SessionStateStoreData item, Stream stream)</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.SetAndReleaseItemExclusiveHttpContextStringSessionStateStoreDataObjectBoolean">
+            <summary>Sets the shim of OracleSessionStateStore.SetAndReleaseItemExclusive(HttpContext context, String id, SessionStateStoreData item, Object lockId, Boolean newItem)</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.SetItemExpireCallbackSessionStateItemExpireCallback">
+            <summary>Sets the shim of OracleSessionStateStore.SetItemExpireCallback(SessionStateItemExpireCallback expireCallback)</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.StaticConstructor">
+            <summary>Sets the shim of OracleSessionStateStore.OracleSessionStateStore()</summary>
+        </member>
+        <member name="T:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.AllInstances.CommandTimeoutGet">
+            <summary>Sets the shim of OracleSessionStateStore.get_CommandTimeout()</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.AllInstances.CreateNewStoreDataHttpContextInt32">
+            <summary>Sets the shim of OracleSessionStateStore.CreateNewStoreData(HttpContext context, Int32 timeout)</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.AllInstances.CreateUninitializedItemHttpContextStringInt32">
+            <summary>Sets the shim of OracleSessionStateStore.CreateUninitializedItem(HttpContext context, String id, Int32 timeout)</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.AllInstances.Dispose">
+            <summary>Sets the shim of OracleSessionStateStore.Dispose()</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.AllInstances.EndRequestHttpContext">
+            <summary>Sets the shim of OracleSessionStateStore.EndRequest(HttpContext context)</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.AllInstances.GetItemExclusiveHttpContextStringBooleanOutTimeSpanOutObjectOutSessionStateActionsOut">
+            <summary>Sets the shim of OracleSessionStateStore.GetItemExclusive(HttpContext context, String id, Boolean&amp; locked, TimeSpan&amp; lockAge, Object&amp; lockId, SessionStateActions&amp; actions)</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.AllInstances.GetItemHttpContextStringBooleanOutTimeSpanOutObjectOutSessionStateActionsOut">
+            <summary>Sets the shim of OracleSessionStateStore.GetItem(HttpContext context, String id, Boolean&amp; locked, TimeSpan&amp; lockAge, Object&amp; lockId, SessionStateActions&amp; actions)</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.AllInstances.GetSessionStoreItemHttpContextStringBooleanBooleanOutTimeSpanOutObjectOutSessionStateActionsOut">
+            <summary>Sets the shim of OracleSessionStateStore.GetSessionStoreItem(HttpContext context, String id, Boolean getExclusive, Boolean&amp; locked, TimeSpan&amp; lockAge, Object&amp; lockId, SessionStateActions&amp; actionFlags)</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.AllInstances.InitializeRequestHttpContext">
+            <summary>Sets the shim of OracleSessionStateStore.InitializeRequest(HttpContext context)</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.AllInstances.InitializeStringNameValueCollection">
+            <summary>Sets the shim of OracleSessionStateStore.Initialize(String name, NameValueCollection config)</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.AllInstances.ReleaseItemExclusiveHttpContextStringObject">
+            <summary>Sets the shim of OracleSessionStateStore.ReleaseItemExclusive(HttpContext context, String id, Object lockId)</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.AllInstances.RemoveItemHttpContextStringObjectSessionStateStoreData">
+            <summary>Sets the shim of OracleSessionStateStore.RemoveItem(HttpContext context, String id, Object lockId, SessionStateStoreData item)</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.AllInstances.ResetItemTimeoutHttpContextString">
+            <summary>Sets the shim of OracleSessionStateStore.ResetItemTimeout(HttpContext context, String id)</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.AllInstances.SetAndReleaseItemExclusiveHttpContextStringSessionStateStoreDataObjectBoolean">
+            <summary>Sets the shim of OracleSessionStateStore.SetAndReleaseItemExclusive(HttpContext context, String id, SessionStateStoreData item, Object lockId, Boolean newItem)</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.ShimOracleSessionStateStore.AllInstances.SetItemExpireCallbackSessionStateItemExpireCallback">
+            <summary>Sets the shim of OracleSessionStateStore.SetItemExpireCallback(SessionStateItemExpireCallback expireCallback)</summary>
+        </member>
+        <member name="T:Oracle.Web.SessionState.Fakes.StubOracleSessionStateStore">
+            <summary>Stub type of Oracle.Web.SessionState.OracleSessionStateStore</summary>
+        </member>
+        <member name="M:Oracle.Web.SessionState.Fakes.StubOracleSessionStateStore.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Oracle.Web.SessionState.Fakes.StubOracleSessionStateStore.CreateNewStoreData(System.Web.HttpContext,System.Int32)">
+            <summary>Sets the stub of OracleSessionStateStore.CreateNewStoreData(HttpContext context, Int32 timeout)</summary>
+        </member>
+        <member name="F:Oracle.Web.SessionState.Fakes.StubOracleSessionStateStore.CreateNewStoreDataHttpContextInt32">
+            <summary>Sets the stub of OracleSessionStateStore.CreateNewStoreData(HttpContext context, Int32 timeout)</summary>
+        </member>
+        <member name="M:Oracle.Web.SessionState.Fakes.StubOracleSessionStateStore.CreateUninitializedItem(System.Web.HttpContext,System.String,System.Int32)">
+            <summary>Sets the stub of OracleSessionStateStore.CreateUninitializedItem(HttpContext context, String id, Int32 timeout)</summary>
+        </member>
+        <member name="F:Oracle.Web.SessionState.Fakes.StubOracleSessionStateStore.CreateUninitializedItemHttpContextStringInt32">
+            <summary>Sets the stub of OracleSessionStateStore.CreateUninitializedItem(HttpContext context, String id, Int32 timeout)</summary>
+        </member>
+        <member name="F:Oracle.Web.SessionState.Fakes.StubOracleSessionStateStore.DescriptionGet">
+            <summary>Sets the stub of ProviderBase.get_Description()</summary>
+        </member>
+        <member name="M:Oracle.Web.SessionState.Fakes.StubOracleSessionStateStore.Dispose">
+            <summary>Sets the stub of OracleSessionStateStore.Dispose()</summary>
+        </member>
+        <member name="F:Oracle.Web.SessionState.Fakes.StubOracleSessionStateStore.Dispose01">
+            <summary>Sets the stub of OracleSessionStateStore.Dispose()</summary>
+        </member>
+        <member name="M:Oracle.Web.SessionState.Fakes.StubOracleSessionStateStore.EndRequest(System.Web.HttpContext)">
+            <summary>Sets the stub of OracleSessionStateStore.EndRequest(HttpContext context)</summary>
+        </member>
+        <member name="F:Oracle.Web.SessionState.Fakes.StubOracleSessionStateStore.EndRequestHttpContext">
+            <summary>Sets the stub of OracleSessionStateStore.EndRequest(HttpContext context)</summary>
+        </member>
+        <member name="M:Oracle.Web.SessionState.Fakes.StubOracleSessionStateStore.GetItem(System.Web.HttpContext,System.String,System.Boolean@,System.TimeSpan@,System.Object@,System.Web.SessionState.SessionStateActions@)">
+            <summary>Sets the stub of OracleSessionStateStore.GetItem(HttpContext context, String id, Boolean&amp; locked, TimeSpan&amp; lockAge, Object&amp; lockId, SessionStateActions&amp; actions)</summary>
+        </member>
+        <member name="M:Oracle.Web.SessionState.Fakes.StubOracleSessionStateStore.GetItemExclusive(System.Web.HttpContext,System.String,System.Boolean@,System.TimeSpan@,System.Object@,System.Web.SessionState.SessionStateActions@)">
+            <summary>Sets the stub of OracleSessionStateStore.GetItemExclusive(HttpContext context, String id, Boolean&amp; locked, TimeSpan&amp; lockAge, Object&amp; lockId, SessionStateActions&amp; actions)</summary>
+        </member>
+        <member name="F:Oracle.Web.SessionState.Fakes.StubOracleSessionStateStore.GetItemExclusiveHttpContextStringBooleanOutTimeSpanOutObjectOutSessionStateActionsOut">
+            <summary>Sets the stub of OracleSessionStateStore.GetItemExclusive(HttpContext context, String id, Boolean&amp; locked, TimeSpan&amp; lockAge, Object&amp; lockId, SessionStateActions&amp; actions)</summary>
+        </member>
+        <member name="F:Oracle.Web.SessionState.Fakes.StubOracleSessionStateStore.GetItemHttpContextStringBooleanOutTimeSpanOutObjectOutSessionStateActionsOut">
+            <summary>Sets the stub of OracleSessionStateStore.GetItem(HttpContext context, String id, Boolean&amp; locked, TimeSpan&amp; lockAge, Object&amp; lockId, SessionStateActions&amp; actions)</summary>
+        </member>
+        <member name="M:Oracle.Web.SessionState.Fakes.StubOracleSessionStateStore.Initialize(System.String,System.Collections.Specialized.NameValueCollection)">
+            <summary>Sets the stub of OracleSessionStateStore.Initialize(String name, NameValueCollection config)</summary>
+        </member>
+        <member name="M:Oracle.Web.SessionState.Fakes.StubOracleSessionStateStore.InitializeRequest(System.Web.HttpContext)">
+            <summary>Sets the stub of OracleSessionStateStore.InitializeRequest(HttpContext context)</summary>
+        </member>
+        <member name="F:Oracle.Web.SessionState.Fakes.StubOracleSessionStateStore.InitializeRequestHttpContext">
+            <summary>Sets the stub of OracleSessionStateStore.InitializeRequest(HttpContext context)</summary>
+        </member>
+        <member name="F:Oracle.Web.SessionState.Fakes.StubOracleSessionStateStore.InitializeStringNameValueCollection">
+            <summary>Sets the stub of OracleSessionStateStore.Initialize(String name, NameValueCollection config)</summary>
+        </member>
+        <member name="M:Oracle.Web.SessionState.Fakes.StubOracleSessionStateStore.InitializeStub">
+            <summary>Initializes a new instance of type StubOracleSessionStateStore</summary>
+        </member>
+        <member name="F:Oracle.Web.SessionState.Fakes.StubOracleSessionStateStore.NameGet">
+            <summary>Sets the stub of ProviderBase.get_Name()</summary>
+        </member>
+        <member name="M:Oracle.Web.SessionState.Fakes.StubOracleSessionStateStore.ReleaseItemExclusive(System.Web.HttpContext,System.String,System.Object)">
+            <summary>Sets the stub of OracleSessionStateStore.ReleaseItemExclusive(HttpContext context, String id, Object lockId)</summary>
+        </member>
+        <member name="F:Oracle.Web.SessionState.Fakes.StubOracleSessionStateStore.ReleaseItemExclusiveHttpContextStringObject">
+            <summary>Sets the stub of OracleSessionStateStore.ReleaseItemExclusive(HttpContext context, String id, Object lockId)</summary>
+        </member>
+        <member name="M:Oracle.Web.SessionState.Fakes.StubOracleSessionStateStore.RemoveItem(System.Web.HttpContext,System.String,System.Object,System.Web.SessionState.SessionStateStoreData)">
+            <summary>Sets the stub of OracleSessionStateStore.RemoveItem(HttpContext context, String id, Object lockId, SessionStateStoreData item)</summary>
+        </member>
+        <member name="F:Oracle.Web.SessionState.Fakes.StubOracleSessionStateStore.RemoveItemHttpContextStringObjectSessionStateStoreData">
+            <summary>Sets the stub of OracleSessionStateStore.RemoveItem(HttpContext context, String id, Object lockId, SessionStateStoreData item)</summary>
+        </member>
+        <member name="M:Oracle.Web.SessionState.Fakes.StubOracleSessionStateStore.ResetItemTimeout(System.Web.HttpContext,System.String)">
+            <summary>Sets the stub of OracleSessionStateStore.ResetItemTimeout(HttpContext context, String id)</summary>
+        </member>
+        <member name="F:Oracle.Web.SessionState.Fakes.StubOracleSessionStateStore.ResetItemTimeoutHttpContextString">
+            <summary>Sets the stub of OracleSessionStateStore.ResetItemTimeout(HttpContext context, String id)</summary>
+        </member>
+        <member name="M:Oracle.Web.SessionState.Fakes.StubOracleSessionStateStore.SetAndReleaseItemExclusive(System.Web.HttpContext,System.String,System.Web.SessionState.SessionStateStoreData,System.Object,System.Boolean)">
+            <summary>Sets the stub of OracleSessionStateStore.SetAndReleaseItemExclusive(HttpContext context, String id, SessionStateStoreData item, Object lockId, Boolean newItem)</summary>
+        </member>
+        <member name="F:Oracle.Web.SessionState.Fakes.StubOracleSessionStateStore.SetAndReleaseItemExclusiveHttpContextStringSessionStateStoreDataObjectBoolean">
+            <summary>Sets the stub of OracleSessionStateStore.SetAndReleaseItemExclusive(HttpContext context, String id, SessionStateStoreData item, Object lockId, Boolean newItem)</summary>
+        </member>
+        <member name="M:Oracle.Web.SessionState.Fakes.StubOracleSessionStateStore.SetItemExpireCallback(System.Web.SessionState.SessionStateItemExpireCallback)">
+            <summary>Sets the stub of OracleSessionStateStore.SetItemExpireCallback(SessionStateItemExpireCallback expireCallback)</summary>
+        </member>
+        <member name="F:Oracle.Web.SessionState.Fakes.StubOracleSessionStateStore.SetItemExpireCallbackSessionStateItemExpireCallback">
+            <summary>Sets the stub of OracleSessionStateStore.SetItemExpireCallback(SessionStateItemExpireCallback expireCallback)</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.StubOracleSessionStateStore.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.StubOracleSessionStateStore.Description">
+            <summary>Sets the stub of ProviderBase.get_Description()</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.StubOracleSessionStateStore.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.StubOracleSessionStateStore.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:Oracle.Web.SessionState.Fakes.StubOracleSessionStateStore.Name">
+            <summary>Sets the stub of ProviderBase.get_Name()</summary>
+        </member>
+        <member name="T:Oracle.Web.SiteMap.Fakes.ShimOracleSiteMapProvider">
+            <summary>Shim type of Oracle.Web.SiteMap.OracleSiteMapProvider</summary>
+        </member>
+        <member name="M:Oracle.Web.SiteMap.Fakes.ShimOracleSiteMapProvider.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Oracle.Web.SiteMap.Fakes.ShimOracleSiteMapProvider.#ctor(Oracle.Web.SiteMap.OracleSiteMapProvider)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Oracle.Web.SiteMap.Fakes.ShimOracleSiteMapProvider.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Oracle.Web.SiteMap.Fakes.ShimOracleSiteMapProvider.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Oracle.Web.SiteMap.Fakes.ShimOracleSiteMapProvider.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.ShimOracleSiteMapProvider.ApplicationNameGet">
+            <summary>Sets the shim of OracleSiteMapProvider.get_ApplicationName()</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.ShimOracleSiteMapProvider.ApplicationNameSetString">
+            <summary>Sets the shim of OracleSiteMapProvider.set_ApplicationName(String value)</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.ShimOracleSiteMapProvider.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.ShimOracleSiteMapProvider.BuildSiteMap">
+            <summary>Sets the shim of OracleSiteMapProvider.BuildSiteMap()</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.ShimOracleSiteMapProvider.CommandTimeoutGet">
+            <summary>Sets the shim of OracleSiteMapProvider.get_CommandTimeout()</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.ShimOracleSiteMapProvider.Constructor">
+            <summary>Sets the shim of OracleSiteMapProvider.OracleSiteMapProvider()</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.ShimOracleSiteMapProvider.Dispose">
+            <summary>Sets the shim of OracleSiteMapProvider.Dispose()</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.ShimOracleSiteMapProvider.DisposeBoolean">
+            <summary>Sets the shim of OracleSiteMapProvider.Dispose(Boolean bDisposing)</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.ShimOracleSiteMapProvider.GetNextValidRowIdDataRowCollectionInt32Ref">
+            <summary>Sets the shim of OracleSiteMapProvider.GetNextValidRowId(DataRowCollection dataRowColl, Int32&amp; startIndex)</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.ShimOracleSiteMapProvider.GetRootNodeCore">
+            <summary>Sets the shim of OracleSiteMapProvider.GetRootNodeCore()</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.ShimOracleSiteMapProvider.InitializeConnection">
+            <summary>Sets the shim of OracleSiteMapProvider.InitializeConnection()</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.ShimOracleSiteMapProvider.InitializeStringNameValueCollection">
+            <summary>Sets the shim of OracleSiteMapProvider.Initialize(String name, NameValueCollection config)</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.ShimOracleSiteMapProvider.IsDBVer10gR2OrHigherGet">
+            <summary>Sets the shim of OracleSiteMapProvider.get_IsDBVer10gR2OrHigher()</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.ShimOracleSiteMapProvider.NewRowBelongsToCurrentApplicationDataRowCollection">
+            <summary>Sets the shim of OracleSiteMapProvider.NewRowBelongsToCurrentApplication(DataRowCollection dataRowColl)</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.ShimOracleSiteMapProvider.OnDatabaseChangeObjectEventArgs">
+            <summary>Sets the shim of OracleSiteMapProvider.OnDatabaseChange(Object src, EventArgs args)</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.ShimOracleSiteMapProvider.StaticConstructor">
+            <summary>Sets the shim of OracleSiteMapProvider.OracleSiteMapProvider()</summary>
+        </member>
+        <member name="T:Oracle.Web.SiteMap.Fakes.ShimOracleSiteMapProvider.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.ShimOracleSiteMapProvider.AllInstances.ApplicationNameGet">
+            <summary>Sets the shim of OracleSiteMapProvider.get_ApplicationName()</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.ShimOracleSiteMapProvider.AllInstances.ApplicationNameSetString">
+            <summary>Sets the shim of OracleSiteMapProvider.set_ApplicationName(String value)</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.ShimOracleSiteMapProvider.AllInstances.BuildSiteMap">
+            <summary>Sets the shim of OracleSiteMapProvider.BuildSiteMap()</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.ShimOracleSiteMapProvider.AllInstances.CommandTimeoutGet">
+            <summary>Sets the shim of OracleSiteMapProvider.get_CommandTimeout()</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.ShimOracleSiteMapProvider.AllInstances.Dispose">
+            <summary>Sets the shim of OracleSiteMapProvider.Dispose()</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.ShimOracleSiteMapProvider.AllInstances.DisposeBoolean">
+            <summary>Sets the shim of OracleSiteMapProvider.Dispose(Boolean bDisposing)</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.ShimOracleSiteMapProvider.AllInstances.GetNextValidRowIdDataRowCollectionInt32Ref">
+            <summary>Sets the shim of OracleSiteMapProvider.GetNextValidRowId(DataRowCollection dataRowColl, Int32&amp; startIndex)</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.ShimOracleSiteMapProvider.AllInstances.GetRootNodeCore">
+            <summary>Sets the shim of OracleSiteMapProvider.GetRootNodeCore()</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.ShimOracleSiteMapProvider.AllInstances.InitializeConnection">
+            <summary>Sets the shim of OracleSiteMapProvider.InitializeConnection()</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.ShimOracleSiteMapProvider.AllInstances.InitializeStringNameValueCollection">
+            <summary>Sets the shim of OracleSiteMapProvider.Initialize(String name, NameValueCollection config)</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.ShimOracleSiteMapProvider.AllInstances.IsDBVer10gR2OrHigherGet">
+            <summary>Sets the shim of OracleSiteMapProvider.get_IsDBVer10gR2OrHigher()</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.ShimOracleSiteMapProvider.AllInstances.NewRowBelongsToCurrentApplicationDataRowCollection">
+            <summary>Sets the shim of OracleSiteMapProvider.NewRowBelongsToCurrentApplication(DataRowCollection dataRowColl)</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.ShimOracleSiteMapProvider.AllInstances.OnDatabaseChangeObjectEventArgs">
+            <summary>Sets the shim of OracleSiteMapProvider.OnDatabaseChange(Object src, EventArgs args)</summary>
+        </member>
+        <member name="T:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider">
+            <summary>Stub type of Oracle.Web.SiteMap.OracleSiteMapProvider</summary>
+        </member>
+        <member name="M:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.AddNode(System.Web.SiteMapNode)">
+            <summary>Sets the stub of SiteMapProvider.AddNode(SiteMapNode node)</summary>
+        </member>
+        <member name="M:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.AddNode(System.Web.SiteMapNode,System.Web.SiteMapNode)">
+            <summary>Sets the stub of StaticSiteMapProvider.AddNode(SiteMapNode node, SiteMapNode parentNode)</summary>
+        </member>
+        <member name="F:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.AddNodeSiteMapNode">
+            <summary>Sets the stub of SiteMapProvider.AddNode(SiteMapNode node)</summary>
+        </member>
+        <member name="F:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.AddNodeSiteMapNodeSiteMapNode">
+            <summary>Sets the stub of StaticSiteMapProvider.AddNode(SiteMapNode node, SiteMapNode parentNode)</summary>
+        </member>
+        <member name="M:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.AttachBackingFieldToParentProvider">
+            <summary>Attaches delegates to emulate StubOracleSiteMapProvider.ParentProvider as a property with a backing field.</summary>
+        </member>
+        <member name="M:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.BuildSiteMap">
+            <summary>Sets the stub of OracleSiteMapProvider.BuildSiteMap()</summary>
+        </member>
+        <member name="F:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.BuildSiteMap01">
+            <summary>Sets the stub of OracleSiteMapProvider.BuildSiteMap()</summary>
+        </member>
+        <member name="M:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.Clear">
+            <summary>Sets the stub of StaticSiteMapProvider.Clear()</summary>
+        </member>
+        <member name="F:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.Clear01">
+            <summary>Sets the stub of StaticSiteMapProvider.Clear()</summary>
+        </member>
+        <member name="F:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.CurrentNodeGet">
+            <summary>Sets the stub of SiteMapProvider.get_CurrentNode()</summary>
+        </member>
+        <member name="F:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.DescriptionGet">
+            <summary>Sets the stub of ProviderBase.get_Description()</summary>
+        </member>
+        <member name="M:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.Dispose(System.Boolean)">
+            <summary>Sets the stub of OracleSiteMapProvider.Dispose(Boolean bDisposing)</summary>
+        </member>
+        <member name="F:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.DisposeBoolean">
+            <summary>Sets the stub of OracleSiteMapProvider.Dispose(Boolean bDisposing)</summary>
+        </member>
+        <member name="M:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.FindSiteMapNode(System.Web.HttpContext)">
+            <summary>Sets the stub of SiteMapProvider.FindSiteMapNode(HttpContext context)</summary>
+        </member>
+        <member name="M:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.FindSiteMapNode(System.String)">
+            <summary>Sets the stub of StaticSiteMapProvider.FindSiteMapNode(String rawUrl)</summary>
+        </member>
+        <member name="M:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.FindSiteMapNodeFromKey(System.String)">
+            <summary>Sets the stub of StaticSiteMapProvider.FindSiteMapNodeFromKey(String key)</summary>
+        </member>
+        <member name="F:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.FindSiteMapNodeFromKeyString">
+            <summary>Sets the stub of StaticSiteMapProvider.FindSiteMapNodeFromKey(String key)</summary>
+        </member>
+        <member name="F:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.FindSiteMapNodeHttpContext">
+            <summary>Sets the stub of SiteMapProvider.FindSiteMapNode(HttpContext context)</summary>
+        </member>
+        <member name="F:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.FindSiteMapNodeString">
+            <summary>Sets the stub of StaticSiteMapProvider.FindSiteMapNode(String rawUrl)</summary>
+        </member>
+        <member name="M:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.GetChildNodes(System.Web.SiteMapNode)">
+            <summary>Sets the stub of StaticSiteMapProvider.GetChildNodes(SiteMapNode node)</summary>
+        </member>
+        <member name="F:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.GetChildNodesSiteMapNode">
+            <summary>Sets the stub of StaticSiteMapProvider.GetChildNodes(SiteMapNode node)</summary>
+        </member>
+        <member name="M:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.GetCurrentNodeAndHintAncestorNodes(System.Int32)">
+            <summary>Sets the stub of SiteMapProvider.GetCurrentNodeAndHintAncestorNodes(Int32 upLevel)</summary>
+        </member>
+        <member name="F:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.GetCurrentNodeAndHintAncestorNodesInt32">
+            <summary>Sets the stub of SiteMapProvider.GetCurrentNodeAndHintAncestorNodes(Int32 upLevel)</summary>
+        </member>
+        <member name="M:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.GetCurrentNodeAndHintNeighborhoodNodes(System.Int32,System.Int32)">
+            <summary>Sets the stub of SiteMapProvider.GetCurrentNodeAndHintNeighborhoodNodes(Int32 upLevel, Int32 downLevel)</summary>
+        </member>
+        <member name="F:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.GetCurrentNodeAndHintNeighborhoodNodesInt32Int32">
+            <summary>Sets the stub of SiteMapProvider.GetCurrentNodeAndHintNeighborhoodNodes(Int32 upLevel, Int32 downLevel)</summary>
+        </member>
+        <member name="M:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.GetParentNode(System.Web.SiteMapNode)">
+            <summary>Sets the stub of StaticSiteMapProvider.GetParentNode(SiteMapNode node)</summary>
+        </member>
+        <member name="M:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.GetParentNodeRelativeToCurrentNodeAndHintDownFromParent(System.Int32,System.Int32)">
+            <summary>Sets the stub of SiteMapProvider.GetParentNodeRelativeToCurrentNodeAndHintDownFromParent(Int32 walkupLevels, Int32 relativeDepthFromWalkup)</summary>
+        </member>
+        <member name="F:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.GetParentNodeRelativeToCurrentNodeAndHintDownFromParentInt32Int32">
+            <summary>Sets the stub of SiteMapProvider.GetParentNodeRelativeToCurrentNodeAndHintDownFromParent(Int32 walkupLevels, Int32 relativeDepthFromWalkup)</summary>
+        </member>
+        <member name="M:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.GetParentNodeRelativeToNodeAndHintDownFromParent(System.Web.SiteMapNode,System.Int32,System.Int32)">
+            <summary>Sets the stub of SiteMapProvider.GetParentNodeRelativeToNodeAndHintDownFromParent(SiteMapNode node, Int32 walkupLevels, Int32 relativeDepthFromWalkup)</summary>
+        </member>
+        <member name="F:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.GetParentNodeRelativeToNodeAndHintDownFromParentSiteMapNodeInt32Int32">
+            <summary>Sets the stub of SiteMapProvider.GetParentNodeRelativeToNodeAndHintDownFromParent(SiteMapNode node, Int32 walkupLevels, Int32 relativeDepthFromWalkup)</summary>
+        </member>
+        <member name="F:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.GetParentNodeSiteMapNode">
+            <summary>Sets the stub of StaticSiteMapProvider.GetParentNode(SiteMapNode node)</summary>
+        </member>
+        <member name="M:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.GetRootNodeCore">
+            <summary>Sets the stub of OracleSiteMapProvider.GetRootNodeCore()</summary>
+        </member>
+        <member name="F:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.GetRootNodeCore01">
+            <summary>Sets the stub of OracleSiteMapProvider.GetRootNodeCore()</summary>
+        </member>
+        <member name="M:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.HintAncestorNodes(System.Web.SiteMapNode,System.Int32)">
+            <summary>Sets the stub of SiteMapProvider.HintAncestorNodes(SiteMapNode node, Int32 upLevel)</summary>
+        </member>
+        <member name="F:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.HintAncestorNodesSiteMapNodeInt32">
+            <summary>Sets the stub of SiteMapProvider.HintAncestorNodes(SiteMapNode node, Int32 upLevel)</summary>
+        </member>
+        <member name="M:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.HintNeighborhoodNodes(System.Web.SiteMapNode,System.Int32,System.Int32)">
+            <summary>Sets the stub of SiteMapProvider.HintNeighborhoodNodes(SiteMapNode node, Int32 upLevel, Int32 downLevel)</summary>
+        </member>
+        <member name="F:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.HintNeighborhoodNodesSiteMapNodeInt32Int32">
+            <summary>Sets the stub of SiteMapProvider.HintNeighborhoodNodes(SiteMapNode node, Int32 upLevel, Int32 downLevel)</summary>
+        </member>
+        <member name="M:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.Initialize(System.String,System.Collections.Specialized.NameValueCollection)">
+            <summary>Sets the stub of OracleSiteMapProvider.Initialize(String name, NameValueCollection config)</summary>
+        </member>
+        <member name="F:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.InitializeStringNameValueCollection">
+            <summary>Sets the stub of OracleSiteMapProvider.Initialize(String name, NameValueCollection config)</summary>
+        </member>
+        <member name="M:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.InitializeStub">
+            <summary>Initializes a new instance of type StubOracleSiteMapProvider</summary>
+        </member>
+        <member name="M:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.IsAccessibleToUser(System.Web.HttpContext,System.Web.SiteMapNode)">
+            <summary>Sets the stub of SiteMapProvider.IsAccessibleToUser(HttpContext context, SiteMapNode node)</summary>
+        </member>
+        <member name="F:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.IsAccessibleToUserHttpContextSiteMapNode">
+            <summary>Sets the stub of SiteMapProvider.IsAccessibleToUser(HttpContext context, SiteMapNode node)</summary>
+        </member>
+        <member name="F:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.NameGet">
+            <summary>Sets the stub of ProviderBase.get_Name()</summary>
+        </member>
+        <member name="F:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.ParentProviderGet">
+            <summary>Sets the stub of SiteMapProvider.get_ParentProvider()</summary>
+        </member>
+        <member name="F:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.ParentProviderSetSiteMapProvider">
+            <summary>Sets the stub of SiteMapProvider.set_ParentProvider(SiteMapProvider value)</summary>
+        </member>
+        <member name="M:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.RemoveNode(System.Web.SiteMapNode)">
+            <summary>Sets the stub of StaticSiteMapProvider.RemoveNode(SiteMapNode node)</summary>
+        </member>
+        <member name="F:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.RemoveNodeSiteMapNode">
+            <summary>Sets the stub of StaticSiteMapProvider.RemoveNode(SiteMapNode node)</summary>
+        </member>
+        <member name="F:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.RootNodeGet">
+            <summary>Sets the stub of SiteMapProvider.get_RootNode()</summary>
+        </member>
+        <member name="F:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.RootProviderGet">
+            <summary>Sets the stub of SiteMapProvider.get_RootProvider()</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.CurrentNode">
+            <summary>Sets the stub of SiteMapProvider.get_CurrentNode()</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.Description">
+            <summary>Sets the stub of ProviderBase.get_Description()</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.Name">
+            <summary>Sets the stub of ProviderBase.get_Name()</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.ParentProvider">
+            <summary>Sets the stub of SiteMapProvider.get_ParentProvider()</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.RootNode">
+            <summary>Sets the stub of SiteMapProvider.get_RootNode()</summary>
+        </member>
+        <member name="P:Oracle.Web.SiteMap.Fakes.StubOracleSiteMapProvider.RootProvider">
+            <summary>Sets the stub of SiteMapProvider.get_RootProvider()</summary>
+        </member>
+    </members>
+</doc>

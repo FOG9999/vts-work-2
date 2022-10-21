@@ -1,0 +1,747 @@
+
+
+
+ERROR|http://192.168.1.113:83/Home/Login:83|KNCT|2018/05/05 07:10:16:1016|ExecuteSqlTextDataTable|ORA-03135: connection lost contact
+Process ID: 4108
+Session ID: 63 Serial number: 37400:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextDataTable(String mySql, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 225||1
+
+
+
+ERROR|http://192.168.1.113:83/Home/Login:83|KNCT|2018/05/05 07:10:44:1044|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 239||1
+
+
+
+ERROR|http://192.168.1.113:83/Home/Login:83|KNCT|2018/05/05 07:10:54:1054|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 239||1
+
+
+
+ERROR|http://192.168.1.113:83/Home/Login:83|KNCT|2018/05/05 07:11:09:119|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 239||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 09:32:05:325|ExecuteSqlTextNoQueryWithTrans|ORA-04063: package body "KIENNGHI.PKG_KHIEUNAI_TOCAO" has errors
+ORA-06508: PL/SQL: could not find program unit being called: "KIENNGHI.PKG_KHIEUNAI_TOCAO"
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 09:32:05:325|GetListObjetReport|ORA-04063: package body "KIENNGHI.PKG_KHIEUNAI_TOCAO" has errors
+ORA-06508: PL/SQL: could not find program unit being called: "KIENNGHI.PKG_KHIEUNAI_TOCAO"
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Datraloi/:83|KNCT|2018/05/05 09:32:11:3211|ExecuteSqlTextNoQueryWithTrans|ORA-04063: package body "KIENNGHI.PKG_KHIEUNAI_TOCAO" has errors
+ORA-06508: PL/SQL: could not find program unit being called: "KIENNGHI.PKG_KHIEUNAI_TOCAO"
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Datraloi/:83|KNCT|2018/05/05 09:32:11:3211|GetListObjetReport|ORA-04063: package body "KIENNGHI.PKG_KHIEUNAI_TOCAO" has errors
+ORA-06508: PL/SQL: could not find program unit being called: "KIENNGHI.PKG_KHIEUNAI_TOCAO"
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 09:32:15:3215|ExecuteSqlTextNoQueryWithTrans|ORA-04063: package body "KIENNGHI.PKG_KHIEUNAI_TOCAO" has errors
+ORA-06508: PL/SQL: could not find program unit being called: "KIENNGHI.PKG_KHIEUNAI_TOCAO"
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 09:32:15:3215|GetListObjetReport|ORA-04063: package body "KIENNGHI.PKG_KHIEUNAI_TOCAO" has errors
+ORA-06508: PL/SQL: could not find program unit being called: "KIENNGHI.PKG_KHIEUNAI_TOCAO"
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 09:44:52:4452|ExecuteSqlTextNoQueryWithTrans|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 09:44:53:4453|GetListObjetReport|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 09:45:46:4546|ExecuteSqlTextNoQueryWithTrans|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 09:45:46:4546|GetListObjetReport|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 09:49:46:4946|ExecuteSqlTextNoQueryWithTrans|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 09:49:46:4946|GetListObjetReport|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 09:50:17:5017|ExecuteSqlTextNoQueryWithTrans|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 09:50:17:5017|GetListObjetReport|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 09:53:22:5322|ExecuteSqlTextNoQueryWithTrans|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 09:53:22:5322|GetListObjetReport|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 09:55:23:5523|ExecuteSqlTextNoQueryWithTrans|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 09:55:23:5523|GetListObjetReport|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 09:55:24:5524|ExecuteSqlTextNoQueryWithTrans|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 09:55:24:5524|GetListObjetReport|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 09:55:37:5537|ExecuteSqlTextNoQueryWithTrans|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 09:55:37:5537|GetListObjetReport|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 09:55:40:5540|ExecuteSqlTextNoQueryWithTrans|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 09:55:40:5540|GetListObjetReport|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 09:57:09:579|ExecuteSqlTextNoQueryWithTrans|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 09:57:09:579|GetListObjetReport|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 09:57:22:5722|ExecuteSqlTextNoQueryWithTrans|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 09:57:22:5722|GetListObjetReport|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 09:58:23:5823|ExecuteSqlTextNoQueryWithTrans|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 09:58:23:5823|GetListObjetReport|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 09:59:40:5940|ExecuteSqlTextNoQueryWithTrans|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 09:59:40:5940|GetListObjetReport|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 10:02:28:228|ExecuteSqlTextNoQueryWithTrans|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 10:02:28:228|GetListObjetReport|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 10:11:50:1150|ExecuteSqlTextNoQueryWithTrans|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 10:11:50:1150|GetListObjetReport|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 10:17:44:1744|ExecuteSqlTextNoQueryWithTrans|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 10:17:44:1744|GetListObjetReport|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 10:18:50:1850|ExecuteSqlTextNoQueryWithTrans|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 10:18:50:1850|GetListObjetReport|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 10:20:17:2017|ExecuteSqlTextNoQueryWithTrans|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 10:20:17:2017|GetListObjetReport|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 10:21:10:2110|ExecuteSqlTextNoQueryWithTrans|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 10:21:10:2110|GetListObjetReport|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 10:22:37:2237|ExecuteSqlTextNoQueryWithTrans|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 10:22:37:2237|GetListObjetReport|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 10:22:41:2241|ExecuteSqlTextNoQueryWithTrans|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 10:22:41:2241|GetListObjetReport|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 10:22:43:2243|ExecuteSqlTextNoQueryWithTrans|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 10:22:43:2243|GetListObjetReport|ORA-01722: invalid number
+ORA-06512: at "KIENNGHI.PKG_KHIEUNAI_TOCAO", line 466
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Daluanchuyen/:83|KNCT|2018/05/05 10:25:18:2518|ExecuteSqlTextNoQueryWithTrans|ORA-04063: package body "KIENNGHI.PKG_KHIEUNAI_TOCAO" has errors
+ORA-06508: PL/SQL: could not find program unit being called: "KIENNGHI.PKG_KHIEUNAI_TOCAO"
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Daluanchuyen/:83|KNCT|2018/05/05 10:25:18:2518|GetListObjetReport|ORA-04063: package body "KIENNGHI.PKG_KHIEUNAI_TOCAO" has errors
+ORA-06508: PL/SQL: could not find program unit being called: "KIENNGHI.PKG_KHIEUNAI_TOCAO"
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Datraloi/:83|KNCT|2018/05/05 10:25:21:2521|ExecuteSqlTextNoQueryWithTrans|ORA-04063: package body "KIENNGHI.PKG_KHIEUNAI_TOCAO" has errors
+ORA-06508: PL/SQL: could not find program unit being called: "KIENNGHI.PKG_KHIEUNAI_TOCAO"
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Datraloi/:83|KNCT|2018/05/05 10:25:21:2521|GetListObjetReport|ORA-04063: package body "KIENNGHI.PKG_KHIEUNAI_TOCAO" has errors
+ORA-06508: PL/SQL: could not find program unit being called: "KIENNGHI.PKG_KHIEUNAI_TOCAO"
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Dangxuly/:83|KNCT|2018/05/05 10:25:24:2524|ExecuteSqlTextNoQueryWithTrans|ORA-04063: package body "KIENNGHI.PKG_KHIEUNAI_TOCAO" has errors
+ORA-06508: PL/SQL: could not find program unit being called: "KIENNGHI.PKG_KHIEUNAI_TOCAO"
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Dangxuly/:83|KNCT|2018/05/05 10:25:24:2524|GetListObjetReport|ORA-04063: package body "KIENNGHI.PKG_KHIEUNAI_TOCAO" has errors
+ORA-06508: PL/SQL: could not find program unit being called: "KIENNGHI.PKG_KHIEUNAI_TOCAO"
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Choxuly/:83|KNCT|2018/05/05 10:25:27:2527|ExecuteSqlTextNoQueryWithTrans|ORA-04063: package body "KIENNGHI.PKG_KHIEUNAI_TOCAO" has errors
+ORA-06508: PL/SQL: could not find program unit being called: "KIENNGHI.PKG_KHIEUNAI_TOCAO"
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Choxuly/:83|KNCT|2018/05/05 10:25:27:2527|GetListObjetReport|ORA-04063: package body "KIENNGHI.PKG_KHIEUNAI_TOCAO" has errors
+ORA-06508: PL/SQL: could not find program unit being called: "KIENNGHI.PKG_KHIEUNAI_TOCAO"
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Khongxuly/:83|KNCT|2018/05/05 10:25:43:2543|ExecuteSqlTextNoQueryWithTrans|ORA-04063: package body "KIENNGHI.PKG_KHIEUNAI_TOCAO" has errors
+ORA-06508: PL/SQL: could not find program unit being called: "KIENNGHI.PKG_KHIEUNAI_TOCAO"
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Khongxuly/:83|KNCT|2018/05/05 10:25:43:2543|GetListObjetReport|ORA-04063: package body "KIENNGHI.PKG_KHIEUNAI_TOCAO" has errors
+ORA-06508: PL/SQL: could not find program unit being called: "KIENNGHI.PKG_KHIEUNAI_TOCAO"
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 10:29:33:2933|ExecuteSqlTextNoQueryWithTrans|ORA-06502: PL/SQL: numeric or value error: character to number conversion error
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 10:29:33:2933|GetListObjetReport|ORA-06502: PL/SQL: numeric or value error: character to number conversion error
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 11:19:23:1923|ExecuteSqlTextNoQueryWithTrans|ORA-06502: PL/SQL: numeric or value error: character to number conversion error
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 11:19:23:1923|GetListObjetReport|ORA-06502: PL/SQL: numeric or value error: character to number conversion error
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 11:19:59:1959|ExecuteSqlTextNoQueryWithTrans|ORA-06502: PL/SQL: numeric or value error: character to number conversion error
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 11:19:59:1959|GetListObjetReport|ORA-06502: PL/SQL: numeric or value error: character to number conversion error
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 11:20:30:2030|ExecuteSqlTextNoQueryWithTrans|ORA-06502: PL/SQL: numeric or value error: character to number conversion error
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 11:20:30:2030|GetListObjetReport|ORA-06502: PL/SQL: numeric or value error: character to number conversion error
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 11:20:53:2053|ExecuteSqlTextNoQueryWithTrans|ORA-06502: PL/SQL: numeric or value error: character to number conversion error
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Chuatraloi/:83|KNCT|2018/05/05 11:20:53:2053|GetListObjetReport|ORA-06502: PL/SQL: numeric or value error: character to number conversion error
+ORA-06512: at line 1:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1

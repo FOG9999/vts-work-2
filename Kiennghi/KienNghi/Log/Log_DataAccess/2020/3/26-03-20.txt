@@ -1,0 +1,77 @@
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Kiennghi/Kiennghi_traloi_insert:80|KNCT|2020/03/26 01:44:31:4431|ExecuteSqlTextNoQuery|ORA-12899: value too large for column "KIENNGHI"."TRACKING"."CACTION" (actual: 3847, maximum: 2000):    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextNoQuery(String mySql, List`1 commandParameters) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 112||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Kiennghi/Kiennghi_traloi_insert:80|KNCT|2020/03/26 01:45:11:4511|ExecuteSqlTextNoQuery|ORA-12899: value too large for column "KIENNGHI"."TRACKING"."CACTION" (actual: 3847, maximum: 2000):    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextNoQuery(String mySql, List`1 commandParameters) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 112||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Kiennghi/Kiennghi_traloi_insert:80|KNCT|2020/03/26 01:48:39:4839|ExecuteSqlTextNoQuery|ORA-12899: value too large for column "KIENNGHI"."TRACKING"."CACTION" (actual: 2594, maximum: 2000):    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextNoQuery(String mySql, List`1 commandParameters) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 112||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Kiennghi/Kiennghi_traloi_insert:80|KNCT|2020/03/26 02:00:10:010|ExecuteSqlTextNoQuery|ORA-12899: value too large for column "KIENNGHI"."TRACKING"."CACTION" (actual: 2037, maximum: 2000):    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextNoQuery(String mySql, List`1 commandParameters) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 112||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Kiennghi/Kiennghi_traloi_insert:80|KNCT|2020/03/26 02:04:15:415|ExecuteSqlTextNoQuery|ORA-12899: value too large for column "KIENNGHI"."TRACKING"."CACTION" (actual: 3303, maximum: 2000):    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextNoQuery(String mySql, List`1 commandParameters) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 112||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Kiennghi/Kiennghi_traloi_insert:80|KNCT|2020/03/26 02:10:05:105|ExecuteSqlTextNoQuery|ORA-12899: value too large for column "KIENNGHI"."TRACKING"."CACTION" (actual: 2623, maximum: 2000):    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextNoQuery(String mySql, List`1 commandParameters) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 112||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Kiennghi/Kiennghi_traloi_insert:80|KNCT|2020/03/26 02:17:08:178|ExecuteSqlTextNoQuery|ORA-12899: value too large for column "KIENNGHI"."TRACKING"."CACTION" (actual: 2361, maximum: 2000):    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextNoQuery(String mySql, List`1 commandParameters) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 112||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Kiennghi/Kiennghi_traloi_insert:80|KNCT|2020/03/26 02:18:58:1858|ExecuteSqlTextNoQuery|ORA-01461: can bind a LONG value only for insert into a LONG column:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextNoQuery(String mySql, List`1 commandParameters) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 112||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Kiennghi/Kiennghi_traloi_insert:80|KNCT|2020/03/26 02:23:13:2313|ExecuteSqlTextNoQuery|ORA-01461: can bind a LONG value only for insert into a LONG column:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextNoQuery(String mySql, List`1 commandParameters) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 112||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Kiennghi/Kiennghi_traloi_insert:80|KNCT|2020/03/26 02:27:11:2711|ExecuteSqlTextNoQuery|ORA-12899: value too large for column "KIENNGHI"."TRACKING"."CACTION" (actual: 2783, maximum: 2000):    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextNoQuery(String mySql, List`1 commandParameters) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 112||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Kiennghi/Kiennghi_traloi_insert:80|KNCT|2020/03/26 03:22:30:2230|ExecuteSqlTextNoQuery|ORA-12899: value too large for column "KIENNGHI"."TRACKING"."CACTION" (actual: 2291, maximum: 2000):    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextNoQuery(String mySql, List`1 commandParameters) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 112||1

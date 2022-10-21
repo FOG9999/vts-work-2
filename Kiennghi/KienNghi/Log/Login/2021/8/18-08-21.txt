@@ -1,0 +1,16 @@
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/08/18 02:08:11:811|null|thachphuocbinh|14.226.217.113|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/08/18 03:17:59:1759|null|thachphuocbinh|14.226.217.113|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/08/18 03:38:57:3857|null|thachphuocbinh|14.226.217.113|Home/Login|1|0
+
+
+
+LOGOUT|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2021/08/18 03:40:51:4051|null|thachphuocbinh|14.226.217.113|Home/Login|1|0

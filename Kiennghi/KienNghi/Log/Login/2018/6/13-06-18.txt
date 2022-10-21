@@ -1,0 +1,44 @@
+
+
+
+LOGIN|http://192.168.1.113:83/Home/Login:83|KNCT|2018/06/13 10:01:44:144|null|admin|192.168.1.113|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.113:83/Home/Login:83|KNCT|2018/06/13 10:03:12:312|null|doantthue|192.168.1.10|Home/Login|1|0
+
+
+
+LOGOUT|http://192.168.1.113:83/Home/Logout/:83|KNCT|2018/06/13 10:03:22:322|null|doantthue|192.168.1.10|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.113:83/Home/Login:83|KNCT|2018/06/13 10:03:26:326|null|admin|192.168.1.10|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.113:83/Home/Login/:83|KNCT|2018/06/13 10:04:37:437|null|admin|192.168.1.10|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.113:83/Home/Login:83|KNCT|2018/06/13 10:04:48:448|null|admin|192.168.1.6|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.113:83/Home/Login:83|KNCT|2018/06/13 10:11:13:1113|null|admin|192.168.1.10|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.113:83/Home/Login/:83|KNCT|2018/06/13 11:09:51:951|null|admin|192.168.1.113|Home/Login|0|0
+
+
+
+LOGIN|http://192.168.1.113:83/Home/Login/:83|KNCT|2018/06/13 11:09:55:955|null|admin|192.168.1.113|Home/Login|0|0
+
+
+
+LOGIN|http://192.168.1.113:83/Home/Login/:83|KNCT|2018/06/13 11:10:02:102|null|admin|192.168.1.113|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.113:83/Home/Login:83|KNCT|2018/06/13 11:10:10:1010|null|admin|192.168.1.113|Home/Login|1|0

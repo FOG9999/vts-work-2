@@ -1,0 +1,24 @@
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/08/28 02:46:34:4634|null|tokhuongduy|113.191.249.100|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login/:80|KNCT|2020/08/28 04:12:41:1241|null|tokhuongduy|113.191.249.100|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login/:80|KNCT|2020/08/28 04:17:24:1724|null|tokhuongduy|113.191.249.100|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login/:80|KNCT|2020/08/28 04:22:42:2242|null|tokhuongduy|113.191.249.100|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/08/28 04:48:43:4843|null|hungtb|14.227.167.71|Home/Login|1|0
+
+
+
+LOGOUT|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2020/08/28 04:51:13:5113|null|tokhuongduy|113.191.249.100|Home/Login|1|0

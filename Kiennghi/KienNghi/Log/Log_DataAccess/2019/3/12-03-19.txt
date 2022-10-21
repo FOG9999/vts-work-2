@@ -1,0 +1,82 @@
+
+
+
+ERROR|http://localhost:1234/Home/Login:1234|KNCT|2019/03/12 02:08:31:831|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 239||1
+
+
+
+ERROR|http://localhost:1234/Home/Login:1234|KNCT|2019/03/12 02:10:44:1044|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 239||1
+
+
+
+ERROR|http://localhost:1234/Home/Login:1234|KNCT|2019/03/12 02:17:21:1721|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 239||1
+
+
+
+ERROR|http://localhost:1234/Home/Login:1234|KNCT|2019/03/12 02:49:38:4938|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 239||1
+
+
+
+ERROR|http://localhost:1234/Home/Login:1234|KNCT|2019/03/12 02:53:31:5331|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 239||1
+
+
+
+ERROR|http://localhost:1234/Home/Login:1234|KNCT|2019/03/12 02:58:01:581|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 239||1
+
+
+
+ERROR|http://localhost:1234/Home/Login:1234|KNCT|2019/03/12 03:04:32:432|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 239||1
+
+
+
+ERROR|http://localhost:1234/Home/Login:1234|KNCT|2019/03/12 03:05:20:520|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 239||1
+
+
+
+ERROR|http://localhost:1234/Home/Login:1234|KNCT|2019/03/12 03:06:08:68|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 239||1
+
+
+
+ERROR|http://localhost:1234/Home/Login:1234|KNCT|2019/03/12 03:06:42:642|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 239||1
+
+
+
+ERROR|http://localhost:1234/Home/Login:1234|KNCT|2019/03/12 03:07:31:731|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 239||1
+
+
+
+ERROR|http://localhost:1234/Home/Login:1234|KNCT|2019/03/12 03:08:54:854|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 239||1
+
+
+
+ERROR|http://localhost:1234/Home/Login:1234|KNCT|2019/03/12 03:09:58:958|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 239||1
+
+
+
+ERROR|http://localhost:1234/Home/Login:1234|KNCT|2019/03/12 03:15:30:1530|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 239||1
+
+
+
+ERROR|http://localhost:1234/Home/Login:1234|KNCT|2019/03/12 03:20:48:2048|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 239||1
+
+
+
+ERROR|http://localhost:1234/Home/Login:1234|KNCT|2019/03/12 03:22:21:2221|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 239||1
+
+
+
+ERROR|http://localhost:1234/Home/Login:1234|KNCT|2019/03/12 03:26:02:262|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 239||1
+
+
+
+ERROR|http://localhost:8093/Kntc/Tiepnhan/:8093|KNCT|2019/03/12 03:40:19:4019|ExecuteSqlTextDataTable|ORA-03135: connection lost contact
+Process ID: 840
+Session ID: 501 Serial number: 18846:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextDataTable(String mySql, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 225||1
+
+
+
+ERROR|http://localhost:8093/Home/Login:8093|KNCT|2019/03/12 04:11:25:1125|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 239||1

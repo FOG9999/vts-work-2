@@ -1,0 +1,32 @@
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Don_info/?id=OTQ5fGtudGM1:83|KNCT|2018/06/20 04:09:35:935|ExecuteSqlTextDataTable|ORA-00933: SQL command not properly ended:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextDataTable(String mySql, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 225||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Don_info/?id=OTQ3fGtudGM1:83|KNCT|2018/06/20 04:09:41:941|ExecuteSqlTextDataTable|ORA-00933: SQL command not properly ended:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextDataTable(String mySql, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 225||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Don_info/?id=OTQ1fGtudGM1:83|KNCT|2018/06/20 04:11:38:1138|ExecuteSqlTextDataTable|ORA-00933: SQL command not properly ended:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextDataTable(String mySql, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 225||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Don_info/?id=OTQ1fGtudGM1:83|KNCT|2018/06/20 04:11:53:1153|ExecuteSqlTextDataTable|ORA-00933: SQL command not properly ended:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextDataTable(String mySql, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 225||1

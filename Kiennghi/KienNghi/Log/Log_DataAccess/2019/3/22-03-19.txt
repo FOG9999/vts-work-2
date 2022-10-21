@@ -1,0 +1,21 @@
+
+
+
+ERROR|http://localhost:1234/Home/Login:1234|KNCT|2019/03/22 03:31:34:3134|ExecuteSqlTextNoQuery|ORA-01013: user requested cancel of current operation:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextNoQuery(String mySql, List`1 commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 112||1
+
+
+
+ERROR|http://localhost:1234/Home/Login:1234|KNCT|2019/03/22 03:37:42:3742|ExecuteSqlTextNoQuery|ORA-01013: user requested cancel of current operation:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextNoQuery(String mySql, List`1 commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 112||1
+
+
+
+ERROR|http://localhost:1234/Home/Login:1234|KNCT|2019/03/22 03:39:50:3950|ExecuteSqlTextNoQuery|ORA-01013: user requested cancel of current operation:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextNoQuery(String mySql, List`1 commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 112||1

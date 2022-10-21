@@ -1,0 +1,4 @@
+
+
+
+ERROR|http://203.190.173.108:8006/Home/Logout/:8006|KNCT|2020/07/12 11:36:02:362|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\HomeController.cs:line 411|Đăng xuất|1

@@ -1,0 +1,256 @@
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login/:81|KNCT|2018/03/20 08:14:17:1417|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 08:17:53:1753|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 08:31:53:3153|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGOUT|http://192.168.1.13:81/Home/Logout/:81|KNCT|2018/03/20 08:32:02:322|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 08:32:12:3212|null|nhonlq.bdn|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 08:37:02:372|null|nhonlq.bdn|192.168.1.13|Home/Login|1|0
+
+
+
+LOGOUT|http://192.168.1.13:81/Home/Logout/:81|KNCT|2018/03/20 08:41:15:4115|null|nhonlq.bdn|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 08:41:17:4117|null|nhonlq.bdn|192.168.1.13|Home/Login|1|0
+
+
+
+LOGOUT|http://192.168.1.13:81/Home/Logout/:81|KNCT|2018/03/20 08:46:25:4625|null|nhonlq.bdn|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 08:46:28:4628|null|nhonlq.bdn|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login/:81|KNCT|2018/03/20 10:39:36:3936|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 10:39:46:3946|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 10:42:36:4236|null|chuyenvien2.btnmt|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 10:46:12:4612|null|chuyenvien2.btnmt|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 10:48:09:489|null|chuyenvien2.btnmt|192.168.1.13|Home/Login|1|0
+
+
+
+LOGOUT|http://192.168.1.13:81/Home/Logout/:81|KNCT|2018/03/20 10:48:53:4853|null|chuyenvien2.btnmt|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 10:48:56:4856|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 11:01:32:132|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 11:04:11:411|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 11:04:45:445|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login/:81|KNCT|2018/03/20 11:51:45:5145|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login/:81|KNCT|2018/03/20 11:53:40:5340|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login/:81|KNCT|2018/03/20 01:21:19:2119|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login/:81|KNCT|2018/03/20 02:03:19:319|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login/:81|KNCT|2018/03/20 02:03:22:322|null|admin|192.168.1.10|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 02:15:13:1513|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 02:20:23:2023|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 02:23:15:2315|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 02:25:30:2530|null|admin|192.168.1.10|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 02:25:35:2535|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 02:28:10:2810|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 02:28:35:2835|null|admin|192.168.1.10|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login/:81|KNCT|2018/03/20 02:30:56:3056|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 02:31:35:3135|null|admin|192.168.1.10|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 02:34:59:3459|null|admin|192.168.1.10|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 02:35:25:3525|null|admin|192.168.1.10|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login/:81|KNCT|2018/03/20 02:35:37:3537|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 02:35:41:3541|null|admin|192.168.1.10|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 03:02:36:236|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 03:03:57:357|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 03:13:08:138|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGOUT|http://192.168.1.13:81/Home/Logout/:81|KNCT|2018/03/20 03:16:08:168|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 03:16:10:1610|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 03:18:49:1849|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGOUT|http://192.168.1.13:81/Home/Logout/:81|KNCT|2018/03/20 03:30:02:302|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 03:30:04:304|null|nhonlq.bdn|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 03:47:11:4711|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login/:81|KNCT|2018/03/20 03:57:29:5729|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 03:58:40:5840|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGOUT|http://192.168.1.13:81/Home/Logout/:81|KNCT|2018/03/20 03:59:06:596|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 03:59:09:599|null|chuyenvien2.btnmt|192.168.1.13|Home/Login|1|0
+
+
+
+LOGOUT|http://192.168.1.13:81/Home/Logout/:81|KNCT|2018/03/20 03:59:32:5932|null|chuyenvien2.btnmt|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 03:59:34:5934|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGOUT|http://192.168.1.13:81/Home/Logout/:81|KNCT|2018/03/20 03:59:39:5939|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 03:59:46:5946|null|chuyenvien2.bgtvt|192.168.1.13|Home/Login|0|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 03:59:52:5952|null|chuyenvien.bgtvt|192.168.1.13|Home/Login|0|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 03:59:58:5958|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login/:81|KNCT|2018/03/20 04:03:08:38|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login/:81|KNCT|2018/03/20 04:08:08:88|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 04:11:23:1123|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 04:14:32:1432|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGOUT|http://192.168.1.13:81/Home/Logout/:81|KNCT|2018/03/20 04:14:51:1451|null|admin|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/20 04:14:54:1454|null|chuyenvien2.btnmt|192.168.1.13|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/03/20 08:12:40:1240|null|admin|::1|Home/Login|1|0

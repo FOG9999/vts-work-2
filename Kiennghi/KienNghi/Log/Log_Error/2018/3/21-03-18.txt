@@ -1,0 +1,276 @@
+
+
+
+ERROR|http://192.168.1.13:81/Kntc/Ajax_Tracuu_result?cNguoiGuiDon=&cNoiDung=&dTuNgay=&dDenNgay=&iNguonDon=0&iDiaPhuong_0=0&iLoaiDon=-1&iLinhVuc=-1&iNoiDung=-1&iTinhChat=-1&iTinhTrangXuLy=-1&iThamQuyenDonVi=4:81|KNCT|2018/03/21 10:13:52:1352|unknow|Value cannot be null.
+Parameter name: source:    at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at KienNghi.App_Code.Khieunai.TraCuuDon(String P_CKEY, Int32 P_IDOANDONGNGUOI, String P_DTUNGAY, String P_DDENNGAY, Int32 P_INGUONDON, Int32 P_ITINHTHANH, Int32 P_IQUOCTICH, Int32 P_IDANTOC, Int32 P_ILOAIDON, Int32 P_ILINHVUC, Int32 P_IDONVITHULY, Int32 P_INOIDUNG, Int32 P_ITINHCHAT, Int32 P_ITINHTRANGDON) in e:\Solution\KienNghi\Project\KienNghi\KienNghi\App_Code\Khieunai.cs:line 86
+   at KienNghi.Controllers.KntcController.Ajax_Tracuu_result() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\KntcController.cs:line 4888|Tìm kiếm nâng cao đơn khiếu nại |1
+
+
+
+ERROR|http://192.168.1.13:81/Kntc/Ajax_Tracuu_result?cNguoiGuiDon=&cNoiDung=&dTuNgay=&dDenNgay=&iNguonDon=0&iDiaPhuong_0=0&iLoaiDon=-1&iLinhVuc=-1&iNoiDung=-1&iTinhChat=-1&iTinhTrangXuLy=-1&iThamQuyenDonVi=4:81|KNCT|2018/03/21 10:13:55:1355|unknow|Value cannot be null.
+Parameter name: source:    at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at KienNghi.App_Code.Khieunai.TraCuuDon(String P_CKEY, Int32 P_IDOANDONGNGUOI, String P_DTUNGAY, String P_DDENNGAY, Int32 P_INGUONDON, Int32 P_ITINHTHANH, Int32 P_IQUOCTICH, Int32 P_IDANTOC, Int32 P_ILOAIDON, Int32 P_ILINHVUC, Int32 P_IDONVITHULY, Int32 P_INOIDUNG, Int32 P_ITINHCHAT, Int32 P_ITINHTRANGDON) in e:\Solution\KienNghi\Project\KienNghi\KienNghi\App_Code\Khieunai.cs:line 86
+   at KienNghi.Controllers.KntcController.Ajax_Tracuu_result() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\KntcController.cs:line 4888|Tìm kiếm nâng cao đơn khiếu nại |1
+
+
+
+ERROR|http://192.168.1.13:81/Kntc/Ajax_Tracuu_result?cNguoiGuiDon=&cNoiDung=&dTuNgay=&dDenNgay=&iNguonDon=0&iDiaPhuong_0=0&iLoaiDon=-1&iLinhVuc=-1&iNoiDung=-1&iTinhChat=-1&iTinhTrangXuLy=-1&iThamQuyenDonVi=4:81|KNCT|2018/03/21 10:13:55:1355|unknow|Value cannot be null.
+Parameter name: source:    at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at KienNghi.App_Code.Khieunai.TraCuuDon(String P_CKEY, Int32 P_IDOANDONGNGUOI, String P_DTUNGAY, String P_DDENNGAY, Int32 P_INGUONDON, Int32 P_ITINHTHANH, Int32 P_IQUOCTICH, Int32 P_IDANTOC, Int32 P_ILOAIDON, Int32 P_ILINHVUC, Int32 P_IDONVITHULY, Int32 P_INOIDUNG, Int32 P_ITINHCHAT, Int32 P_ITINHTRANGDON) in e:\Solution\KienNghi\Project\KienNghi\KienNghi\App_Code\Khieunai.cs:line 86
+   at KienNghi.Controllers.KntcController.Ajax_Tracuu_result() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\KntcController.cs:line 4888|Tìm kiếm nâng cao đơn khiếu nại |1
+
+
+
+ERROR|http://192.168.1.13:81/Kntc/Ajax_Tracuu_result?cNguoiGuiDon=&cNoiDung=&dTuNgay=&dDenNgay=&iNguonDon=0&iDiaPhuong_0=0&iLoaiDon=-1&iLinhVuc=-1&iNoiDung=-1&iTinhChat=-1&iTinhTrangXuLy=-1&iThamQuyenDonVi=4:81|KNCT|2018/03/21 10:13:56:1356|unknow|Value cannot be null.
+Parameter name: source:    at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at KienNghi.App_Code.Khieunai.TraCuuDon(String P_CKEY, Int32 P_IDOANDONGNGUOI, String P_DTUNGAY, String P_DDENNGAY, Int32 P_INGUONDON, Int32 P_ITINHTHANH, Int32 P_IQUOCTICH, Int32 P_IDANTOC, Int32 P_ILOAIDON, Int32 P_ILINHVUC, Int32 P_IDONVITHULY, Int32 P_INOIDUNG, Int32 P_ITINHCHAT, Int32 P_ITINHTRANGDON) in e:\Solution\KienNghi\Project\KienNghi\KienNghi\App_Code\Khieunai.cs:line 86
+   at KienNghi.Controllers.KntcController.Ajax_Tracuu_result() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\KntcController.cs:line 4888|Tìm kiếm nâng cao đơn khiếu nại |1
+
+
+
+ERROR|http://192.168.1.13:81/Kntc/Ajax_Tracuu_result?cNguoiGuiDon=&cNoiDung=&dTuNgay=&dDenNgay=&iNguonDon=0&iDiaPhuong_0=0&iLoaiDon=-1&iLinhVuc=-1&iNoiDung=-1&iTinhChat=-1&iTinhTrangXuLy=-1&iThamQuyenDonVi=4:81|KNCT|2018/03/21 10:13:56:1356|unknow|Value cannot be null.
+Parameter name: source:    at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at KienNghi.App_Code.Khieunai.TraCuuDon(String P_CKEY, Int32 P_IDOANDONGNGUOI, String P_DTUNGAY, String P_DDENNGAY, Int32 P_INGUONDON, Int32 P_ITINHTHANH, Int32 P_IQUOCTICH, Int32 P_IDANTOC, Int32 P_ILOAIDON, Int32 P_ILINHVUC, Int32 P_IDONVITHULY, Int32 P_INOIDUNG, Int32 P_ITINHCHAT, Int32 P_ITINHTRANGDON) in e:\Solution\KienNghi\Project\KienNghi\KienNghi\App_Code\Khieunai.cs:line 86
+   at KienNghi.Controllers.KntcController.Ajax_Tracuu_result() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\KntcController.cs:line 4888|Tìm kiếm nâng cao đơn khiếu nại |1
+
+
+
+ERROR|http://192.168.1.13:81/Kntc/Ajax_Tracuu_result?cNguoiGuiDon=&cNoiDung=&dTuNgay=&dDenNgay=&iNguonDon=0&iDiaPhuong_0=0&iLoaiDon=-1&iLinhVuc=-1&iNoiDung=-1&iTinhChat=-1&iTinhTrangXuLy=-1&iThamQuyenDonVi=4:81|KNCT|2018/03/21 10:13:56:1356|unknow|Value cannot be null.
+Parameter name: source:    at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at KienNghi.App_Code.Khieunai.TraCuuDon(String P_CKEY, Int32 P_IDOANDONGNGUOI, String P_DTUNGAY, String P_DDENNGAY, Int32 P_INGUONDON, Int32 P_ITINHTHANH, Int32 P_IQUOCTICH, Int32 P_IDANTOC, Int32 P_ILOAIDON, Int32 P_ILINHVUC, Int32 P_IDONVITHULY, Int32 P_INOIDUNG, Int32 P_ITINHCHAT, Int32 P_ITINHTRANGDON) in e:\Solution\KienNghi\Project\KienNghi\KienNghi\App_Code\Khieunai.cs:line 86
+   at KienNghi.Controllers.KntcController.Ajax_Tracuu_result() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\KntcController.cs:line 4888|Tìm kiếm nâng cao đơn khiếu nại |1
+
+
+
+ERROR|http://192.168.1.13:81/Kntc/Ajax_Tracuu_result?cNguoiGuiDon=&cNoiDung=&dTuNgay=&dDenNgay=&iNguonDon=0&iDiaPhuong_0=0&iLoaiDon=-1&iLinhVuc=-1&iNoiDung=-1&iTinhChat=-1&iTinhTrangXuLy=-1&iThamQuyenDonVi=4:81|KNCT|2018/03/21 10:13:56:1356|unknow|Value cannot be null.
+Parameter name: source:    at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at KienNghi.App_Code.Khieunai.TraCuuDon(String P_CKEY, Int32 P_IDOANDONGNGUOI, String P_DTUNGAY, String P_DDENNGAY, Int32 P_INGUONDON, Int32 P_ITINHTHANH, Int32 P_IQUOCTICH, Int32 P_IDANTOC, Int32 P_ILOAIDON, Int32 P_ILINHVUC, Int32 P_IDONVITHULY, Int32 P_INOIDUNG, Int32 P_ITINHCHAT, Int32 P_ITINHTRANGDON) in e:\Solution\KienNghi\Project\KienNghi\KienNghi\App_Code\Khieunai.cs:line 86
+   at KienNghi.Controllers.KntcController.Ajax_Tracuu_result() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\KntcController.cs:line 4888|Tìm kiếm nâng cao đơn khiếu nại |1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/03/21 10:14:40:1440|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/03/21 10:16:34:1634|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Kntc/Ajax_Tracuu_result?cNguoiGuiDon=&cNoiDung=&dTuNgay=&dDenNgay=&iNguonDon=0&iDiaPhuong_0=0&iLoaiDon=0&iLinhVuc=0&iNoiDung=0&iTinhChat=0&iTinhTrangXuLy=0&iThamQuyenDonVi=4:2121|KNCT|2018/03/21 10:17:10:1710|unknow|Value cannot be null.
+Parameter name: source:    at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at KienNghi.App_Code.Khieunai.TraCuuDon(String P_CKEY, Int32 P_IDOANDONGNGUOI, String P_DTUNGAY, String P_DDENNGAY, Int32 P_INGUONDON, Int32 P_ITINHTHANH, Int32 P_IQUOCTICH, Int32 P_IDANTOC, Int32 P_ILOAIDON, Int32 P_ILINHVUC, Int32 P_IDONVITHULY, Int32 P_INOIDUNG, Int32 P_ITINHCHAT, Int32 P_ITINHTRANGDON) in e:\Solution\KienNghi\Project\KienNghi\KienNghi\App_Code\Khieunai.cs:line 86
+   at KienNghi.Controllers.KntcController.Ajax_Tracuu_result() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\KntcController.cs:line 4888|Tìm kiếm nâng cao đơn khiếu nại |1
+
+
+
+ERROR|http://localhost:2121/Kntc/Ajax_Tracuu_result?cNguoiGuiDon=&cNoiDung=&dTuNgay=&dDenNgay=&iNguonDon=0&iDiaPhuong_0=0&iLoaiDon=0&iLinhVuc=0&iNoiDung=0&iTinhChat=0&iTinhTrangXuLy=0&iThamQuyenDonVi=4:2121|KNCT|2018/03/21 10:17:11:1711|unknow|Value cannot be null.
+Parameter name: source:    at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at KienNghi.App_Code.Khieunai.TraCuuDon(String P_CKEY, Int32 P_IDOANDONGNGUOI, String P_DTUNGAY, String P_DDENNGAY, Int32 P_INGUONDON, Int32 P_ITINHTHANH, Int32 P_IQUOCTICH, Int32 P_IDANTOC, Int32 P_ILOAIDON, Int32 P_ILINHVUC, Int32 P_IDONVITHULY, Int32 P_INOIDUNG, Int32 P_ITINHCHAT, Int32 P_ITINHTRANGDON) in e:\Solution\KienNghi\Project\KienNghi\KienNghi\App_Code\Khieunai.cs:line 86
+   at KienNghi.Controllers.KntcController.Ajax_Tracuu_result() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\KntcController.cs:line 4888|Tìm kiếm nâng cao đơn khiếu nại |1
+
+
+
+ERROR|http://localhost:2121/Kntc/Ajax_Tracuu_result?cNguoiGuiDon=&cNoiDung=&dTuNgay=&dDenNgay=&iNguonDon=0&iDiaPhuong_0=0&iLoaiDon=0&iLinhVuc=0&iNoiDung=0&iTinhChat=0&iTinhTrangXuLy=0&iThamQuyenDonVi=4:2121|KNCT|2018/03/21 10:20:22:2022|unknow|Value cannot be null.
+Parameter name: source:    at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at KienNghi.App_Code.Khieunai.TraCuuDon(String P_CKEY, Int32 P_IDOANDONGNGUOI, String P_DTUNGAY, String P_DDENNGAY, Int32 P_INGUONDON, Int32 P_ITINHTHANH, Int32 P_IQUOCTICH, Int32 P_IDANTOC, Int32 P_ILOAIDON, Int32 P_ILINHVUC, Int32 P_IDONVITHULY, Int32 P_INOIDUNG, Int32 P_ITINHCHAT, Int32 P_ITINHTRANGDON) in e:\Solution\KienNghi\Project\KienNghi\KienNghi\App_Code\Khieunai.cs:line 86
+   at KienNghi.Controllers.KntcController.Ajax_Tracuu_result() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\KntcController.cs:line 4888|Tìm kiếm nâng cao đơn khiếu nại |1
+
+
+
+ERROR|http://192.168.1.13:81/Kntc/Ajax_Tracuu_result?cNguoiGuiDon=&cNoiDung=&dTuNgay=&dDenNgay=&iNguonDon=0&iDiaPhuong_0=0&iLoaiDon=0&iLinhVuc=0&iNoiDung=0&iTinhChat=0&iTinhTrangXuLy=0&iThamQuyenDonVi=4:81|KNCT|2018/03/21 10:24:25:2425|unknow|Value cannot be null.
+Parameter name: source:    at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at KienNghi.App_Code.Khieunai.TraCuuDon(String P_CKEY, Int32 P_IDOANDONGNGUOI, String P_DTUNGAY, String P_DDENNGAY, Int32 P_INGUONDON, Int32 P_ITINHTHANH, Int32 P_IQUOCTICH, Int32 P_IDANTOC, Int32 P_ILOAIDON, Int32 P_ILINHVUC, Int32 P_IDONVITHULY, Int32 P_INOIDUNG, Int32 P_ITINHCHAT, Int32 P_ITINHTRANGDON) in e:\Solution\KienNghi\Project\KienNghi\KienNghi\App_Code\Khieunai.cs:line 86
+   at KienNghi.Controllers.KntcController.Ajax_Tracuu_result() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\KntcController.cs:line 4888|Tìm kiếm nâng cao đơn khiếu nại |1
+
+
+
+ERROR|http://192.168.1.13:81/Home/Logout/:81|KNCT|2018/03/21 10:27:30:2730|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.13:81/Kntc/Ajax_Tracuu_result?cNguoiGuiDon=&cNoiDung=&dTuNgay=&dDenNgay=&iNguonDon=0&iDiaPhuong_0=0&iLoaiDon=0&iLinhVuc=0&iNoiDung=0&iTinhChat=0&iTinhTrangXuLy=0&iThamQuyenDonVi=4:81|KNCT|2018/03/21 10:35:13:3513|unknow|Value cannot be null.
+Parameter name: source:    at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at KienNghi.App_Code.Khieunai.TraCuuDon(String P_CKEY, Int32 P_IDOANDONGNGUOI, String P_DTUNGAY, String P_DDENNGAY, Int32 P_INGUONDON, Int32 P_ITINHTHANH, Int32 P_IQUOCTICH, Int32 P_IDANTOC, Int32 P_ILOAIDON, Int32 P_ILINHVUC, Int32 P_IDONVITHULY, Int32 P_INOIDUNG, Int32 P_ITINHCHAT, Int32 P_ITINHTRANGDON) in e:\Solution\KienNghi\Project\KienNghi\KienNghi\App_Code\Khieunai.cs:line 86
+   at KienNghi.Controllers.KntcController.Ajax_Tracuu_result() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\KntcController.cs:line 4888|Tìm kiếm nâng cao đơn khiếu nại |1
+
+
+
+ERROR|http://192.168.1.13:81/Home/Logout/:81|KNCT|2018/03/21 10:41:45:4145|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.13:81/Home/Logout/:81|KNCT|2018/03/21 10:45:50:4550|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.13:81/Home/Logout/:81|KNCT|2018/03/21 11:35:08:358|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.13:81/Home/Logout/:81|KNCT|2018/03/21 02:24:52:2452|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.13:81/Home/Logout/:81|KNCT|2018/03/21 02:32:01:321|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.13:81/Home/Logout/:81|KNCT|2018/03/21 02:36:16:3616|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.13:81/Home/Logout/:81|KNCT|2018/03/21 02:39:17:3917|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.13:81/Home/Logout/:81|KNCT|2018/03/21 02:41:14:4114|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.13:81/Home/Logout/:81|KNCT|2018/03/21 02:43:16:4316|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.13:81/Home/Logout/:81|KNCT|2018/03/21 02:46:19:4619|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.13:81/Home/Logout/:81|KNCT|2018/03/21 02:53:38:5338|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.13:83/Home/Logout/:83|KNCT|2018/03/21 03:01:08:18|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/03/21 03:28:17:2817|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.13:83/Kntc/Moicapnhat/:83|KNCT|2018/03/21 04:21:04:214|unknow|Value cannot be null.
+Parameter name: source:    at System.Linq.Enumerable.Where[TSource](IEnumerable`1 source, Func`2 predicate)
+   at KienNghi.Controllers.KntcController.Moicapnhat(Int32 page) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\KntcController.cs:line 1251|Hiển thị danh sách đơn thư mới cập nhất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/03/21 04:22:56:2256|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/03/21 04:24:06:246|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/03/21 04:24:59:2459|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/03/21 04:31:12:3112|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/03/21 04:33:33:3333|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Kntc/Moicapnhat/:2121|KNCT|2018/03/21 04:33:45:3345|unknow|Value cannot be null.
+Parameter name: source:    at System.Linq.Enumerable.Where[TSource](IEnumerable`1 source, Func`2 predicate)
+   at KienNghi.Controllers.KntcController.Moicapnhat(Int32 page) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\KntcController.cs:line 1251|Hiển thị danh sách đơn thư mới cập nhất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/03/21 04:35:15:3515|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/03/21 04:36:53:3653|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Kntc/Moicapnhat/:2121|KNCT|2018/03/21 04:37:51:3751|unknow|String was not recognized as a valid DateTime.:    at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at Utilities.Funtions.ConvertDateToSql(String date) in e:\Solution\KienNghi\UPDATE\Utilities\Funtions.cs:line 115
+   at KienNghi.Controllers.KntcController.Moicapnhat(Int32 page) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\KntcController.cs:line 1249|Hiển thị danh sách đơn thư mới cập nhất|1
+
+
+
+ERROR|http://localhost:2121/Kntc/Moicapnhat/:2121|KNCT|2018/03/21 04:38:07:387|unknow|String was not recognized as a valid DateTime.:    at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at Utilities.Funtions.ConvertDateToSql(String date) in e:\Solution\KienNghi\UPDATE\Utilities\Funtions.cs:line 115
+   at KienNghi.Controllers.KntcController.Moicapnhat(Int32 page) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\KntcController.cs:line 1249|Hiển thị danh sách đơn thư mới cập nhất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/03/21 04:39:47:3947|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/03/21 04:40:46:4046|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/03/21 04:42:16:4216|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/03/21 04:43:07:437|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/03/21 04:44:25:4425|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Kntc/Moicapnhat/:2121|KNCT|2018/03/21 04:45:01:451|unknow|Value cannot be null.
+Parameter name: source:    at System.Linq.Enumerable.Where[TSource](IEnumerable`1 source, Func`2 predicate)
+   at KienNghi.Controllers.KntcController.Moicapnhat(Int32 page) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\KntcController.cs:line 1251|Hiển thị danh sách đơn thư mới cập nhất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/03/21 04:45:41:4541|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Kntc/Moicapnhat/:2121|KNCT|2018/03/21 04:45:51:4551|unknow|String was not recognized as a valid DateTime.:    at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at Utilities.Funtions.ConvertDateToSql(String date) in e:\Solution\KienNghi\UPDATE\Utilities\Funtions.cs:line 115
+   at KienNghi.Controllers.KntcController.Moicapnhat(Int32 page) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\KntcController.cs:line 1249|Hiển thị danh sách đơn thư mới cập nhất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/03/21 04:47:32:4732|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/03/21 04:48:30:4830|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/03/21 04:49:35:4935|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Kntc/Moicapnhat/:2121|KNCT|2018/03/21 04:50:10:5010|unknow|Object reference not set to an instance of an object.:    at KienNghi.App_Code.Khieunai.Don_Moicapnhat(List`1 don, TaikhoanAtion act, Int32 page) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\App_Code\Khieunai.cs:line 254
+   at KienNghi.Controllers.KntcController.Moicapnhat(Int32 page) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\KntcController.cs:line 1260|Hiển thị danh sách đơn thư mới cập nhất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/03/21 04:52:31:5231|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.13:83/Home/Logout/:83|KNCT|2018/03/21 04:55:07:557|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.13:83/Home/Logout/:83|KNCT|2018/03/21 04:57:39:5739|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout()|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/03/21 05:01:09:19|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/03/21 05:03:07:37|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1

@@ -1,0 +1,8 @@
+
+
+
+LOGIN|http://203.190.173.108:8006/Home/Login:8006|KNCT|2020/06/10 10:12:56:1256|null|hanhttp|118.69.77.219|Home/Login|1|0
+
+
+
+LOGIN|http://203.190.173.108:8006/Home/Login:8006|KNCT|2020/06/10 02:00:45:045|null|huongtt|118.69.77.219|Home/Login|1|0

@@ -1,0 +1,17 @@
+TRUNCATE TABLE "KN_TRALOI_PHANLOAI";
+INSERT INTO "KN_TRALOI_PHANLOAI" VALUES ('6', '2', 'Tổ chức thực hiện', '1', 'DAGIAIQUYET_TOCHUC_THUCHIEN', '0', '1', '6');
+INSERT INTO "KN_TRALOI_PHANLOAI" VALUES ('5', '2', 'Thanh tra kiểm tra', '1', 'DAGIAIQUYET_THANHTRA_KIEMTRA', '0', '2', '6');
+INSERT INTO "KN_TRALOI_PHANLOAI" VALUES ('8', '2', 'Ban hành hoặc sửa đổi, bổ sung VBQPPL', '1', 'DAGIAIQUYET_BANHANHVANBAN', '0', '0', '6');
+INSERT INTO "KN_TRALOI_PHANLOAI" VALUES ('13', '7', 'Chưa thể giải quyết được ngay', '1', 'DANGGIAIQUYET_CHUAGIAIQUYETDUOCNGAY', '0', '1', '4');
+INSERT INTO "KN_TRALOI_PHANLOAI" VALUES ('14', '7', 'Liên quan văn bản cấp trên', '1', 'DANGGIAIQUYET_VANBANCAPTREN', '0', '2', '4');
+INSERT INTO "KN_TRALOI_PHANLOAI" VALUES ('16', '1', 'Cần giải quyết', '0', 'CANGIAIQUYET', '1', '1', '5');
+INSERT INTO "KN_TRALOI_PHANLOAI" VALUES ('17', '1', 'Gửi công văn hướng dẫn', '1', 'HD', '0', '2', '5');
+INSERT INTO "KN_TRALOI_PHANLOAI" VALUES ('7', '0', 'Đang xem xét giải quyết', '1', 'DANGGIAIQUYET', '0', '2', '4');
+INSERT INTO "KN_TRALOI_PHANLOAI" VALUES ('9', '7', 'Có lộ trình giải quyết', '1', 'DANGGIAIQUYET_COLOTRINH', '0', '3', '4');
+INSERT INTO "KN_TRALOI_PHANLOAI" VALUES ('10', '7', 'Đã trình chính phủ ban hành văn bản', '1', 'DANGGIAIQUYET_TRINHCHINHPHU', '0', '4', '4');
+INSERT INTO "KN_TRALOI_PHANLOAI" VALUES ('12', '7', 'Chưa có nguồn lực', '1', 'DANGGIAIQUYET_CHUACONGUONLUC', '0', '5', '4');
+INSERT INTO "KN_TRALOI_PHANLOAI" VALUES ('15', '7', 'Lý do khác', '1', 'DANGGIAIQUYET_LYDOKHAC', '0', '7', '4');
+INSERT INTO "KN_TRALOI_PHANLOAI" VALUES ('1', '0', 'Giải trình, cung cấp thông tin', '1', 'GIAITRINH_CUNGCAPTHONGTIN', '0', '0', '5');
+INSERT INTO "KN_TRALOI_PHANLOAI" VALUES ('2', '0', 'Đã giải quyết xong', '1', 'DAGIAIQUYET', '0', '1', '6');
+INSERT INTO "KN_TRALOI_PHANLOAI" VALUES ('11', '7', 'Không lộ trình giải quyết', '1', 'DANGGIAIQUYET_KHONGLOTRINH', '0', '6', '4');
+INSERT INTO "KN_TRALOI_PHANLOAI" VALUES ('20', '0', 'Chưa giải quyết', '1', 'CHUAGIAIQUYET', '0', '0', '8');

@@ -1,0 +1,8 @@
+
+
+
+LOGIN|http://localhost:1434/Home/Login:1434|KNCT|2022/10/12 03:11:38:1138|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1434/Home/Login:1434|KNCT|2022/10/12 03:20:20:2020|null|admin|::1|Home/Login|1|0

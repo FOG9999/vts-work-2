@@ -1,0 +1,22 @@
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Moicapnhat/:83|KNCT|2018/06/11 10:15:16:1516|unknow|Value cannot be null.
+Parameter name: source:    at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at KienNghi.Controllers.KntcController.Moicapnhat(Int32 page) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KntcController.cs:line 1886|Hiển thị danh sách đơn thư mới cập nhất|1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Moicapnhat/:83|KNCT|2018/06/11 10:15:24:1524|unknow|Value cannot be null.
+Parameter name: source:    at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at KienNghi.Controllers.KntcController.Moicapnhat(Int32 page) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KntcController.cs:line 1886|Hiển thị danh sách đơn thư mới cập nhất|1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Moicapnhat/:83|KNCT|2018/06/11 10:15:29:1529|unknow|Value cannot be null.
+Parameter name: source:    at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at KienNghi.Controllers.KntcController.Moicapnhat(Int32 page) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KntcController.cs:line 1886|Hiển thị danh sách đơn thư mới cập nhất|1
+
+
+
+ERROR|http://192.168.1.113:83/Home/Logout/:83|KNCT|2018/06/11 03:43:19:4319|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1

@@ -1,0 +1,16 @@
+CREATE OR REPLACE
+PACKAGE "PKG_KIENNGHI_BAOCAO" AS
+  PROCEDURE PRO_BAOCAO_TK_PHULUC1(res out sys_refcursor, pram01 in NUMBER, pram02 IN NUMBER, pram03 in NUMBER);
+  PROCEDURE PRO_BAOCAO_TK_PHULUC2(res out sys_refcursor, pram01 in NUMBER, pram02 IN NUMBER, pram03 IN NUMBER);
+  PROCEDURE PRO_BAOCAO_TK_PHULUC3(res out sys_refcursor, pram01 in NUMBER, pram02 IN NUMBER, pram03 IN NUMBER);
+  PROCEDURE PRO_BAOCAO_TK_PHULUC4(res out sys_refcursor, pram01 in NUMBER, pram02 IN NUMBER);
+  PROCEDURE PRO_BAOCAO_TK_PHULUC5(res out sys_refcursor, pram01 in DATE,pram02 in DATE, pram03 IN NUMBER, pram04 IN NUMBER);
+  PROCEDURE PRO_BAOCAO_TK_PHULUC5B(res out sys_refcursor, pram01 in NUMBER, pram02 IN NUMBER, pram03 IN NUMBER);
+  PROCEDURE PRO_BAOCAO_TK_PHULUC6(res out sys_refcursor, pram01 in DATE,pram02 in DATE, pram03 IN NUMBER);
+  PROCEDURE PRO_BAOCAO_TK_PHULUC7(res out sys_refcursor, pram01 in NUMBER,pram02 in NUMBER);
+  PROCEDURE PRO_BAOCAO_TK_PHANLOAI(res out sys_refcursor, pram01 in NUMBER, pram02 IN NUMBER,pram03 IN NUMBER);
+  PROCEDURE PRO_BAOCAO_TK_TRALOI(res out sys_refcursor, pram01 in NUMBER, pram02 IN NUMBER, pram03 IN NUMBER);
+	PROCEDURE PRO_BAOCAO_TK_TRALOIKNTC(res out sys_refcursor, pram01 in NUMBER, pram02 IN NUMBER, pram03 IN NUMBER);
+	PROCEDURE PRO_BAOCAO_TK_TRALOIKN_DENDBQH(res out sys_refcursor, pram01 in NUMBER, pram02 IN VARCHAR2, pram03 IN NUMBER);
+END PKG_KIENNGHI_BAOCAO;
+

@@ -1,0 +1,40 @@
+
+
+
+ERROR|http://localhost:1234/Thietlap/Taikhoan/:1234|KNCT|2019/11/04 03:33:08:338|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetItem[T](String key, Object value) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 148||1
+
+
+
+ERROR|http://localhost:1234/Thietlap/Taikhoan/:1234|KNCT|2019/11/04 03:33:08:338|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetItem[T](String key, Object value) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 148||1
+
+
+
+ERROR|http://localhost:1234/Thietlap/Taikhoan/:1234|KNCT|2019/11/04 03:33:36:3336|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetItem[T](String key, Object value) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 148||1
+
+
+
+ERROR|http://localhost:1234/Thietlap/Taikhoan/:1234|KNCT|2019/11/04 03:33:36:3336|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetItem[T](String key, Object value) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 148||1
+
+
+
+ERROR|http://localhost:1234/Home/Login:1234|KNCT|2019/11/04 03:34:20:3420|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 240||1
+
+
+
+ERROR|http://localhost:1234/Thietlap/Ajax_Taikhoan_add:1234|KNCT|2019/11/04 03:36:12:3612|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetItem[T](String key, Object value) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 148||1
+
+
+
+ERROR|http://localhost:1234/Thietlap/Taikhoan:1234|KNCT|2019/11/04 03:37:18:3718|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetItem[T](String key, Object value) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 148||1
+
+
+
+ERROR|http://localhost:1234/Thietlap/Taikhoan:1234|KNCT|2019/11/04 03:37:18:3718|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetItem[T](String key, Object value) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 148||1
+
+
+
+ERROR|http://localhost:1334/Thietlap/Taikhoan/:1334|KNCT|2019/11/04 04:32:48:3248|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetItem[T](String key, Object value) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 148||1
+
+
+
+ERROR|http://localhost:1334/Thietlap/Taikhoan/:1334|KNCT|2019/11/04 04:32:48:3248|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetItem[T](String key, Object value) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 148||1

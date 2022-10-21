@@ -1,0 +1,24 @@
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Ajax_Delele_file:83|KNCT|2018/07/17 11:32:51:3251|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetItem[T](String key, Object value) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 148||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Ajax_Delele_file:83|KNCT|2018/07/17 11:32:53:3253|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetItem[T](String key, Object value) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 148||1
+
+
+
+ERROR|http://192.168.1.113:83/Home/Login:83|KNCT|2018/07/17 03:16:53:1653|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 239||1
+
+
+
+ERROR|http://192.168.1.113:83/Home/Login:83|KNCT|2018/07/17 04:52:52:5252|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 239||1
+
+
+
+ERROR|http://192.168.1.113:83/Home/Login:83|KNCT|2018/07/17 05:00:25:025|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 239||1
+
+
+
+ERROR|http://192.168.1.113:83/Home/Login:83|KNCT|2018/07/17 05:01:10:110|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 239||1

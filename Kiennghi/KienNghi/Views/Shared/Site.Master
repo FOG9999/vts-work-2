@@ -1,0 +1,133 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+<%@ Import Namespace="Utilities" %>
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="TitleContent" runat="server" />
+    </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link href="<%=ResolveUrl("~") %>css/bootstrap.min.css" rel="stylesheet" />
+    <link href="<%=ResolveUrl("~") %>css/bootstrap-responsive.min.css" rel="stylesheet" />
+    <link href="<%=ResolveUrl("~") %>css/plugins/jquery-ui/smoothness/jquery-ui.css" rel="stylesheet" />
+    <link href="<%=ResolveUrl("~") %>css/plugins/jquery-ui/smoothness/jquery.ui.theme.css" rel="stylesheet" />
+    <link href="<%=ResolveUrl("~") %>css/style.css" rel="stylesheet" />
+    <link href="<%=ResolveUrl("~") %>css/qldt.css" rel="stylesheet" />
+    <link href="<%=ResolveUrl("~") %>css/new.css" rel="stylesheet" />
+    <link href="<%=ResolveUrl("~") %>css/responsive.css" rel="stylesheet" />
+    <link rel="stylesheet" href="<%=ResolveUrl("~") %>css/plugins/datepicker/datepicker.css" />
+    <link rel="stylesheet" href="<%=ResolveUrl("~") %>css/plugins/multiselect/multi-select.css" />
+    <link rel="stylesheet" href="<%=ResolveUrl("~") %>css/plugins/chosen/chosen.css" />
+    <link rel="shortcut icon" href="<%=ResolveUrl("~") %>Images/quochuy.png" />
+    <link rel="stylesheet" href="<%=ResolveUrl("~") %>css/plugins/datatable/TableTools.css" />
+    <script src="<%=ResolveUrl("~") %>js/jquery.min.js"></script>
+    <script type="text/javascript" src="<%=ResolveUrl("~") %>js/functions.js"></script>
+    <script type="text/javascript" src="<%=ResolveUrl("~") %>js/moment.js"></script>
+    <script type="text/javascript">
+        //CreateNew_Token();
+        var hash_value = window.location.hash.replace('#', '');
+        $(document).ready(function () {
+
+            if ($("span").is(".special")) {
+                setInterval(function () {
+                    if ($("span.special").hasClass('f-red')) {
+                        $("span.special").removeClass('f-red').addClass('f-green');
+                    } else {
+                        $("span.special").removeClass('f-green').addClass('f-red');
+                    }
+                }, 700);
+            }
+            //CKEDITOR.replace('ckeditor');
+            if (hash_value != "") {
+                if ((hash_value == 'success')) {
+                    AlertAction("Cập nhật thành công!");
+
+                }
+                if ((hash_value == 'delete')) {
+                    AlertAction("Xóa thành công!");
+                }
+                if (history.pushState) {
+                    history.pushState(null, null, '#');
+                }
+                else {
+                    location.hash = '#';
+                }
+            }
+
+        });
+        Get_Menu('user_name', '', '/Home/Ajax_Load_UserName');
+        Get_Menu('user_donvi', '', '/Home/Ajax_Load_DonVi_DangNhap');
+    </script>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <a href="<%=ResolveUrl("~") %>" class="logo">
+                <img src="/Images/quochuy.png" alt=""></a>
+            <h1 class="title_kiennghi">VĂN PHÒNG ĐOÀN ĐẠI BIỂU QUỐC HỘI VÀ HỘI ĐỒNG NHÂN DÂN TỈNH <%=AppConfig.TEN_DIA_PHUONG.ToUpper()%>
+                    <span id="user_donvi"></span>
+            </h1>
+            <div class="right_top">
+                <p class="user_top"><a href="/Home/Taikhoan/" id="user_name"></a></p>
+                <a href="/Home/Logout/"><i class="icon-signout"></i>Thoát</a>
+                <a href="#" class="menu_mobile">
+                    <button><i class="icon-align-justify"></i></button>
+                </a>
+            </div>
+            <!-- end right_top-->
+        </div>
+    </header>
+    <%: Html.Partial("_Header") %>
+    <div class="container-fluid mobile_version " id="content">
+
+        <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+    </div>
+    <div id="footer">
+        <p class="Text1Style">© Copyright Tập đoàn Công nghiệp - Viễn thông Quân đội</p>
+    </div>
+</body>
+<script>
+    $('.add_mini_bar').click(function () {
+        $('#content').toggleClass('mini_bar');
+    });
+    $('.search_plus').click(function () {
+        $('.search_form_plus').toggle('slow')
+    });
+    $('.menu_mobile').click(function () {
+        $('.main-nav').toggle('slow')
+    });
+    $('.show_menu_trai').click(function () {
+        $('#content').toggleClass('mini_bar');
+    });
+    $(document).keyup(function (e) {
+        if (e.keyCode == 27) { // escape key maps to keycode `27`
+            HidePopup();
+        }
+    });
+</script>
+<script src="<%=ResolveUrl("~") %>js/plugins/jquery-ui/jquery-ui.js"></script>
+<script src="<%=ResolveUrl("~") %>js/plugins/jquery-ui/jquery.ui.core.min.js"></script>
+<script src="<%=ResolveUrl("~") %>js/plugins/jquery-ui/jquery.ui.widget.min.js"></script>
+<script src="<%=ResolveUrl("~") %>js/plugins/jquery-ui/jquery.ui.resizable.min.js"></script>
+<script src="<%=ResolveUrl("~") %>js/plugins/datepicker/bootstrap-datepicker.js"></script>
+<script src="<%=ResolveUrl("~") %>js/plugins/multiselect/jquery.multi-select.js"></script>
+<script src="<%=ResolveUrl("~") %>js/bootstrap.min.js"></script>
+
+<!-- Custom file upload -->
+<script src="<%=ResolveUrl("~") %>js/plugins/fileupload/bootstrap-fileupload.min.js"></script>
+<script src="<%=ResolveUrl("~") %>js/plugins/bootbox/jquery.bootbox.js"></script>
+<script src="<%=ResolveUrl("~") %>js/plugins/datatable/jquery.dataTables.min.js"></script>
+<script src="<%=ResolveUrl("~") %>js/plugins/datatable/TableTools.min.js"></script>
+<script src="<%=ResolveUrl("~") %>js/plugins/datatable/ColReorder.min.js"></script>
+<script src="<%=ResolveUrl("~") %>js/plugins/datatable/ColVis.min.js"></script>
+<!-- Theme framework -->
+<script src="<%=ResolveUrl("~") %>js/eakroko.js"></script>
+<!-- Theme scripts -->
+<script src="<%=ResolveUrl("~") %>js/application.min.js"></script>
+<%--<script src="<%=ResolveUrl("~") %>js/demonstration.min.js"></script>--%>
+<script src="<%=ResolveUrl("~") %>js/plugins/chosen/chosen.jquery.min.js"></script>
+</html>

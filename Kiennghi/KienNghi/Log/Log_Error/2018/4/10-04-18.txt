@@ -1,0 +1,365 @@
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 07:55:38:5538|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 07:59:30:5930|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 08:01:24:124|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 08:01:28:128|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 08:04:05:45|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 08:06:20:620|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 08:07:29:729|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Kntc/Kiemtrung_update/:2121|KNCT|2018/04/10 08:21:20:2120|unknow|Index was outside the bounds of the array.:    at Utilities.HashUtil.Decode_ID(String decodeMe, String key_cookie_url) in e:\Solution\KienNghi\UPDATE\Utilities\HashUtil.cs:line 100
+   at KienNghi.Controllers.KntcController.Kiemtrung_update(FormCollection fc) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\KntcController.cs:line 1887|Cập nhật đơn trùng|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 08:26:06:266|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.2:83/Home/Logout/:83|KNCT|2018/04/10 08:27:01:271|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 08:27:37:2737|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 08:29:19:2919|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 08:29:49:2949|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 08:31:13:3113|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 08:35:58:3558|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 08:39:04:394|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 08:40:35:4035|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 08:57:39:5739|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 09:03:02:32|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 09:07:04:74|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 09:09:58:958|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 09:12:11:1211|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Kntc/Kiemtrung:2121|KNCT|2018/04/10 09:29:20:2920|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.KntcController.Kiemtrung(String id) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\KntcController.cs:line 1801|Kiểm trùng đơn|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 09:33:50:3350|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 09:35:31:3531|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 09:39:54:3954|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 09:59:03:593|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 10:08:06:86|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 10:12:00:120|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 10:14:04:144|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.2:83/Home/Logout/:83|KNCT|2018/04/10 10:19:39:1939|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.2:83/Kntc/Kiemtrung:83|KNCT|2018/04/10 10:25:21:2521|unknow|Nullable object must have a value.:    at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at KienNghi.App_Code.Khieunai.KNTC_Detail(Int32 id, String id_encr) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\App_Code\Khieunai.cs:line 307
+   at KienNghi.App_Code.Khieunai.List_DonTrung(List`1 list, KNTC_DON don_check, String url_cookie) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\App_Code\Khieunai.cs:line 972
+   at KienNghi.Controllers.KntcController.Kiemtrung(String id) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\KntcController.cs:line 1815|Kiểm trùng đơn|1
+
+
+
+ERROR|http://192.168.1.2:83/Kntc/Kiemtrung:83|KNCT|2018/04/10 10:25:27:2527|unknow|Nullable object must have a value.:    at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at KienNghi.App_Code.Khieunai.KNTC_Detail(Int32 id, String id_encr) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\App_Code\Khieunai.cs:line 307
+   at KienNghi.App_Code.Khieunai.List_DonTrung(List`1 list, KNTC_DON don_check, String url_cookie) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\App_Code\Khieunai.cs:line 972
+   at KienNghi.Controllers.KntcController.Kiemtrung(String id) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\KntcController.cs:line 1815|Kiểm trùng đơn|1
+
+
+
+ERROR|http://192.168.1.2:83/Kntc/Kiemtrung:83|KNCT|2018/04/10 10:25:46:2546|unknow|Nullable object must have a value.:    at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at KienNghi.App_Code.Khieunai.KNTC_Detail(Int32 id, String id_encr) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\App_Code\Khieunai.cs:line 307
+   at KienNghi.App_Code.Khieunai.List_DonTrung(List`1 list, KNTC_DON don_check, String url_cookie) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\App_Code\Khieunai.cs:line 972
+   at KienNghi.Controllers.KntcController.Kiemtrung(String id) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\KntcController.cs:line 1815|Kiểm trùng đơn|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 10:26:47:2647|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Kntc/Kiemtrung:2121|KNCT|2018/04/10 10:29:34:2934|unknow|Nullable object must have a value.:    at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at KienNghi.App_Code.Khieunai.KNTC_Detail(Int32 id, String id_encr) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\App_Code\Khieunai.cs:line 307
+   at KienNghi.App_Code.Khieunai.List_DonTrung(List`1 list, KNTC_DON don_check, String url_cookie) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\App_Code\Khieunai.cs:line 972
+   at KienNghi.Controllers.KntcController.Kiemtrung(String id) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\KntcController.cs:line 1815|Kiểm trùng đơn|1
+
+
+
+ERROR|http://localhost:2121/Kntc/Kiemtrung:2121|KNCT|2018/04/10 10:29:39:2939|unknow|Nullable object must have a value.:    at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at KienNghi.App_Code.Khieunai.KNTC_Detail(Int32 id, String id_encr) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\App_Code\Khieunai.cs:line 307
+   at KienNghi.App_Code.Khieunai.List_DonTrung(List`1 list, KNTC_DON don_check, String url_cookie) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\App_Code\Khieunai.cs:line 972
+   at KienNghi.Controllers.KntcController.Kiemtrung(String id) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\KntcController.cs:line 1815|Kiểm trùng đơn|1
+
+
+
+ERROR|http://localhost:2121/Kntc/Kiemtrung:2121|KNCT|2018/04/10 10:30:19:3019|unknow|Nullable object must have a value.:    at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at KienNghi.App_Code.Khieunai.KNTC_Detail(Int32 id, String id_encr) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\App_Code\Khieunai.cs:line 307
+   at KienNghi.App_Code.Khieunai.List_DonTrung(List`1 list, KNTC_DON don_check, String url_cookie) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\App_Code\Khieunai.cs:line 972
+   at KienNghi.Controllers.KntcController.Kiemtrung(String id) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\KntcController.cs:line 1815|Kiểm trùng đơn|1
+
+
+
+ERROR|http://localhost:2121/Kntc/Kiemtrung:2121|KNCT|2018/04/10 10:31:03:313|unknow|Nullable object must have a value.:    at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at KienNghi.App_Code.Khieunai.KNTC_Detail(Int32 id, String id_encr) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\App_Code\Khieunai.cs:line 307
+   at KienNghi.App_Code.Khieunai.List_DonTrung(List`1 list, KNTC_DON don_check, String url_cookie) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\App_Code\Khieunai.cs:line 972
+   at KienNghi.Controllers.KntcController.Kiemtrung(String id) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\KntcController.cs:line 1815|Kiểm trùng đơn|1
+
+
+
+ERROR|http://localhost:2121/Kntc/Kiemtrung:2121|KNCT|2018/04/10 10:33:06:336|unknow|Nullable object must have a value.:    at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at KienNghi.App_Code.Khieunai.KNTC_Detail(Int32 id, String id_encr) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\App_Code\Khieunai.cs:line 307
+   at KienNghi.App_Code.Khieunai.List_DonTrung(List`1 list, KNTC_DON don_check, String url_cookie) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\App_Code\Khieunai.cs:line 972
+   at KienNghi.Controllers.KntcController.Kiemtrung(String id) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\KntcController.cs:line 1815|Kiểm trùng đơn|1
+
+
+
+ERROR|http://localhost:2121/Kntc/Kiemtrung:2121|KNCT|2018/04/10 10:33:28:3328|unknow|Nullable object must have a value.:    at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at KienNghi.App_Code.Khieunai.KNTC_Detail(Int32 id, String id_encr) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\App_Code\Khieunai.cs:line 307
+   at KienNghi.App_Code.Khieunai.List_DonTrung(List`1 list, KNTC_DON don_check, String url_cookie) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\App_Code\Khieunai.cs:line 972
+   at KienNghi.Controllers.KntcController.Kiemtrung(String id) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\KntcController.cs:line 1815|Kiểm trùng đơn|1
+
+
+
+ERROR|http://localhost:2121/Kntc/Kiemtrung:2121|KNCT|2018/04/10 10:34:25:3425|unknow|Nullable object must have a value.:    at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at KienNghi.App_Code.Khieunai.KNTC_Detail(Int32 id, String id_encr) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\App_Code\Khieunai.cs:line 307
+   at KienNghi.App_Code.Khieunai.List_DonTrung(List`1 list, KNTC_DON don_check, String url_cookie) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\App_Code\Khieunai.cs:line 972
+   at KienNghi.Controllers.KntcController.Kiemtrung(String id) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\KntcController.cs:line 1815|Kiểm trùng đơn|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 10:41:44:4144|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Kntc/Kiemtrung:2121|KNCT|2018/04/10 10:42:10:4210|unknow|Nullable object must have a value.:    at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at KienNghi.App_Code.Khieunai.KNTC_Detail(Int32 id, String id_encr) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\App_Code\Khieunai.cs:line 307
+   at KienNghi.App_Code.Khieunai.List_DonTrung(List`1 list, KNTC_DON don_check, String url_cookie) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\App_Code\Khieunai.cs:line 972
+   at KienNghi.Controllers.KntcController.Kiemtrung(String id) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\KntcController.cs:line 1837|Kiểm trùng đơn|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 10:44:00:440|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 10:46:56:4656|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 10:49:56:4956|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 10:52:07:527|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.2:83/Home/Logout/:83|KNCT|2018/04/10 10:54:58:5458|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.2:83/Kntc/Kiemtrung:83|KNCT|2018/04/10 10:55:13:5513|unknow|Nullable object must have a value.:    at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at KienNghi.App_Code.Khieunai.KNTC_Detail(Int32 id, String id_encr) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\App_Code\Khieunai.cs:line 307
+   at KienNghi.App_Code.Khieunai.List_DonTrung(List`1 list, KNTC_DON don_check, String url_cookie) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\App_Code\Khieunai.cs:line 972
+   at KienNghi.Controllers.KntcController.Kiemtrung(String id) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\KntcController.cs:line 1836|Kiểm trùng đơn|1
+
+
+
+ERROR|http://192.168.1.2:83/Kntc/Kiemtrung_update/:83|KNCT|2018/04/10 10:56:27:5627|unknow|Index was outside the bounds of the array.:    at Utilities.HashUtil.Decode_ID(String decodeMe, String key_cookie_url) in e:\Solution\KienNghi\UPDATE\Utilities\HashUtil.cs:line 100
+   at KienNghi.Controllers.KntcController.Kiemtrung_update(FormCollection fc) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\KntcController.cs:line 1953|Cập nhật đơn trùng|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 10:58:00:580|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Kntc/Kiemtrung_update/:2121|KNCT|2018/04/10 10:59:04:594|unknow|Index was outside the bounds of the array.:    at Utilities.HashUtil.Decode_ID(String decodeMe, String key_cookie_url) in e:\Solution\KienNghi\UPDATE\Utilities\HashUtil.cs:line 100
+   at KienNghi.Controllers.KntcController.Kiemtrung_update(FormCollection fc) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\KntcController.cs:line 1953|Cập nhật đơn trùng|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 11:03:22:322|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 11:07:06:76|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 11:11:30:1130|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 11:15:44:1544|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 11:18:41:1841|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 11:33:18:3318|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 11:34:36:3436|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 11:35:11:3511|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Kntc/Tiepnhan/:2121|KNCT|2018/04/10 11:36:35:3635|unknow|ORA-00904: "IDONVITIEPNHAN": invalid identifier:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextNoQuery(String mySql, List`1 commandParameters) in e:\Solution\KienNghi\UPDATE\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 125
+   at DataAccess.BaseRepository.InsertItem[T](T t) in e:\Solution\KienNghi\UPDATE\DataAccess\Repository\BaseRepository.cs:line 85
+   at DataAccess.Dao.KNTC_DonRepository.AddNew(KNTC_DON actionInput) in e:\Solution\KienNghi\UPDATE\DataAccess\Dao\KNTC_DonRepository.cs:line 83
+   at DataAccess.Busineess.KntcBusineess.TiepNhan_Don(KNTC_DON Input) in e:\Solution\KienNghi\UPDATE\DataAccess\Busineess\KntcBusineess.cs:line 128
+   at KienNghi.Controllers.KntcController.Tiepnhan(FormCollection fc, HttpPostedFileBase file) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\KntcController.cs:line 1651|Thêm mới đơn thư|1
+
+
+
+ERROR|http://localhost:2121/Kntc/Tiepnhan/:2121|KNCT|2018/04/10 11:38:21:3821|unknow|ORA-00904: "IDONVITIEPNHAN": invalid identifier:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextNoQuery(String mySql, List`1 commandParameters) in e:\Solution\KienNghi\UPDATE\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 125
+   at DataAccess.BaseRepository.InsertItem[T](T t) in e:\Solution\KienNghi\UPDATE\DataAccess\Repository\BaseRepository.cs:line 85
+   at DataAccess.Dao.KNTC_DonRepository.AddNew(KNTC_DON actionInput) in e:\Solution\KienNghi\UPDATE\DataAccess\Dao\KNTC_DonRepository.cs:line 83
+   at DataAccess.Busineess.KntcBusineess.TiepNhan_Don(KNTC_DON Input) in e:\Solution\KienNghi\UPDATE\DataAccess\Busineess\KntcBusineess.cs:line 128
+   at KienNghi.Controllers.KntcController.Tiepnhan(FormCollection fc, HttpPostedFileBase file) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\KntcController.cs:line 1651|Thêm mới đơn thư|1
+
+
+
+ERROR|http://192.168.1.2:83/Home/Logout/:83|KNCT|2018/04/10 11:39:02:392|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.2:83/Home/Logout/:83|KNCT|2018/04/10 11:55:19:5519|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.2:83/Home/Logout/:83|KNCT|2018/04/10 11:57:49:5749|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.2:83/Home/Logout/:83|KNCT|2018/04/10 12:00:16:016|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.2:83/Home/Logout/:83|KNCT|2018/04/10 12:03:19:319|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.2:83/Home/Logout/:83|KNCT|2018/04/10 12:05:26:526|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.2:83/Home/Logout/:83|KNCT|2018/04/10 01:39:20:3920|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.2:83/Home/Logout/:83|KNCT|2018/04/10 01:53:37:5337|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.2:83/Home/Logout/:83|KNCT|2018/04/10 01:55:50:5550|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/10 01:57:43:5743|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.2:83/Home/Logout/:83|KNCT|2018/04/10 01:59:11:5911|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.2:83/Home/Logout/:83|KNCT|2018/04/10 02:30:00:300|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1

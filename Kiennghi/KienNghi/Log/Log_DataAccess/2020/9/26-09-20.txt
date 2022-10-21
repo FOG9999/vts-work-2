@@ -1,0 +1,6 @@
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Kiennghi/Chontonghop/:80|KNCT|2020/09/26 12:25:24:2524|ExecuteSqlTextNoQuery|ORA-12899: value too large for column "KIENNGHI"."KN_TONGHOP"."CNOIDUNG" (actual: 6982, maximum: 4000):    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextNoQuery(String mySql, List`1 commandParameters) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 112||1

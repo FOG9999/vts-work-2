@@ -1,0 +1,81 @@
+
+
+
+ERROR|http://192.168.1.15/Home/Logout/:80|KNCT|2018/01/22 01:54:58:5458|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\HomeController.cs:line 408|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.15/Kntc/Moicapnhat/:80|KNCT|2018/01/22 01:57:41:5741|unknow|Object reference not set to an instance of an object.:    at KienNghi.App_Code.Khieunai.Don_Moicapnhat(List`1 don, TaikhoanAtion act, Int32 page) in e:\Solution\KienNghi\Project\KienNghi\KienNghi\App_Code\Khieunai.cs:line 161
+   at KienNghi.Controllers.KntcController.Moicapnhat(Int32 page) in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\KntcController.cs:line 1257|Hiển thị danh sách đơn thư mới cập nhất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/01/22 02:00:39:039|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\HomeController.cs:line 408|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Kntc/Moicapnhat/:2121|KNCT|2018/01/22 02:01:19:119|unknow|Object reference not set to an instance of an object.:    at KienNghi.App_Code.Khieunai.Don_Moicapnhat(List`1 don, TaikhoanAtion act, Int32 page) in e:\Solution\KienNghi\Project\KienNghi\KienNghi\App_Code\Khieunai.cs:line 161
+   at KienNghi.Controllers.KntcController.Moicapnhat(Int32 page) in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\KntcController.cs:line 1255|Hiển thị danh sách đơn thư mới cập nhất|1
+
+
+
+ERROR|http://localhost:2121/Kntc/Moicapnhat/:2121|KNCT|2018/01/22 02:01:28:128|unknow|Object reference not set to an instance of an object.:    at KienNghi.App_Code.Khieunai.Don_Moicapnhat(List`1 don, TaikhoanAtion act, Int32 page) in e:\Solution\KienNghi\Project\KienNghi\KienNghi\App_Code\Khieunai.cs:line 161
+   at KienNghi.Controllers.KntcController.Moicapnhat(Int32 page) in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\KntcController.cs:line 1255|Hiển thị danh sách đơn thư mới cập nhất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/01/22 02:02:23:223|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\HomeController.cs:line 408|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.15/Home/Logout/:80|KNCT|2018/01/22 02:04:34:434|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\HomeController.cs:line 408|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.15/Kntc/Moicapnhat/:80|KNCT|2018/01/22 02:04:49:449|unknow|Object reference not set to an instance of an object.:    at Utilities.Funtions.TomTatNoiDung(String noidung, String id_noidung) in e:\Solution\KienNghi\Project\Utilities\Funtions.cs:line 114
+   at KienNghi.App_Code.Khieunai.Don_Moicapnhat(List`1 don, TaikhoanAtion act, Int32 page) in e:\Solution\KienNghi\Project\KienNghi\KienNghi\App_Code\Khieunai.cs:line 163
+   at KienNghi.Controllers.KntcController.Moicapnhat(Int32 page) in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\KntcController.cs:line 1255|Hiển thị danh sách đơn thư mới cập nhất|1
+
+
+
+ERROR|http://192.168.1.15/Home/Logout/:80|KNCT|2018/01/22 02:05:22:522|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\HomeController.cs:line 408|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.15/Kntc/Ajax_Chuyen_Xuly:80|KNCT|2018/01/22 02:33:50:3350|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.KntcController.Ajax_Chuyen_Xuly(FormCollection fc) in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\KntcController.cs:line 1804|Chuyển xử lý đơn khiếu nại tố cáo|1
+
+
+
+ERROR|http://192.168.1.15/Kntc/Ajax_Chuyen_Xuly:80|KNCT|2018/01/22 02:33:52:3352|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.KntcController.Ajax_Chuyen_Xuly(FormCollection fc) in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\KntcController.cs:line 1804|Chuyển xử lý đơn khiếu nại tố cáo|1
+
+
+
+ERROR|http://192.168.1.15/Kntc/Ajax_Chuyen_Xuly:80|KNCT|2018/01/22 02:33:53:3353|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.KntcController.Ajax_Chuyen_Xuly(FormCollection fc) in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\KntcController.cs:line 1804|Chuyển xử lý đơn khiếu nại tố cáo|1
+
+
+
+ERROR|http://192.168.1.15/Kntc/Ajax_Chuyen_Xuly:80|KNCT|2018/01/22 02:33:54:3354|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.KntcController.Ajax_Chuyen_Xuly(FormCollection fc) in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\KntcController.cs:line 1804|Chuyển xử lý đơn khiếu nại tố cáo|1
+
+
+
+ERROR|http://192.168.1.15/Kntc/Ajax_Chuyen_Xuly:80|KNCT|2018/01/22 02:33:54:3354|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.KntcController.Ajax_Chuyen_Xuly(FormCollection fc) in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\KntcController.cs:line 1804|Chuyển xử lý đơn khiếu nại tố cáo|1
+
+
+
+ERROR|http://192.168.1.15/Kntc/Ajax_Chuyen_Xuly:80|KNCT|2018/01/22 02:33:55:3355|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.KntcController.Ajax_Chuyen_Xuly(FormCollection fc) in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\KntcController.cs:line 1804|Chuyển xử lý đơn khiếu nại tố cáo|1
+
+
+
+ERROR|http://192.168.1.15/Kntc/Ajax_Chuyen_Xuly:80|KNCT|2018/01/22 02:33:56:3356|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.KntcController.Ajax_Chuyen_Xuly(FormCollection fc) in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\KntcController.cs:line 1804|Chuyển xử lý đơn khiếu nại tố cáo|1
+
+
+
+ERROR|http://192.168.1.15/Kntc/Ajax_Chuyen_Xuly:80|KNCT|2018/01/22 02:33:57:3357|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.KntcController.Ajax_Chuyen_Xuly(FormCollection fc) in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\KntcController.cs:line 1804|Chuyển xử lý đơn khiếu nại tố cáo|1
+
+
+
+ERROR|http://192.168.1.6/Home/Logout/:80|KNCT|2018/01/22 08:21:36:2136|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\HomeController.cs:line 408|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/01/22 09:18:16:1816|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Project\KienNghi\KienNghi\Controllers\HomeController.cs:line 408|Đăng xuất|1

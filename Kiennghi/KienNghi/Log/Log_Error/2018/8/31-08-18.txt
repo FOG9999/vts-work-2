@@ -1,0 +1,34 @@
+
+
+
+ERROR|http://localhost:1234/Home/Logout/:1234|KNCT|2018/08/31 10:39:44:3944|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:1234/Kiennghi/Import_insert:1234|KNCT|2018/08/31 10:41:15:4115|unknow|String was not recognized as a valid DateTime.:    at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at KienNghi.Controllers.KiennghiController.InsertKienNghi_Import(KN_IMPORT import) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KiennghiController.cs:line 10869|Thêm kiến nghị từ danh sách import|1
+
+
+
+ERROR|http://localhost:1234/Kiennghi/Import_insert:1234|KNCT|2018/08/31 10:41:15:4115|unknow|String was not recognized as a valid DateTime.:    at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at KienNghi.Controllers.KiennghiController.InsertKienNghi_Import(KN_IMPORT import) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KiennghiController.cs:line 10883
+   at KienNghi.Controllers.KiennghiController.Import_insert(FormCollection fc, HttpPostedFileBase file) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KiennghiController.cs:line 10765|Import kiến nghị|1
+
+
+
+ERROR|http://localhost:1234/Kiennghi/Import_insert:1234|KNCT|2018/08/31 10:43:04:434|unknow|String was not recognized as a valid DateTime.:    at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at KienNghi.Controllers.KiennghiController.InsertKienNghi_Import(KN_IMPORT import) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KiennghiController.cs:line 10869|Thêm kiến nghị từ danh sách import|1
+
+
+
+ERROR|http://localhost:1234/Kiennghi/Import_insert:1234|KNCT|2018/08/31 10:43:04:434|unknow|String was not recognized as a valid DateTime.:    at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at KienNghi.Controllers.KiennghiController.InsertKienNghi_Import(KN_IMPORT import) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KiennghiController.cs:line 10883
+   at KienNghi.Controllers.KiennghiController.Import_insert(FormCollection fc, HttpPostedFileBase file) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KiennghiController.cs:line 10765|Import kiến nghị|1
+
+
+
+ERROR|http://localhost:1234/Home/Logout/:1234|KNCT|2018/08/31 10:49:32:4932|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1

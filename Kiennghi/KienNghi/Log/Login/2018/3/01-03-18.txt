@@ -1,0 +1,16 @@
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/03/01 08:49:07:497|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/03/01 08:59:45:5945|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/03/01 09:03:20:320|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.13:81/Home/Login:81|KNCT|2018/03/01 01:59:32:5932|null|admin|192.168.1.13|Home/Login|1|0

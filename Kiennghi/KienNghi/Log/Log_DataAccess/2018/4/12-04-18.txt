@@ -1,0 +1,28 @@
+
+
+
+ERROR|http://localhost:1234/Kntc/Ajax_Vanban_insert:1234|KNCT|2018/04/12 12:01:41:141|ExecuteSqlTextNoQuery|ORA-00904: "CCHUCVU": invalid identifier:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextNoQuery(String mySql, List`1 commandParameters) in e:\Solution\KienNghi\UPDATE\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 112||1
+
+
+
+ERROR|http://192.168.1.2:83/Kntc/Khongxuly/:83|KNCT|2018/04/12 08:52:25:5225|ExecuteSqlTextNoQueryWithTrans|ORA-03135: connection lost contact
+Process ID: 3936
+Session ID: 133 Serial number: 2215:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\UPDATE\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.2:83/Kntc/Khongxuly/:83|KNCT|2018/04/12 08:52:25:5225|GetListObjetReport|ORA-03135: connection lost contact
+Process ID: 3936
+Session ID: 133 Serial number: 2215:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\UPDATE\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\UPDATE\DataAccess\Repository\BaseRepository.cs:line 588||1

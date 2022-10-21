@@ -1,0 +1,16 @@
+
+
+
+ERROR|http://192.168.1.113:83/Home/Logout/:83|KNCT|2018/06/08 05:10:33:1033|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.113:83/Tiepdan/Kiemtrung/?id=NTk3fGtudGM1:83|KNCT|2018/06/08 05:18:18:1818|unknow|Object reference not set to an instance of an object.:    at DataAccess.Dao.TD_VuviecRepository.List_DonTrung_KiemTrungKNTC(String tennguoi, Int32 idiaphuong, String noidung) in e:\Solution\KienNghi\Update17042018\DataAccess\Dao\TD_VuviecRepository.cs:line 100|Danh sách đơn khiếu nại tố cáo trùng|1
+
+
+
+ERROR|http://192.168.1.113:83/Tiepdan/Kiemtrung/?id=NjA4fGtudGM1:83|KNCT|2018/06/08 05:18:31:1831|unknow|Object reference not set to an instance of an object.:    at DataAccess.Dao.TD_VuviecRepository.List_DonTrung_KiemTrungKNTC(String tennguoi, Int32 idiaphuong, String noidung) in e:\Solution\KienNghi\Update17042018\DataAccess\Dao\TD_VuviecRepository.cs:line 100|Danh sách đơn khiếu nại tố cáo trùng|1
+
+
+
+ERROR|http://192.168.1.113:83/Tiepdan/Kiemtrung/?id=NjA1fGtudGM1:83|KNCT|2018/06/08 05:18:39:1839|unknow|Object reference not set to an instance of an object.:    at DataAccess.Dao.TD_VuviecRepository.List_DonTrung_KiemTrungKNTC(String tennguoi, Int32 idiaphuong, String noidung) in e:\Solution\KienNghi\Update17042018\DataAccess\Dao\TD_VuviecRepository.cs:line 100|Danh sách đơn khiếu nại tố cáo trùng|1

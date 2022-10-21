@@ -1,0 +1,54 @@
+
+
+
+ERROR|http://localhost:1234/Home/Logout/:1234|KNCT|2018/08/02 10:38:10:3810|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:1234/Home/Logout/:1234|KNCT|2018/08/02 10:43:51:4351|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:1234/Home/Logout/:1234|KNCT|2018/08/02 10:59:59:5959|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:1234/Home/Logout/:1234|KNCT|2018/08/02 02:45:38:4538|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:1234/Home/Logout/:1234|KNCT|2018/08/02 03:05:48:548|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:1234/Kntc/Tiepnhan/:1234|KNCT|2018/08/02 03:05:59:559|unknow|Value cannot be null.
+Parameter name: source:    at System.Linq.Enumerable.Where[TSource](IEnumerable`1 source, Func`2 predicate)
+   at KienNghi.App_Code.Khieunai.Option_ChuyenVien_ChuyenXuLy_KNTC(List`1 lstUser, List`1 lstUserAction, Decimal id) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\App_Code\Khieunai.cs:line 869
+   at KienNghi.Controllers.KntcController.Tiepnhan(String id) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KntcController.cs:line 2023|Tiếp nhận đơn thư|1
+
+
+
+ERROR|http://localhost:1234/Kntc/Tiepnhan/:1234|KNCT|2018/08/02 03:06:05:65|unknow|Value cannot be null.
+Parameter name: source:    at System.Linq.Enumerable.Where[TSource](IEnumerable`1 source, Func`2 predicate)
+   at KienNghi.App_Code.Khieunai.Option_ChuyenVien_ChuyenXuLy_KNTC(List`1 lstUser, List`1 lstUserAction, Decimal id) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\App_Code\Khieunai.cs:line 869
+   at KienNghi.Controllers.KntcController.Tiepnhan(String id) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KntcController.cs:line 2023|Tiếp nhận đơn thư|1
+
+
+
+ERROR|http://localhost:1234/Home/Logout/:1234|KNCT|2018/08/02 03:08:58:858|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:1234/Home/Logout/:1234|KNCT|2018/08/02 03:24:55:2455|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:1234/Home/Logout/:1234|KNCT|2018/08/02 03:32:44:3244|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:1234/Home/Logout/:1234|KNCT|2018/08/02 03:43:22:4322|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:1234/Home/Logout/:1234|KNCT|2018/08/02 04:10:36:1036|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1

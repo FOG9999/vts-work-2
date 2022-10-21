@@ -1,0 +1,46 @@
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Moicapnhat/:83|KNCT|2018/05/03 09:42:57:4257|ExecuteSqlTextNoQueryWithTrans|ORA-06550: line 1, column 26:
+PLS-00302: component 'PRO_LISTDONMOICAPNHAT' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Moicapnhat/:83|KNCT|2018/05/03 09:42:57:4257|GetListObjetReport|ORA-06550: line 1, column 26:
+PLS-00302: component 'PRO_LISTDONMOICAPNHAT' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Moicapnhat/:83|KNCT|2018/05/03 09:45:04:454|ExecuteSqlTextNoQueryWithTrans|ORA-06550: line 1, column 26:
+PLS-00302: component 'PRO_LISTDONMOICAPNHAT' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 561||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Moicapnhat/:83|KNCT|2018/05/03 09:45:04:454|GetListObjetReport|ORA-06550: line 1, column 26:
+PLS-00302: component 'PRO_LISTDONMOICAPNHAT' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlProcedureDataTable(String proName, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 571
+   at DataAccess.BaseRepository.GetListObjetReport[T](String procedureName, List`1 lisparam) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 622||1

@@ -1,0 +1,37 @@
+
+
+
+ERROR|http://192.168.1.113:83/Home/Login:83|KNCT|2018/07/27 09:20:35:2035|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 239||1
+
+
+
+ERROR|http://localhost:1234/Home/Login:1234|KNCT|2018/07/27 04:13:23:1323|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 239||1
+
+
+
+ERROR|http://192.168.1.113:83/Home/Login:83|KNCT|2018/07/27 04:14:41:1441|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 239||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Tracuu/?cNoiDung=&dTuNgay=&dDenngay=&iNguonDon=0&iDiaPhuong_0=0&iNguoiNhap=0&iLoaiDon=0&iLinhVuc=0&iNoiDung=0&iTinhChat=0&iTinhTrangXuLy=-1&iThamQuyenDonVi=0:83|KNCT|2018/07/27 04:42:55:4255|ExecuteSqlTextDataTable|Connection must be open for this operation:    at Oracle.DataAccess.Client.OracleCommand.CheckConStatus()
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextDataTable(String mySql, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 225||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Tracuu/?cNoiDung=&dTuNgay=&dDenngay=&iNguonDon=0&iDiaPhuong_0=0&iNguoiNhap=0&iLoaiDon=0&iLinhVuc=0&iNoiDung=0&iTinhChat=0&iTinhTrangXuLy=-1&iThamQuyenDonVi=0:83|KNCT|2018/07/27 04:42:55:4255|ExecuteSqlTextDataTable|Connection must be open for this operation:    at Oracle.DataAccess.Client.OracleCommand.CheckConStatus()
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextDataTable(String mySql, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 225||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Tracuu/?cNoiDung=&dTuNgay=&dDenngay=&iNguonDon=0&iDiaPhuong_0=0&iNguoiNhap=0&iLoaiDon=0&iLinhVuc=0&iNoiDung=0&iTinhChat=0&iTinhTrangXuLy=-1&iThamQuyenDonVi=0:83|KNCT|2018/07/27 04:42:55:4255|ExecuteSqlTextDataTable|Connection must be open for this operation:    at Oracle.DataAccess.Client.OracleCommand.CheckConStatus()
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextDataTable(String mySql, Object commandParameters) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 225||1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Tracuu/?cNoiDung=&dTuNgay=&dDenngay=&iNguonDon=0&iDiaPhuong_0=0&iNguoiNhap=0&iLoaiDon=0&iLinhVuc=0&iNoiDung=0&iTinhChat=0&iTinhTrangXuLy=-1&iThamQuyenDonVi=0:83|KNCT|2018/07/27 04:42:56:4256|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 239||1

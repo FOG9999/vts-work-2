@@ -1,0 +1,4 @@
+
+
+
+LOGIN|http://192.168.1.113:83/Home/Login:83|KNCT|2018/08/18 09:15:43:1543|null|admin|192.168.1.113|Home/Login|1|0

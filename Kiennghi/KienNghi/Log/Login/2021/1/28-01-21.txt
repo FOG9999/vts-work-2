@@ -1,0 +1,60 @@
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/01/28 08:11:47:1147|null|maihuyquang|113.163.216.239|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/01/28 08:36:22:3622|null|maihuyquang|113.163.216.239|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login/:80|KNCT|2021/01/28 12:48:49:4849|null|maihuyquang|113.163.216.239|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/01/28 01:18:58:1858|null|angiang01|115.75.91.207|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/01/28 01:21:08:218|null|angiang1|115.75.91.207|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/01/28 01:21:32:2132|null|angiang1|115.75.91.207|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/01/28 01:21:34:2134|null|angiang1|115.75.91.207|Home/Login|0|0
+
+
+
+LOGOUT|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2021/01/28 01:21:53:2153|null|angiang01|115.75.91.207|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/01/28 01:21:55:2155|null|angiang1|115.75.91.207|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/01/28 01:22:30:2230|null|angiang1|115.75.91.207|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/01/28 01:22:49:2249|null|angiang1|115.75.91.207|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/01/28 01:23:03:233|null|angiang1|115.75.91.207|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/01/28 01:27:39:2739|null|angiang01|115.75.91.207|Home/Login|1|0
+
+
+
+LOGOUT|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2021/01/28 01:32:49:3249|null|angiang01|115.75.91.207|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2021/01/28 01:32:59:3259|null|angiang01|115.75.91.207|Home/Login|1|0

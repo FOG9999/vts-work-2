@@ -1,0 +1,4 @@
+
+
+
+ERROR|http://192.168.1.113:83/Home/Login:83|KNCT|2018/09/13 06:58:11:5811|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 239||1

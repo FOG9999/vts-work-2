@@ -1,0 +1,56 @@
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2020/04/21 08:45:31:4531|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\HomeController.cs:line 411|Đăng xuất|1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2020/04/21 09:18:24:1824|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\HomeController.cs:line 411|Đăng xuất|1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2020/04/21 03:51:45:5145|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\HomeController.cs:line 411|Đăng xuất|1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Kiennghi/Theodoi_luu/:80|KNCT|2020/04/21 03:53:09:539|unknow|Value cannot be null.
+Parameter name: source:    at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at KienNghi.App_Code.Kiennghi_cl.KN_Theodoi_luu(List`1 kiennghi) in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\App_Code\Kiennghi_cl.cs:line 1048
+   at KienNghi.Controllers.KiennghiController.Theodoi_luu() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\KiennghiController.cs:line 2710|Danh sách kiến nghị trùng, lưu theo dõi|1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Kiennghi/Theodoi_luu/:80|KNCT|2020/04/21 03:54:58:5458|unknow|Value cannot be null.
+Parameter name: source:    at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at KienNghi.App_Code.Kiennghi_cl.KN_Theodoi_luu(List`1 kiennghi) in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\App_Code\Kiennghi_cl.cs:line 1048
+   at KienNghi.Controllers.KiennghiController.Theodoi_luu() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\KiennghiController.cs:line 2710|Danh sách kiến nghị trùng, lưu theo dõi|1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2020/04/21 03:56:06:566|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\HomeController.cs:line 411|Đăng xuất|1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Kiennghi/Theodoi_luu/:80|KNCT|2020/04/21 03:56:27:5627|unknow|Value cannot be null.
+Parameter name: source:    at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at KienNghi.App_Code.Kiennghi_cl.KN_Theodoi_luu(List`1 kiennghi) in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\App_Code\Kiennghi_cl.cs:line 1048
+   at KienNghi.Controllers.KiennghiController.Theodoi_luu() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\KiennghiController.cs:line 2710|Danh sách kiến nghị trùng, lưu theo dõi|1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Kiennghi/Theodoi_luu/:80|KNCT|2020/04/21 04:03:09:39|unknow|Value cannot be null.
+Parameter name: source:    at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at KienNghi.App_Code.Kiennghi_cl.KN_Theodoi_luu(List`1 kiennghi) in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\App_Code\Kiennghi_cl.cs:line 1048
+   at KienNghi.Controllers.KiennghiController.Theodoi_luu() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\KiennghiController.cs:line 2710|Danh sách kiến nghị trùng, lưu theo dõi|1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2020/04/21 04:13:21:1321|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\HomeController.cs:line 411|Đăng xuất|1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2020/04/21 04:32:09:329|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\HomeController.cs:line 411|Đăng xuất|1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2020/04/21 05:13:30:1330|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\HomeController.cs:line 411|Đăng xuất|1

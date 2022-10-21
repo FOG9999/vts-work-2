@@ -1,0 +1,393 @@
+--------------------------------------------------------
+--  File created - Friday-October-07-2022   
+--------------------------------------------------------
+DROP SEQUENCE "ACTION_SEQ";
+DROP SEQUENCE "DAIBIEU_KYHOP_SEQ";
+DROP SEQUENCE "DAIBIEU_SEQ";
+DROP SEQUENCE "DANTOC_SEQ";
+DROP SEQUENCE "DIAPHUONG_SEQ";
+DROP SEQUENCE "DONVI_LINHVUC_SEQ";
+DROP SEQUENCE "FILE_UPLOAD_SEQ";
+DROP SEQUENCE "KIENNGHI_NGUONDON_SEQ";
+DROP SEQUENCE "KNTC_DON_IMPORT_SEQ";
+DROP SEQUENCE "KNTC_DON_SEQ";
+DROP SEQUENCE "KNTC_GIAMSAT_SEQ";
+DROP SEQUENCE "KNTC_LOAIDON_SEQ";
+DROP SEQUENCE "KNTC_LUUTHEODOI_SEQ";
+DROP SEQUENCE "KNTC_NGUONDON_SEQ";
+DROP SEQUENCE "KNTC_NOIDUNGDON_SEQ";
+DROP SEQUENCE "KNTC_TINHCHAT_SEQ";
+DROP SEQUENCE "KNTC_VANBAN_SEQ";
+DROP SEQUENCE "KN_CHUONGTRINH_CHITIET_SEQ";
+DROP SEQUENCE "KN_CHUONGTRINH_DAIBIEU_SEQ";
+DROP SEQUENCE "KN_CHUONGTRINH_DIAPHUONG_SEQ";
+DROP SEQUENCE "KN_CHUONGTRINH_SEQ";
+DROP SEQUENCE "KN_CHUYENXULY_SEQ";
+DROP SEQUENCE "KN_DOANGIAMSAT_KIENNGHI_SEQ";
+DROP SEQUENCE "KN_DOANGIAMSAT_SEQ";
+DROP SEQUENCE "KN_DOANGIAMSAT_YKIEN_SEQ";
+DROP SEQUENCE "KN_GIAMSAT_DANHGIA_SEQ";
+DROP SEQUENCE "KN_GIAMSAT_PHANLOAI_SEQ";
+DROP SEQUENCE "KN_GIAMSAT_SEQ";
+DROP SEQUENCE "KN_IMPORT_SEQ";
+DROP SEQUENCE "KN_KIENNGHI_IMPORT_SEQ";
+DROP SEQUENCE "KN_KIENNGHI_SEQ";
+DROP SEQUENCE "KN_KIENNGHI_TRALOI_SEQ";
+DROP SEQUENCE "KN_NGUONDON_SEQ";
+DROP SEQUENCE "KN_TONGHOP_SEQ";
+DROP SEQUENCE "KN_TRALOI_PHANLOAI_SEQ";
+DROP SEQUENCE "KN_TUKHOA_SEQ";
+DROP SEQUENCE "KN_VANBAN_SEQ";
+DROP SEQUENCE "LINHVUC_COQUAN_SEQ";
+DROP SEQUENCE "LINHVUC_SEQ";
+DROP SEQUENCE "LOGIN_FAIL_SEQ";
+DROP SEQUENCE "NGHENGHIEP_SEQ";
+DROP SEQUENCE "QUOCHOI_COQUAN_SEQ";
+DROP SEQUENCE "QUOCHOI_KHOA_SEQ";
+DROP SEQUENCE "QUOCHOI_KYHOP_SEQ";
+DROP SEQUENCE "QUOCTICH_SEQ";
+DROP SEQUENCE "TD_VUVIEC_SEQ";
+DROP SEQUENCE "TD_VUVIEC_XULY_SEQ";
+DROP SEQUENCE "TIEPDAN_DINHKY_LOAIVUVIEC_SEQ";
+DROP SEQUENCE "TIEPDAN_DINHKY_SEQ";
+DROP SEQUENCE "TIEPDAN_DINHKY_VUVIEC_SEQ";
+DROP SEQUENCE "TIEPDAN_THUONGXUYEN_KETQUA_SEQ";
+DROP SEQUENCE "TIEPDAN_THUONGXUYEN_SEQ";
+DROP SEQUENCE "TOKEN_SEQ";
+DROP SEQUENCE "TRACKING_SEQ";
+DROP SEQUENCE "USERS_SEQ";
+DROP SEQUENCE "USER_ACTION_SEQ";
+DROP SEQUENCE "USER_CHUCVU_SEQ";
+DROP SEQUENCE "USER_GROUP_ACTION_SEQ";
+DROP SEQUENCE "USER_GROUP_SEQ";
+DROP SEQUENCE "USER_PHONGBAN_SEQ";
+DROP SEQUENCE "USER_TYPE_SEQ";
+DROP SEQUENCE "VB_DONVI_VANBAN_SEQ";
+DROP SEQUENCE "VB_FILE_VANBAN_SEQ";
+DROP SEQUENCE "VB_LOAI_SEQ";
+DROP SEQUENCE "VB_VANBAN_SEQ";
+--------------------------------------------------------
+--  DDL for Sequence ACTION_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "ACTION_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 47 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence DAIBIEU_KYHOP_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "DAIBIEU_KYHOP_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 117 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence DAIBIEU_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "DAIBIEU_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 761 CACHE 20 NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence DANTOC_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "DANTOC_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 1010 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence DIAPHUONG_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "DIAPHUONG_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 841 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence DONVI_LINHVUC_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "DONVI_LINHVUC_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 161 CACHE 20 NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence FILE_UPLOAD_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "FILE_UPLOAD_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 2002 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence KIENNGHI_NGUONDON_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "KIENNGHI_NGUONDON_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 401 CACHE 20 NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence KNTC_DON_IMPORT_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "KNTC_DON_IMPORT_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 70 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence KNTC_DON_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "KNTC_DON_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 8859 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence KNTC_GIAMSAT_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "KNTC_GIAMSAT_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 6 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence KNTC_LOAIDON_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "KNTC_LOAIDON_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 12 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence KNTC_LUUTHEODOI_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "KNTC_LUUTHEODOI_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 1 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence KNTC_NGUONDON_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "KNTC_NGUONDON_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 44 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence KNTC_NOIDUNGDON_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "KNTC_NOIDUNGDON_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 66 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence KNTC_TINHCHAT_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "KNTC_TINHCHAT_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 88 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence KNTC_VANBAN_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "KNTC_VANBAN_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 1603 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence KN_CHUONGTRINH_CHITIET_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "KN_CHUONGTRINH_CHITIET_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 255 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence KN_CHUONGTRINH_DAIBIEU_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "KN_CHUONGTRINH_DAIBIEU_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 16 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence KN_CHUONGTRINH_DIAPHUONG_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "KN_CHUONGTRINH_DIAPHUONG_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 66 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence KN_CHUONGTRINH_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "KN_CHUONGTRINH_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 312 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence KN_CHUYENXULY_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "KN_CHUYENXULY_SEQ"  MINVALUE 1 MAXVALUE 999999 INCREMENT BY 1 START WITH 11 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence KN_DOANGIAMSAT_KIENNGHI_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "KN_DOANGIAMSAT_KIENNGHI_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 24 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence KN_DOANGIAMSAT_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "KN_DOANGIAMSAT_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 22 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence KN_DOANGIAMSAT_YKIEN_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "KN_DOANGIAMSAT_YKIEN_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 7 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence KN_GIAMSAT_DANHGIA_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "KN_GIAMSAT_DANHGIA_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 4 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence KN_GIAMSAT_PHANLOAI_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "KN_GIAMSAT_PHANLOAI_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 5 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence KN_GIAMSAT_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "KN_GIAMSAT_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 40 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence KN_IMPORT_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "KN_IMPORT_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 48 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence KN_KIENNGHI_IMPORT_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "KN_KIENNGHI_IMPORT_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 917 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence KN_KIENNGHI_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "KN_KIENNGHI_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 4250 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence KN_KIENNGHI_TRALOI_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "KN_KIENNGHI_TRALOI_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 257 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence KN_NGUONDON_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "KN_NGUONDON_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999 INCREMENT BY 1 START WITH 14 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence KN_TONGHOP_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "KN_TONGHOP_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 588 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence KN_TRALOI_PHANLOAI_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "KN_TRALOI_PHANLOAI_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 20 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence KN_TUKHOA_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "KN_TUKHOA_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 4168 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence KN_VANBAN_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "KN_VANBAN_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 426 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence LINHVUC_COQUAN_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "LINHVUC_COQUAN_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 141 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence LINHVUC_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "LINHVUC_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 61 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence LOGIN_FAIL_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "LOGIN_FAIL_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 912 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence NGHENGHIEP_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "NGHENGHIEP_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 3 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence QUOCHOI_COQUAN_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "QUOCHOI_COQUAN_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 341 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence QUOCHOI_KHOA_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "QUOCHOI_KHOA_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 22 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence QUOCHOI_KYHOP_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "QUOCHOI_KYHOP_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 36 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence QUOCTICH_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "QUOCTICH_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 235 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence TD_VUVIEC_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "TD_VUVIEC_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 406 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence TD_VUVIEC_XULY_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "TD_VUVIEC_XULY_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 76 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence TIEPDAN_DINHKY_LOAIVUVIEC_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "TIEPDAN_DINHKY_LOAIVUVIEC_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 1 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence TIEPDAN_DINHKY_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "TIEPDAN_DINHKY_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 12 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence TIEPDAN_DINHKY_VUVIEC_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "TIEPDAN_DINHKY_VUVIEC_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 1 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence TIEPDAN_THUONGXUYEN_KETQUA_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "TIEPDAN_THUONGXUYEN_KETQUA_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 1 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence TIEPDAN_THUONGXUYEN_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "TIEPDAN_THUONGXUYEN_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 1 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence TOKEN_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "TOKEN_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 96 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence TRACKING_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "TRACKING_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 41213 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence USERS_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "USERS_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 523 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence USER_ACTION_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "USER_ACTION_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 15184 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence USER_CHUCVU_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "USER_CHUCVU_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 43 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence USER_GROUP_ACTION_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "USER_GROUP_ACTION_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 962 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence USER_GROUP_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "USER_GROUP_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 23 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence USER_PHONGBAN_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "USER_PHONGBAN_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 105 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence USER_TYPE_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "USER_TYPE_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 5 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence VB_DONVI_VANBAN_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "VB_DONVI_VANBAN_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 23 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence VB_FILE_VANBAN_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "VB_FILE_VANBAN_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 28 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence VB_LOAI_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "VB_LOAI_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 9 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence VB_VANBAN_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "VB_VANBAN_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 17 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;

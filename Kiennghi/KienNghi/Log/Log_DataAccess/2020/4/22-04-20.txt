@@ -1,0 +1,7 @@
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Kntc/Ajax_Chuyenxuly_noibo_insert:80|KNCT|2020/04/22 02:51:00:510|ExecuteSqlTextNoQuery|ORA-12899: value too large for column "KIENNGHI"."KNTC_VANBAN"."CNOINHAN" (actual: 218, maximum: 200):    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextNoQuery(String mySql, List`1 commandParameters) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 112||1

@@ -1,0 +1,4 @@
+
+
+
+ERROR|http://10.60.156.49/Home/Logout/:80|KNCT|2020/06/19 02:39:40:3940|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\HomeController.cs:line 411|Đăng xuất|1

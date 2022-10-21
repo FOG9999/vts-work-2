@@ -1,0 +1,328 @@
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login:83|KNCT|2018/04/09 08:38:02:382|null|admin|192.168.1.2|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login/:83|KNCT|2018/04/09 08:53:58:5358|null|angiang01|192.168.1.2|Home/Login|0|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login/:83|KNCT|2018/04/09 08:54:02:542|null|angiang01|192.168.1.2|Home/Login|0|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login/:83|KNCT|2018/04/09 08:54:26:5426|null|chuyenvien1.btnmt|192.168.1.2|Home/Login|0|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login/:83|KNCT|2018/04/09 08:54:29:5429|null|chuyenvien1.btnmt|192.168.1.2|Home/Login|0|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login/:83|KNCT|2018/04/09 08:54:38:5438|null|chuyenvien1.btnmt|192.168.1.2|Home/Login|0|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login/:83|KNCT|2018/04/09 08:55:07:557|null|doantthue|192.168.1.2|Home/Login|0|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login/:83|KNCT|2018/04/09 08:55:28:5528|null|doantthue|192.168.1.2|Home/Login|0|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login/:83|KNCT|2018/04/09 08:55:49:5549|null|doantthue|192.168.1.2|Home/Login|0|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login/:83|KNCT|2018/04/09 08:56:02:562|null|daibieu.tthue|192.168.1.2|Home/Login|0|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login/:83|KNCT|2018/04/09 08:56:19:5619|null|daibieu.tthue|192.168.1.2|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login:83|KNCT|2018/04/09 09:45:27:4527|null|Admin|192.168.1.2|Home/Login|0|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login:83|KNCT|2018/04/09 09:45:50:4550|null|daibieu.tthue|192.168.1.2|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login:83|KNCT|2018/04/09 09:48:42:4842|null|daibieu.tthue|192.168.1.2|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login:83|KNCT|2018/04/09 09:49:55:4955|null|daibieu.tthue|192.168.1.2|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login/:83|KNCT|2018/04/09 09:50:14:5014|null|admin|192.168.1.2|Home/Login|1|0
+
+
+
+LOGOUT|http://192.168.1.2:83/Home/Logout/:83|KNCT|2018/04/09 09:52:05:525|null|daibieu.tthue|192.168.1.2|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login:83|KNCT|2018/04/09 09:52:12:5212|null|daibieu.tthue|192.168.1.2|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login:83|KNCT|2018/04/09 09:54:02:542|null|admin|192.168.1.2|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login:83|KNCT|2018/04/09 09:54:34:5434|null|daibieu.tthue|192.168.1.2|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login:83|KNCT|2018/04/09 09:56:39:5639|null|daibieu.tthue|192.168.1.2|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login:83|KNCT|2018/04/09 09:57:24:5724|null|admin|192.168.1.2|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login:83|KNCT|2018/04/09 10:04:42:442|null|admin|192.168.1.2|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login:83|KNCT|2018/04/09 10:04:46:446|null|daibieu.tthue|192.168.1.2|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login:83|KNCT|2018/04/09 10:13:52:1352|null|daibieu.tthue|192.168.1.2|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login/:83|KNCT|2018/04/09 10:13:57:1357|null|admin|192.168.1.2|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login:83|KNCT|2018/04/09 10:19:07:197|null|daibieu.tthue|192.168.1.2|Home/Login|1|0
+
+
+
+LOGOUT|http://192.168.1.2:83/Home/Logout/:83|KNCT|2018/04/09 10:19:32:1932|null|daibieu.tthue|192.168.1.2|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login:83|KNCT|2018/04/09 10:19:35:1935|null|daibieu.tthue|192.168.1.2|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login/:83|KNCT|2018/04/09 10:19:40:1940|null|admin|192.168.1.2|Home/Login|1|0
+
+
+
+LOGOUT|http://192.168.1.2:83/Home/Logout/:83|KNCT|2018/04/09 10:25:33:2533|null|daibieu.tthue|192.168.1.2|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login:83|KNCT|2018/04/09 10:25:37:2537|null|daibieu.tthue|192.168.1.2|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login/:83|KNCT|2018/04/09 10:38:41:3841|null|admin|192.168.1.2|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login/:83|KNCT|2018/04/09 10:53:50:5350|null|admin|192.168.1.2|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login:83|KNCT|2018/04/09 01:53:08:538|null|admin|192.168.1.2|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login:83|KNCT|2018/04/09 01:56:37:5637|null|admin|192.168.1.2|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login:83|KNCT|2018/04/09 01:57:25:5725|null|admin|192.168.1.2|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login/:83|KNCT|2018/04/09 01:58:40:5840|null|admin|192.168.1.2|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login:83|KNCT|2018/04/09 02:00:01:01|null|admin|192.168.1.2|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login:83|KNCT|2018/04/09 02:01:06:16|null|admin|192.168.1.2|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login:83|KNCT|2018/04/09 02:02:14:214|null|admin|192.168.1.2|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login:83|KNCT|2018/04/09 02:07:31:731|null|admin|192.168.1.2|Home/Login|1|0
+
+
+
+LOGOUT|http://192.168.1.2:83/Home/Logout/:83|KNCT|2018/04/09 02:09:13:913|null|admin|192.168.1.2|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login:83|KNCT|2018/04/09 02:09:15:915|null|admin|192.168.1.2|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login/:83|KNCT|2018/04/09 02:16:20:1620|null|admin|192.168.1.2|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login:83|KNCT|2018/04/09 02:28:06:286|null|admin|192.168.1.2|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login/:83|KNCT|2018/04/09 02:33:23:3323|null|admin|192.168.1.2|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.2:83/Home/Login:83|KNCT|2018/04/09 03:10:27:1027|null|admin|192.168.1.2|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/04/09 03:13:25:1325|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/04/09 03:15:45:1545|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/04/09 03:19:55:1955|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/04/09 03:29:33:2933|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/04/09 03:29:46:2946|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/04/09 03:31:41:3141|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/04/09 03:33:34:3334|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/04/09 03:44:03:443|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/04/09 03:48:35:4835|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/04/09 03:50:28:5028|null|admin|::1|Home/Login|1|0
+
+
+
+LOGOUT|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/09 03:51:19:5119|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/04/09 03:51:21:5121|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/04/09 04:05:12:512|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/04/09 04:06:52:652|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/04/09 04:09:11:911|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/04/09 04:14:13:1413|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/04/09 04:18:21:1821|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/04/09 04:23:50:2350|null|admin|::1|Home/Login|1|0
+
+
+
+LOGOUT|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/09 04:24:07:247|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/04/09 04:24:09:249|null|chuyenvien|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/04/09 04:27:40:2740|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/04/09 04:29:04:294|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/04/09 04:43:38:4338|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/04/09 04:47:34:4734|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/04/09 04:53:52:5352|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login/:2121|KNCT|2018/04/09 04:58:24:5824|null|admin|127.0.0.1|Home/Login|1|0
+
+
+
+LOGOUT|http://localhost:2121/Home/Logout/:2121|KNCT|2018/04/09 04:58:35:5835|null|admin|127.0.0.1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/04/09 04:58:37:5837|null|admin|127.0.0.1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/04/09 05:00:30:030|null|admin|127.0.0.1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/04/09 10:01:59:159|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/04/09 10:39:28:3928|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/04/09 10:42:14:4214|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/04/09 10:44:13:4413|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/04/09 10:46:13:4613|null|admin|::1|Home/Login|1|0

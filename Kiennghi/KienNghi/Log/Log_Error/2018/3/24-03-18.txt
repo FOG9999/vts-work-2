@@ -1,0 +1,61 @@
+
+
+
+ERROR|http://192.168.1.13:83/Home/Logout/:83|KNCT|2018/03/24 08:56:32:5632|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.13:83/Home/Logout/:83|KNCT|2018/03/24 09:42:37:4237|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.13:83/Home/Logout/:83|KNCT|2018/03/24 10:22:27:2227|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/03/24 10:28:10:2810|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.13:83/Home/Logout/:83|KNCT|2018/03/24 10:30:04:304|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/03/24 10:40:55:4055|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Thietlap/Ajax_Noidungdon_insert:2121|KNCT|2018/03/24 10:43:48:4348|unknow|ORA-00904: "IVITRI": invalid identifier:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextNoQuery(String mySql, List`1 commandParameters) in e:\Solution\KienNghi\UPDATE\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 125
+   at DataAccess.BaseRepository.InsertItem[T](T t) in e:\Solution\KienNghi\UPDATE\DataAccess\Repository\BaseRepository.cs:line 85
+   at DataAccess.Dao.KNTC_NoidungdonRepository.AddNew(KNTC_NOIDUNGDON Input) in e:\Solution\KienNghi\UPDATE\DataAccess\Dao\KNTC_NoidungdonRepository.cs:line 50
+   at DataAccess.Busineess.ThietlapBusineess.Insert_Noidungdon(KNTC_NOIDUNGDON Input) in e:\Solution\KienNghi\UPDATE\DataAccess\Busineess\ThietlapBusineess.cs:line 573
+   at KienNghi.Controllers.ThietlapController.Ajax_Noidungdon_insert(FormCollection fc) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\ThietlapController.cs:line 2911|Thêm danh sách nội dung loại đơn|1
+
+
+
+ERROR|http://localhost:2121/Kiennghi/Themmoi/:2121|KNCT|2018/03/24 10:44:05:445|unknow|Object reference not set to an instance of an object.:    at DataAccess.Busineess.BaseBusineess.Get_ID_KyHop_HienTai() in e:\Solution\KienNghi\UPDATE\DataAccess\Busineess\BaseBusineess.cs:line 129
+   at KienNghi.Controllers.BaseController.ID_KyHop_HienTai() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\BaseController.cs:line 28
+   at KienNghi.Controllers.KiennghiController.Themmoi() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\KiennghiController.cs:line 540|Form thêm mới kiến nghị cử tri|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/03/24 10:45:30:4530|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/03/24 10:47:04:474|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.13:83/Home/Logout/:83|KNCT|2018/03/24 10:48:32:4832|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/03/24 09:14:33:1433|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2018/03/24 09:29:32:2932|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1

@@ -1,0 +1,14 @@
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Kiennghi/Kiennghi_traloi_insert:80|KNCT|2020/04/16 03:51:50:5150|ExecuteSqlTextNoQuery|ORA-01461: can bind a LONG value only for insert into a LONG column:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextNoQuery(String mySql, List`1 commandParameters) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 112||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Kiennghi/Kiennghi_traloi_insert:80|KNCT|2020/04/16 03:56:07:567|ExecuteSqlTextNoQuery|ORA-01461: can bind a LONG value only for insert into a LONG column:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextNoQuery(String mySql, List`1 commandParameters) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 112||1

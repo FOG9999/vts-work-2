@@ -1,0 +1,1498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D3468826-EDD9-4BA9-B331-069BFD1914AF}</ProjectGuid>
+    <ProjectTypeGuids>{E3E379DF-F4C6-4180-9B81-6769533ABE47};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KienNghi</RootNamespace>
+    <AssemblyName>KienNghi</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+    <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LegacyPublishPropertiesPageEnabled>true</LegacyPublishPropertiesPageEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClosedXML, Version=0.95.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ClosedXML.0.95.4\lib\net40\ClosedXML.dll</HintPath>
+    </Reference>
+    <Reference Include="Dia2Lib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Diagnostics.Tracing.TraceEvent.2.0.2\lib\net45\Dia2Lib.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.7.2.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.2.7.2\lib\net40\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="Elastic.Apm, Version=1.16.1.0, Culture=neutral, PublicKeyToken=ae7400d2c189cf22, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elastic.Apm.1.16.1\lib\net461\Elastic.Apm.dll</HintPath>
+    </Reference>
+    <Reference Include="Elastic.Apm.AspNetFullFramework, Version=1.16.0.0, Culture=neutral, PublicKeyToken=ae7400d2c189cf22, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elastic.Apm.AspNetFullFramework.1.16.0\lib\net461\Elastic.Apm.AspNetFullFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelNumberFormat, Version=1.0.10.0, Culture=neutral, PublicKeyToken=23c6f5d73be07eca, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelNumberFormat.1.0.10\lib\net20\ExcelNumberFormat.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Diagnostics.FastSerialization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Diagnostics.Tracing.TraceEvent.2.0.2\lib\net45\Microsoft.Diagnostics.FastSerialization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Diagnostics.Tracing.TraceEvent, Version=2.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Diagnostics.Tracing.TraceEvent.2.0.2\lib\net45\Microsoft.Diagnostics.Tracing.TraceEvent.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.122.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <HintPath>..\packages\Oracle.ManagedDataAccess.12.2.20220118\lib\net40\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess.EntityFramework, Version=6.122.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <HintPath>..\packages\Oracle.ManagedDataAccess.EntityFramework.12.2.20220118\lib\net45\Oracle.ManagedDataAccess.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="OSExtensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Diagnostics.Tracing.TraceEvent.2.0.2\lib\net45\OSExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PagedList.Mvc, Version=4.5.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Spire.Barcode, Version=1.4.11.11040, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
+      <HintPath>..\packages\Spire.Office.2.16.23\lib\net40\Spire.Barcode.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Spire.Common, Version=1.2.757.14040, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
+      <HintPath>..\packages\Spire.Office.2.16.23\lib\net40\Spire.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Spire.DataExport, Version=3.5.133.4040, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
+      <HintPath>..\packages\Spire.Office.2.16.23\lib\net40\Spire.DataExport.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Spire.DataExport.ResourceMgr, Version=1.6.71.4040, Culture=neutral, PublicKeyToken=4bc1500157862925, processorArchitecture=MSIL">
+      <HintPath>..\packages\Spire.Office.2.16.23\lib\net40\Spire.DataExport.ResourceMgr.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Spire.Doc, Version=6.0.58.14040, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
+      <HintPath>..\packages\Spire.Office.2.16.23\lib\net40\Spire.Doc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Spire.DocViewer.Forms, Version=2.4.38.14040, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
+      <HintPath>..\packages\Spire.Office.2.16.23\lib\net40\Spire.DocViewer.Forms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Spire.Email, Version=1.1.16.14040, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
+      <HintPath>..\packages\Spire.Office.2.16.23\lib\net40\Spire.Email.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Spire.License, Version=1.3.6.40, Culture=neutral, PublicKeyToken=b1144360237c8b3f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Spire.Office.2.16.23\lib\net40\Spire.License.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Spire.OfficeViewer.Forms, Version=2.16.23.14040, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
+      <HintPath>..\packages\Spire.Office.2.16.23\lib\net40\Spire.OfficeViewer.Forms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Spire.Pdf, Version=3.9.480.14040, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
+      <HintPath>..\packages\Spire.Office.2.16.23\lib\net40\Spire.Pdf.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Spire.PdfViewer.Asp, Version=2.12.47.14340, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
+      <HintPath>..\packages\Spire.Office.2.16.23\lib\net40\Spire.PdfViewer.Asp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Spire.PdfViewer.Forms, Version=2.12.47.14340, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
+      <HintPath>..\packages\Spire.Office.2.16.23\lib\net40\Spire.PdfViewer.Forms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Spire.Presentation, Version=2.8.81.14040, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
+      <HintPath>..\packages\Spire.Office.2.16.23\lib\net40\Spire.Presentation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Spire.Spreadsheet, Version=2.2.50.14040, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
+      <HintPath>..\packages\Spire.Office.2.16.23\lib\net40\Spire.Spreadsheet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Spire.XLS, Version=7.12.120.14040, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
+      <HintPath>..\packages\Spire.Office.2.16.23\lib\net40\Spire.XLS.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Immutable, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Collections.Immutable.5.0.0\lib\net461\System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.5.0.0\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Metadata, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Reflection.Metadata.5.0.0\lib\net461\System.Reflection.Metadata.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.5.0.0\lib\net45\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Mvc.FixedDisplayModes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.FixedDisplayModes.1.0.0\lib\net40\Microsoft.Web.Mvc.FixedDisplayModes.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.4.0.30506.0\lib\net40\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Dataflow, Version=4.6.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Dataflow.4.9.0\lib\netstandard2.0\System.Threading.Tasks.Dataflow.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.4.0.30506.0\lib\net40\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.4.0.30506.0\lib\net40\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.4.0.30506.0\lib\net40\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.0.0\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.2.0.30506.0\lib\net40\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.XML" />
+    <Reference Include="Microsoft.Web.WebPages.OAuth, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.OAuth.2.0.30506.0\lib\net40\Microsoft.Web.WebPages.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.AspNet, Version=4.1.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\DotNetOpenAuth.AspNet.4.1.4.12333\lib\net45-full\DotNetOpenAuth.AspNet.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.Core, Version=4.1.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\DotNetOpenAuth.Core.4.1.4.12333\lib\net45-full\DotNetOpenAuth.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OAuth.Consumer, Version=4.1.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\DotNetOpenAuth.OAuth.Consumer.4.1.4.12333\lib\net45-full\DotNetOpenAuth.OAuth.Consumer.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OAuth, Version=4.1.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\DotNetOpenAuth.OAuth.Core.4.1.4.12333\lib\net45-full\DotNetOpenAuth.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OpenId, Version=4.1.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\DotNetOpenAuth.OpenId.Core.4.1.4.12333\lib\net45-full\DotNetOpenAuth.OpenId.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OpenId.RelyingParty, Version=4.1.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\DotNetOpenAuth.OpenId.RelyingParty.4.1.4.12333\lib\net45-full\DotNetOpenAuth.OpenId.RelyingParty.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.OData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.OData.4.0.30506\lib\net40\System.Web.Http.OData.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.Edm, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Data.Edm.5.2.0\lib\net40\Microsoft.Data.Edm.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.OData, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Data.OData.5.2.0\lib\net40\Microsoft.Data.OData.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Spatial, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\System.Spatial.5.2.0\lib\net40\System.Spatial.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.3.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.3.0\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="WebMatrix.Data">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.Data.2.0.20710.0\lib\net40\WebMatrix.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="WebMatrix.WebData, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.WebData.2.0.30506.0\lib\net40\WebMatrix.WebData.dll</HintPath>
+    </Reference>
+    <Reference Include="Aspose.Cells">
+      <Private>True</Private>
+      <HintPath>..\lib\Aspose.Cells.dll</HintPath>
+    </Reference>
+    <Reference Include="FlexCel.AspNet">
+      <Private>True</Private>
+      <HintPath>..\lib\FlexCel.AspNet.dll</HintPath>
+    </Reference>
+    <Reference Include="FlexCel">
+      <Private>True</Private>
+      <HintPath>..\lib\FlexCel.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Application\Flexcel\ExcelResult.cs" />
+    <Compile Include="Application\Flexcel\FlexcelExtension.cs" />
+    <Compile Include="Application\Flexcel\FlexcelModel.cs" />
+    <Compile Include="Application\Flexcel\Functions\FlexcelFunctions.cs" />
+    <Compile Include="Application\Flexcel\Functions\FxPercentFunction.cs" />
+    <Compile Include="Application\Flexcel\Functions\FxReadNumberFunction.cs" />
+    <Compile Include="Application\Helpers\DataHelper.cs" />
+    <Compile Include="Application\Helpers\ReportHelpers.cs" />
+    <Compile Include="Application\Models\ChecklistModel.cs" />
+    <Compile Include="Application\Models\DatableModel.cs" />
+    <Compile Include="Application\Models\MenuItemViewModel.cs" />
+    <Compile Include="Application\Models\ReportDataModel.cs" />
+    <Compile Include="Application\Models\ViewModel.cs" />
+    <Compile Include="Application\Mvc\Extensions.cs" />
+    <Compile Include="Application\Mvc\FileContentResultWithContentDisposition.cs" />
+    <Compile Include="Application\Mvc\ReportBaseController.cs" />
+    <Compile Include="Application\Mvc\ViewEngine\MvcViewEngine.cs" />
+    <Compile Include="Application\Mvc\ViewEngine\ViewEngineHelpers.cs" />
+    <Compile Include="App_Code\Khieunai.cs" />
+    <Compile Include="App_Code\Kiennghi_cl.cs" />
+    <Compile Include="App_Code\Thietlap.cs" />
+    <Compile Include="App_Code\Tiepdan.cs" />
+    <Compile Include="App_Code\Vanban.cs" />
+    <Compile Include="App_Code\Base.cs" />
+    <Compile Include="App_Start\AuthConfig.cs" />
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\BaocaokiennghiController.cs" />
+    <Compile Include="Controllers\BaocaokntcController.cs" />
+    <Compile Include="Controllers\BaocaotiepdanController.cs" />
+    <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\KiennghiController.cs" />
+    <Compile Include="Controllers\KntcController.cs" />
+    <Compile Include="Controllers\ThietlapController.cs" />
+    <Compile Include="Controllers\TiepdanController.cs" />
+    <Compile Include="Controllers\VanbanController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\ViewRenderer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModel\UserGroupIndexViewModel.cs" />
+    <Compile Include="ViewModel\ActionViewModel.cs" />
+    <Compile Include="ViewModel\ViewModelBase.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\PagedList.css" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\jquery-ui.css" />
+    <Content Include="Content\themes\base\jquery.ui.accordion.css" />
+    <Content Include="Content\themes\base\jquery.ui.all.css" />
+    <Content Include="Content\themes\base\jquery.ui.autocomplete.css" />
+    <Content Include="Content\themes\base\jquery.ui.base.css" />
+    <Content Include="Content\themes\base\jquery.ui.button.css" />
+    <Content Include="Content\themes\base\jquery.ui.core.css" />
+    <Content Include="Content\themes\base\jquery.ui.datepicker.css" />
+    <Content Include="Content\themes\base\jquery.ui.dialog.css" />
+    <Content Include="Content\themes\base\jquery.ui.progressbar.css" />
+    <Content Include="Content\themes\base\jquery.ui.resizable.css" />
+    <Content Include="Content\themes\base\jquery.ui.selectable.css" />
+    <Content Include="Content\themes\base\jquery.ui.slider.css" />
+    <Content Include="Content\themes\base\jquery.ui.tabs.css" />
+    <Content Include="Content\themes\base\jquery.ui.theme.css" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\minified\jquery-ui.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.accordion.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.autocomplete.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.button.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.core.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.datepicker.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.dialog.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.progressbar.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.resizable.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.selectable.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="css\bootstrap-responsive.min.css" />
+    <Content Include="css\bootstrap-tokenfield.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\capcha.css" />
+    <Content Include="css\dtts.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\font\AqP7QX0TdaZHs8pWxeHdZbuN_EGWRdJKo47bSfPIsDJSjxrNWc6TL5x1_u3zzrgH.woff" />
+    <Content Include="css\font\AqP7QX0TdaZHs8pWxeHdZc_32bS09Ag8SxUgyUOuyPIC1LhKU8qFLLahJuQDJSaO.woff" />
+    <Content Include="css\font\AqP7QX0TdaZHs8pWxeHdZRsGXIQKIALcS8KNu_A2Z1oC1LhKU8qFLLahJuQDJSaO.woff" />
+    <Content Include="css\font\AqP7QX0TdaZHs8pWxeHdZTzKTEI69E9S2U4mxrykgLFSjxrNWc6TL5x1_u3zzrgH.woff" />
+    <Content Include="css\font\AqP7QX0TdaZHs8pWxeHdZUMGCTnVAERXWDZ9l7jUM3NSjxrNWc6TL5x1_u3zzrgH.woff" />
+    <Content Include="css\font\AqP7QX0TdaZHs8pWxeHdZUrD3sL4gWk4Fk49AGqi9dZSjxrNWc6TL5x1_u3zzrgH.woff" />
+    <Content Include="css\font\Descr.WD3" />
+    <Content Include="css\font\fontawesome-webfont.eot" />
+    <Content Include="css\font\fontawesome-webfont.eot%40v=3.0.1" />
+    <Content Include="css\font\fontawesome-webfont.ttf" />
+    <Content Include="css\font\fontawesome-webfont.woff" />
+    <Content Include="css\font\OpenSans-Bold.ttf" />
+    <Content Include="css\font\OpenSans-BoldItalic.ttf" />
+    <Content Include="css\font\OpenSans-ExtraBold.ttf" />
+    <Content Include="css\font\OpenSans-ExtraBoldItalic.ttf" />
+    <Content Include="css\font\OpenSans-Italic.ttf" />
+    <Content Include="css\font\OpenSans-Light.ttf" />
+    <Content Include="css\font\OpenSans-LightItalic.ttf" />
+    <Content Include="css\font\OpenSans-Regular.ttf" />
+    <Content Include="css\font\OpenSans-Semibold.ttf" />
+    <Content Include="css\font\OpenSans-SemiboldItalic.ttf" />
+    <Content Include="css\font\SairaSemiCondensed-Bold.ttf" />
+    <Content Include="css\font\SairaSemiCondensed-Regular.ttf" />
+    <Content Include="css\font\SairaSemiCondensed-SemiBold.ttf" />
+    <Content Include="css\new.css" />
+    <Content Include="css\plugin.css" />
+    <Content Include="css\plugins\chosen\chosen.css" />
+    <Content Include="css\plugins\colorbox\colorbox.css" />
+    <Content Include="css\plugins\colorpicker\colorpicker.css" />
+    <Content Include="css\plugins\datatable\TableTools.css" />
+    <Content Include="css\plugins\datepicker\datepicker.css" />
+    <Content Include="css\plugins\dynatree\icons.gif" />
+    <Content Include="css\plugins\dynatree\loading.gif" />
+    <Content Include="css\plugins\dynatree\ui.dynatree.css" />
+    <Content Include="css\plugins\elfinder\elfinder.min.css" />
+    <Content Include="css\plugins\elfinder\theme.css" />
+    <Content Include="css\plugins\fullcalendar\fullcalendar.css" />
+    <Content Include="css\plugins\fullcalendar\fullcalendar.print.css" />
+    <Content Include="css\plugins\gmap\gmap3-menu.css" />
+    <Content Include="css\plugins\gritter\jquery.gritter.css" />
+    <Content Include="css\plugins\img\arrows-active.html" />
+    <Content Include="css\plugins\jquery-ui\smoothness\images\animated-overlay.gif" />
+    <Content Include="css\plugins\jquery-ui\smoothness\jquery-ui.css" />
+    <Content Include="css\plugins\jquery-ui\smoothness\jquery.ui.theme.css" />
+    <Content Include="css\plugins\multiselect\multi-select.css" />
+    <Content Include="css\plugins\pageguide\pageguide.css" />
+    <Content Include="css\plugins\plupload\jquery.plupload.queue.css" />
+    <Content Include="css\plugins\tagsinput\jquery.tagsinput.css" />
+    <Content Include="css\plugins\timepicker\bootstrap-timepicker.min.css" />
+    <Content Include="css\plugins\xeditable\bootstrap-editable.css" />
+    <Content Include="css\qldt.css" />
+    <Content Include="css\qldt1.css" />
+    <Content Include="css\responsive.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\style_mobile.css" />
+    <Content Include="css\style_plugin.css" />
+    <Content Include="css\style_print.css" />
+    <Content Include="css\tokenfield-typeahead.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="Images\accent.png" />
+    <Content Include="Images\ajax-loader.gif" />
+    <Content Include="Images\bg-more.png" />
+    <Content Include="Images\bgcapcha.jpg" />
+    <Content Include="Images\bg_footer.jpg" />
+    <Content Include="Images\bg_header.jpg" />
+    <Content Include="Images\bg_loginloop.jpg" />
+    <Content Include="Images\bullet.png" />
+    <Content Include="Images\heroAccent.png" />
+    <Content Include="Images\img_login.png" />
+    <Content Include="Images\kiennghi.xlsx" />
+    <Content Include="Images\kiennghi_example.xls" />
+    <Content Include="Images\orderedList0.png" />
+    <Content Include="Images\orderedList1.png" />
+    <Content Include="Images\orderedList2.png" />
+    <Content Include="Images\orderedList3.png" />
+    <Content Include="Images\orderedList4.png" />
+    <Content Include="Images\orderedList5.png" />
+    <Content Include="Images\orderedList6.png" />
+    <Content Include="Images\orderedList7.png" />
+    <Content Include="Images\orderedList8.png" />
+    <Content Include="Images\orderedList9.png" />
+    <Content Include="Images\quochuy.png" />
+    <Content Include="img\apple-touch-icon-precomposed.png" />
+    <Content Include="img\demo\1.jpg" />
+    <Content Include="img\demo\10.jpg" />
+    <Content Include="img\demo\11.jpg" />
+    <Content Include="img\demo\12.jpg" />
+    <Content Include="img\demo\13.jpg" />
+    <Content Include="img\demo\14.jpg" />
+    <Content Include="img\demo\15.jpg" />
+    <Content Include="img\demo\2.jpg" />
+    <Content Include="img\demo\3.jpg" />
+    <Content Include="img\demo\4.jpg" />
+    <Content Include="img\demo\5.jpg" />
+    <Content Include="img\demo\6.jpg" />
+    <Content Include="img\demo\7.jpg" />
+    <Content Include="img\demo\8.jpg" />
+    <Content Include="img\demo\9.jpg" />
+    <Content Include="img\demo\big\1.jpg" />
+    <Content Include="img\demo\big\10.jpg" />
+    <Content Include="img\demo\big\11.jpg" />
+    <Content Include="img\demo\big\12.jpg" />
+    <Content Include="img\demo\big\13.jpg" />
+    <Content Include="img\demo\big\14.jpg" />
+    <Content Include="img\demo\big\15.jpg" />
+    <Content Include="img\demo\big\2.jpg" />
+    <Content Include="img\demo\big\3.jpg" />
+    <Content Include="img\demo\big\4.jpg" />
+    <Content Include="img\demo\big\5.jpg" />
+    <Content Include="img\demo\big\6.jpg" />
+    <Content Include="img\demo\big\7.jpg" />
+    <Content Include="img\demo\big\8.jpg" />
+    <Content Include="img\demo\big\9.jpg" />
+    <Content Include="img\demo\directd.png" />
+    <Content Include="img\demo\locked.jpg" />
+    <Content Include="img\demo\mastercard.png" />
+    <Content Include="img\demo\paypal.png" />
+    <Content Include="img\demo\user-1.jpg" />
+    <Content Include="img\demo\user-2.jpg" />
+    <Content Include="img\demo\user-3.jpg" />
+    <Content Include="img\demo\user-4.jpg" />
+    <Content Include="img\demo\user-5.jpg" />
+    <Content Include="img\demo\user-6.jpg" />
+    <Content Include="img\demo\user-avatar.jpg" />
+    <Content Include="img\demo\visa.png" />
+    <Content Include="img\favicon.ico" />
+    <Content Include="img\glyphicons-halflings-white.png" />
+    <Content Include="img\glyphicons-halflings.png" />
+    <Content Include="img\loading.gif" />
+    <Content Include="img\logo-big.png" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\logo_402x.png" />
+    <Content Include="img\plugins\chosen\chosen-sprite.png" />
+    <Content Include="img\plugins\colorbox\controls.png" />
+    <Content Include="img\plugins\colorbox\loading.gif" />
+    <Content Include="img\plugins\colorpicker\alpha.png" />
+    <Content Include="img\plugins\colorpicker\hue.png" />
+    <Content Include="img\plugins\colorpicker\saturation.png" />
+    <Content Include="img\plugins\elfinder\arrows-active.png" />
+    <Content Include="img\plugins\elfinder\arrows-normal.png" />
+    <Content Include="img\plugins\elfinder\crop.gif" />
+    <Content Include="img\plugins\elfinder\dialogs.png" />
+    <Content Include="img\plugins\elfinder\icons-big.png" />
+    <Content Include="img\plugins\elfinder\icons-small.png" />
+    <Content Include="img\plugins\elfinder\logo.png" />
+    <Content Include="img\plugins\elfinder\progress.gif" />
+    <Content Include="img\plugins\elfinder\quicklook-bg.png" />
+    <Content Include="img\plugins\elfinder\quicklook-icons.png" />
+    <Content Include="img\plugins\elfinder\resize.png" />
+    <Content Include="img\plugins\elfinder\spinner-mini.gif" />
+    <Content Include="img\plugins\elfinder\toolbar.png" />
+    <Content Include="img\plugins\gmap\here.png" />
+    <Content Include="img\plugins\gmap\icon_greenA.png" />
+    <Content Include="img\plugins\gmap\icon_greenB.png" />
+    <Content Include="img\plugins\gmap\zoomin.png" />
+    <Content Include="img\plugins\gmap\zoomout.png" />
+    <Content Include="img\plugins\gritter\gritter-light.png" />
+    <Content Include="img\plugins\gritter\gritter.png" />
+    <Content Include="img\plugins\gritter\ie-spacer.gif" />
+    <Content Include="img\plugins\multiselect\switch.png" />
+    <Content Include="img\plugins\pageguide\pageguide_arrow.png" />
+    <Content Include="img\plugins\plupload\backgrounds.gif" />
+    <Content Include="img\plugins\plupload\buttons-disabled.png" />
+    <Content Include="img\plugins\plupload\buttons.png" />
+    <Content Include="img\plugins\plupload\delete.gif" />
+    <Content Include="img\plugins\plupload\done.gif" />
+    <Content Include="img\plugins\plupload\error.gif" />
+    <Content Include="img\plugins\plupload\transp50.png" />
+    <Content Include="img\plugins\xeditable\clear.png" />
+    <Content Include="img\plugins\xeditable\loading.gif" />
+    <Content Include="img\sorting-asc.png" />
+    <Content Include="img\sorting-desc.png" />
+    <Content Include="img\sorting.png" />
+    <Content Include="js\plugins\jquery-ui\jquery-ui.js" />
+    <Content Include="js\moment.js" />
+    <Content Include="Images\kiennghi_example.xlsx" />
+    <Content Include="img\demo\big\Descr.WD3" />
+    <Content Include="img\demo\Descr.WD3" />
+    <Content Include="img\Descr.WD3" />
+    <Content Include="img\plugins\chosen\Descr.WD3" />
+    <Content Include="img\plugins\colorbox\Descr.WD3" />
+    <Content Include="img\plugins\colorpicker\Descr.WD3" />
+    <Content Include="img\plugins\elfinder\Descr.WD3" />
+    <Content Include="img\plugins\gmap\Descr.WD3" />
+    <Content Include="img\plugins\gritter\Descr.WD3" />
+    <Content Include="img\plugins\multiselect\Descr.WD3" />
+    <Content Include="img\plugins\pageguide\Descr.WD3" />
+    <Content Include="img\plugins\plupload\Descr.WD3" />
+    <Content Include="img\plugins\xeditable\Descr.WD3" />
+    <Content Include="Application\ReportTemplate\ReportKienNghi\BaocaoDanhMucKienNghi.xls" />
+    <Content Include="Application\ReportTemplate\ReportKienNghi\rpt_KN_HĐND_BaoCao1ADanhMucCuTri.xlsx" />
+    <Content Include="Application\ReportTemplate\ReportKienNghi\rpt_KN_QH_BaoCao1ADanhMucCuTri.xlsx" />
+    <Content Include="Application\ReportTemplate\ReportKienNghi\rpt_KN_TongHop_BaoCao1ADanhMucCuTri.xlsx" />
+    <Content Include="Application\ReportTemplate\ReportKienNghi\rpt_KN_QH_HDND_Baocao_ThuocBNTW.xls" />
+    <Content Include="Application\ReportTemplate\ReportKienNghi\rpt_KN_QH_Baocao_ThuocBNTW.xls" />
+    <Content Include="Application\ReportTemplate\ReportKienNghi\rpt_KN_HDND_Baocao_ThuocBNTW.xls" />
+    <Content Include="Application\ReportTemplate\ReportKienNghi\rpt_KN_HDND_Baocao_TapHopKienNghiThamQuyenTinh.xls" />
+    <Content Include="Application\ReportTemplate\ReportKienNghi\rpt_KN_QH_Baocao_TapHopKienNghiThamQuyenTinh.xls" />
+    <Content Include="Application\ReportTemplate\ReportKienNghi\rpt_KN_HĐND_BaoCao1BTongHopYKienCuTri.xlsx" />
+    <Content Include="Application\ReportTemplate\ReportKienNghi\rpt_KN_QH_BaoCao1BTongHopYKienCuTri.xlsx" />
+    <Content Include="Application\ReportTemplate\ReportKienNghi\rpt_KN_TongHop_BaoCao1BTongHopYKienCuTri.xlsx" />
+    <Content Include="Application\ReportTemplate\ReportKienNghi\rpt_KN_QH_HDND_Baocao_TapHop_DTL.xls" />
+    <Content Include="Application\ReportTemplate\ReportKienNghi\rpt_KN_BaoCao_BaoCaoTongHopHuyen.xls" />
+    <Content Include="Application\ReportTemplate\ReportKienNghi\rpt_KN_QH_BaoCaoTongHopHuyen.xls" />
+    <Content Include="Application\ReportTemplate\ReportKienNghi\rpt_KN_HDND_BaoCaoTongHopHuyen.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_HDND_Baocao_TongHopKetQuaTiepNhanDon.xls" />
+    <Content Include="Application\ReportTemplate\ReportKienNghi\rpt_KN_QH_Baocao_TapHop_DTL.xls" />
+    <Content Include="Application\ReportTemplate\ReportKienNghi\rpt_KN_HDND_Baocao_TapHop_DTL.xls" />
+    <Content Include="Application\ReportTemplate\ReportKienNghi\rpt_KN_QH_HDND_Baocao_TapHop_DTL_2B.xls" />
+    <Content Include="Application\ReportTemplate\ReportKienNghi\rpt_KN_HDND_Baocao_TapHop_DTL_2B.xls" />
+    <Content Include="Application\ReportTemplate\ReportKienNghi\rpt_KN_QH_Baocao_TapHop_DTL_2B.xls" />
+    <Content Include="Application\ReportTemplate\ReportKienNghi\rpt_KN_TongHop_Baocao_TapHopKienNghiThamQuyenTinh.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_QH_Baocao_DanhSachCacDonViDaTraLoi_4A.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_TongHop_Baocao_DanhSachCacDonViDaTraLoi_4A.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_HDND_Baocao_DanhSachCongVanDonDoc_3F.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_HDND_Baocao_ChuaTraLoi.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_HDND_Baocao_DanhSachCacDonViDaTraLoi_4A.xls" />
+    <Content Include="Application\ReportTemplate\ReportKienNghi\rpt_KN_HĐND_BaoCao1B1TongHopYKienCuTri.xlsx" />
+    <Content Include="Application\ReportTemplate\ReportKienNghi\rpt_KN_QH_BaoCao1B1TongHopYKienCuTri.xlsx" />
+    <Content Include="Application\ReportTemplate\ReportKienNghi\rpt_KN_TongHop_BaoCao1B1TongHopYKienCuTri.xlsx" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_QH_Baocao_ChuaTraLoi.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_QH_HDND_Baocao_ChuaTraLoi.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_QH_Baocao_DanhSachCongVanDonDoc_3F.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_Tonghop_Baocao_DanhSachCongVanDonDoc_3F.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_HDND_Baocao_ChuaTraLoi_3C.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_QH_Baocao_ChuaTraLoi_3C.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_TongHop_Baocao_ChuaTraLoi_3C.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_HDND_Baocao_ChuaTraLoi_3D.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_QH_Baocao_ChuaTraLoi_3D.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_QH_HDND_Baocao_ChuaTraLoi_3D.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_HDND_Baocao_TongHopKetQuaXuLyDon_4B.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_QH_Baocao_TongHopKetQuaXuLyDon_4B.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_TongHop_Baocao_TongHopKetQuaXuLyDon_4B.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_HDND_Baocao_ChiTietCongVanDonDoc_3G.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_QH_Baocao_ChiTietCongVanDonDoc_3G.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_HDND_Baocao_PhieuChuyenDon_3E.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_QH_Baocao_PhieuChuyenDon_3E.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_HDND_Baocao_TongHopKetQuaXuLyDon_4C.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_QH_Baocao_TongHopKetQuaXuLyDon_4C.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_TongHop_Baocao_TongHopKetQuaXuLyDon_4C.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_HDND_Baocao_TongHopKetQuaXuLyDon_4D.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_QH_Baocao_TongHopKetQuaXuLyDon_4D.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_TongHop_Baocao_TongHopKetQuaXuLyDon_4D.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_HDND_Baocao_KetQuaTiepNhanXuLyDonChiTiet_4F.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_QH_Baocao_KetQuaTiepNhanXuLyDonChiTiet_4F.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_TongHop_Baocao_KetQuaTiepNhanXuLyDonChiTiet_4F.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_HDND_Baocao_KetQuaTiepNhanXuLyDonChiTiet_4G.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_QH_Baocao_KetQuaTiepNhanXuLyDonChiTiet_4G.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_TongHop_Baocao_KetQuaTiepNhanXuLyDonChiTiet_4G.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_HDND_Baocao_TiepNhanXuLyGiamSat_4E.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_QH_Baocao_TiepNhanXuLyGiamSat_4E.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_TongHop_Baocao_TiepNhanXuLyGiamSat_4E.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_QH_Baocao_TongHopKetQuaTiepNhanDon.xls" />
+    <Content Include="Application\ReportTemplate\ReportKhieuNai\rpt_KN_Tonghop_Baocao_TongHopKetQuaTiepNhanDon.xls" />
+    <None Include="Properties\PublishProfiles\PublishThaiNguyen.pubxml" />
+    <None Include="Properties\PublishProfiles\PublishThanhHoa.pubxml" />
+    <None Include="Scripts\jquery-1.8.2.intellisense.js" />
+    <Content Include="js\application.min.js" />
+    <Content Include="js\bootstrap-tabcollapse.js" />
+    <Content Include="js\bootstrap-typeahead.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\demonstration.min.js" />
+    <Content Include="js\eakroko.js" />
+    <Content Include="js\eakroko.min.js" />
+    <Content Include="js\flot\excanvas.min.js" />
+    <Content Include="js\flot\jquery.flot.js" />
+    <Content Include="js\flot\jquery.flot.pie.js" />
+    <Content Include="js\flot\jquery.flot.selection.js" />
+    <Content Include="js\functions.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\plugins\bootbox\jquery.bootbox.js" />
+    <Content Include="js\plugins\chosen\chosen.jquery.min.js" />
+    <Content Include="js\plugins\ckeditor\ckeditor.js" />
+    <Content Include="js\plugins\colorbox\jquery.colorbox-min.js" />
+    <Content Include="js\plugins\colorpicker\bootstrap-colorpicker.js" />
+    <Content Include="js\plugins\datatable\ColReorder.min.js" />
+    <Content Include="js\plugins\datatable\ColVis.min.js" />
+    <Content Include="js\plugins\datatable\dataTables.scroller.min.js" />
+    <Content Include="js\plugins\datatable\FixedColumns.min.js" />
+    <Content Include="js\plugins\datatable\jquery.dataTables.min.js" />
+    <Content Include="js\plugins\datatable\TableTools.min.js" />
+    <Content Include="js\plugins\datepicker\bootstrap-datepicker.js" />
+    <Content Include="js\plugins\elfinder\elfinder.min.js" />
+    <Content Include="js\plugins\fileupload\bootstrap-fileupload.min.js" />
+    <Content Include="js\plugins\flot\jquery.flot.bar.order.min.js" />
+    <Content Include="js\plugins\flot\jquery.flot.min.js" />
+    <Content Include="js\plugins\flot\jquery.flot.pie.min.js" />
+    <Content Include="js\plugins\flot\jquery.flot.resize.min.js" />
+    <Content Include="js\plugins\flot\jquery.flot.stack.js" />
+    <Content Include="js\plugins\form\jquery.form.min.js" />
+    <Content Include="js\plugins\fullcalendar\fullcalendar.min.js" />
+    <Content Include="js\plugins\gmap\gmap3-menu.js" />
+    <Content Include="js\plugins\gmap\gmap3.min.js" />
+    <Content Include="js\plugins\gritter\jquery.gritter.min.js" />
+    <Content Include="js\plugins\imagesLoaded\jquery.imagesloaded.min.js" />
+    <Content Include="js\plugins\jquery-ui\jquery.ui.core.min.js" />
+    <Content Include="js\plugins\jquery-ui\jquery.ui.draggable.min.js" />
+    <Content Include="js\plugins\jquery-ui\jquery.ui.droppable.min.js" />
+    <Content Include="js\plugins\jquery-ui\jquery.ui.mouse.min.js" />
+    <Content Include="js\plugins\jquery-ui\jquery.ui.resizable.min.js" />
+    <Content Include="js\plugins\jquery-ui\jquery.ui.selectable.min.js" />
+    <Content Include="js\plugins\jquery-ui\jquery.ui.slider.js" />
+    <Content Include="js\plugins\jquery-ui\jquery.ui.spinner.js" />
+    <Content Include="js\plugins\jquery-ui\jquery.ui.widget.min.js" />
+    <Content Include="js\plugins\maskedinput\jquery.maskedinput.min.js" />
+    <Content Include="js\plugins\mockjax\jquery.mockjax.js" />
+    <Content Include="js\plugins\momentjs\jquery.moment.js" />
+    <Content Include="js\plugins\multiselect\jquery.multi-select.js" />
+    <Content Include="js\plugins\pageguide\jquery.pageguide.js" />
+    <Content Include="js\plugins\plupload\jquery.plupload.queue.js" />
+    <Content Include="js\plugins\plupload\plupload.full.js" />
+    <Content Include="js\plugins\slimscroll\jquery.slimscroll.min.js" />
+    <Content Include="js\plugins\tagsinput\jquery.tagsinput.min.js" />
+    <Content Include="js\plugins\timepicker\bootstrap-timepicker.min.js" />
+    <Content Include="js\plugins\touch-punch\jquery.touch-punch.min.js" />
+    <Content Include="js\plugins\validation\additional-methods.min.js" />
+    <Content Include="js\plugins\validation\jquery.validate.min.js" />
+    <Content Include="js\plugins\vmap\jquery.vmap.min.js" />
+    <Content Include="js\plugins\vmap\jquery.vmap.sampledata.js" />
+    <Content Include="js\plugins\vmap\jquery.vmap.world.js" />
+    <Content Include="js\plugins\wizard\jquery.form.wizard.min.js" />
+    <Content Include="js\plugins\xeditable\address.js" />
+    <Content Include="js\plugins\xeditable\bootstrap-editable.min.js" />
+    <Content Include="js\plugins\xeditable\demo.js" />
+    <Content Include="js\typeahead.bundle.min.js" />
+    <Content Include="ScriptDatabase\Index\Index.sql" />
+    <Content Include="ScriptDatabase\MasterData\DIAPHUONG.sql" />
+    <Content Include="ScriptDatabase\MasterData\DONVI_LINHVUC.sql" />
+    <Content Include="ScriptDatabase\MasterData\KIENNGHI_NGUONDON.sql" />
+    <Content Include="ScriptDatabase\MasterData\KNTC_LOAIDON.sql" />
+    <Content Include="ScriptDatabase\MasterData\KNTC_NGUONDON.sql" />
+    <Content Include="ScriptDatabase\MasterData\KNTC_NOIDUNGDON.sql" />
+    <Content Include="ScriptDatabase\MasterData\KN_NGUONDON.sql" />
+    <Content Include="ScriptDatabase\MasterData\KN_TRALOI_PHANLOAI.sql" />
+    <Content Include="ScriptDatabase\MasterData\LINHVUC.sql" />
+    <Content Include="ScriptDatabase\MasterData\LINHVUC_COQUAN.sql" />
+    <Content Include="ScriptDatabase\MasterData\QUOCHOI_COQUAN.sql" />
+    <Content Include="ScriptDatabase\MasterData\USERS.sql" />
+    <Content Include="ScriptDatabase\MasterData\USER_ACTION.sql" />
+    <Content Include="ScriptDatabase\MasterData\USER_CHUCVU.sql" />
+    <Content Include="ScriptDatabase\MasterData\USER_GROUP.sql" />
+    <Content Include="ScriptDatabase\MasterData\USER_GROUP_ACTION.sql" />
+    <Content Include="ScriptDatabase\MasterData\USER_PHONGBAN.sql" />
+    <Content Include="ScriptDatabase\MasterData\USER_TYPE.sql" />
+    <Content Include="ScriptDatabase\Package\PKG_KHIEUNAI_TOCAO.body.sql" />
+    <Content Include="ScriptDatabase\Package\PKG_KHIEUNAI_TOCAO.sql" />
+    <Content Include="ScriptDatabase\Package\PKG_KIENNGHI_BAOCAO.body.sql" />
+    <Content Include="ScriptDatabase\Package\PKG_KIENNGHI_BAOCAO.sql" />
+    <Content Include="ScriptDatabase\Package\PKG_KIENNGHI_CUTRI.body.sql" />
+    <Content Include="ScriptDatabase\Package\PKG_KIENNGHI_CUTRI.sql" />
+    <Content Include="ScriptDatabase\Package\PKG_KNTC_BAOCAO.body.sql" />
+    <Content Include="ScriptDatabase\Package\PKG_KNTC_BAOCAO.sql" />
+    <Content Include="ScriptDatabase\Package\PKG_TCD_BAOCAO.body.sql" />
+    <Content Include="ScriptDatabase\Package\PKG_TCD_BAOCAO.sql" />
+    <Content Include="ScriptDatabase\Package\PKG_TCD_VUVIEC.body.sql" />
+    <Content Include="ScriptDatabase\Package\PKG_TCD_VUVIEC.sql" />
+    <Content Include="ScriptDatabase\Package\PKG_TD_VUVIEC.body.sql" />
+    <Content Include="ScriptDatabase\Package\PKG_TD_VUVIEC.sql" />
+    <Content Include="ScriptDatabase\Package\PKG_THIETLAP_HETHONG.body.sql" />
+    <Content Include="ScriptDatabase\Package\PKG_THIETLAP_HETHONG.sql" />
+    <Content Include="ScriptDatabase\Package\PKG_VANBAN.body.sql" />
+    <Content Include="ScriptDatabase\Package\PKG_VANBAN.sql" />
+    <Content Include="ScriptDatabase\Sequense\Sequences.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\PRC_DIAPHUONG_PHANTRANG.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\PRC_DIAPHUONG.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\PRC_GET_THKIENNGHI.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\PRC_KIENNGHI_IMPORT_LISTKN.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\PRC_KIENNGHI_MOICAPNHAT_CHANGE.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\PRC_KIENNGHI_TAMXOA.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\PRC_KIENNGHI_TONGHOP_HDNDTINH.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\PRC_KNTC_DONCHOXULY.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\PRC_KNTC_DONDAPHANLOAI.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\PRC_KNTC_IMPORT_LISTDON.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\PRC_KNTC_LISTDACHUYENXULY.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\PRC_KNTC_LISTDACHUYENXULYCOTRALOI.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\PRC_KNTC_LISTDONDAXULYGIAIQUYET.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\PRC_LIST_KIENNGHI_BY_TONGHOP.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\PRC_LIST_TONGHOP_CHUATRALOI.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\RPT_KNTC_BAOCAO_CHUACOTRALOI_3B_3C.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\RPT_KNTC_BAOCAO_CHUACOTRALOI_THEOLINHVUC_3D.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\RPT_KNTC_BAOCAO_DANHSACHCACDONVIDACOTRALOI_4A.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\RPT_KNTC_BAOCAO_DANHSACHDONDOC_3F.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\RPT_KNTC_BAOCAO_TIEPNHANXULYGIAMSAT_4E.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\RPT_KNTC_BAOCAO_TONGHOPKETQUAXULYDON_4B.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\RPT_KNTC_BAOCAO_TONGHOPKETQUAXULYDON_4C.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\RPT_KNTC_BAOCAO_TONGHOPKETQUAXULYDON_4D.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\RPT_KNTC_BAOCAO_TONGHOPKETQUAXULYDON_4F.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\RPT_KNTC_BAOCAO_TONGHOPKETQUAXULYDON_4G.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\RPT_KNTC_DONCHOXULIPHANLOAI.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\RPT_KN_BAOCAO_TONGHOPYKIEN_1B.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\RPT_KN_BAOCAO_TONGHOPYKIEN_1B1.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\RPT_KN_HDND_DANHMUCCUTRI_1A.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\RPT_KN_QH_BAOCAO_KNCT_TAPHOP_DACOTRALOI.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\RPT_KN_QH_BAOCAO_TONGHOP_HUYEN.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\RPT_KN_QH_BAOCAO_KNCT_THUOC_TRUNGUONG.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\RPT_KN_HDND_TAPHOPKNTHAMQUYENTINH.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\PRC_TONGHOP_KIENNGHI_HUYEN.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\PRC_TONGHOP_KIENNGHI_BDN.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\PRC_KIENNGHI_TONGHOP_HDNDTINH.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\PRC_KIENNGHI_LIST_TRUNG.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\PRC_TONGHOP_KIENNGHI_BDN.sql" />
+    <Content Include="ScriptDatabase\StoreProcedure\PRC_KIENNGHI_LIST_TRACUU.sql" />
+    <Content Include="ScriptDatabase\Tables\Tables.sql" />
+    <Content Include="Scripts\jquery-1.8.2.js" />
+    <Content Include="Scripts\jquery-1.8.2.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery-ui-1.8.24.js" />
+    <Content Include="Scripts\jquery-ui-1.8.24.min.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\knockout-2.2.0.debug.js" />
+    <Content Include="Scripts\knockout-2.2.0.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Views\Ajax\Baocaokiennghi\TraloiKNTC.aspx" />
+    <Content Include="Views\Ajax\Baocaokiennghi\Kiennghi_1.aspx" />
+    <Content Include="Views\Ajax\Baocaokiennghi\Kiennghi_2.aspx" />
+    <Content Include="Views\Ajax\Baocaokiennghi\Kiennghi_3.aspx" />
+    <Content Include="Views\Ajax\Baocaokiennghi\Kiennghi_4.aspx" />
+    <Content Include="Views\Ajax\Baocaokiennghi\Kiennghi_5.aspx" />
+    <Content Include="Views\Ajax\Baocaokiennghi\Kiennghi_5b.aspx" />
+    <Content Include="Views\Ajax\Baocaokiennghi\Kiennghi_6.aspx" />
+    <Content Include="Views\Ajax\Baocaokiennghi\Kiennghi_9.aspx" />
+    <Content Include="Views\Ajax\Baocaokiennghi\Phanloai.aspx" />
+    <Content Include="Views\Ajax\Baocaokiennghi\Traloi.aspx" />
+    <Content Include="Views\Ajax\Baocaokiennghi\Ketqua_preview.aspx" />
+    <Content Include="Views\Ajax\Baocaokiennghi\TraloiKN_DenDBQH.aspx" />
+    <Content Include="Views\Ajax\Baocao\Kiennghi_form_1.aspx" />
+    <Content Include="Views\Ajax\Baocao\Kiennghi_form_10.aspx" />
+    <Content Include="Views\Ajax\Baocao\Kiennghi_form_2.aspx" />
+    <Content Include="Views\Ajax\Baocao\Kiennghi_form_3.aspx" />
+    <Content Include="Views\Ajax\Baocao\Kiennghi_form_4.aspx" />
+    <Content Include="Views\Ajax\Baocao\Kiennghi_form_5.aspx" />
+    <Content Include="Views\Ajax\Baocao\Kiennghi_form_6.aspx" />
+    <Content Include="Views\Ajax\Baocao\Kiennghi_form_7.aspx" />
+    <Content Include="Views\Ajax\Baocao\Kiennghi_form_8.aspx" />
+    <Content Include="Views\Ajax\Baocao\Kiennghi_form_9.aspx" />
+    <Content Include="Views\Ajax\Baocao\Kntc_Baocaothang.aspx" />
+    <Content Include="Views\Ajax\Baocao\Kntc_Thongkechitietdon.aspx" />
+    <Content Include="Views\Ajax\Baocao\Kntc_Thongkecoquanchuyendon.aspx" />
+    <Content Include="Views\Ajax\Baocao\Kntc_Thongkecoquanthamquyen.aspx" />
+    <Content Include="Views\Ajax\Baocao\Kntc_Thongkediaban.aspx" />
+    <Content Include="Views\Ajax\Baocao\Kntc_Baocaodonthuhangtuan.aspx" />
+    <Content Include="Views\Ajax\Baocao\Kntc_Tonghopcongvanchuyendon.aspx" />
+    <Content Include="Views\Ajax\Baocao\Kntc_Thongkeloaikhieuto.aspx" />
+    <Content Include="Views\Ajax\Baocao\Kntc_Thongkenguoinhapdon.aspx" />
+    <Content Include="Views\Ajax\Baocao\Kntc_Thongkenguoixuly.aspx" />
+    <Content Include="Views\Ajax\Baocao\Kntc_Thongkenoiguidon.aspx" />
+    <Content Include="Views\Ajax\Baocao\Kntc_Thongkesolieudon.aspx" />
+    <Content Include="Views\Ajax\Baocao\Kntc_Thongketongsodon.aspx" />
+    <Content Include="Views\Ajax\Baocao\Kntc_Thongketrungdon.aspx" />
+    <Content Include="Views\Ajax\Baocao\TD_Phuluc.aspx" />
+    <Content Include="Views\Ajax\Baocao\TD_Solieutinh.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Add_Kiennghi_gop.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Change_Phanloai_traloi.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Chondaibieu.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Chondiaphuong.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Chuongtrinh_chitiet_add.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Chuongtrinh_chitiet_edit.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Chuongtrinh_info.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Chuongtrinh_search.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Chuyendonvi.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Chuyen_Donvi_xuly.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Chuyen_tonghop.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Chuyen_Xuly_tonghop.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Chuyen_Xuly_Tralai.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Duthao_add.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Duthao_edit.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Export_Chuaxuly.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Export_Dacotraloi.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Export_Dangxuly.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Export_Giaitrinh.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Export_Traloi.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Giamsat_add.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Giamsat_edit.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Giamsat_ykien_add.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Giamsat_ykien_edit.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Hoanthanh_result.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Import_add.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Import_add_view_file.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Import_edit.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Kiemtrung.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Kiennghi_danhgia.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Kiennghi_danhgia_chuyenkysau_edit.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Kiennghi_danhgia_edit.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Kiennghi_giamsat_add.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Kiennghi_giamsat_edit.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Kiennghi_Hoanthanh_search.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Kiennghi_info.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Kiennghi_lichsu.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Kiennghi_moicapnhat_search.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Kiennghi_tra.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Kiennghi_traloi.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Kiennghi_traloi_edit.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Kiennghi_tra_chuagiaiquyet.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Kiennghi_tra_chuagiaiquyet_edit.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Kiennghi_tra_chualotrinh.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Kiennghi_tra_chualotrinh_edit.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Kiennghi_tra_chuyenkysau.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Kiennghi_tra_chuyenkysau_edit.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Kiennghi_tra_edit.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Kiennghi_tra_lotrinh.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Kiennghi_tra_lotrinh_edit.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Kiennghi_tra_nguonluc.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Kiennghi_tra_nguonluc_edit.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Kiennghi_trung_dong.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Kiennghi_trung_info.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Load_lichtiep.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Load_lichtiep_edit.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Load_lichtiep_row.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Load_Panel_Kiennghi_Dagop.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\search_bandannguyen_chuyen.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\search_chuatraloi.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\search_chuongtrinh.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\search_chuaxuly.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\search_dacotraloi.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\search_giaitrinh.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\search_dangxuly.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\search_giamsat.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\search_tamxoa.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\search_moicapnhat.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\search_moicapnhat_popup.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\search_theodoi_chuyengiaiquyet.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\search_theodoi_dannguyen.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\search_theodoi_diaphuong.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\search_theodoi_kiennghi_chuyenkysau.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\search_theodoi_kiennghi_dannguyen.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\search_theodoi_kiennghi_dannguyen_result.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\search_theodoi_kiennghi_diaphuong.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\search_theodoi_kiennghi_tralai.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\search_theodoi_kiennghi_tralai_khongxuly.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\search_theodoi_luu.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\search_tonghop.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\search_tonghop_bandannguyen.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\search_tonghop_bandannguyen_chuyen.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\search_tonghop_bandannguyen_dachuyen.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\search_tonghop_chuyendannguyen.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\search_tonghop_chuyendiaphuong.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\search_tonghop_diaphuongchuyen.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\search_tonghop_tinh.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\search_traloi.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Sua_Congvan.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\xuat_tonghop_bandannguyen.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Themkiennghi_giamsat.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Themkiennghi_giamsat_search.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Themkiennghi_gop.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Themkiennghi_tonghop.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Themkiennghi_tonghop_search.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Themmoi.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Timkiem.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Tonghop_info.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Tonghop_lichsu.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Tonghop_list_kiennghi.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Tonghop_search.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Tonghop_traloi.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Tonghop_traloi_edit.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Tracuu_result.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Traloi.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\Chuyen_Xuly_Chuyenvien.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\search_tonghop_huyen.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\xuat_tonghop_huyen.aspx" />
+    <Content Include="Views\Ajax\Kiennghi\xuat_tonghop_tinh.aspx" />
+    <Content Include="Views\Ajax\Kntc\Choxuly_formexport.aspx" />
+    <Content Include="Views\Ajax\Kntc\Chuatraloi_formsearch.aspx" />
+    <Content Include="Views\Ajax\Kntc\PhieuChuyenDonPrint.aspx" />
+    <Content Include="Views\Ajax\Kntc\CongVanDonDocPrint.aspx" />
+    <Content Include="Views\Ajax\Kntc\Dahuongdan_formsearch.aspx" />
+    <Content Include="Views\Ajax\Kntc\Daluanchuyenxuly_formsearch.aspx" />
+    <Content Include="Views\Ajax\Kntc\Danhanxuly_formsearch.aspx" />
+    <Content Include="Views\Ajax\Kntc\Choxuly_formsearch.aspx" />
+    <Content Include="Views\Ajax\Kntc\Choxuly_search.aspx" />
+    <Content Include="Views\Ajax\Kntc\Chuyendon_khongthuocthamquyen.aspx" />
+    <Content Include="Views\Ajax\Kntc\Chuyenxuly_noibo.aspx" />
+    <Content Include="Views\Ajax\Kntc\Chuyenxuly_search.aspx" />
+    <Content Include="Views\Ajax\Kntc\Chuyen_Xuly.aspx" />
+    <Content Include="Views\Ajax\Kntc\Dachuyenxuly_formsearch.aspx" />
+    <Content Include="Views\Ajax\Kntc\Dangxuly_formsearch.aspx" />
+    <Content Include="Views\Ajax\Kntc\Dangxuly_search.aspx" />
+    <Content Include="Views\Ajax\Kntc\Datraloi_formexport.aspx" />
+    <Content Include="Views\Ajax\Kntc\Datraloi_formsearch.aspx" />
+    <Content Include="Views\Ajax\Kntc\Daxuly_formsearch.aspx" />
+    <Content Include="Views\Ajax\Kntc\Daxuly_search.aspx" />
+    <Content Include="Views\Ajax\Kntc\Don_info.aspx" />
+    <Content Include="Views\Ajax\Kntc\Don_lichsu.aspx" />
+    <Content Include="Views\Ajax\Kntc\Dudieukien_formsearch.aspx" />
+    <Content Include="Views\Ajax\Kntc\Dudieukien_search.aspx" />
+    <Content Include="Views\Ajax\Kntc\Giamsat_add.aspx" />
+    <Content Include="Views\Ajax\Kntc\Giamsat_edit.aspx" />
+    <Content Include="Views\Ajax\Kntc\Huongdan_traloi.aspx" />
+    <Content Include="Views\Ajax\Kntc\Import_add.aspx" />
+    <Content Include="Views\Ajax\Kntc\Import_add_view_file.aspx" />
+    <Content Include="Views\Ajax\Kntc\Khongdudieukien_formsearch.aspx" />
+    <Content Include="Views\Ajax\Kntc\Khongdudieukien_search.aspx" />
+    <Content Include="Views\Ajax\Kntc\Khongthuly.aspx" />
+    <Content Include="Views\Ajax\Kntc\Khongthuocthamquyen_formsearch.aspx" />
+    <Content Include="Views\Ajax\Kntc\Khongthuocthamquyen_search.aspx" />
+    <Content Include="Views\Ajax\Kntc\Khongxuly_formsearch.aspx" />
+    <Content Include="Views\Ajax\Kntc\Khongxuly_search.aspx" />
+    <Content Include="Views\Ajax\Kntc\Kiemtrung.aspx" />
+    <Content Include="Views\Ajax\Kntc\Luutheodoi.aspx" />
+    <Content Include="Views\Ajax\Kntc\Lydotrung.aspx" />
+    <Content Include="Views\Ajax\Kntc\Moicapnhat_search.aspx" />
+    <Content Include="Views\Ajax\Kntc\Tamxoa_formsearch.aspx" />
+    <Content Include="Views\Ajax\Kntc\Thuocthamquyen_formsearch.aspx" />
+    <Content Include="Views\Ajax\Kntc\Thuocthamquyen_search.aspx" />
+    <Content Include="Views\Ajax\Kntc\Tracuu_result.aspx" />
+    <Content Include="Views\Ajax\Kntc\Vanbandondoc_add.aspx" />
+    <Content Include="Views\Ajax\Kntc\Vanbanxulylaidon_add.aspx" />
+    <Content Include="Views\Ajax\Kntc\Vanban_add.aspx" />
+    <Content Include="Views\Ajax\Kntc\Vanban_lienquan.aspx" />
+    <Content Include="Views\Ajax\Kntc\Vanbanluanchuyen_add.aspx" />
+    <Content Include="Views\Ajax\Kntc\xuat_kntc_chuatraloi.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Chucvu_add.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Chucvu_edit.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Coquan_add.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Coquan_edit.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Coquan_import.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Coquan_search.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Daibieu_add.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Daibieu_edit.aspx" />
+    <Content Include="Views\Ajax\Thietlap\DaiBieu_KyHop_add.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Dantoc_add.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Dantoc_edit.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Diaphuong_add.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Diaphuong_edit.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Khoa_add.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Khoa_edit.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Kyhop_add.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Kyhop_edit.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Linhvuc_add.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Linhvuc_Coquan_add.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Linhvuc_Coquan_edit.aspx" />
+    <Content Include="Views\Ajax\Thietlap\LinhVuc_DonVi_add.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Linhvuc_edit.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Loaidon_add.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Loaidon_edit.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Nghenghiep_add.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Nghenghiep_edit.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Nguondon_add.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Nguondon_edit.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Nguonkiennghi_add.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Nguonkiennghi_edit.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Nhomquyen_add.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Nhomquyen_edit.aspx" />
+    <Content Include="Views\Ajax\Thietlap\NhomTaiKhoanIndexRowPartial.cshtml" />
+    <Content Include="Views\Ajax\Thietlap\Noidungdon_add.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Noidungdon_edit.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Phongban_add.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Phongban_edit.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Quoctich_add.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Quoctich_edit.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Taikhoan_add.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Taikhoan_edit.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Taikhoan_info.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Taikhoan_lichsu.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Tinhchatdon_add.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Tinhchatdon_edit.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Traloi_Phanloai_add.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Traloi_Phanloai_edit.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Vanban_add.aspx" />
+    <Content Include="Views\Ajax\Thietlap\Vanban_edit.aspx" />
+    <Content Include="Views\Ajax\Tiepdan\Capnhatnoidung.aspx" />
+    <Content Include="Views\Ajax\Tiepdan\Dinhky_add.aspx" />
+    <Content Include="Views\Ajax\Tiepdan\Dinhky_edit.aspx" />
+    <Content Include="Views\Ajax\Tiepdan\Dinhky_info.aspx" />
+    <Content Include="Views\Ajax\Tiepdan\Dinhky_result.aspx" />
+    <Content Include="Views\Ajax\Tiepdan\Dinhky_search.aspx" />
+    <Content Include="Views\Ajax\Tiepdan\Dinhky_tracuu.aspx" />
+    <Content Include="Views\Ajax\Tiepdan\Dinhky_vuviec.aspx" />
+    <Content Include="Views\Ajax\Tiepdan\Dinhky_vuviec_info.aspx" />
+    <Content Include="Views\Ajax\Tiepdan\Dotxuat_search.aspx" />
+    <Content Include="Views\Ajax\Tiepdan\Huongdantructiep.aspx" />
+    <Content Include="Views\Ajax\Tiepdan\Huongdan_traloi.aspx" />
+    <Content Include="Views\Ajax\Tiepdan\Ketqua_Xuly.aspx" />
+    <Content Include="Views\Ajax\Tiepdan\Ketqua_XulyCQBH.aspx" />
+    <Content Include="Views\Ajax\Tiepdan\Kiemtrung.aspx" />
+    <Content Include="Views\Ajax\Tiepdan\Kiemtrung1.aspx" />
+    <Content Include="Views\Ajax\Tiepdan\Noidung.aspx" />
+    <Content Include="Views\Ajax\Tiepdan\Thuongxuyen_info.aspx" />
+    <Content Include="Views\Ajax\Tiepdan\Thuongxuyen_kiemtrung.aspx" />
+    <Content Include="Views\Ajax\Tiepdan\Thuongxuyen_result.aspx" />
+    <Content Include="Views\Ajax\Tiepdan\Thuongxuyen_search.aspx" />
+    <Content Include="Views\Ajax\Tiepdan\Tiepdan_giamsat.aspx" />
+    <Content Include="Views\Ajax\Tiepdan\Tiepdan_giamsat_edit.aspx" />
+    <Content Include="Views\Ajax\Tiepdan\Traloichuyenxuly.aspx" />
+    <Content Include="Views\Ajax\Tiepdan\Traloichuyenxuly_edit.aspx" />
+    <Content Include="Views\Ajax\Tiepdan\Traloivuviec_edit.aspx" />
+    <Content Include="Views\Ajax\Tiepdan\Traloixuly.aspx" />
+    <Content Include="Views\Ajax\Tiepdan\Vuviec_add.aspx" />
+    <Content Include="Views\Ajax\Tiepdan\Vuviec_edit.aspx" />
+    <Content Include="Views\Ajax\Tiepdan\Vuviec_info.aspx" />
+    <Content Include="Views\Ajax\Tiepdan\Vuviec_result.aspx" />
+    <Content Include="Views\Ajax\Tiepdan\VuViec_Trung.aspx" />
+    <Content Include="Views\Ajax\Tiepdan\VuViec_Trung2.aspx" />
+    <Content Include="Views\Ajax\Vanban\Tracuu.aspx" />
+    <Content Include="Views\Ajax\Vanban\Vanban_formsearch.aspx" />
+    <Content Include="Views\Baocaokiennghi\Ketqua.aspx" />
+    <Content Include="Views\Baocaokiennghi\Kiennghi_phanloai_word.aspx" />
+    <Content Include="Views\Baocaokiennghi\Phanloai.aspx" />
+    <Content Include="Views\Baocaokiennghi\TraloiKNTC.aspx" />
+    <Content Include="Views\Baocaokiennghi\Phuluc2.aspx" />
+    <Content Include="Views\Baocaokiennghi\Phuluc3.aspx" />
+    <Content Include="Views\Baocaokiennghi\Phuluc4.aspx" />
+    <Content Include="Views\Baocaokiennghi\Phuluc5.aspx" />
+    <Content Include="Views\Baocaokiennghi\Phuluc5b.aspx" />
+    <Content Include="Views\Baocaokiennghi\Phuluc6.aspx" />
+    <Content Include="Views\Baocaokiennghi\Phuluc9.aspx" />
+    <Content Include="Views\Baocaokiennghi\Traloi.aspx" />
+    <Content Include="Views\Baocaokiennghi\TraloiKN_DenDBQH.aspx" />
+    <Content Include="Views\Baocaokiennghi\Traloi_word.aspx" />
+    <Content Include="Views\Baocaokntc\Baocaothang.aspx" />
+    <Content Include="Views\Baocaokntc\Chitietdon.aspx" />
+    <Content Include="Views\Baocaokntc\Baocaodonthuhangtuan.aspx" />
+    <Content Include="Views\Baocaokntc\Theodoigiaiquyetdon.aspx" />
+    <Content Include="Views\Baocaokntc\Coquanchuyendon.aspx" />
+    <Content Include="Views\Baocaokntc\Coquanthamquyen.aspx" />
+    <Content Include="Views\Baocaokntc\Congvanchuyendon.aspx" />
+    <Content Include="Views\Baocaokntc\Loaikhieuto.aspx" />
+    <Content Include="Views\Baocaokiennghi\Phuluc1.aspx" />
+    <Content Include="Views\Baocaokntc\Nguoinhapdon.aspx" />
+    <Content Include="Views\Baocaokntc\Nguoixuly.aspx" />
+    <Content Include="Views\Baocaokntc\Noiguidon.aspx" />
+    <Content Include="Views\Baocaokntc\Solieudon.aspx" />
+    <Content Include="Views\Baocaokntc\Theodiaban.aspx" />
+    <Content Include="Views\Baocaokntc\Tongsodon.aspx" />
+    <Content Include="Views\Baocaokntc\Trungdon.aspx" />
+    <Content Include="Views\Baocaotiepdan\Solieu.aspx" />
+    <Content Include="Views\Home\Error.aspx" />
+    <Content Include="Views\Home\Error_Exception.aspx" />
+    <Content Include="Views\Home\Index.aspx" />
+    <Content Include="Views\Home\Login.aspx" />
+    <Content Include="Views\Home\Taikhoan.aspx" />
+    <Content Include="Views\Home\Test.aspx" />
+    <Content Include="Views\Ajax\Baocao\Kiennghi_1.aspx" />
+    <Content Include="Views\Ajax\Kntc\Ajax_DanhGia.aspx" />
+    <Content Include="Views\Kiennghi\Add_Kiennghi_gop.aspx" />
+    <Content Include="Views\Kiennghi\Change_Phanloai_traloi.aspx" />
+    <Content Include="Views\Kiennghi\Chondaibieu.aspx" />
+    <Content Include="Views\Kiennghi\Chondiaphuong.aspx" />
+    <Content Include="Views\Kiennghi\Chontonghop.aspx" />
+    <Content Include="Views\Kiennghi\Chuatraloi.aspx" />
+    <Content Include="Views\Kiennghi\Chuongtrinh.aspx" />
+    <Content Include="Views\Kiennghi\Chuongtrinh_chitiet.aspx" />
+    <Content Include="Views\Kiennghi\Chuongtrinh_chitiet_add.aspx" />
+    <Content Include="Views\Kiennghi\Chuongtrinh_chitiet_edit.aspx" />
+    <Content Include="Views\Kiennghi\Chuongtrinh_info.aspx" />
+    <Content Include="Views\Kiennghi\Chuongtrinh_search.aspx" />
+    <Content Include="Views\Kiennghi\Chuyendonvi.aspx" />
+    <Content Include="Views\Kiennghi\Chuyenxuly.aspx" />
+    <Content Include="Views\Kiennghi\Chuyen_Donvi_xuly.aspx" />
+    <Content Include="Views\Kiennghi\Chuyen_tonghop.aspx" />
+    <Content Include="Views\Kiennghi\Chuyen_Xuly_tonghop.aspx" />
+    <Content Include="Views\Kiennghi\Chuaxuly.aspx" />
+    <Content Include="Views\Kiennghi\Dacotraloi.aspx" />
+    <Content Include="Views\Kiennghi\Giaitrinh.aspx" />
+    <Content Include="Views\Kiennghi\Dangxuly.aspx" />
+    <Content Include="Views\Kiennghi\Download_kiennghi_bytonghop.aspx" />
+    <Content Include="Views\Kiennghi\Duthao.aspx" />
+    <Content Include="Views\Kiennghi\Duthao_add.aspx" />
+    <Content Include="Views\Kiennghi\Duthao_edit.aspx" />
+    <Content Include="Views\Kiennghi\Giamsat.aspx" />
+    <Content Include="Views\Kiennghi\Giamsat_add.aspx" />
+    <Content Include="Views\Kiennghi\Giamsat_edit.aspx" />
+    <Content Include="Views\Kiennghi\Giamsat_kiennghi.aspx" />
+    <Content Include="Views\Kiennghi\Giamsat_ykien.aspx" />
+    <Content Include="Views\Kiennghi\Giamsat_ykien_add.aspx" />
+    <Content Include="Views\Kiennghi\Giamsat_ykien_edit.aspx" />
+    <Content Include="Views\Kiennghi\Hoanthanh.aspx" />
+    <Content Include="Views\Kiennghi\Hoanthanh_result.aspx" />
+    <Content Include="Views\Kiennghi\Import.aspx" />
+    <Content Include="Views\Kiennghi\Import_add.aspx" />
+    <Content Include="Views\Kiennghi\Import_kiennghi.aspx" />
+    <Content Include="Views\Kiennghi\Import_taphop.aspx" />
+    <Content Include="Views\Kiennghi\Kiemtrung.aspx" />
+    <Content Include="Views\Kiennghi\Kiennghi_danhgia.aspx" />
+    <Content Include="Views\Kiennghi\Kiennghi_danhgia_chuyenkysau_edit.aspx" />
+    <Content Include="Views\Kiennghi\Kiennghi_danhgia_edit.aspx" />
+    <Content Include="Views\Kiennghi\Kiennghi_giamsat_add.aspx" />
+    <Content Include="Views\Kiennghi\Kiennghi_giamsat_edit.aspx" />
+    <Content Include="Views\Kiennghi\Kiennghi_gop_list.aspx" />
+    <Content Include="Views\Kiennghi\Kiennghi_Hoanthanh_search.aspx" />
+    <Content Include="Views\Kiennghi\Kiennghi_info.aspx" />
+    <Content Include="Views\Kiennghi\Kiennghi_lichsu.aspx" />
+    <Content Include="Views\Kiennghi\Kiennghi_moicapnhat_search.aspx" />
+    <Content Include="Views\Kiennghi\Kiennghi_tra.aspx" />
+    <Content Include="Views\Kiennghi\Kiennghi_traloi.aspx" />
+    <Content Include="Views\Kiennghi\Kiennghi_traloi_edit.aspx" />
+    <Content Include="Views\Kiennghi\Kiennghi_tra_chuagiaiquyet.aspx" />
+    <Content Include="Views\Kiennghi\Kiennghi_tra_chuagiaiquyet_edit.aspx" />
+    <Content Include="Views\Kiennghi\Kiennghi_tra_chualotrinh.aspx" />
+    <Content Include="Views\Kiennghi\Kiennghi_tra_chualotrinh_edit.aspx" />
+    <Content Include="Views\Kiennghi\Kiennghi_tra_chuyenkysau.aspx" />
+    <Content Include="Views\Kiennghi\Kiennghi_tra_chuyenkysau_edit.aspx" />
+    <Content Include="Views\Kiennghi\Kiennghi_tra_edit.aspx" />
+    <Content Include="Views\Kiennghi\Kiennghi_tra_lotrinh.aspx" />
+    <Content Include="Views\Kiennghi\Kiennghi_tra_lotrinh_edit.aspx" />
+    <Content Include="Views\Kiennghi\Kiennghi_tra_nguonluc.aspx" />
+    <Content Include="Views\Kiennghi\Kiennghi_tra_nguonluc_edit.aspx" />
+    <Content Include="Views\Kiennghi\Kiennghi_trung_dong.aspx" />
+    <Content Include="Views\Kiennghi\Kiennghi_trung_info.aspx" />
+    <Content Include="Views\Kiennghi\Load_lichtiep.aspx" />
+    <Content Include="Views\Kiennghi\Load_lichtiep_edit.aspx" />
+    <Content Include="Views\Kiennghi\Load_lichtiep_row.aspx" />
+    <Content Include="Views\Kiennghi\Load_Panel_Kiennghi_Dagop.aspx" />
+    <Content Include="Views\Kiennghi\Moicapnhat.aspx" />
+    <Content Include="Views\Kiennghi\Moicapnhat1.aspx" />
+    <Content Include="Views\Kiennghi\search_bandannguyen_chuyen.aspx" />
+    <Content Include="Views\Kiennghi\search_chuatraloi.aspx" />
+    <Content Include="Views\Kiennghi\search_chuongtrinh.aspx" />
+    <Content Include="Views\Kiennghi\search_chuaxuly.aspx" />
+    <Content Include="Views\Kiennghi\search_dacotraloi.aspx" />
+    <Content Include="Views\Kiennghi\search_giaitrinh.aspx" />
+    <Content Include="Views\Kiennghi\search_dangxuly.aspx" />
+    <Content Include="Views\Kiennghi\search_giamsat.aspx" />
+    <Content Include="Views\Kiennghi\search_moicapnhat.aspx" />
+    <Content Include="Views\Kiennghi\search_theodoi_chuyengiaiquyet.aspx" />
+    <Content Include="Views\Kiennghi\search_theodoi_dannguyen.aspx" />
+    <Content Include="Views\Kiennghi\search_theodoi_diaphuong.aspx" />
+    <Content Include="Views\Kiennghi\search_theodoi_kiennghi_chuyenkysau.aspx" />
+    <Content Include="Views\Kiennghi\search_theodoi_kiennghi_dannguyen.aspx" />
+    <Content Include="Views\Kiennghi\search_theodoi_kiennghi_dannguyen_result.aspx" />
+    <Content Include="Views\Kiennghi\search_theodoi_kiennghi_diaphuong.aspx" />
+    <Content Include="Views\Kiennghi\search_theodoi_kiennghi_tralai.aspx" />
+    <Content Include="Views\Kiennghi\search_theodoi_kiennghi_tralai_khongxuly.aspx" />
+    <Content Include="Views\Kiennghi\search_theodoi_luu.aspx" />
+    <Content Include="Views\Kiennghi\search_tonghop.aspx" />
+    <Content Include="Views\Kiennghi\search_tonghop_bandannguyen.aspx" />
+    <Content Include="Views\Kiennghi\search_tonghop_bandannguyen_chuyen.aspx" />
+    <Content Include="Views\Kiennghi\search_tonghop_bandannguyen_dachuyen.aspx" />
+    <Content Include="Views\Kiennghi\search_tonghop_chuyendannguyen.aspx" />
+    <Content Include="Views\Kiennghi\search_tonghop_chuyendiaphuong.aspx" />
+    <Content Include="Views\Kiennghi\search_tonghop_diaphuongchuyen.aspx" />
+    <Content Include="Views\Kiennghi\search_traloi.aspx" />
+    <Content Include="Views\Kiennghi\Sua.aspx" />
+    <Content Include="Views\Kiennghi\Suachuongtrinh.aspx" />
+    <Content Include="Views\Kiennghi\Tamxoa.aspx" />
+    <Content Include="Views\Kiennghi\Themkiennghi_giamsat.aspx" />
+    <Content Include="Views\Kiennghi\Themkiennghi_giamsat_search.aspx" />
+    <Content Include="Views\Kiennghi\Themkiennghi_gop.aspx" />
+    <Content Include="Views\Kiennghi\Themkiennghi_tonghop.aspx" />
+    <Content Include="Views\Kiennghi\Themkiennghi_tonghop_search.aspx" />
+    <Content Include="Views\Kiennghi\Themmoi.aspx" />
+    <Content Include="Views\Kiennghi\Themmoichuongtrinh.aspx" />
+    <Content Include="Views\Kiennghi\Theodoi_chuyengiaiquyet.aspx" />
+    <Content Include="Views\Kiennghi\Theodoi_dannguyen.aspx" />
+    <Content Include="Views\Kiennghi\Theodoi_diaphuong.aspx" />
+    <Content Include="Views\Kiennghi\Theodoi_kiennghi_chuyenkysau.aspx" />
+    <Content Include="Views\Kiennghi\Theodoi_kiennghi_dannguyen.aspx" />
+    <Content Include="Views\Kiennghi\Theodoi_kiennghi_diaphuong.aspx" />
+    <Content Include="Views\Kiennghi\Theodoi_kiennghi_tralai.aspx" />
+    <Content Include="Views\Kiennghi\Theodoi_kiennghi_tralai_khongxuly.aspx" />
+    <Content Include="Views\Kiennghi\Theodoi_luu.aspx" />
+    <Content Include="Views\Kiennghi\Timkiem.aspx" />
+    <Content Include="Views\Kiennghi\Tonghop.aspx" />
+    <Content Include="Views\Kiennghi\Tonghop_Tinh.aspx" />
+    <Content Include="Views\Kiennghi\Tonghop_TW.aspx" />
+    <Content Include="Views\Kiennghi\Tonghop_bandannguyen_chuyen.aspx" />
+    <Content Include="Views\Kiennghi\Tonghop_bandannguyen_dachuyen.aspx" />
+    <Content Include="Views\Kiennghi\Tonghop_chonkiennghi.aspx" />
+    <Content Include="Views\Kiennghi\Tonghop_chontrung.aspx" />
+    <Content Include="Views\Kiennghi\Tonghop_chuyen.aspx" />
+    <Content Include="Views\Kiennghi\Tonghop_chuyendannguyen.aspx" />
+    <Content Include="Views\Kiennghi\Tonghop_chuyendiaphuong.aspx" />
+    <Content Include="Views\Kiennghi\Tonghop_diaphuongchuyen.aspx" />
+    <Content Include="Views\Kiennghi\Tonghop_Huyen.aspx" />
+    <Content Include="Views\Kiennghi\Tonghop_info.aspx" />
+    <Content Include="Views\Kiennghi\Tonghop_kiennghi.aspx" />
+    <Content Include="Views\Kiennghi\Tonghop_kiennghi_doan.aspx" />
+    <Content Include="Views\Kiennghi\Tonghop_lichsu.aspx" />
+    <Content Include="Views\Kiennghi\Tonghop_list_kiennghi.aspx" />
+    <Content Include="Views\Kiennghi\Tonghop_search.aspx" />
+    <Content Include="Views\Kiennghi\Tonghop_sua.aspx" />
+    <Content Include="Views\Kiennghi\Tonghop_traloi.aspx" />
+    <Content Include="Views\Kiennghi\Tonghop_traloi_edit.aspx" />
+    <Content Include="Views\Kiennghi\Tonghop_traloi_kiennghi.aspx" />
+    <Content Include="Views\Kiennghi\Tracuu.aspx" />
+    <Content Include="Views\Kiennghi\Tracuu_result.aspx" />
+    <Content Include="Views\Kiennghi\Traloi.aspx" />
+    <Content Include="Views\Kntc\Choxuly.aspx" />
+    <Content Include="Views\Kntc\Chuatraloi.aspx" />
+    <Content Include="Views\Kntc\Chuyenxuly.aspx" />
+    <Content Include="Views\Ajax\Kntc\Chuyenxuly_donvi.aspx" />
+    <Content Include="Views\Ajax\Kntc\Chuyenxuly_formsearch.aspx" />
+    <Content Include="Views\Kntc\Dachuyenxuly.aspx" />
+    <Content Include="Views\Kntc\Dahuongdan.aspx" />
+    <Content Include="Views\Kntc\Daluanchuyen.aspx" />
+    <Content Include="Views\Kntc\Dangxuly.aspx" />
+    <Content Include="Views\Kntc\Danhanxuly.aspx" />
+    <Content Include="Views\Kntc\Datraloi.aspx" />
+    <Content Include="Views\Kntc\Daxuly.aspx" />
+    <Content Include="Views\Kntc\DeXuatXuLyDonKhieuNai.aspx" />
+    <Content Include="Views\Kntc\Don_info.aspx" />
+    <Content Include="Views\Kntc\Dudieukien.aspx" />
+    <Content Include="Views\Kntc\Giamsat.aspx" />
+    <Content Include="Views\Kntc\GiayBaoTin1.aspx" />
+    <Content Include="Views\Kntc\GiayBaoTin2.aspx" />
+    <Content Include="Views\Kntc\HoSoDon.aspx" />
+    <Content Include="Views\Kntc\HuongDanGuiDon.aspx" />
+    <Content Include="Views\Kntc\Import.aspx" />
+    <Content Include="Views\Kntc\Import_don.aspx" />
+    <Content Include="Views\Kntc\Khongdudieukien.aspx" />
+    <Content Include="Views\Kntc\KhongThuLyGiaiQuyet.aspx" />
+    <Content Include="Views\Kntc\Khongthuocthamquyen.aspx" />
+    <Content Include="Views\Kntc\Khongxuly.aspx" />
+    <Content Include="Views\Kntc\Kiemtrung.aspx" />
+    <Content Include="Views\Kntc\Moicapnhat.aspx" />
+    <Content Include="Views\Ajax\Kntc\Moicapnhat_formsearch.aspx" />
+    <Content Include="Views\Kntc\Phanloai.aspx" />
+    <Content Include="Views\Kntc\PheuChuyenDonCoBaoCao.aspx" />
+    <Content Include="Views\Kntc\PheuChuyenDonKhongBaoCao.aspx" />
+    <Content Include="Views\Kntc\Sua.aspx" />
+    <Content Include="Views\Kntc\Tamxoa.aspx" />
+    <Content Include="Views\Kntc\Thuocthamquyen.aspx" />
+    <Content Include="Views\Kntc\Tiepnhan.aspx" />
+    <Content Include="Views\Kntc\Tiepnhan1.aspx" />
+    <Content Include="Views\Kntc\Tracuu.aspx" />
+    <Content Include="Views\Kntc\TraDonKhieuNai.aspx" />
+    <Content Include="Views\Shared\_Header.aspx" />
+    <Content Include="Views\Shared\_Left_Baocao.aspx" />
+    <Content Include="Views\Shared\_Left_Knct.aspx" />
+    <Content Include="Views\Shared\_Left_Kntc.aspx" />
+    <Content Include="Views\Shared\_Left_Thietlap.aspx" />
+    <Content Include="Views\Shared\_Left_Tiepdan.aspx" />
+    <Content Include="Views\Shared\_Left_Vanban.aspx" />
+    <Content Include="Views\Baocaotiepdan\Phuluc.aspx" />
+    <Content Include="Views\Thietlap\Chucvu.aspx" />
+    <Content Include="Views\Thietlap\Coquan.aspx" />
+    <Content Include="Views\Thietlap\Daibieu.aspx" />
+    <Content Include="Views\Thietlap\Dantoc.aspx" />
+    <Content Include="Views\Thietlap\Diaphuong.aspx" />
+    <Content Include="Views\Thietlap\Khoa.aspx" />
+    <Content Include="Views\Thietlap\Kyhop.aspx" />
+    <Content Include="Views\Thietlap\Linhvuc.aspx" />
+    <Content Include="Views\Thietlap\Linhvuc_Coquan.aspx" />
+    <Content Include="Views\Thietlap\Loaidon.aspx" />
+    <Content Include="Views\Thietlap\Loaivanban.aspx" />
+    <Content Include="Views\Thietlap\Nghenghiep.aspx" />
+    <Content Include="Views\Thietlap\Nguondon.aspx" />
+    <Content Include="Views\Thietlap\Nguonkiennghi.aspx" />
+    <Content Include="Views\Thietlap\Nhomtaikhoan.aspx" />
+    <Content Include="Views\Thietlap\Nhomtaikhoan_cog.aspx" />
+    <Content Include="Views\Thietlap\Noidungdon.aspx" />
+    <Content Include="Views\Thietlap\Phongban.aspx" />
+    <Content Include="Views\Thietlap\Quoctich.aspx" />
+    <Content Include="Views\Thietlap\Taikhoan.aspx" />
+    <Content Include="Views\Thietlap\Taikhoan_Lichsu.aspx" />
+    <Content Include="Views\Thietlap\Taikhoan_phanquyen.aspx" />
+    <Content Include="Views\Thietlap\Timkiemlichsu.aspx" />
+    <Content Include="Views\Thietlap\Tinhchatdon.aspx" />
+    <Content Include="Views\Thietlap\Traloiphanloai.aspx" />
+    <Content Include="Views\Tiepdan\Dinhky.aspx" />
+    <Content Include="Views\Tiepdan\Dinhky_tracuu.aspx" />
+    <Content Include="Views\Tiepdan\Dinhky_vuviec.aspx" />
+    <Content Include="Views\Tiepdan\Dotxuat.aspx" />
+    <Content Include="Views\Tiepdan\Kiemtrung.aspx" />
+    <Content Include="Views\Tiepdan\Kiemtrung1.aspx" />
+    <Content Include="Views\Tiepdan\Sua.aspx" />
+    <Content Include="Views\Tiepdan\Tamxoa.aspx" />
+    <Content Include="Views\Tiepdan\Themmoi.aspx" />
+    <Content Include="Views\Tiepdan\Thuongxuyen.aspx" />
+    <Content Include="Views\Tiepdan\Thuongxuyen_add.aspx" />
+    <Content Include="Views\Tiepdan\Thuongxuyen_edit.aspx" />
+    <Content Include="Views\Tiepdan\Thuongxuyen_kiemtrung.aspx" />
+    <Content Include="Views\Tiepdan\Thuongxuyen_tracuu.aspx" />
+    <Content Include="Views\Tiepdan\Traloixuly.aspx" />
+    <Content Include="Views\Tiepdan\Word_Chuyenxuly.aspx" />
+    <Content Include="Views\Tiepdan\Word_Nhandon.aspx" />
+    <Content Include="Views\Tiepdan\Word_Phieuhuongdan.aspx" />
+    <Content Include="Views\Tiepdan\Xemchitiet.aspx" />
+    <Content Include="Views\Vanban\ChinhSua.aspx" />
+    <Content Include="Views\Vanban\Duyet.aspx" />
+    <Content Include="Views\Vanban\Moicapnhat.aspx" />
+    <Content Include="Views\Vanban\Quahan.aspx" />
+    <Content Include="Views\Vanban\Themmoi.aspx" />
+    <Content Include="Views\Vanban\Tracuu.aspx" />
+    <Content Include="Views\Vanban\Tracuu_nhanh.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Content\Site.css" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="Views\Shared\Error.aspx" />
+    <Content Include="Views\Shared\_LoginPartial.aspx" />
+    <Content Include="Views\Shared\Site.Master" />
+    <Content Include="Views\Web.config" />
+    <Content Include="Template\Import\khieunaitocao_template.xlsx" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DataAccess\DataAccess.csproj">
+      <Project>{d548d91e-ba43-4173-a235-5fe757976fd5}</Project>
+      <Name>DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Entities\Entities.csproj">
+      <Project>{d41d921a-3be0-48a0-ad45-e5edc9f77b85}</Project>
+      <Name>Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Utilities\Utilities.csproj">
+      <Project>{5c4890e6-67ec-4702-ba74-e2a17f6fa03a}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="upload\kiennghi\" />
+    <Folder Include="upload\kntc\" />
+    <Folder Include="upload\tiepdan\2017\" />
+    <Folder Include="upload\vanban\2017\" />
+    <Folder Include="Views\Account\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>9389</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1434/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

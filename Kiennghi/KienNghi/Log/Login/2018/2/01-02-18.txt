@@ -1,0 +1,4 @@
+
+
+
+LOGIN|http://192.168.1.15:81/Home/Login:81|KNCT|2018/02/01 08:22:00:220|null|admin|192.168.1.6|Home/Login|1|0

@@ -1,0 +1,4 @@
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/02/12 09:41:57:4157|null|admin|::1|Home/Login|1|0

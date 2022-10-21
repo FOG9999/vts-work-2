@@ -1,0 +1,72 @@
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/02/21 08:35:13:3513|null|vungtau01|113.163.216.239|Home/Login|1|0
+
+
+
+LOGOUT|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2020/02/21 08:41:13:4113|null|vungtau01|113.163.216.239|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/02/21 08:41:29:4129|null|vungtau01|113.163.216.239|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/02/21 08:49:09:499|null|hochiminh02|14.186.89.116|Home/Login|1|0
+
+
+
+LOGOUT|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2020/02/21 08:49:54:4954|null|hochiminh02|14.186.89.116|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/02/21 09:11:19:1119|null|quangngai01|113.166.11.196|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/02/21 09:11:20:1120|null|quangngai01|113.166.11.196|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/02/21 09:16:26:1626|null|hochiminh02|14.186.89.116|Home/Login|1|0
+
+
+
+LOGOUT|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2020/02/21 09:17:39:1739|null|quangngai01|113.166.11.196|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login/:80|KNCT|2020/02/21 09:34:48:3448|null|vungtau01|113.163.216.239|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/02/21 09:35:27:3527|null|hochiminh02|14.186.89.116|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login/:80|KNCT|2020/02/21 10:00:34:034|null|vungtau01|113.163.216.239|Home/Login|1|0
+
+
+
+LOGOUT|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2020/02/21 10:12:05:125|null|hochiminh02|14.186.89.116|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/02/21 10:23:38:2338|null|hochiminh02|14.186.89.116|Home/Login|1|0
+
+
+
+LOGOUT|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2020/02/21 10:52:49:5249|null|hochiminh02|14.186.89.116|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/02/21 03:11:39:1139|null|hochiminh02|14.186.89.116|Home/Login|1|0
+
+
+
+LOGOUT|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2020/02/21 03:16:36:1636|null|hochiminh02|14.186.89.116|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/02/21 03:37:24:3724|null|hochiminh02|14.186.89.116|Home/Login|1|0

@@ -1,0 +1,56 @@
+
+
+
+LOGIN|http://192.168.1.5:81/Home/Login:81|KNCT|2018/02/26 09:54:38:5438|null|admin|192.168.1.5|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.5:81/Home/Login/:81|KNCT|2018/02/26 09:55:22:5522|null|admin|192.168.1.5|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.5:81/Home/Login:81|KNCT|2018/02/26 10:07:12:712|null|admin|192.168.1.5|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.5:81/Home/Login:81|KNCT|2018/02/26 10:17:28:1728|null|admin|192.168.1.5|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.5:81/Home/Login:81|KNCT|2018/02/26 10:18:39:1839|null|admin|192.168.1.5|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.5:81/Home/Login:81|KNCT|2018/02/26 10:20:00:200|null|admin|192.168.1.5|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.5:81/Home/Login:81|KNCT|2018/02/26 10:21:16:2116|null|admin|192.168.1.5|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.5:81/Home/Login:81|KNCT|2018/02/26 10:23:07:237|null|admin|192.168.1.5|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.5:81/Home/Login:81|KNCT|2018/02/26 10:26:06:266|null|admin|192.168.1.5|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.5:81/Home/Login:81|KNCT|2018/02/26 10:28:10:2810|null|admin|192.168.1.5|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.5:81/Home/Login:81|KNCT|2018/02/26 10:28:16:2816|null|admin|192.168.1.5|Home/Login|1|0
+
+
+
+LOGOUT|http://192.168.1.5:81/Home/Logout/:81|KNCT|2018/02/26 10:30:36:3036|null|admin|192.168.1.5|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.5:81/Home/Login:81|KNCT|2018/02/26 10:31:05:315|null|admin|192.168.1.5|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.5:81/Home/Login:81|KNCT|2018/02/26 02:01:47:147|null|admin|192.168.1.5|Home/Login|1|0

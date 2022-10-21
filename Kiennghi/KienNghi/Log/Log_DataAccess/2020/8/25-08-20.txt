@@ -1,0 +1,12 @@
+
+
+
+ERROR|http://localhost/Home/Login:80|KNCT|2020/08/25 03:02:41:241|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 240||1
+
+
+
+ERROR|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 03:09:18:918|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 240||1
+
+
+
+ERROR|http://localhost/Home/Login:80|KNCT|2020/08/25 03:17:29:1729|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 240||1

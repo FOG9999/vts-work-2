@@ -1,0 +1,90 @@
+
+
+
+ERROR|http://192.168.1.113:83/Home/Logout/:83|KNCT|2018/07/17 08:10:26:1026|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.113:83/Home/Logout/:83|KNCT|2018/07/17 08:11:00:110|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.113:83/Home/Logout/:83|KNCT|2018/07/17 08:16:23:1623|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.113:83/Home/Logout/:83|KNCT|2018/07/17 08:16:28:1628|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.113:83/Home/Logout/:83|KNCT|2018/07/17 08:20:00:200|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.113:83/Home/Logout/:83|KNCT|2018/07/17 08:23:41:2341|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.113:83/Home/Logout/:83|KNCT|2018/07/17 08:29:59:2959|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.113:83/Home/Logout/:83|KNCT|2018/07/17 08:33:43:3343|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.113:83/Home/Logout/:83|KNCT|2018/07/17 08:42:26:4226|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.113:83/Home/Logout/:83|KNCT|2018/07/17 08:44:33:4433|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.113:83/Home/Logout/:83|KNCT|2018/07/17 08:45:18:4518|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.113:83/Home/Logout/:83|KNCT|2018/07/17 09:01:18:118|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Sua/?id=OTY3fGtudGM1:83|KNCT|2018/07/17 09:02:16:216|unknow|The device is not ready.
+:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   at System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)
+   at System.IO.Directory.CreateDirectory(String path)
+   at KienNghi.Controllers.KntcController.UploadFile(HttpPostedFileBase file) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KntcController.cs:line 55
+   at KienNghi.Controllers.KntcController.Sua(FormCollection fc, HttpPostedFileBase file) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KntcController.cs:line 3001|Cập nhật đơn khiếu nại tố cáo|1
+
+
+
+ERROR|http://192.168.1.113:83/Home/Logout/:83|KNCT|2018/07/17 09:07:45:745|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Ajax_Delele_file:83|KNCT|2018/07/17 11:32:51:3251|unknow|Object reference not set to an instance of an object.:    at DataAccess.ObjectHelper.BuildSqlDelete[T](T t, List`1& param, String[] arCondition) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\ObjectHelper.cs:line 109
+   at DataAccess.BaseRepository.DeleteItem[T](T t, String key) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 106
+   at DataAccess.Dao.FileuploadRepository.Delete(FILE_UPLOAD fileuploadInput) in e:\Solution\KienNghi\Update17042018\DataAccess\Dao\File_UploadRepository.cs:line 82
+   at DataAccess.Busineess.KntcBusineess.Delete_File_upload(Int32 id) in e:\Solution\KienNghi\Update17042018\DataAccess\Busineess\KntcBusineess.cs:line 177
+   at KienNghi.Controllers.KntcController.Ajax_Delele_file(FormCollection fc) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KntcController.cs:line 3060|Xóa file khiếu nại tố cáo|1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Ajax_Delele_file:83|KNCT|2018/07/17 11:32:53:3253|unknow|Object reference not set to an instance of an object.:    at DataAccess.ObjectHelper.BuildSqlDelete[T](T t, List`1& param, String[] arCondition) in e:\Solution\KienNghi\Update17042018\DataAccess\DatabaseHelper\ObjectHelper.cs:line 109
+   at DataAccess.BaseRepository.DeleteItem[T](T t, String key) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 106
+   at DataAccess.Dao.FileuploadRepository.Delete(FILE_UPLOAD fileuploadInput) in e:\Solution\KienNghi\Update17042018\DataAccess\Dao\File_UploadRepository.cs:line 82
+   at DataAccess.Busineess.KntcBusineess.Delete_File_upload(Int32 id) in e:\Solution\KienNghi\Update17042018\DataAccess\Busineess\KntcBusineess.cs:line 177
+   at KienNghi.Controllers.KntcController.Ajax_Delele_file(FormCollection fc) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KntcController.cs:line 3060|Xóa file khiếu nại tố cáo|1
+
+
+
+ERROR|http://192.168.1.113:83/Home/Logout/:83|KNCT|2018/07/17 02:30:37:3037|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.113:83/Home/Logout/:83|KNCT|2018/07/17 02:30:38:3038|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.113:83/Home/Logout/:83|KNCT|2018/07/17 05:09:45:945|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1

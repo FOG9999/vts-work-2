@@ -1,0 +1,8 @@
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/07/24 03:16:00:160|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/07/24 03:22:17:2217|null|admin|::1|Home/Login|1|0

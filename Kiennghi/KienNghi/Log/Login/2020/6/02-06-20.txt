@@ -1,0 +1,4 @@
+
+
+
+LOGIN|http://10.60.156.49:8006/Home/Login:8006|KNCT|2020/06/02 06:33:49:3349|null|tuantm14|10.61.185.124|Home/Login|1|0

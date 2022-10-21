@@ -1,0 +1,24 @@
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2020/09/26 11:05:33:533|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\HomeController.cs:line 411|Đăng xuất|1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Kiennghi/Tonghop_chuyendannguyen/?iKyHop=7?&post_per_page=100:80|KNCT|2020/09/26 11:09:49:949|unknow|Input string was not in a correct format.:    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at KienNghi.Controllers.KiennghiController.Tonghop_chuyendannguyen() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\KiennghiController.cs:line 5250|Danh sách Tập hợp kiến nghị đã chuyển Ban Dân nguyện|1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Logout/:80|KNCT|2020/09/26 12:22:40:2240|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\HomeController.cs:line 411|Đăng xuất|1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Kiennghi/Chontonghop/:80|KNCT|2020/09/26 12:25:24:2524|unknow|ORA-12899: value too large for column "KIENNGHI"."KN_TONGHOP"."CNOIDUNG" (actual: 6982, maximum: 4000):    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at DataAccess.OracleDataAccess.ExecuteSqlTextNoQuery(String mySql, List`1 commandParameters) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\DatabaseHelper\OracleDataAccess.cs:line 133
+   at DataAccess.BaseRepository.InsertItem[T](T t) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 85
+   at DataAccess.Dao.KN_TonghopRepository.AddNew(KN_TONGHOP actionInput) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Dao\KN_TonghopRepository.cs:line 59
+   at DataAccess.Busineess.KiennghiBusineess.InsertTongHop(KN_TONGHOP Input) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Busineess\KiennghiBusineess.cs:line 1567
+   at KienNghi.Controllers.KiennghiController.Chontonghop(FormCollection fc, HttpPostedFileBase file) in d:\BanDanNguyen0411\KienNghi14112019\KienNghi\KienNghi\Controllers\KiennghiController.cs:line 3403|Insert Tập hợp kiến nghị|1

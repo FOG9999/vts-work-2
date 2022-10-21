@@ -1,0 +1,34 @@
+﻿@using Utilities;
+@model KienNghi.ViewModel.UserGroupIndexViewModel
+@{ 
+    string url_cookie = (string)ViewData["url_cookie"];
+    string id_encr = HashUtil.Encode_ID(Model.IGROUP.ToString(), url_cookie);
+}
+<tr>
+    <td class="">@Model.CTEN</td>
+    <td>@Model.CMOTA</td>
+    <td>
+        <div class="scroll">
+            @if (Model.ActionListGroup != null && Model.ActionListGroup.Count > 0)
+            {
+                foreach (var action in Model.ActionListGroup)
+                {
+                    <p class="">@action.Key</p>
+                    <ul class="list-chucnang">
+                        @foreach (var child in action.Value)
+                        {
+                            <li>- @child.CTEN</li>
+                        }
+                    </ul>
+                }
+            }
+        </div>
+    </td>
+    <td class="tcenter">
+        <input type="checkbox" @(Model.IDELETE == 1 ? "checked" : "") onclick="UpdateStatus('id=@id_encr','/Thietlap/Ajax_Nhomtaikhoan_status')">
+    </td>
+    <td class="tcenter">
+        <a href="/Thietlap/Nhomtaikhoan_cog/?id=@id_encr" class="trans_func" title="Chức năng nhóm"><i class="icon-cog"></i></a>
+        <a href="javascript:void(0)" class="trans_func" title="Sửa thông tin nhóm" onclick="ShowPopUp('id=@id_encr','/Thietlap/Ajax_Nhomtaikhoan_edit')"><i class="icon-pencil"></i></a>
+    </td>
+</tr>

@@ -1,0 +1,470 @@
+/* CSS Document */
+
+@font-face {
+    font-family: Roboto;
+    src: url("/fonts/Roboto-Regular.ttf"); /* IE */
+    src: local("Roboto"), url('/fonts/Roboto-Regular.ttf') format('truetype'), url('/fonts/Roboto-Bold.ttf') format('bold'), url('/fonts/Roboto-Italic.ttf') format('italic'), url('/fonts/RobotoCondensed-BoldItalic.ttf') format('BoldItalic'), url('/fonts/Roboto-Light.ttf') format('Light'), url('/fonts/Roboto-Thin.ttf') format('Thin'), url('/fonts/RobotoCondensed-Regular.ttf') format('Regular');
+}
+
+@font-face {
+    font-family: RobotoLight;
+    src: url("/fonts/RobotoCondensed-Regular.ttf"); /* IE */
+    src: local("RobotoLight"), url('/fonts/RobotoCondensed-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: RobotoLightBold;
+    src: url("/fonts/RobotoCondensed-Bold.ttf"); /* IE */
+    src: local("RobotoLightBold"), url('/fonts/RobotoCondensed-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: RobotoMedium;
+  src: url("/fonts/Roboto-Medium.ttf"); /* IE */
+  src: local("RobotoMedium"), 
+  url('/fonts/Roboto-Medium.ttf') format('truetype')
+  ; 
+}
+html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    text-align: justify;
+    font-family: Roboto;
+}
+strong{
+    font-family: RobotoMedium;
+    font-weight: normal;
+}
+@media (max-width: 1366px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+        .navbar-collapse.collapse {
+            display: none !important;
+        }
+
+    .navbar-nav {
+        float: none !important;
+        margin: 7.5px -15px;
+    }
+
+        .navbar-nav > li {
+            float: none;
+        }
+
+            .navbar-nav > li > a {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                font-family: RobotoLight;
+            }
+
+    .container {
+        width: 100%;
+    }
+
+    .navbar .container {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .navbar > .container .navbar-brand {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .navbar .container {
+        width: 100%;
+        padding: 0px 15px;
+    }
+
+    .navbar > .container .navbar-brand {
+        margin-left: 0px;
+    }
+}
+
+table tr td .btn {
+    padding: 3px 10px;
+}
+
+.tcenter {
+    text-align: center !important;
+}
+
+.orange {
+    color: orange;
+}
+
+.orangered {
+    color: #CC4040;
+}
+
+#button-toppage {
+    display: none;
+    padding: 7px 12px 10px 12px;
+    position: fixed;
+    right: 3px;
+    bottom: 35px;
+}
+
+.main {
+    margin-bottom: 20px;
+    margin-top: 70px;
+}
+
+    .main .page-header {
+        margin-top: 0px;
+        padding-bottom: 0px;
+    }
+
+.panel-heading {
+    font-family: RobotoLight;
+    font-size: 18px;
+    padding: 6px 15px;
+}
+
+.page-header h4 {
+    font-size: 20px;
+    font-family: RobotoLight;
+    line-height: 25px;
+    margin-top: 0px;
+}
+
+.navbar-header {
+    background: #055487;
+}
+
+.navbar {
+    background: none;
+    border: none;
+}
+
+.navbar-nav {
+    margin: 0px;
+    border-radius: 0px 0px 5px 5px;
+    background: #1E6593;
+    border: 1px solid #E7E7E7;
+    border-top: none;
+}
+
+.navbar-brand {
+    padding: 8px;
+}
+
+    .navbar-brand img {
+        height: 35px;
+    }
+
+.navbar-collapse {
+    border: none;
+}
+
+.navbar-default .navbar-nav > li:first-child {
+    border-top: 0px;
+}
+
+.navbar-default .navbar-nav > li {
+    border-top: 1px solid #ddd;
+}
+
+    .navbar-default .navbar-nav > li > a {
+        font-size: 12pt;
+        color: #fff;
+    }
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background: #fff;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #1F6DA0;
+    background: #1F6DA0;
+}
+
+.navbar-form {
+    border-bottom: none;
+}
+
+.thutuc_list li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #d4d4d4;
+    padding-bottom: 10px;
+}
+
+    .thutuc_list li:last-child {
+        margin-bottom: 0px;
+        border-bottom: none;
+    }
+
+    .thutuc_list li h5 {
+        margin: 0 0 10px 0;
+        line-height: 16pt;
+    }
+
+    .thutuc_list li p {
+        margin-bottom: 5px;
+    }
+
+    .thutuc_list li h5 a {
+        color: #2361A1;
+        font-family:RobotoMedium;
+    }
+
+.coquan_inner h4 {
+    margin-bottom: 0px;
+}
+
+    .coquan_inner h4 a {
+        display: block;
+        background: #428BCA;
+        color: #f5f5f5;
+        font-size: 12pt;
+        padding: 5px 10px;
+    }
+
+.coquan_inner ul {
+    background: #f5f5f5;
+}
+
+.coquan_inner .coquan_linhvuc {
+    background: #fff;
+}
+
+    .coquan_inner .coquan_linhvuc li a {
+        padding-left: 45px;
+        color: #2361A1;
+    }
+
+.coquan_inner ul li a {
+    display: block;
+    font-size: 10.5pt;
+    padding: 5px 0px 5px 25px;
+    color: #5f5f5f;
+}
+
+    .coquan_inner ul li a:hover {
+        background: #CFCFCF;
+    }
+
+.linhvuc_inner ul li a {
+    display: block;
+    font-size: 10.5pt;
+    padding: 5px 0px;
+}
+
+.table-dvc thead tr th {
+    background: rgb(165, 41, 42) none repeat scroll 0% 0%;
+    color: rgb(255, 255, 255);
+}
+
+.table tr th {
+    background: none repeat scroll 0% 0% #F4F4F4;
+}
+
+h2.title {
+    font-size: 18px;
+    margin: 20px 0px;
+    border-bottom: 1px solid #D4D4D4;
+    padding-bottom: 5px;
+    color: #055487;
+    font-family: RobotoLight;
+}
+
+.panel-body p {
+    margin-bottom: 10px;
+}
+
+.comment {
+    list-style: none;
+}
+
+    .comment li {
+        margin-top: 15px;
+    }
+
+        .comment li h5 {
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #0b4e88;
+        }
+
+            .comment li h5 em {
+                font-weight: normal;
+                color: #666;
+                float: right;
+            }
+
+        .comment li p {
+            clear: both;
+        }
+
+        .comment li .ans {
+            clear: both;
+            padding-left: 15px;
+            color: #FF4500;
+            border-left: 4px double #d4d4d4;
+            margin: 10px 0px 0px 20px;
+        }
+
+.f8 {
+    font-size: 8pt;
+}
+
+.f9 {
+    font-size: 9pt;
+}
+
+.f10 {
+    font-size: 10pt;
+}
+
+.f11 {
+    font-size: 11pt;
+}
+
+.f12 {
+    font-size: 12pt;
+}
+
+.f13 {
+    font-size: 13pt;
+}
+
+.f14 {
+    font-size: 14pt;
+}
+
+.f15 {
+    font-size: 15pt;
+}
+
+footer {
+    background: #D63333;
+    text-align: center;
+    border-top: 1px solid #8F0000;
+    padding: 10px 0px;
+    margin-bottom: 31px;
+}
+
+    footer h5 {
+        margin: 0px;
+    }
+    footer h5 a {
+        
+        color: #fff;
+        font-family: RobotoLight;
+        font-size: 15px;
+        text-decoration:none;
+    }
+.footer-fixed {
+    background: #055487;
+    position: fixed;
+    bottom: -1px;
+    width: 100%;
+}
+
+    .footer-fixed .row a img {
+        height: 17px;
+    }
+
+    .footer-fixed .rows {
+        float: left;
+    }
+
+        .footer-fixed .rows a {
+            padding: 6px 0px;
+            display: block;
+            text-align: center;
+        }
+
+            .footer-fixed .rows a:hover {
+                background: #044169;
+            }
+
+            .footer-fixed .rows a img {
+                height: 20px;
+            }
+
+    .footer-fixed .rows-2 {
+        width: 50%;
+    }
+
+    .footer-fixed .rows-3 {
+        width: 33.3%;
+    }
+
+    .footer-fixed .rows-4 {
+        width: 25%;
+    }
+
+.form_inner p {
+    margin-bottom: 10px;
+}
+
+.noborder td, .noborder th {
+    border: none !important;
+}
+
+.panel-title > a {
+    display: block;
+    font-family: RobotoLight;
+    font-size: 18px;
+}
+
+.tab-content p {
+    margin-bottom: 10px;
+}
+
+.panel-nomagin {
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+    .panel-nomagin .panel-heading {
+        border-radius: 0px;
+    }
+
+.f-red {
+    color: #F85505;
+}
+
+.panel .pagination {
+    margin-left: 20px;
+}
+
+#gopy p {
+    margin-bottom: 10px;
+}
+
+.form-gopy p {
+    margin-bottom: 10px;
+}
+
+.bt-refresh{
+   
+    cursor:pointer;
+}
+.bt-capcha{
+    background: transparent url("/images/bgcapcha.png") repeat scroll 50px 0%;
+    border-radius: 4px 0px 0px 4px !important;
+    border-right: none;
+    font-family: Georgia;
+    font-size:20px;
+ }

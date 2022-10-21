@@ -1,0 +1,16 @@
+
+
+
+LOGIN|http://localhost:8093/Home/Login:8093|KNCT|2019/07/01 04:43:35:4335|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:8093/Home/Login:8093|KNCT|2019/07/01 05:00:20:020|null|admin|::1|Home/Login|1|0
+
+
+
+LOGOUT|http://localhost:8093/Home/Logout/:8093|KNCT|2019/07/01 05:00:58:058|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:8093/Home/Login:8093|KNCT|2019/07/01 05:01:02:12|null|angiang01|::1|Home/Login|1|0

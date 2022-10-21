@@ -1,0 +1,16 @@
+
+
+
+ERROR|http://192.168.1.2/Home/Logout/:80|KNCT|2018/04/06 03:11:21:1121|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.2/Home/Logout/:80|KNCT|2018/04/06 03:11:34:1134|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.2/Thietlap/Ajax_Coquan_update:80|KNCT|2018/04/06 03:12:36:1236|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.ThietlapController.Ajax_Coquan_update(FormCollection fc) in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\ThietlapController.cs:line 745| Sửa danh sách cơ quan |1
+
+
+
+ERROR|http://192.168.1.2/Home/Logout/:80|KNCT|2018/04/06 03:16:34:1634|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\UPDATE\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1

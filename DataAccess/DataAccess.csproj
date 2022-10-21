@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D548D91E-BA43-4173-A235-5FE757976FD5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataAccess</RootNamespace>
+    <AssemblyName>DataAccess</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>3</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Busineess\BaseBusineess.cs" />
+    <Compile Include="Busineess\HomeBusineess.cs" />
+    <Compile Include="Busineess\KiennghiBusineess.cs" />
+    <Compile Include="Busineess\KienNghiReport.cs" />
+    <Compile Include="Busineess\KntcBusineess.cs" />
+    <Compile Include="Busineess\KntcReport.cs" />
+    <Compile Include="Busineess\ThietlapBusineess.cs" />
+    <Compile Include="Busineess\Thietlaplist.cs" />
+    <Compile Include="Busineess\TiepdanBusineess.cs" />
+    <Compile Include="Busineess\TiepdanReport.cs" />
+    <Compile Include="Busineess\VanbanBusineess.cs" />
+    <Compile Include="Dao\ActionRepository.cs" />
+    <Compile Include="Dao\DaibieuReposity.cs" />
+    <Compile Include="Dao\Daibieu_kyhopReposity.cs" />
+    <Compile Include="Dao\DantocRepository.cs" />
+    <Compile Include="Dao\DiaPhuongRepository.cs" />
+    <Compile Include="Dao\DONVILINHVUCRepository.cs" />
+    <Compile Include="Dao\File_UploadRepository.cs" />
+    <Compile Include="Dao\KNTC_DonRepository.cs" />
+    <Compile Include="Dao\KNTC_GiamsatRepository.cs" />
+    <Compile Include="Dao\KNTC_LichsudonRepository.cs" />
+    <Compile Include="Dao\KNTC_LoaidonRepository.cs" />
+    <Compile Include="Dao\KNTC_LuutheodoiRepository.cs" />
+    <Compile Include="Dao\KNTC_NguondonRepository.cs" />
+    <Compile Include="Dao\KNTC_NoidungdonRepository.cs" />
+    <Compile Include="Dao\KNTC_TinhchatRepository.cs" />
+    <Compile Include="Dao\KNTC_VanbanRepository.cs" />
+    <Compile Include="Dao\KN_ChuongtrinhRepository.cs" />
+    <Compile Include="Dao\KN_Chuongtrinh_DaibieuRepository.cs" />
+    <Compile Include="Dao\KN_Chuongtrinh_Diaphuong.cs" />
+    <Compile Include="Dao\KN_ChuyenxulyRepository.cs" />
+    <Compile Include="Dao\KN_Doangiamsat.cs" />
+    <Compile Include="Dao\KN_Doangiamsat_kiennghi.cs" />
+    <Compile Include="Dao\KN_Doangiamsat_ykien.cs" />
+    <Compile Include="Dao\KN_GiamsatRepository.cs" />
+    <Compile Include="Dao\KN_Giamsat_DanhgiaRepository.cs" />
+    <Compile Include="Dao\KN_Giamsat_PhanloaiRepository.cs" />
+    <Compile Include="Dao\KNTC_DON_IMPORTRepository.cs" />
+    <Compile Include="Dao\KN_IMPORTRepository.cs" />
+    <Compile Include="Dao\KN_KiennghiRepository.cs" />
+    <Compile Include="Dao\KN_KIENNGHI_IMPORTRepository.cs" />
+    <Compile Include="Dao\KN_Kiennghi_TraloiRepository.cs" />
+    <Compile Include="Dao\KN_NguondonRepository.cs" />
+    <Compile Include="Dao\KN_TonghopRepository.cs" />
+    <Compile Include="Dao\KN_TRALOI_PHANLOAIRepository.cs" />
+    <Compile Include="Dao\KN_TukhoaRepository.cs" />
+    <Compile Include="Dao\KN_VanbanRepository.cs" />
+    <Compile Include="Dao\LinhvuccoquanRepository.cs" />
+    <Compile Include="Dao\LinhvucRepository.cs" />
+    <Compile Include="Dao\LoaivanbanRepository.cs" />
+    <Compile Include="Dao\LocalRepository.cs" />
+    <Compile Include="Dao\Login_FailRepository.cs" />
+    <Compile Include="Dao\NghenghiepRepository.cs" />
+    <Compile Include="Dao\Quochoi_CoquanRepository.cs" />
+    <Compile Include="Dao\Quochoi_KhoaRepository.cs" />
+    <Compile Include="Dao\Quochoi_KyhopRepository.cs" />
+    <Compile Include="Dao\QuoctichRepository.cs" />
+    <Compile Include="Dao\TD_VuviecRepository.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Dao\TD_VUVIEC_XULYRepository.cs" />
+    <Compile Include="Dao\Tiepdan_Dinhky_LoaivuviecRepository.cs" />
+    <Compile Include="Dao\Tiepdan_DinhkyRepository.cs" />
+    <Compile Include="Dao\Tiepdan_Dinhky_VuviecRepository.cs" />
+    <Compile Include="Dao\Tiepdan_Thuongxuyen_KetquaRepository.cs" />
+    <Compile Include="Dao\Tiepdan_ThuongxuyenRepository.cs" />
+    <Compile Include="Dao\TokenRepository.cs" />
+    <Compile Include="Dao\TrackingRepository.cs" />
+    <Compile Include="Dao\User_ActionRepository.cs" />
+    <Compile Include="Dao\User_ChucvuRepository.cs" />
+    <Compile Include="Dao\User_Group_ActionRepository.cs" />
+    <Compile Include="Dao\User_GroupRepository.cs" />
+    <Compile Include="Dao\User_PhongbanRepository.cs" />
+    <Compile Include="Dao\UsersRepository.cs" />
+    <Compile Include="Dao\User_TypeRepository.cs" />
+    <Compile Include="Dao\VanbanRepository.cs" />
+    <Compile Include="Dao\Vanban_DonviRepository.cs" />
+    <Compile Include="Dao\Vanban_FileRepository.cs" />
+    <Compile Include="DatabaseHelper\AbstractDataProvider.cs" />
+    <Compile Include="DatabaseHelper\ObjectHelper.cs" />
+    <Compile Include="DatabaseHelper\OracleDataAccess.cs" />
+    <Compile Include="DatabaseHelper\OracleDataProvider.cs" />
+    <Compile Include="DatabaseHelper\OracleHelper.cs" />
+    <Compile Include="Repository\BaseRepository.cs" />
+    <Compile Include="Repository\ContextExtensions.cs" />
+    <Compile Include="Repository\EFRepository.cs" />
+    <Compile Include="Repository\IRepository.cs" />
+    <Compile Include="Repository\ITransaction.cs" />
+    <Compile Include="Repository\IUnitOfWork .cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Dao\KN_Chuongtrinh_chitietRepository.cs" />
+    <Compile Include="Repository\Transaction.cs" />
+    <Compile Include="Repository\UnitOfWork.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Fakes Include="Fakes\DataExtensions.fakes" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\Kiennghi\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\Kiennghi\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="FlexCel">
+      <HintPath>..\Kiennghi\lib\FlexCel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\KienNghi\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\Kiennghi\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.122.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <HintPath>..\Kiennghi\packages\Oracle.ManagedDataAccess.12.2.20220118\lib\net40\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess.EntityFramework, Version=6.122.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <HintPath>..\Kiennghi\packages\Oracle.ManagedDataAccess.EntityFramework.12.2.20220118\lib\net45\Oracle.ManagedDataAccess.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.Web, Version=4.122.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <HintPath>..\Kiennghi\packages\Oracle.Web.12.2.20220118\lib\net40\Oracle.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\KienNghi\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\KienNghi\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\KienNghi\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\KienNghi\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\KienNghi\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\KienNghi\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entities\Entities.csproj">
+      <Project>{d41d921a-3be0-48a0-ad45-e5edc9f77b85}</Project>
+      <Name>Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilities\Utilities.csproj">
+      <Project>{5c4890e6-67ec-4702-ba74-e2a17f6fa03a}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

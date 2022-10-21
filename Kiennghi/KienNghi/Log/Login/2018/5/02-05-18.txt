@@ -1,0 +1,136 @@
+
+
+
+LOGIN|http://192.168.1.7:83/Home/Login:83|KNCT|2018/05/02 09:28:37:2837|null|admin|192.168.1.7|Home/Login|1|0
+
+
+
+LOGOUT|http://192.168.1.7:83/Home/Logout/:83|KNCT|2018/05/02 09:43:07:437|null|admin|192.168.1.7|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.7:83/Home/Login:83|KNCT|2018/05/02 09:44:55:4455|null|admin.tl|192.168.1.7|Home/Login|0|0
+
+
+
+LOGIN|http://192.168.1.7:83/Home/Login:83|KNCT|2018/05/02 09:45:17:4517|null|admin.vpubqh|192.168.1.7|Home/Login|0|0
+
+
+
+LOGIN|http://192.168.1.7:83/Home/Login:83|KNCT|2018/05/02 09:45:22:4522|null|admin.ubqh|192.168.1.7|Home/Login|0|0
+
+
+
+LOGIN|http://192.168.1.7:83/Home/Login:83|KNCT|2018/05/02 09:45:27:4527|null|admin|192.168.1.7|Home/Login|1|0
+
+
+
+LOGOUT|http://192.168.1.7:83/Home/Logout/:83|KNCT|2018/05/02 09:45:45:4545|null|admin|192.168.1.7|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.7:83/Home/Login:83|KNCT|2018/05/02 09:45:49:4549|null|admin.ubtvqh|192.168.1.7|Home/Login|1|0
+
+
+
+LOGOUT|http://192.168.1.7:83/Home/Logout/:83|KNCT|2018/05/02 09:45:55:4555|null|admin.ubtvqh|192.168.1.7|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.7:83/Home/Login:83|KNCT|2018/05/02 09:45:58:4558|null|admin|192.168.1.7|Home/Login|1|0
+
+
+
+LOGOUT|http://192.168.1.7:83/Home/Logout/:83|KNCT|2018/05/02 09:56:58:5658|null|admin|192.168.1.7|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.7:83/Home/Login:83|KNCT|2018/05/02 09:57:00:570|null|admin.vpubqh|192.168.1.7|Home/Login|0|0
+
+
+
+LOGIN|http://192.168.1.7:83/Home/Login:83|KNCT|2018/05/02 09:57:05:575|null|admin.ubtvqh|192.168.1.7|Home/Login|1|0
+
+
+
+LOGOUT|http://192.168.1.7:83/Home/Logout/:83|KNCT|2018/05/02 09:57:09:579|null|admin.ubtvqh|192.168.1.7|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.7:83/Home/Login:83|KNCT|2018/05/02 09:57:11:5711|null|admin|192.168.1.7|Home/Login|1|0
+
+
+
+LOGOUT|http://192.168.1.7:83/Home/Logout/:83|KNCT|2018/05/02 09:57:34:5734|null|admin|192.168.1.7|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.7:83/Home/Login:83|KNCT|2018/05/02 09:57:37:5737|null|admin.ubtvqh|192.168.1.7|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.7:83/Home/Login:83|KNCT|2018/05/02 10:09:57:957|null|admin|192.168.1.7|Home/Login|1|0
+
+
+
+LOGOUT|http://192.168.1.7:83/Home/Logout/:83|KNCT|2018/05/02 10:11:02:112|null|admin|192.168.1.7|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.7:83/Home/Login:83|KNCT|2018/05/02 10:11:05:115|null|admin|192.168.1.7|Home/Login|1|0
+
+
+
+LOGOUT|http://192.168.1.7:83/Home/Logout/:83|KNCT|2018/05/02 10:11:38:1138|null|admin|192.168.1.7|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.7:83/Home/Login:83|KNCT|2018/05/02 10:11:41:1141|null|admin.ubtvqh|192.168.1.7|Home/Login|1|0
+
+
+
+LOGOUT|http://192.168.1.7:83/Home/Logout/:83|KNCT|2018/05/02 10:12:06:126|null|admin.ubtvqh|192.168.1.7|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.7:83/Home/Login:83|KNCT|2018/05/02 10:12:08:128|null|admin|192.168.1.7|Home/Login|1|0
+
+
+
+LOGOUT|http://192.168.1.7:83/Home/Logout/:83|KNCT|2018/05/02 10:15:42:1542|null|admin|192.168.1.7|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.7:83/Home/Login:83|KNCT|2018/05/02 10:15:44:1544|null|admin.ubtvqh|192.168.1.7|Home/Login|1|0
+
+
+
+LOGOUT|http://192.168.1.7:83/Home/Logout/:83|KNCT|2018/05/02 10:29:41:2941|null|admin.ubtvqh|192.168.1.7|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.7:83/Home/Login:83|KNCT|2018/05/02 10:29:44:2944|null|admin|192.168.1.7|Home/Login|1|0
+
+
+
+LOGOUT|http://192.168.1.7:83/Home/Logout/:83|KNCT|2018/05/02 10:43:54:4354|null|admin|192.168.1.7|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.7:83/Home/Login:83|KNCT|2018/05/02 10:43:57:4357|null|admin.ubtvqh|192.168.1.7|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.7:83/Home/Login:83|KNCT|2018/05/02 11:17:49:1749|null|admin|192.168.1.7|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.7:83/Home/Login:83|KNCT|2018/05/02 03:08:29:829|null|admin.ubtvqh|192.168.1.7|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.7:83/Home/Login:83|KNCT|2018/05/02 03:49:19:4919|null|admin.ubtvqh|192.168.1.7|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.7:83/Home/Login:83|KNCT|2018/05/02 04:57:19:5719|null|admin|192.168.1.7|Home/Login|1|0

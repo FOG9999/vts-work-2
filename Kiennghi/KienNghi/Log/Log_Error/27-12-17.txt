@@ -1,0 +1,200 @@
+
+
+
+ERROR|http://localhost:2020/Home/Logout/:2020|KNCT|2017/12/27 08:48:35:4835|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 386|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.5/Home/Logout/:80|KNCT|2017/12/27 08:50:59:5059|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 386|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2020/Home/Logout/:2020|KNCT|2017/12/27 09:02:15:215|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 386|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2020/Home/Logout/:2020|KNCT|2017/12/27 09:52:42:5242|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 386|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2020/Home/Logout/:2020|KNCT|2017/12/27 09:58:31:5831|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 386|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2020/Kntc/Ajax_Chuyen_Xuly_insert?iUser_GiaoXuLy=4:2020|KNCT|2017/12/27 10:01:14:114|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.KntcController.Ajax_Chuyen_Xuly_insert() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\KntcController.cs:line 1710|Chuyển xử lý đơn khiếu nại tố cáo|1
+
+
+
+ERROR|http://localhost:2020/Kntc/Ajax_Chuyen_Xuly_insert?iUser_GiaoXuLy=4:2020|KNCT|2017/12/27 10:01:29:129|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.KntcController.Ajax_Chuyen_Xuly_insert() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\KntcController.cs:line 1710|Chuyển xử lý đơn khiếu nại tố cáo|1
+
+
+
+ERROR|http://localhost:2020/Home/Logout/:2020|KNCT|2017/12/27 10:26:27:2627|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 386|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2020/Home/Logout/:2020|KNCT|2017/12/27 10:29:05:295|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 386|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2020/Home/Logout/:2020|KNCT|2017/12/27 10:49:07:497|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 386|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2020/Home/Logout/:2020|KNCT|2017/12/27 11:28:37:2837|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 386|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2020/Home/Logout/:2020|KNCT|2017/12/27 11:28:38:2838|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 386|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2020/Home/Logout/:2020|KNCT|2017/12/27 11:32:22:3222|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 386|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2020/Home/Logout/:2020|KNCT|2017/12/27 12:27:50:2750|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 386|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2020/Kntc/Phanloai?id=MTA0fGExOWU1:2020|KNCT|2017/12/27 12:48:15:4815|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.KntcController.Phanloai() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\KntcController.cs:line 2307|Hiển thị trang phân loại đơn khiếu nại đang xử lý|1
+
+
+
+ERROR|http://localhost:2020/Kntc/Phanloai?id=MTA0fGExOWU1:2020|KNCT|2017/12/27 12:48:18:4818|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.KntcController.Phanloai() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\KntcController.cs:line 2307|Hiển thị trang phân loại đơn khiếu nại đang xử lý|1
+
+
+
+ERROR|http://localhost:2020/Kntc/Phanloai?id=MTA0fGExOWU1:2020|KNCT|2017/12/27 12:48:23:4823|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.KntcController.Phanloai() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\KntcController.cs:line 2307|Hiển thị trang phân loại đơn khiếu nại đang xử lý|1
+
+
+
+ERROR|http://localhost:2020/Home/Logout/:2020|KNCT|2017/12/27 12:57:02:572|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 386|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2020/Home/Logout/:2020|KNCT|2017/12/27 01:20:41:2041|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 338|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2020/Home/Logout/:2020|KNCT|2017/12/27 01:25:54:2554|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 338|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2020/Home/Logout/:2020|KNCT|2017/12/27 01:26:25:2625|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 338|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2020/Home/Logout/:2020|KNCT|2017/12/27 01:30:03:303|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 338|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2020/Home/Logout/:2020|KNCT|2017/12/27 01:50:58:5058|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 338|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2020/Home/Logout/:2020|KNCT|2017/12/27 01:54:28:5428|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 338|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2020/Home/Logout/:2020|KNCT|2017/12/27 01:59:35:5935|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 338|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2020/Home/Logout/:2020|KNCT|2017/12/27 02:08:23:823|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 338|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2020/Home/Logout/:2020|KNCT|2017/12/27 02:15:07:157|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 338|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2020/Kntc/Phanloai?id=MTI3fDczN2Y1:2020|KNCT|2017/12/27 02:16:23:1623|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.KntcController.Phanloai() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\KntcController.cs:line 2312|Hiển thị trang phân loại đơn khiếu nại đang xử lý|1
+
+
+
+ERROR|http://localhost:2020/Kntc/Phanloai?id=MTI3fDczN2Y1:2020|KNCT|2017/12/27 02:16:33:1633|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.KntcController.Phanloai() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\KntcController.cs:line 2312|Hiển thị trang phân loại đơn khiếu nại đang xử lý|1
+
+
+
+ERROR|http://localhost:2020/Kntc/Phanloai?id=MTI3fDczN2Y1:2020|KNCT|2017/12/27 02:16:35:1635|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.KntcController.Phanloai() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\KntcController.cs:line 2312|Hiển thị trang phân loại đơn khiếu nại đang xử lý|1
+
+
+
+ERROR|http://localhost:2020/Home/Logout/:2020|KNCT|2017/12/27 02:18:51:1851|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 338|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2020/Home/Logout/:2020|KNCT|2017/12/27 02:32:05:325|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 338|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2020/Home/Logout/:2020|KNCT|2017/12/27 02:38:08:388|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 338|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.5/Home/Logout/:80|KNCT|2017/12/27 02:39:41:3941|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 338|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2020/Home/Logout/:2020|KNCT|2017/12/27 02:46:46:4646|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 338|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2020/Home/Logout/:2020|KNCT|2017/12/27 02:53:07:537|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 338|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2020/Home/Logout/:2020|KNCT|2017/12/27 02:53:53:5353|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 338|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.5/Home/Logout/:80|KNCT|2017/12/27 02:54:51:5451|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 338|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2020/Home/Logout/:2020|KNCT|2017/12/27 03:07:37:737|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 338|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2020/Home/Logout/:2020|KNCT|2017/12/27 03:10:50:1050|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 338|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2020/Home/Logout/:2020|KNCT|2017/12/27 03:18:45:1845|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 338|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2020/Home/Logout/:2020|KNCT|2017/12/27 03:21:27:2127|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 338|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.5/Home/Logout/:80|KNCT|2017/12/27 03:22:45:2245|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 338|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.5/Home/Logout/:80|KNCT|2017/12/27 03:29:40:2940|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 338|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.5/Home/Logout/:80|KNCT|2017/12/27 03:31:08:318|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 338|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.5/Home/Logout/:80|KNCT|2017/12/27 03:32:39:3239|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 338|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2020/Home/Logout/:2020|KNCT|2017/12/27 03:34:14:3414|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 338|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2020/Home/Logout/:2020|KNCT|2017/12/27 04:31:44:3144|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 338|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2017/12/27 05:23:52:2352|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 338|Đăng xuất|1
+
+
+
+ERROR|http://localhost:2121/Home/Logout/:2121|KNCT|2017/12/27 05:24:40:2440|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Project\KienNghi\KienNghi\KienNghi\Controllers\HomeController.cs:line 338|Đăng xuất|1

@@ -1,0 +1,130 @@
+
+
+
+ERROR|http://localhost:1234/Home/Logout/:1234|KNCT|2018/09/11 02:17:09:179|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:1234/Home/Logout/:1234|KNCT|2018/09/11 02:18:18:1818|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:1234/Kiennghi/Import_insert:1234|KNCT|2018/09/11 02:24:29:2429|unknow|Object reference not set to an instance of an object.:    at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(spr6401 A_0, Boolean A_1)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(Int32 A_0, Int32 A_1, CellExportType A_2, Boolean A_3, Boolean A_4)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(Int32 A_0, Int32 A_1, Int32 A_2, Int32 A_3, ExportDataTableOptions A_4)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(IXLSRange A_0, ExportDataTableOptions A_1)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.ExportDataTable()
+   at KienNghi.Controllers.KiennghiController.InsertKienNghi_Import(KN_IMPORT import) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KiennghiController.cs:line 10791|Thêm kiến nghị từ danh sách import|1
+
+
+
+ERROR|http://localhost:1234/Kiennghi/Import_insert:1234|KNCT|2018/09/11 02:24:29:2429|unknow|Object reference not set to an instance of an object.:    at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(spr6401 A_0, Boolean A_1)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(Int32 A_0, Int32 A_1, CellExportType A_2, Boolean A_3, Boolean A_4)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(Int32 A_0, Int32 A_1, Int32 A_2, Int32 A_3, ExportDataTableOptions A_4)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(IXLSRange A_0, ExportDataTableOptions A_1)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.ExportDataTable()
+   at KienNghi.Controllers.KiennghiController.InsertKienNghi_Import(KN_IMPORT import) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KiennghiController.cs:line 10884
+   at KienNghi.Controllers.KiennghiController.Import_insert(FormCollection fc, HttpPostedFileBase file) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KiennghiController.cs:line 10765|Import kiến nghị|1
+
+
+
+ERROR|http://localhost:1234/Kiennghi/Import_insert:1234|KNCT|2018/09/11 02:25:02:252|unknow|Object reference not set to an instance of an object.:    at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(spr6401 A_0, Boolean A_1)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(Int32 A_0, Int32 A_1, CellExportType A_2, Boolean A_3, Boolean A_4)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(Int32 A_0, Int32 A_1, Int32 A_2, Int32 A_3, ExportDataTableOptions A_4)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(IXLSRange A_0, ExportDataTableOptions A_1)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.ExportDataTable()
+   at KienNghi.Controllers.KiennghiController.InsertKienNghi_Import(KN_IMPORT import) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KiennghiController.cs:line 10791|Thêm kiến nghị từ danh sách import|1
+
+
+
+ERROR|http://localhost:1234/Kiennghi/Import_insert:1234|KNCT|2018/09/11 02:25:02:252|unknow|Object reference not set to an instance of an object.:    at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(spr6401 A_0, Boolean A_1)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(Int32 A_0, Int32 A_1, CellExportType A_2, Boolean A_3, Boolean A_4)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(Int32 A_0, Int32 A_1, Int32 A_2, Int32 A_3, ExportDataTableOptions A_4)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(IXLSRange A_0, ExportDataTableOptions A_1)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.ExportDataTable()
+   at KienNghi.Controllers.KiennghiController.InsertKienNghi_Import(KN_IMPORT import) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KiennghiController.cs:line 10884
+   at KienNghi.Controllers.KiennghiController.Import_insert(FormCollection fc, HttpPostedFileBase file) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KiennghiController.cs:line 10765|Import kiến nghị|1
+
+
+
+ERROR|http://localhost:1234/Kiennghi/Import_insert:1234|KNCT|2018/09/11 02:26:08:268|unknow|Object reference not set to an instance of an object.:    at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(spr6401 A_0, Boolean A_1)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(Int32 A_0, Int32 A_1, CellExportType A_2, Boolean A_3, Boolean A_4)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(Int32 A_0, Int32 A_1, Int32 A_2, Int32 A_3, ExportDataTableOptions A_4)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(IXLSRange A_0, ExportDataTableOptions A_1)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.ExportDataTable()
+   at KienNghi.Controllers.KiennghiController.InsertKienNghi_Import(KN_IMPORT import) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KiennghiController.cs:line 10791|Thêm kiến nghị từ danh sách import|1
+
+
+
+ERROR|http://localhost:1234/Kiennghi/Import_insert:1234|KNCT|2018/09/11 02:26:08:268|unknow|Object reference not set to an instance of an object.:    at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(spr6401 A_0, Boolean A_1)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(Int32 A_0, Int32 A_1, CellExportType A_2, Boolean A_3, Boolean A_4)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(Int32 A_0, Int32 A_1, Int32 A_2, Int32 A_3, ExportDataTableOptions A_4)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(IXLSRange A_0, ExportDataTableOptions A_1)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.ExportDataTable()
+   at KienNghi.Controllers.KiennghiController.InsertKienNghi_Import(KN_IMPORT import) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KiennghiController.cs:line 10884
+   at KienNghi.Controllers.KiennghiController.Import_insert(FormCollection fc, HttpPostedFileBase file) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KiennghiController.cs:line 10765|Import kiến nghị|1
+
+
+
+ERROR|http://localhost:1234/Kiennghi/Import_insert:1234|KNCT|2018/09/11 02:27:12:2712|unknow|Object reference not set to an instance of an object.:    at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(spr6401 A_0, Boolean A_1)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(Int32 A_0, Int32 A_1, CellExportType A_2, Boolean A_3, Boolean A_4)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(Int32 A_0, Int32 A_1, Int32 A_2, Int32 A_3, ExportDataTableOptions A_4)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(IXLSRange A_0, ExportDataTableOptions A_1)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.ExportDataTable()
+   at KienNghi.Controllers.KiennghiController.InsertKienNghi_Import(KN_IMPORT import) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KiennghiController.cs:line 10791|Thêm kiến nghị từ danh sách import|1
+
+
+
+ERROR|http://localhost:1234/Kiennghi/Import_insert:1234|KNCT|2018/09/11 02:27:37:2737|unknow|Object reference not set to an instance of an object.:    at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(spr6401 A_0, Boolean A_1)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(Int32 A_0, Int32 A_1, CellExportType A_2, Boolean A_3, Boolean A_4)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(Int32 A_0, Int32 A_1, Int32 A_2, Int32 A_3, ExportDataTableOptions A_4)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(IXLSRange A_0, ExportDataTableOptions A_1)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.ExportDataTable()
+   at KienNghi.Controllers.KiennghiController.InsertKienNghi_Import(KN_IMPORT import) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KiennghiController.cs:line 10884
+   at KienNghi.Controllers.KiennghiController.Import_insert(FormCollection fc, HttpPostedFileBase file) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KiennghiController.cs:line 10765|Import kiến nghị|1
+
+
+
+ERROR|http://localhost:1234/Home/Logout/:1234|KNCT|2018/09/11 02:31:51:3151|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://localhost:1234/Kiennghi/Import_insert:1234|KNCT|2018/09/11 02:36:56:3656|unknow|Object reference not set to an instance of an object.:    at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(spr6401 A_0, Boolean A_1)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(Int32 A_0, Int32 A_1, CellExportType A_2, Boolean A_3, Boolean A_4)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(Int32 A_0, Int32 A_1, Int32 A_2, Int32 A_3, ExportDataTableOptions A_4)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(IXLSRange A_0, ExportDataTableOptions A_1)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.ExportDataTable()
+   at KienNghi.Controllers.KiennghiController.InsertKienNghi_Import(KN_IMPORT import) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KiennghiController.cs:line 10791|Thêm kiến nghị từ danh sách import|1
+
+
+
+ERROR|http://localhost:1234/Kiennghi/Import_insert:1234|KNCT|2018/09/11 02:36:56:3656|unknow|Object reference not set to an instance of an object.:    at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(spr6401 A_0, Boolean A_1)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(Int32 A_0, Int32 A_1, CellExportType A_2, Boolean A_3, Boolean A_4)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(Int32 A_0, Int32 A_1, Int32 A_2, Int32 A_3, ExportDataTableOptions A_4)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(IXLSRange A_0, ExportDataTableOptions A_1)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.ExportDataTable()
+   at KienNghi.Controllers.KiennghiController.InsertKienNghi_Import(KN_IMPORT import) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KiennghiController.cs:line 10884
+   at KienNghi.Controllers.KiennghiController.Import_insert(FormCollection fc, HttpPostedFileBase file) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KiennghiController.cs:line 10765|Import kiến nghị|1
+
+
+
+ERROR|http://localhost:1234/Kiennghi/Import_insert:1234|KNCT|2018/09/11 02:40:27:4027|unknow|Object reference not set to an instance of an object.:    at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(spr6401 A_0, Boolean A_1)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(Int32 A_0, Int32 A_1, CellExportType A_2, Boolean A_3, Boolean A_4)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(Int32 A_0, Int32 A_1, Int32 A_2, Int32 A_3, ExportDataTableOptions A_4)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(IXLSRange A_0, ExportDataTableOptions A_1)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.ExportDataTable()
+   at KienNghi.Controllers.KiennghiController.InsertKienNghi_Import(KN_IMPORT import) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KiennghiController.cs:line 10791|Thêm kiến nghị từ danh sách import|1
+
+
+
+ERROR|http://localhost:1234/Kiennghi/Import_insert:1234|KNCT|2018/09/11 02:40:28:4028|unknow|Object reference not set to an instance of an object.:    at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(spr6401 A_0, Boolean A_1)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(Int32 A_0, Int32 A_1, CellExportType A_2, Boolean A_3, Boolean A_4)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(Int32 A_0, Int32 A_1, Int32 A_2, Int32 A_3, ExportDataTableOptions A_4)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.0(IXLSRange A_0, ExportDataTableOptions A_1)
+   at Spire.Xls.Core.Spreadsheet.XlsWorksheet.ExportDataTable()
+   at KienNghi.Controllers.KiennghiController.InsertKienNghi_Import(KN_IMPORT import) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KiennghiController.cs:line 10884
+   at KienNghi.Controllers.KiennghiController.Import_insert(FormCollection fc, HttpPostedFileBase file) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KiennghiController.cs:line 10765|Import kiến nghị|1
+
+
+
+ERROR|http://localhost:1234/Home/Logout/:1234|KNCT|2018/09/11 02:51:21:5121|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1

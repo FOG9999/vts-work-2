@@ -1,0 +1,5 @@
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Tracuu/?cNoiDung=:83|KNCT|2018/06/02 09:51:00:510|unknow|Object reference not set to an instance of an object.:    at Utilities.Funtions.ConvertDateToSql(String date) in e:\Solution\KienNghi\Update17042018\Utilities\Funtions.cs:line 110
+   at KienNghi.Controllers.KntcController.Tracuu(Int32 page) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KntcController.cs:line 4443|Tìm kiếm nâng cao đơn khiếu nại |1

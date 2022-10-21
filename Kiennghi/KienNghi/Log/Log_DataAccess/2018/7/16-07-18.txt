@@ -1,0 +1,8 @@
+
+
+
+ERROR|http://localhost:1234/Home/Login:1234|KNCT|2018/07/16 05:33:08:338|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 239||1
+
+
+
+ERROR|http://localhost:1234/Home/Login:1234|KNCT|2018/07/16 05:40:22:4022|ExcuteSQLWithTrans|Object reference not set to an instance of an object.:    at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in e:\Solution\KienNghi\Update17042018\DataAccess\Repository\BaseRepository.cs:line 239||1

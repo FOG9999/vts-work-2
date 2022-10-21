@@ -1,0 +1,172 @@
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/11/04 02:22:03:223|null|admin|::1|Home/Login|1|0
+
+
+
+LOGOUT|http://localhost:1234/Home/Logout/:1234|KNCT|2019/11/04 02:22:09:229|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/11/04 02:22:12:2212|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/11/04 02:25:36:2536|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/11/04 02:26:45:2645|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/11/04 02:27:42:2742|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/11/04 02:28:35:2835|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/11/04 02:36:39:3639|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/11/04 02:39:41:3941|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/11/04 02:44:31:4431|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/11/04 02:45:41:4541|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/11/04 02:46:41:4641|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/11/04 02:48:06:486|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/11/04 02:49:39:4939|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/11/04 02:55:07:557|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/11/04 02:58:09:589|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/11/04 02:59:23:5923|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/11/04 03:04:41:441|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/11/04 03:25:05:255|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/11/04 03:28:35:2835|null|admin|::1|Home/Login|1|0
+
+
+
+LOGOUT|http://localhost:1234/Home/Logout/:1234|KNCT|2019/11/04 03:33:36:3336|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/11/04 03:35:22:3522|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/11/04 04:09:34:934|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/11/04 04:12:45:1245|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/11/04 04:16:39:1639|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1334/Home/Login:1334|KNCT|2019/11/04 04:17:47:1747|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1334/Home/Login:1334|KNCT|2019/11/04 04:19:27:1927|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1334/Home/Login:1334|KNCT|2019/11/04 04:21:36:2136|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1334/Home/Login:1334|KNCT|2019/11/04 04:24:43:2443|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1334/Home/Login:1334|KNCT|2019/11/04 04:26:51:2651|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1334/Home/Login:1334|KNCT|2019/11/04 04:28:22:2822|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1334/Home/Login:1334|KNCT|2019/11/04 04:29:24:2924|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1334/Home/Login:1334|KNCT|2019/11/04 04:30:32:3032|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1334/Home/Login:1334|KNCT|2019/11/04 04:30:32:3032|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1334/Home/Login:1334|KNCT|2019/11/04 04:32:21:3221|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1334/Home/Login:1334|KNCT|2019/11/04 04:35:36:3536|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1334/Home/Login:1334|KNCT|2019/11/04 04:37:16:3716|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1334/Home/Login:1334|KNCT|2019/11/04 04:39:21:3921|null|admin|127.0.0.1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1334/Home/Login:1334|KNCT|2019/11/04 04:43:21:4321|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1334/Home/Login:1334|KNCT|2019/11/04 04:45:28:4528|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1334/Home/Login:1334|KNCT|2019/11/04 04:48:06:486|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1334/Home/Login:1334|KNCT|2019/11/04 04:52:49:5249|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1334/Home/Login:1334|KNCT|2019/11/04 04:58:34:5834|null|admin|::1|Home/Login|1|0

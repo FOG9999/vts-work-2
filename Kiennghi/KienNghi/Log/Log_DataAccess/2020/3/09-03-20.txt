@@ -1,0 +1,385 @@
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:12:19:1219|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:24:59:2459|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:25:02:252|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:25:04:254|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:26:13:2613|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:26:24:2624|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:27:42:2742|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:27:44:2744|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:27:46:2746|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:27:47:2747|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:27:49:2749|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:28:06:286|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:28:09:289|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:28:09:289|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:28:10:2810|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:28:11:2811|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:28:12:2812|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:28:12:2812|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:28:13:2813|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:28:14:2814|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:28:14:2814|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:28:15:2815|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:28:20:2820|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:28:21:2821|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:28:22:2822|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:28:24:2824|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:28:25:2825|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:28:25:2825|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:28:26:2826|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:28:26:2826|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:28:27:2827|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:28:28:2828|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:28:29:2829|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:28:38:2838|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:29:12:2912|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:29:14:2914|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:29:17:2917|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:29:18:2918|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:29:19:2919|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:39:43:3943|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:41:12:4112|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:41:12:4112|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:41:15:4115|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:41:16:4116|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:41:17:4117|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:41:17:4117|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:41:17:4117|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:41:18:4118|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 02:41:18:4118|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 03:03:17:317|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 03:03:19:319|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 03:03:25:325|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 03:03:31:331|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 03:09:44:944|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 03:25:05:255|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 04:02:18:218|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 04:15:34:1534|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 04:15:34:1534|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 04:15:35:1535|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 04:15:38:1538|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 04:15:40:1540|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 04:15:41:1541|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 04:15:44:1544|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 04:45:35:4535|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 04:45:37:4537|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 04:45:40:4540|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 04:45:41:4541|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 04:45:42:4542|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 04:45:42:4542|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 04:45:43:4543|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 04:45:43:4543|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 04:45:44:4544|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 04:46:07:467|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 04:46:09:469|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 04:46:10:4610|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 04:46:12:4612|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1
+
+
+
+ERROR|http://dannguyen.quochoi.vn/Home/Login:80|KNCT|2020/03/09 04:59:28:5928|select * from LOGIN_FAIL where 1 = 1 and IP = :p_IP|The type initializer for 'Oracle.DataAccess.Client.OracleParameter' threw an exception.:    at Oracle.DataAccess.Client.OracleParameter..ctor(String parameterName, Object obj)
+   at DataAccess.BaseRepository.GetAll[T](Dictionary`2 condition) in d:\BanDanNguyen0411\KienNghi04112019\DataAccess\Repository\BaseRepository.cs:line 233||1

@@ -1,0 +1,68 @@
+
+
+
+LOGIN|http://192.168.1.15:81/Home/Login:81|KNCT|2018/02/05 10:50:27:5027|null|admin|192.168.1.15|Home/Login|1|0
+
+
+
+LOGOUT|http://192.168.1.15:81/Home/Logout/:81|KNCT|2018/02/05 10:50:32:5032|null|admin|192.168.1.15|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.15:81/Home/Login:81|KNCT|2018/02/05 10:50:54:5054|null|cv.kntc1|192.168.1.15|Home/Login|1|0
+
+
+
+LOGOUT|http://192.168.1.15:81/Home/Logout/:81|KNCT|2018/02/05 10:51:05:515|null|cv.kntc1|192.168.1.15|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.15:81/Home/Login:81|KNCT|2018/02/05 10:51:08:518|null|cv.kntc|192.168.1.15|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.15:81/Home/Login:81|KNCT|2018/02/05 10:52:10:5210|null|cv.kntc|192.168.1.15|Home/Login|1|0
+
+
+
+LOGOUT|http://192.168.1.15:81/Home/Logout/:81|KNCT|2018/02/05 10:52:28:5228|null|cv.kntc|192.168.1.15|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.15:81/Home/Login:81|KNCT|2018/02/05 10:52:31:5231|null|cv.kntc1|192.168.1.15|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.15:81/Home/Login:81|KNCT|2018/02/05 10:55:11:5511|null|admin|192.168.1.15|Home/Login|1|0
+
+
+
+LOGOUT|http://192.168.1.15:81/Home/Logout/:81|KNCT|2018/02/05 10:55:24:5524|null|admin|192.168.1.15|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.15:81/Home/Login:81|KNCT|2018/02/05 10:55:26:5526|null|cv.kntc1|192.168.1.15|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.15:81/Home/Login:81|KNCT|2018/02/05 10:56:53:5653|null|cv.kntc1|192.168.1.15|Home/Login|1|0
+
+
+
+LOGOUT|http://192.168.1.15:81/Home/Logout/:81|KNCT|2018/02/05 10:57:12:5712|null|cv.kntc1|192.168.1.15|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.15:81/Home/Login:81|KNCT|2018/02/05 10:57:28:5728|null|cv.kntc|192.168.1.15|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.15:81/Home/Login:81|KNCT|2018/02/05 10:57:37:5737|null|cv.kntc|192.168.1.15|Home/Login|1|0
+
+
+
+LOGOUT|http://192.168.1.15:81/Home/Logout/:81|KNCT|2018/02/05 10:57:40:5740|null|cv.kntc|192.168.1.15|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.15:81/Home/Login:81|KNCT|2018/02/05 10:57:44:5744|null|cv.kntc1|192.168.1.15|Home/Login|1|0

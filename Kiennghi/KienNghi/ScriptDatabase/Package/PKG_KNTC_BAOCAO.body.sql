@@ -1,0 +1,663 @@
+CREATE OR REPLACE
+PACKAGE BODY "PKG_KNTC_BAOCAO" 
+AS
+
+  PROCEDURE  PRO_BAOCAO_TK_LOAIKHIEUTO(res out sys_refcursor, pram01 in DATE, pram02 IN DATE, pram03 in INT , pram04 in INT, pram05 in INT , pram06 in INT, pram07 in INT,pram08 in INT,pram09 in INT) AS
+  BEGIN
+    OPEN res FOR   
+        SELECT ROW_NUMBER() OVER(ORDER BY 1 ASC) AS STT, KNTC_LOAIDON.CTEN, COUNT(KNTC_DON.IDON) AS SOLUONG 
+        ,ROUND (COUNT(KNTC_DON.IDON) *100 /(  SELECT  SUM( COUNT(KNTC_DON.IDON)) AS TOTAL 
+                FROM 
+               ( SELECT KNTC_DON.* FROM (
+                SELECT * FROM (
+                SELECT IDON FROM KNTC_DON
+                where IDONVITHULY = pram09
+                UNION
+                select IDON FROM KNTC_DON_LICHSU
+                WHERE IDONVIGUI = pram09 GROUP BY IDON)A GROUP BY IDON)B INNER JOIN KNTC_DON ON B.IDON = KNTC_DON.IDON) KNTC_DON INNER JOIN KNTC_LOAIDON 
+                ON KNTC_DON.ILOAIDON = KNTC_LOAIDON.ILOAIDON      
+                WHERE DNGAYNHAN >= pram01 AND DNGAYNHAN <= pram02 
+                AND (pram03 = 0 OR KNTC_DON.ILOAIDON= pram03)
+                AND (pram04 = 0 OR KNTC_DON.ITINHCHAT= pram04) 
+                AND (pram05 = 0 OR KNTC_DON.INOIDUNG= pram05) 
+                AND (pram06 = 0 OR KNTC_DON.ILINHVUC= pram06)  
+                AND (pram07 = 0 OR KNTC_DON.IDONVITHULY= pram07)  
+                AND (pram08 = 0 OR KNTC_DON.INGUONDON= pram08)
+
+                GROUP BY KNTC_LOAIDON.CTEN ),2) AS TYLE        
+        FROM 
+        (SELECT KNTC_DON.* FROM (
+                SELECT * FROM (
+                SELECT IDON FROM KNTC_DON
+                where IDONVITHULY = pram09
+                UNION
+                select IDON FROM KNTC_DON_LICHSU
+                WHERE IDONVIGUI = pram09 GROUP BY IDON)A GROUP BY IDON)B INNER JOIN KNTC_DON ON B.IDON = KNTC_DON.IDON)KNTC_DON INNER JOIN KNTC_LOAIDON 
+        ON KNTC_DON.ILOAIDON = KNTC_LOAIDON.ILOAIDON 
+          WHERE KNTC_LOAIDON.IDELETE = 0  
+          AND DNGAYNHAN >= pram01 AND DNGAYNHAN <= pram02 
+          AND (pram03 = 0 OR KNTC_DON.ILOAIDON = pram03)
+          AND (pram04 = 0 OR KNTC_DON.ITINHCHAT = pram04) 
+          AND (pram05 = 0 OR KNTC_DON.INOIDUNG = pram05) 
+          AND (pram06 = 0 OR KNTC_DON.ILINHVUC = pram06)
+          AND (pram07 = 0 OR KNTC_DON.IDONVITHULY= pram07) 
+          AND (pram08 = 0 OR KNTC_DON.INGUONDON= pram08) 
+
+        GROUP BY KNTC_LOAIDON.CTEN; 
+        END PRO_BAOCAO_TK_LOAIKHIEUTO;
+----Bao cao noiguidon
+  PROCEDURE PRO_BAOCAO_TK_NOIGUIDON(res out sys_refcursor, pram01 in DATE, pram02 IN DATE , pram03 in INT , pram04 in INT, pram05 in INT , pram06 in INT, pram07 in INT,pram08 in INT,pram09 in INT)AS 
+  BEGIN
+  OPEN res FOR
+    SELECT ROW_NUMBER() OVER(ORDER BY 1 ASC) AS STT,DIAPHUONG.CTEN,COUNT(KNTC_DON.IDON) AS SOLUONG
+    ,ROUND (COUNT(KNTC_DON.IDON) *100 /(SELECT  SUM( COUNT(KNTC_DON.IDON)) AS TOTAL FROM ( SELECT KNTC_DON.* FROM (
+                SELECT * FROM (
+                SELECT IDON FROM KNTC_DON
+                where IDONVITHULY = pram09
+                UNION
+                select IDON FROM KNTC_DON_LICHSU
+                WHERE IDONVIGUI = pram09 GROUP BY IDON)A GROUP BY IDON)B INNER JOIN KNTC_DON ON B.IDON = KNTC_DON.IDON) KNTC_DON INNER JOIN DIAPHUONG 
+                ON KNTC_DON.IDIAPHUONG_0 = DIAPHUONG.IDIAPHUONG   
+                WHERE KNTC_DON.DNGAYNHAN >= pram01 AND KNTC_DON.DNGAYNHAN <= pram02   
+                AND (pram03 = 0 OR KNTC_DON.ILOAIDON= pram03)
+                AND (pram04 = 0 OR KNTC_DON.ITINHCHAT= pram04) 
+                AND (pram05 = 0 OR KNTC_DON.INOIDUNG= pram05) 
+                AND (pram06 = 0 OR KNTC_DON.ILINHVUC= pram06)  
+                AND (pram07 = 0 OR KNTC_DON.IDONVITHULY= pram07) 
+                AND (pram08 = 0 OR KNTC_DON.INGUONDON= pram08)  
+
+                GROUP BY DIAPHUONG.CTEN ),2) AS TYLE
+    FROM ( SELECT KNTC_DON.* FROM (
+                SELECT * FROM (
+                SELECT IDON FROM KNTC_DON
+                where IDONVITHULY = pram09
+                UNION
+                select IDON FROM KNTC_DON_LICHSU
+                WHERE IDONVIGUI = pram09 GROUP BY IDON)A GROUP BY IDON)B INNER JOIN KNTC_DON ON B.IDON = KNTC_DON.IDON)KNTC_DON INNER JOIN DIAPHUONG
+    ON KNTC_DON.IDIAPHUONG_0 = DIAPHUONG.IDIAPHUONG
+        WHERE KNTC_DON.DNGAYNHAN >= pram01 AND KNTC_DON.DNGAYNHAN <= pram02  
+        AND (pram03 = 0 OR KNTC_DON.ILOAIDON= pram03)
+        AND (pram04 = 0 OR KNTC_DON.ITINHCHAT= pram04) 
+        AND (pram05 = 0 OR KNTC_DON.INOIDUNG= pram05) 
+        AND (pram06 = 0 OR KNTC_DON.ILINHVUC= pram06)
+        AND (pram07 = 0 OR KNTC_DON.IDONVITHULY= pram07) 
+        AND (pram08 = 0 OR KNTC_DON.INGUONDON= pram08)  
+
+    GROUP BY DIAPHUONG.CTEN;
+
+  END PRO_BAOCAO_TK_NOIGUIDON;
+  ----Bao cao thamquyengiaiquyet
+  PROCEDURE PRO_BAOCAO_TK_TQGQ(res out sys_refcursor, pram01 in DATE, pram02 IN DATE, pram03 in INT , pram04 in INT, pram05 in INT , pram06 in INT, pram07 in INT,pram08 in INT,pram09 in INT)AS 
+  BEGIN
+  OPEN res FOR
+      SELECT ROW_NUMBER() OVER(ORDER BY 1 ASC) AS STT,QUOCHOI_COQUAN.CTEN,COUNT(KNTC_DON.IDONVITHULY) AS SOLUONG
+      ,ROUND (COUNT(KNTC_DON.IDONVITHULY) * 100 / (SELECT  SUM( COUNT(KNTC_DON.IDON)) AS TOTAL 
+          FROM ( SELECT KNTC_DON.* FROM (
+                SELECT * FROM (
+                SELECT IDON FROM KNTC_DON
+                where IDONVITHULY = pram09
+                UNION
+                select IDON FROM KNTC_DON_LICHSU
+                WHERE IDONVIGUI = pram09 GROUP BY IDON)A GROUP BY IDON)B INNER JOIN KNTC_DON ON B.IDON = KNTC_DON.IDON) KNTC_DON INNER JOIN QUOCHOI_COQUAN 
+          ON KNTC_DON.IDONVITHULY = QUOCHOI_COQUAN.ICOQUAN 
+              WHERE DNGAYNHAN >= pram01 AND DNGAYNHAN <= pram02 
+              AND (pram03 = 0 OR KNTC_DON.ILOAIDON= pram03)
+              AND (pram04 = 0 OR KNTC_DON.ITINHCHAT= pram04) 
+              AND (pram05 = 0 OR KNTC_DON.INOIDUNG= pram05) 
+              AND (pram06 = 0 OR KNTC_DON.ILINHVUC= pram06) 
+              AND (pram07 = 0 OR KNTC_DON.IDONVITHULY= pram07) 
+              AND (pram08 = 0 OR KNTC_DON.INGUONDON= pram08)  
+
+          GROUP BY QUOCHOI_COQUAN.CTEN ),2)  AS TYLE  
+      FROM QUOCHOI_COQUAN INNER JOIN ( SELECT KNTC_DON.* FROM (
+                SELECT * FROM (
+                SELECT IDON FROM KNTC_DON
+                where IDONVITHULY = pram09
+                UNION
+                select IDON FROM KNTC_DON_LICHSU
+                WHERE IDONVIGUI = pram09 GROUP BY IDON)A GROUP BY IDON)B INNER JOIN KNTC_DON ON B.IDON = KNTC_DON.IDON) KNTC_DON
+      ON  QUOCHOI_COQUAN.ICOQUAN = KNTC_DON.IDONVITHULY
+              WHERE DNGAYNHAN >= pram01 AND DNGAYNHAN <= pram02 
+              AND (pram03 = 0 OR KNTC_DON.ILOAIDON= pram03)
+              AND (pram04 = 0 OR KNTC_DON.ITINHCHAT= pram04) 
+              AND (pram05 = 0 OR KNTC_DON.INOIDUNG= pram05) 
+              AND (pram06 = 0 OR KNTC_DON.ILINHVUC= pram06)
+              AND (pram07 = 0 OR KNTC_DON.IDONVITHULY= pram07) 
+              AND (pram08 = 0 OR KNTC_DON.INGUONDON= pram08) 
+
+      GROUP BY CTEN;
+
+  END PRO_BAOCAO_TK_TQGQ;
+  ----Bao cao nguoinhapdon  
+  PROCEDURE PRO_BAOCAO_TK_NGUOINHAPDON(res out sys_refcursor, pram01 in DATE, pram02 IN DATE, pram03 in INT , pram04 in INT, pram05 in INT , pram06 in INT, pram07 in INT,pram08 in INT,pram09 in INT)AS 
+  BEGIN
+  OPEN res FOR
+      SELECT ROW_NUMBER() OVER(ORDER BY 1 ASC) AS STT,USERS.CTEN,COUNT(KNTC_DON.IDON) AS SOLUONG,  
+      ROUND (COUNT(KNTC_DON.IDON) *100 /(SELECT  SUM( COUNT(KNTC_DON.IDON)) AS TOTAL 
+      FROM ( SELECT KNTC_DON.* FROM (
+                SELECT * FROM (
+                SELECT IDON FROM KNTC_DON
+                where IDONVITHULY = pram09
+                UNION
+                select IDON FROM KNTC_DON_LICHSU
+                WHERE IDONVIGUI = pram09 GROUP BY IDON)A GROUP BY IDON)B INNER JOIN KNTC_DON ON B.IDON = KNTC_DON.IDON) KNTC_DON INNER JOIN USERS 
+      ON KNTC_DON.IUSER = USERS.IUSER 
+          WHERE KNTC_DON.DNGAYNHAN >= pram01 AND KNTC_DON.DNGAYNHAN <= pram02 
+          AND (pram03 = 0 OR KNTC_DON.ILOAIDON= pram03)
+          AND (pram04 = 0 OR KNTC_DON.ITINHCHAT= pram04) 
+          AND (pram05 = 0 OR KNTC_DON.INOIDUNG= pram05) 
+          AND (pram06 = 0 OR KNTC_DON.ILINHVUC= pram06)
+          AND (pram07 = 0 OR KNTC_DON.IDONVITHULY= pram07) 
+          AND (pram08 = 0 OR KNTC_DON.INGUONDON= pram08) 
+          GROUP BY USERS.CTEN ),2) AS TYLE
+      FROM ( SELECT KNTC_DON.* FROM (
+                SELECT * FROM (
+                SELECT IDON FROM KNTC_DON
+                where IDONVITHULY = pram09
+                UNION
+                select IDON FROM KNTC_DON_LICHSU
+                WHERE IDONVIGUI = pram09 GROUP BY IDON)A GROUP BY IDON)B INNER JOIN KNTC_DON ON B.IDON = KNTC_DON.IDON) KNTC_DON INNER JOIN USERS
+      ON KNTC_DON.IUSER = USERS.IUSER
+          WHERE KNTC_DON.DNGAYNHAN >= pram01 AND KNTC_DON.DNGAYNHAN <= pram02 
+          AND (pram03 = 0 OR KNTC_DON.ILOAIDON= pram03)
+          AND (pram04 = 0 OR KNTC_DON.ITINHCHAT= pram04) 
+          AND (pram05 = 0 OR KNTC_DON.INOIDUNG= pram05) 
+          AND (pram06 = 0 OR KNTC_DON.ILINHVUC= pram06)
+          AND (pram07 = 0 OR KNTC_DON.IDONVITHULY= pram07)
+          AND (pram08 = 0 OR KNTC_DON.INGUONDON= pram08)  
+
+      GROUP BY USERS.CTEN;
+  END PRO_BAOCAO_TK_NGUOINHAPDON;
+  ----Bao cao nguoixuly
+  PROCEDURE PRO_BAOCAO_TK_NGUOIXULY(res out sys_refcursor, pram01 in DATE, pram02 IN DATE , pram03 in INT , pram04 in INT, pram05 in INT , pram06 in INT, pram07 in INT,pram08 in INT,pram09 in INT)AS 
+  BEGIN
+  OPEN res FOR
+      SELECT ROW_NUMBER() OVER(ORDER BY 1 ASC) AS STT,USERS.CTEN,COUNT(KNTC_DON.IDON) AS SOLUONG,  
+      ROUND (COUNT(KNTC_DON.IDON) *100 /(SELECT  SUM( COUNT(KNTC_DON.IDON)) AS TOTAL 
+      FROM ( SELECT KNTC_DON.* FROM (
+                SELECT * FROM (
+                SELECT IDON FROM KNTC_DON
+                where IDONVITHULY = pram09
+                UNION
+                select IDON FROM KNTC_DON_LICHSU
+                WHERE IDONVIGUI = pram09 GROUP BY IDON)A GROUP BY IDON)B INNER JOIN KNTC_DON ON B.IDON = KNTC_DON.IDON)KNTC_DON INNER JOIN USERS 
+      ON KNTC_DON.IUSER_DUOCGIAOXULY = USERS.IUSER 
+          WHERE KNTC_DON.DNGAYNHAN >= pram01 AND KNTC_DON.DNGAYNHAN <= pram02 
+          AND (pram03 = 0 OR KNTC_DON.ILOAIDON= pram03)
+          AND (pram04 = 0 OR KNTC_DON.ITINHCHAT= pram04) 
+          AND (pram05 = 0 OR KNTC_DON.INOIDUNG= pram05) 
+          AND (pram06 = 0 OR KNTC_DON.ILINHVUC= pram06) 
+          AND (pram07 = 0 OR KNTC_DON.IDONVITHULY= pram07) 
+          AND (pram08 = 0 OR KNTC_DON.INGUONDON= pram08)  
+          GROUP BY USERS.CTEN ),2) AS TYLE
+      FROM ( SELECT KNTC_DON.* FROM (
+                SELECT * FROM (
+                SELECT IDON FROM KNTC_DON
+                where IDONVITHULY = pram09
+                UNION
+                select IDON FROM KNTC_DON_LICHSU
+                WHERE IDONVIGUI = pram09 GROUP BY IDON)A GROUP BY IDON)B INNER JOIN KNTC_DON ON B.IDON = KNTC_DON.IDON) KNTC_DON INNER JOIN USERS
+      ON KNTC_DON.IUSER_DUOCGIAOXULY = USERS.IUSER
+          WHERE KNTC_DON.DNGAYNHAN >= pram01 AND KNTC_DON.DNGAYNHAN <= pram02 
+          AND (pram03 = 0 OR KNTC_DON.ILOAIDON= pram03)
+          AND (pram04 = 0 OR KNTC_DON.ITINHCHAT= pram04) 
+          AND (pram05 = 0 OR KNTC_DON.INOIDUNG= pram05) 
+          AND (pram06 = 0 OR KNTC_DON.ILINHVUC= pram06)
+          AND (pram07 = 0 OR KNTC_DON.IDONVITHULY= pram07) 
+          AND (pram08 = 0 OR KNTC_DON.INGUONDON= pram08)  
+
+      GROUP BY USERS.CTEN;  
+    END PRO_BAOCAO_TK_NGUOIXULY;
+  ----Bao cao coquanchuyendon
+  PROCEDURE PRO_BAOCAO_TK_COQUANCHUYENDON(res out sys_refcursor, pram01 in DATE, pram02 IN DATE, pram03 in INT , pram04 in INT, pram05 in INT , pram06 in INT, pram07 in INT,pram08 in INT,pram09 in INT)AS 
+  BEGIN
+  OPEN res FOR
+    SELECT ROW_NUMBER() OVER(ORDER BY 1 ASC) AS STT,KNTC_NGUONDON.CTEN,COUNT(KNTC_DON.IDON) AS SOLUONG,  
+      ROUND (COUNT(KNTC_DON.IDON) *100 /(SELECT  SUM( COUNT(KNTC_DON.IDON)) AS TOTAL 
+      FROM ( SELECT KNTC_DON.* FROM (
+                SELECT * FROM (
+                SELECT IDON FROM KNTC_DON
+                where IDONVITHULY = pram09
+                UNION
+                select IDON FROM KNTC_DON_LICHSU
+                WHERE IDONVIGUI = pram09 GROUP BY IDON)A GROUP BY IDON)B INNER JOIN KNTC_DON ON B.IDON = KNTC_DON.IDON) KNTC_DON INNER JOIN KNTC_NGUONDON 
+          ON KNTC_DON.INGUONDON = KNTC_NGUONDON.INGUONDON  
+            WHERE KNTC_DON.DNGAYNHAN >= pram01 AND KNTC_DON.DNGAYNHAN <= pram02 
+            AND (pram03 = 0 OR KNTC_DON.ILOAIDON= pram03)
+            AND (pram04 = 0 OR KNTC_DON.ITINHCHAT= pram04) 
+            AND (pram05 = 0 OR KNTC_DON.INOIDUNG= pram05) 
+            AND (pram06 = 0 OR KNTC_DON.ILINHVUC= pram06) 
+            AND (pram07 = 0 OR KNTC_DON.IDONVITHULY= pram07) 
+            AND (pram08 = 0 OR KNTC_DON.INGUONDON= pram08)  
+
+      GROUP BY KNTC_NGUONDON.CTEN ),2) AS TYLE
+      FROM ( SELECT KNTC_DON.* FROM (
+                SELECT * FROM (
+                SELECT IDON FROM KNTC_DON
+                where IDONVITHULY = pram09
+                UNION
+                select IDON FROM KNTC_DON_LICHSU
+                WHERE IDONVIGUI = pram09 GROUP BY IDON)A GROUP BY IDON)B INNER JOIN KNTC_DON ON B.IDON = KNTC_DON.IDON) KNTC_DON INNER JOIN KNTC_NGUONDON
+            ON KNTC_DON.INGUONDON = KNTC_NGUONDON.INGUONDON   
+            WHERE KNTC_DON.DNGAYNHAN >= pram01 AND KNTC_DON.DNGAYNHAN <= pram02 
+            AND (pram03 = 0 OR KNTC_DON.ILOAIDON= pram03)
+            AND (pram04 = 0 OR KNTC_DON.ITINHCHAT= pram04) 
+            AND (pram05 = 0 OR KNTC_DON.INOIDUNG= pram05) 
+            AND (pram06 = 0 OR KNTC_DON.ILINHVUC= pram06)
+            AND (pram07 = 0 OR KNTC_DON.IDONVITHULY= pram07) 
+            AND (pram08 = 0 OR KNTC_DON.INGUONDON= pram08)  
+
+      GROUP BY KNTC_NGUONDON.CTEN;
+  END PRO_BAOCAO_TK_COQUANCHUYENDON;
+  ----Bao cao tongsodon
+  PROCEDURE PRO_BAOCAO_TK_TONGSODON(res out sys_refcursor, pram01 in DATE, pram02 IN DATE, pram03 in INT , pram04 in INT, pram05 in INT , pram06 in INT, pram07 in INT,pram08 in INT,pram09 in INT)AS 
+      BEGIN
+      OPEN res FOR     
+       SELECT D.STT,D.CLOAIKHIEUTO, COALESCE(D.SODONTRUNG,0) AS SODONTRUG,D.SODONDUDIEUKIEN,ROUND((COALESCE(D.SODONTRUNG,0)/D.SODONDUDIEUKIEN)*100,2) AS TYLE FROM (
+  SELECT * FROM ( SELECT ROW_NUMBER() OVER(ORDER BY 1 ASC) AS STT, CTEN AS CLOAIKHIEUTO,B.IDUDIEUKIEN AS SODONDUDIEUKIEN, B.ILOAIDON,
+            (B.IDUDIEUKIEN *100 /(SELECT SUM(COUNT(IDON)) 
+            FROM ( SELECT KNTC_DON.* FROM (
+                SELECT * FROM (
+                SELECT IDON FROM KNTC_DON
+                where IDONVITHULY = pram09
+                UNION
+                select IDON FROM KNTC_DON_LICHSU
+                WHERE IDONVIGUI = pram09 GROUP BY IDON)A GROUP BY IDON)B INNER JOIN KNTC_DON ON B.IDON = KNTC_DON.IDON) KNTC_DON WHERE IDUDIEUKIEN = 1 
+            AND KNTC_DON.DNGAYNHAN >= pram01 AND KNTC_DON.DNGAYNHAN <= pram02 
+            AND (pram03 = 0 OR KNTC_DON.ILOAIDON= pram03)
+            AND (pram04 = 0 OR KNTC_DON.ITINHCHAT= pram04) 
+            AND (pram05 = 0 OR KNTC_DON.INOIDUNG= pram05) 
+            AND (pram06 = 0 OR KNTC_DON.ILINHVUC= pram06)
+            AND (pram07 = 0 OR KNTC_DON.IDONVITHULY= pram07) 
+            AND (pram08 = 0 OR KNTC_DON.INGUONDON= pram08)  
+            GROUP BY ILOAIDON))  AS TYLE  
+      FROM (
+      SELECT A.ILOAIDON, SUM(A.ITRUNG) AS IDONTRUNG , SUM(A.IDU) AS IDUDIEUKIEN  
+      FROM (
+            SELECT ILOAIDON,  0 AS ITRUNG, COUNT(IDON) AS IDU  
+            FROM ( SELECT KNTC_DON.* FROM (
+                SELECT * FROM (
+                SELECT IDON FROM KNTC_DON
+                where IDONVITHULY = pram09
+                UNION
+                select IDON FROM KNTC_DON_LICHSU
+                WHERE IDONVIGUI = pram09 GROUP BY IDON)A GROUP BY IDON)B INNER JOIN KNTC_DON ON B.IDON = KNTC_DON.IDON) KNTC_DON 
+                WHERE KNTC_DON.DNGAYNHAN >= pram01 AND KNTC_DON.DNGAYNHAN <= pram02 
+                AND (pram03 = 0 OR KNTC_DON.ILOAIDON= pram03)
+                AND (pram04 = 0 OR KNTC_DON.ITINHCHAT= pram04) 
+                AND (pram05 = 0 OR KNTC_DON.INOIDUNG= pram05) 
+                AND (pram06 = 0 OR KNTC_DON.ILINHVUC= pram06)
+                AND (pram07 = 0 OR KNTC_DON.IDONVITHULY= pram07) 
+                AND (pram08 = 0 OR KNTC_DON.INGUONDON= pram08)  
+                  GROUP BY ILOAIDON
+              UNION
+              SELECT ILOAIDON, COUNT(IDON) AS ITRUNG,0 AS IDU 
+              FROM ( SELECT KNTC_DON.* FROM (
+                SELECT * FROM (
+                SELECT IDON FROM KNTC_DON
+                where IDONVITHULY = pram09
+                UNION
+                select IDON FROM KNTC_DON_LICHSU
+                WHERE IDONVIGUI = pram09 GROUP BY IDON)A GROUP BY IDON)B INNER JOIN KNTC_DON ON B.IDON = KNTC_DON.IDON) KNTC_DON 
+                WHERE IDONTRUNG <>0 
+                 AND  KNTC_DON.DNGAYNHAN >= pram01 AND KNTC_DON.DNGAYNHAN <= pram02 
+                AND (pram03 = 0 OR KNTC_DON.ILOAIDON= pram03)
+                AND (pram04 = 0 OR KNTC_DON.ITINHCHAT= pram04) 
+                AND (pram05 = 0 OR KNTC_DON.INOIDUNG= pram05) 
+                AND (pram06 = 0 OR KNTC_DON.ILINHVUC= pram06)
+                AND (pram07 = 0 OR KNTC_DON.IDONVITHULY= pram07) 
+                AND (pram08 = 0 OR KNTC_DON.INGUONDON= pram08)  
+                GROUP BY ILOAIDON)A
+      GROUP BY A.ILOAIDON)B INNER JOIN KNTC_LOAIDON ON KNTC_LOAIDON.ILOAIDON = B.ILOAIDON) B LEFT JOIN (
+SELECT A.ILOAIDON, SUM(A.SODONTRUNG) AS SODONTRUNG FROM (
+SELECT 
+  listDon.ILOAIDON
+  ,listCoutDon.SODONTRUNG
+  FROM (
+        SELECT KNTC_DON.* FROM (
+                SELECT * FROM (
+                SELECT idontrung as IDON FROM KNTC_DON
+                where  idontrung is not null and idontrung > 0 and   IDONVITHULY = pram09
+               AND  KNTC_DON.DNGAYNHAN >= pram01 AND KNTC_DON.DNGAYNHAN <= pram02 
+                UNION
+                select idontrung as IDON FROM KNTC_DON_LICHSU inner join  KNTC_DON on KNTC_DON_LICHSU.IDON = KNTC_DON.idon
+                WHERE   idontrung is not null and idontrung > 0 and   IDONVIGUI = pram09
+                GROUP BY idontrung
+                union
+                select idon from kntc_don where  idontrung  =-1
+                 AND  KNTC_DON.DNGAYNHAN >= pram01 AND KNTC_DON.DNGAYNHAN <= pram02 
+                )A GROUP BY IDON
+                )B INNER JOIN KNTC_DON ON B.IDON = KNTC_DON.IDON
+                where 1=1 and  KNTC_DON.idontrung =-1
+        ) listDon
+
+       left JOIN (
+            select sum( nvl(ISOLUONGTRUNG,1)) as sodontrung, idontrung  from KNTC_DON
+            where  idontrung is not null and idontrung > 0
+            AND  KNTC_DON.DNGAYNHAN >= pram01 AND KNTC_DON.DNGAYNHAN <= pram02 
+            group by idontrung
+      )  listCoutDon ON  listDon.IDON = listCoutDon.idontrung
+      left JOIN (
+            select sum( nvl(ISOLUONGTRUNG,1)) as ISOLUONGTRUNG, idontrung  from KNTC_DON
+            where  idontrung is not null and idontrung > 0
+            group by idontrung
+      ) listSoluongtrung on  listDon.IDON = listSoluongtrung.idontrung
+      LEFT JOIN QUOCHOI_COQUAN ON listDon.IDONVITHULY = QUOCHOI_COQUAN.ICOQUAN
+      LEFT JOIN KNTC_LOAIDON ON listDon.ILOAIDON = KNTC_LOAIDON.ILOAIDON
+      LEFT JOIN LINHVUC ON listDon.ILINHVUC = LINHVUC.ILINHVUC
+      LEFT JOIN KNTC_NOIDUNGDON ON listDon.INOIDUNG = KNTC_NOIDUNGDON.INOIDUNG
+      LEFT JOIN KNTC_NGUONDON ON listDon.INGUONDON = KNTC_NGUONDON.INGUONDON
+      LEFT JOIN KNTC_TINHCHAT ON listDon.ITINHCHAT = KNTC_TINHCHAT.ITINHCHAT            
+      LEFT JOIN DIAPHUONG TINH ON TINH.IDIAPHUONG = listDon.IDIAPHUONG_0
+      LEFT JOIN DIAPHUONG HUYEN ON HUYEN.IDIAPHUONG =listDon.IDIAPHUONG_1
+      LEFT JOIN QUOCHOI_COQUAN DVTIEPNHAN ON listDon.IDONVITIEPNHAN = DVTIEPNHAN.ICOQUAN
+      WHERE  listDon.IDONVITHULY = pram09 
+      AND listDon.DNGAYNHAN >= pram01 AND listDon.DNGAYNHAN <= pram02 
+      AND (pram03 = 0 OR listDon.ILOAIDON= pram03)
+        AND (pram04 = 0 OR listDon.ITINHCHAT= pram04) 
+        AND (pram05 = 0 OR listDon.INOIDUNG= pram05) 
+        AND (pram06 = 0 OR listDon.ILINHVUC= pram06)
+        AND (pram07 = 0 OR listDon.IDONVITHULY= pram07) 
+        AND (pram08 = 0 OR listDon.INGUONDON= pram08)  
+    ORDER BY listDon.IDON DESC) A GROUP BY A.ILOAIDON) C ON B.ILOAIDON = C.ILOAIDON)D;
+  END PRO_BAOCAO_TK_TONGSODON;
+  ----Bao cao chitietdon
+  PROCEDURE PRO_BAOCAO_TK_CHIITETDON(res out sys_refcursor, pram01 in DATE, pram02 IN DATE, pram03 in INT , pram04 in INT, pram05 in INT , pram06 in INT, pram07 in INT,pram08 in INT,pram09 in INT)AS 
+  BEGIN
+  OPEN res FOR
+      SELECT  ROW_NUMBER() OVER(ORDER BY 1 ASC) AS STT,CMADON AS SODON,TO_DATE(DNGAYNHAN, 'DD-MON-YYYY') as NGAYVAOSO
+      ,CNGUOIGUI_TEN as HOVATEN ,CNGUOIGUI_DIACHI as DIACHI,ISONGUOI as SONGUOI, 1 AS SOLAN,CNOIDUNG as NOIDUNG
+      ,KNTC_LOAIDON.CTEN AS LOAIDON,USERS.CTEN AS CHUYENDEN 
+      FROM ( SELECT KNTC_DON.* FROM (
+                SELECT * FROM (
+                SELECT IDON FROM KNTC_DON
+                where IDONVITHULY = pram09
+                UNION
+                select IDON FROM KNTC_DON_LICHSU
+                WHERE IDONVIGUI = pram09 GROUP BY IDON)A GROUP BY IDON)B INNER JOIN KNTC_DON ON B.IDON = KNTC_DON.IDON) KNTC_DON LEFT JOIN KNTC_LOAIDON ON KNTC_LOAIDON.ILOAIDON = KNTC_DON.ILOAIDON
+      LEFT JOIN USERS ON USERS.IUSER = KNTC_DON.IUSER_DUOCGIAOXULY
+      WHERE KNTC_DON.DNGAYNHAN >= pram01 AND KNTC_DON.DNGAYNHAN <= pram02 
+      AND (pram03 = 0 OR KNTC_DON.ILOAIDON = pram03)
+      AND (pram04 = 0 OR KNTC_DON.ITINHCHAT = pram04) 
+      AND (pram05 = 0 OR KNTC_DON.INOIDUNG = pram05) 
+      AND (pram06 = 0 OR KNTC_DON.ILINHVUC = pram06)
+      AND (pram07 = 0 OR KNTC_DON.IDONVITHULY = pram07) 
+      AND (pram08 = 0 OR KNTC_DON.INGUONDON= pram08)
+
+      ORDER BY DNGAYNHAN;
+
+  END PRO_BAOCAO_TK_CHIITETDON;
+  ----Bao cao diaban1
+  PROCEDURE PRO_BAOCAO_TK_DIABAN1(res out sys_refcursor, pram01 in DATE, pram02 IN DATE, pram03 in INT , pram04 in INT, pram05 in INT , pram06 in INT, pram07 in INT,pram08 in INT,pram09 in INT)AS 
+  BEGIN
+  OPEN res FOR
+   SELECT  ROW_NUMBER() OVER(ORDER BY 1 ASC) AS STT, A.CTEN,A.CDIABAN, SUM(A.SOLUONG) AS SOLUONG 
+   FROM(
+       SELECT CNGUOIGUI_TEN as CTEN,(SELECT DIAPHUONG.CTEN FROM DIAPHUONG WHERE IDIAPHUONG_0 = DIAPHUONG.IDIAPHUONG ) AS CDIABAN
+       ,COUNT(IDON) AS SOLUONG 
+       FROM ( SELECT KNTC_DON.* FROM (
+                SELECT * FROM (
+                SELECT IDON FROM KNTC_DON
+                where IDONVITHULY = pram09
+                UNION
+                select IDON FROM KNTC_DON_LICHSU
+                WHERE IDONVIGUI = pram09 GROUP BY IDON)A GROUP BY IDON)B INNER JOIN KNTC_DON ON B.IDON = KNTC_DON.IDON) KNTC_DON  
+       WHERE DNGAYNHAN >= pram01 AND DNGAYNHAN <= pram02 
+       AND (pram03 = 0 OR KNTC_DON.ILOAIDON= pram03)
+       AND (pram04 = 0 OR KNTC_DON.ITINHCHAT= pram04) 
+       AND (pram05 = 0 OR KNTC_DON.INOIDUNG= pram05) 
+       AND (pram06 = 0 OR KNTC_DON.ILINHVUC= pram06) 
+       AND (pram07 = 0 OR KNTC_DON.IDONVITHULY= pram07) 
+       AND (pram08 = 0 OR KNTC_DON.INGUONDON= pram08)
+
+       GROUP BY IDIAPHUONG_0,CNGUOIGUI_TEN,CNGUOIGUI_CMND,IDON)A
+   GROUP BY A.CTEN,A.CDIABAN;
+  END PRO_BAOCAO_TK_DIABAN1;
+   ----Bao cao diaban2
+  PROCEDURE PRO_BAOCAO_TK_DIABAN2(res out sys_refcursor, pram01 in DATE, pram02 IN DATE, pram03 in INT , pram04 in INT, pram05 in INT , pram06 in INT, pram07 in INT,pram08 in INT,pram09 in INT)AS 
+  BEGIN
+  OPEN res FOR
+    SELECT ROW_NUMBER() OVER(ORDER BY 1 ASC) AS STT, IDIAPHUONG_0
+      ,(SELECT DIAPHUONG.CTEN 
+      FROM DIAPHUONG 
+      WHERE IDIAPHUONG_0 = DIAPHUONG.IDIAPHUONG ) as CTEN,COUNT(IDON) as SOLUONG    
+    FROM ( SELECT KNTC_DON.* FROM (
+                SELECT * FROM (
+                SELECT IDON FROM KNTC_DON
+                where IDONVITHULY = pram09
+                UNION
+                select IDON FROM KNTC_DON_LICHSU
+                WHERE IDONVIGUI = pram09 GROUP BY IDON)A GROUP BY IDON)B INNER JOIN KNTC_DON ON B.IDON = KNTC_DON.IDON) KNTC_DON
+    WHERE DNGAYNHAN >= pram01 AND DNGAYNHAN <= pram02 
+    AND (pram03 = 0 OR KNTC_DON.ILOAIDON= pram03)
+    AND (pram04 = 0 OR KNTC_DON.ITINHCHAT= pram04)
+    AND (pram05 = 0 OR KNTC_DON.INOIDUNG= pram05) 
+    AND (pram06 = 0 OR KNTC_DON.ILINHVUC= pram06)
+    AND (pram07 = 0 OR KNTC_DON.IDONVITHULY= pram07) 
+    AND (pram08 = 0 OR KNTC_DON.INGUONDON= pram08)
+
+  GROUP BY IDIAPHUONG_0;
+  END PRO_BAOCAO_TK_DIABAN2;
+  ----Bao cao solieudon
+  PROCEDURE PRO_LIST_NHOMLINHVUC(res out sys_refcursor) AS 
+  BEGIN 
+  OPEN res FOR
+      SELECT * FROM LINHVUC 
+      WHERE IPARENT = 0 AND IDELETE = 0 ORDER BY ILINHVUC;
+  END PRO_LIST_NHOMLINHVUC;
+
+  PROCEDURE PRO_LIST_NGUONDON(res out sys_refcursor) AS 
+  BEGIN 
+  OPEN res FOR
+      SELECT * FROM KNTC_NGUONDON 
+      WHERE IDELETE = 0 ORDER BY INGUONDON;
+  END PRO_LIST_NGUONDON;
+
+  PROCEDURE PRO_LIST_ALL_DON(res out sys_refcursor, pram01 in DATE, pram02 IN DATE, pram03 in INT , pram04 in INT
+                                , pram05 in INT , pram06 in INT, pram07 in INT,pram08 in INT,pram09 in INT) AS 
+  BEGIN 
+  OPEN res FOR
+      SELECT B.INGUONDON AS ID_PARENT_NGUONDON, B.CTEN AS CTEN_NHOM_NGUONDON, COALESCE(C.ILINHVUC,10) AS ID_PARENT_LINHVUC, 
+      C.CTEN AS CTEN_NHOM_LINHVUC ,KNTC_DON.*   
+      FROM ( SELECT KNTC_DON.* FROM (
+                SELECT * FROM (
+                SELECT IDON FROM KNTC_DON
+                where IDONVITHULY = pram09
+                UNION
+                select IDON FROM KNTC_DON_LICHSU
+                WHERE IDONVIGUI = pram09 GROUP BY IDON)A GROUP BY IDON)B INNER JOIN KNTC_DON ON B.IDON = KNTC_DON.IDON) KNTC_DON INNER JOIN (
+            SELECT A.IDON, KNTC_NGUONDON.INGUONDON,KNTC_NGUONDON.CTEN FROM  (
+            SELECT KNTC_NGUONDON.*,KNTC_DON.IDON FROM  KNTC_DON INNER JOIN KNTC_NGUONDON ON KNTC_DON.INGUONDON = KNTC_NGUONDON.INGUONDON 
+            WHERE  KNTC_DON.DNGAYNHAN >= pram01 AND KNTC_DON.DNGAYNHAN <= pram02 
+            AND (pram03 = 0 OR KNTC_DON.ILOAIDON= pram03)
+            AND (pram04 = 0 OR KNTC_DON.ITINHCHAT= pram04) 
+            AND (pram05 = 0 OR KNTC_DON.INOIDUNG= pram05) 
+            AND (pram06 = 0 OR KNTC_DON.ILINHVUC= pram06)
+            AND (pram07 = 0 OR KNTC_DON.IDONVITHULY= pram07)
+            AND (pram08 = 0 OR KNTC_DON.INGUONDON= pram08)) A 
+            INNER JOIN KNTC_NGUONDON ON KNTC_NGUONDON.INGUONDON = A.IPARENT
+            UNION
+            SELECT KNTC_DON.IDON, KNTC_NGUONDON.INGUONDON,KNTC_NGUONDON.CTEN 
+            FROM ( SELECT KNTC_DON.* FROM (
+                SELECT * FROM (
+                SELECT IDON FROM KNTC_DON
+                where IDONVITHULY = pram09
+                UNION
+                select IDON FROM KNTC_DON_LICHSU
+                WHERE IDONVIGUI = pram09 GROUP BY IDON)A GROUP BY IDON)B INNER JOIN KNTC_DON ON B.IDON = KNTC_DON.IDON)  KNTC_DON INNER JOIN KNTC_NGUONDON ON KNTC_DON.INGUONDON = KNTC_NGUONDON.INGUONDON WHERE KNTC_NGUONDON.IPARENT = 0)B
+      ON KNTC_DON.IDON = B.IDON INNER JOIN (
+            SELECT A.IDON, LINHVUC.ILINHVUC,LINHVUC.CTEN 
+            FROM  (
+                SELECT LINHVUC.*,KNTC_DON.IDON 
+                FROM  ( SELECT KNTC_DON.* FROM (
+                SELECT * FROM (
+                SELECT IDON FROM KNTC_DON
+                where IDONVITHULY = pram09
+                UNION
+                select IDON FROM KNTC_DON_LICHSU
+                WHERE IDONVIGUI = pram09 GROUP BY IDON)A GROUP BY IDON)B INNER JOIN KNTC_DON ON B.IDON = KNTC_DON.IDON) KNTC_DON LEFT JOIN LINHVUC ON KNTC_DON.ILINHVUC = LINHVUC.ILINHVUC 
+                  WHERE  KNTC_DON.DNGAYNHAN >= pram01 AND KNTC_DON.DNGAYNHAN <= pram02 
+                  AND (pram03 = 0 OR KNTC_DON.ILOAIDON= pram03)
+                  AND (pram04 = 0 OR KNTC_DON.ITINHCHAT= pram04) 
+                  AND (pram05 = 0 OR KNTC_DON.INOIDUNG= pram05)
+                  AND (pram06 = 0 OR KNTC_DON.ILINHVUC= pram06)
+                  AND (pram07 = 0 OR KNTC_DON.IDONVITHULY= pram07)
+                  AND (pram08 = 0 OR KNTC_DON.INGUONDON= pram08))A
+           LEFT JOIN LINHVUC ON LINHVUC.ILINHVUC = A.IPARENT)C ON C.IDON = KNTC_DON.IDON;
+  END PRO_LIST_ALL_DON;
+
+  ----Bao cao trungdon
+  PROCEDURE PRO_BAOCAO_TK_TRUNGDON(res out sys_refcursor, pram01 in DATE, pram02 IN DATE, pram03 in INT , pram04 in INT, pram05 in INT , pram06 in INT, pram07 in INT,pram08 in INT,pram09 in INT)AS 
+  BEGIN
+  OPEN res FOR
+
+  SELECT 
+  ROW_NUMBER() OVER(ORDER BY 1 ASC) AS STT
+  ,TINH.CTEN AS CTENDIADANH
+  ,listCoutDon.SODONTRUNG
+  ,listSoluongtrung.ISOLUONGTRUNG AS SOLANTRUNG
+  ,KNTC_NOIDUNGDON.CTEN AS CNOIDUNGDON
+  FROM (
+        SELECT KNTC_DON.* FROM (
+                SELECT * FROM (
+                SELECT idontrung as IDON FROM KNTC_DON
+                where  idontrung is not null and idontrung > 0 and   IDONVITHULY = pram09
+                AND KNTC_DON.DNGAYNHAN >= pram01 AND KNTC_DON.DNGAYNHAN <= pram02
+                UNION
+                select idontrung as IDON FROM KNTC_DON_LICHSU inner join  KNTC_DON on KNTC_DON_LICHSU.IDON = KNTC_DON.idon
+                WHERE   idontrung is not null and idontrung > 0 and   IDONVIGUI = pram09
+                GROUP BY idontrung
+                union
+                select idon from kntc_don where  idontrung  =-1
+                 AND KNTC_DON.DNGAYNHAN >= pram01 AND KNTC_DON.DNGAYNHAN <= pram02
+                )A GROUP BY IDON
+                )B INNER JOIN KNTC_DON ON B.IDON = KNTC_DON.IDON
+                where 1=1 and  KNTC_DON.idontrung =-1
+        ) listDon
+
+       left JOIN (
+            select sum( nvl(ISOLUONGTRUNG,1)) as sodontrung, idontrung  from KNTC_DON
+            where  idontrung is not null and idontrung > 0
+                 AND KNTC_DON.DNGAYNHAN >= pram01 AND KNTC_DON.DNGAYNHAN <= pram02
+            group by idontrung
+      )  listCoutDon ON  listDon.IDON = listCoutDon.idontrung
+      left JOIN (
+            select sum( nvl(ISOLUONGTRUNG,1)) as ISOLUONGTRUNG, idontrung  from KNTC_DON
+            where  idontrung is not null and idontrung > 0
+            group by idontrung
+      ) listSoluongtrung on  listDon.IDON = listSoluongtrung.idontrung
+      LEFT JOIN QUOCHOI_COQUAN ON listDon.IDONVITHULY = QUOCHOI_COQUAN.ICOQUAN
+      LEFT JOIN KNTC_LOAIDON ON listDon.ILOAIDON = KNTC_LOAIDON.ILOAIDON
+      LEFT JOIN LINHVUC ON listDon.ILINHVUC = LINHVUC.ILINHVUC
+      LEFT JOIN KNTC_NOIDUNGDON ON listDon.INOIDUNG = KNTC_NOIDUNGDON.INOIDUNG
+      LEFT JOIN KNTC_NGUONDON ON listDon.INGUONDON = KNTC_NGUONDON.INGUONDON
+      LEFT JOIN KNTC_TINHCHAT ON listDon.ITINHCHAT = KNTC_TINHCHAT.ITINHCHAT            
+      LEFT JOIN DIAPHUONG TINH ON TINH.IDIAPHUONG = listDon.IDIAPHUONG_0
+      LEFT JOIN DIAPHUONG HUYEN ON HUYEN.IDIAPHUONG =listDon.IDIAPHUONG_1
+      LEFT JOIN QUOCHOI_COQUAN DVTIEPNHAN ON listDon.IDONVITIEPNHAN = DVTIEPNHAN.ICOQUAN
+      WHERE  listDon.IDONVITHULY = pram09 
+      AND listDon.DNGAYNHAN >= pram01 AND listDon.DNGAYNHAN <= pram02
+      AND (pram03 = 0 OR listDon.ILOAIDON= pram03)
+      AND (pram04 = 0 OR listDon.ITINHCHAT= pram04) 
+      AND (pram05 = 0 OR listDon.INOIDUNG= pram05) 
+      AND (pram06 = 0 OR listDon.ILINHVUC= pram06)
+      AND (pram07 = 0 OR listDon.IDONVITHULY= pram07)
+      AND (pram08 = 0 OR listDon.INGUONDON= pram08)
+    ORDER BY listDon.IDON DESC;
+    END PRO_BAOCAO_TK_TRUNGDON;
+
+		-- Bao cao CV chuyen don
+  PROCEDURE PRO_BAOCAO_CVCHUYENDON(res out sys_refcursor, pram01 in DATE, pram02 IN DATE, pram03 in INT , pram04 in INT)AS 
+  BEGIN
+  OPEN res FOR
+    SELECT KNTC.IDON, KNTC.ITINHTRANGXULY, KNTC.CNGUOIGUI_TEN, KNTC.CNOIDUNG, KNTC.ILOAIDON, KNTC.ILINHVUC, KNTC.DNGAYNHAN, KNTC.GHICHU_XULY, KNTC_VB.IVANBAN,
+    KNTC.CLUUTHEODOI_LYDO, KNTC_VB.CSOVANBAN, KNTC_VB.DNGAYBANHANH, KNTC_VB.CLOAI ,COQUAN.CTEN, KNTC_VB.ICOQUANNHAN, KNTC_VB.ICOQUANBANHANH  FROM KNTC_DON KNTC
+    LEFT JOIN KNTC_VANBAN KNTC_VB on KNTC_VB.IDON = KNTC.IDON
+    LEFT JOIN QUOCHOI_COQUAN COQUAN on COQUAN.ICOQUAN = KNTC_VB.ICOQUANNHAN
+    WHERE KNTC.Dngaynhan >= pram01 and KNTC.Dngaynhan <= pram02 and (KNTC.ILOAIDON = pram03 or pram03 = 0) and KNTC.IDOITUONGGUI = pram04
+    ORDER BY KNTC.ITINHTRANGXULY DESC;
+  END PRO_BAOCAO_CVCHUYENDON;
+	-- Bao cao thang
+	PROCEDURE PRO_BAOCAO_THANG(res out sys_refcursor,p_tuNgay in DATE, p_denNgay in DATE) AS
+  BEGIN
+    Open res for     
+    SELECT
+	a.IDON,
+	a.CNGUOIGUI_TEN,
+	a.NOIDUNGDON,
+	a.GHICHUDON,
+	a.IDOITUONGGUI,
+	a.ITINHTRANGXULY,
+	a.INGUONDON,
+	a.CDONVIXULY,
+	a.IDONVITHULY,
+	a.DIACHI,
+	b.GHICHUVANBAN,
+	b.IDON_VANBAN,
+	b.NOIDUNGVANBAN,
+	b.DNGAYBANHANH,
+	b.CSOVANBAN,
+	b.COQUANBANHANH,
+	b.ICOQUANBANHANH
+FROM
+	(
+	SELECT
+		KNTC_DON.IDON,
+		KNTC_DON.DNGAYNHAN,
+		KNTC_DON.CNGUOIGUI_TEN,
+		KNTC_DON.CNGUOIGUI_DIACHI as DIACHI,
+		KNTC_DON.CNOIDUNG AS NOIDUNGDON,
+		KNTC_DON.CGHICHU AS GHICHUDON,
+		KNTC_DON.IDOITUONGGUI,
+		KNTC_DON.ITINHTRANGXULY,
+		KNTC_DON.INGUONDON,
+		QUOCHOI_COQUAN.CTEN AS CDONVIXULY,
+		KNTC_DON.IDONVITHULY 
+	FROM
+		KNTC_DON
+		LEFT JOIN QUOCHOI_COQUAN ON KNTC_DON.IDONVITHULY = QUOCHOI_COQUAN.ICOQUAN 
+	) a
+	LEFT JOIN (
+	SELECT
+		KNTC_VANBAN.GHICHU AS GHICHUVANBAN,
+		KNTC_VANBAN.IDON AS IDON_VANBAN,
+		KNTC_VANBAN.CNOIDUNG AS NOIDUNGVANBAN,
+		KNTC_VANBAN.DNGAYBANHANH,
+		KNTC_VANBAN.CSOVANBAN,
+		KNTC_VANBAN.ICOQUANBANHANH as ICOQUANBANHANH,
+		QUOCHOI_COQUAN.CTEN AS COQUANBANHANH 
+	FROM
+		KNTC_VANBAN
+	JOIN QUOCHOI_COQUAN ON KNTC_VANBAN.ICOQUANBANHANH = QUOCHOI_COQUAN.ICOQUAN 
+	) b ON a.IDON = b.IDON_VANBAN
+	WHERE (a.DNGAYNHAN >= p_tuNgay AND a.DNGAYNHAN <= p_denNgay);
+  END PRO_BAOCAO_THANG;
+
+	-- Bao cao theo doi QD
+PROCEDURE PRO_BAOCAO_THEODOIGQD(res out sys_refcursor, pram01 in DATE, pram02 IN DATE, pram03 in INT , pram04 in INT)AS 
+  BEGIN
+  OPEN res FOR
+    SELECT KNTC_VB.ICOQUANBANHANH, KNTC.CNGUOIGUI_DIACHI, KNTC.CNGUOIGUI_TEN, KNTC.CNOIDUNG, KNTC.DNGAYNHAN, KNTC_VB.GHICHU_XULY,
+    KNTC_VB.CSOVANBAN, KNTC_VB.DNGAYBANHANH, KNTC_VB.CLOAI ,COQUAN.CTEN AS CTENCOQUAN1 , COQUAN2.CTEN AS CTENCOQUAN2, KNTC.IDON FROM KNTC_DON KNTC
+    LEFT JOIN KNTC_VANBAN KNTC_VB on KNTC_VB.IDON = KNTC.IDON
+    LEFT JOIN QUOCHOI_COQUAN COQUAN on COQUAN.ICOQUAN = KNTC_VB.ICOQUANNHAN
+    LEFT JOIN QUOCHOI_COQUAN COQUAN2 on COQUAN2.ICOQUAN = KNTC_VB.ICOQUANBANHANH
+    WHERE KNTC.Dngaynhan >= pram01 and KNTC.Dngaynhan <= pram02 and (KNTC.IKHOA = pram03 or pram03 = 0) and KNTC.IDOITUONGGUI = pram04
+    ORDER BY KNTC_VB.DNGAYBANHANH DESC;
+  END PRO_BAOCAO_THEODOIGQD;
+-- Bao cao tuan
+PROCEDURE PRO_BAOCAO_DONTHUHANGTUAN(res out sys_refcursor, pram01 in DATE, pram02 IN DATE, pram03 in INT)AS 
+  BEGIN
+  OPEN res FOR
+    SELECT KNTC.ITINHTRANGXULY ,KNTC.IDOITUONGGUI ,KNTC.CNGUOIGUI_DIACHI, KNTC.CNGUOIGUI_TEN, KNTC.CNOIDUNG, KNTC.DNGAYNHAN, KNTC_VB.GHICHU_XULY, KNTC.CGHICHU,
+        KNTC_VB.CSOVANBAN, KNTC_VB.DNGAYBANHANH, KNTC_VB.CNOIDUNG as CNOIDUNGVB ,COQUAN.CTEN AS CTENCOQUAN1 , 
+        COQUAN2.CTEN AS CTENCOQUAN2 , COQUAN3.CTEN AS CTENCOQUAN3, KNTC.IDON FROM KNTC_DON KNTC
+    LEFT JOIN KNTC_VANBAN KNTC_VB on KNTC_VB.IDON = KNTC.IDON
+    LEFT JOIN QUOCHOI_COQUAN COQUAN on COQUAN.ICOQUAN = KNTC_VB.ICOQUANNHAN
+    LEFT JOIN QUOCHOI_COQUAN COQUAN2 on COQUAN2.ICOQUAN = KNTC_VB.ICOQUANBANHANH
+        LEFT JOIN QUOCHOI_COQUAN COQUAN3 on COQUAN3.ICOQUAN = KNTC.IDONVITHULY
+    WHERE (KNTC.Dngaynhan >= pram01 and KNTC.Dngaynhan <= pram02) or (to_char(KNTC.Dngaynhan,'YYYY') = to_char(pram03))
+    ORDER BY KNTC.ITINHTRANGXULY DESC;
+  END PRO_BAOCAO_DONTHUHANGTUAN;
+END PKG_KNTC_BAOCAO;
+

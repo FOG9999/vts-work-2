@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D41D921A-3BE0-48A0-AD45-E5EDC9F77B85}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Entities</RootNamespace>
+    <AssemblyName>Entities</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\Kiennghi\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\Kiennghi\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.122.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <HintPath>..\Kiennghi\packages\Oracle.ManagedDataAccess.12.2.20220118\lib\net40\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess.EntityFramework, Version=6.122.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <HintPath>..\Kiennghi\packages\Oracle.ManagedDataAccess.EntityFramework.12.2.20220118\lib\net45\Oracle.ManagedDataAccess.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.Composition.Registration" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="LogInfoVO4J.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\ACTION.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\DAIBIEU_KYHOP.cs" />
+    <Compile Include="Models\DONVI_LINHVUC.cs" />
+    <Compile Include="Models\KIENNGHI_NGUONDON.cs" />
+    <Compile Include="Models\KIENNGHI_NGUONDONMap.cs" />
+    <Compile Include="Models\KNTC_DON_LICHSU.cs" />
+    <Compile Include="Models\KN_CHUONGTRINH_CHITIET.cs" />
+    <Compile Include="Models\KNTC_DON_IMPORT.cs" />
+    <Compile Include="Models\KN_CHUYENXULY.cs" />
+    <Compile Include="Models\KN_KIENNGHI_IMPORT.cs" />
+    <Compile Include="Models\KN_NGUONDON.cs" />
+    <Compile Include="Models\KN_TRALOI_PHANLOAI.cs" />
+    <Compile Include="Models\LINHVUC_COQUAN.cs" />
+    <Compile Include="Models\Mapping\DAIBIEU_KYHOPMap.cs" />
+    <Compile Include="Models\Mapping\DONVI_LINHVUCMap.cs" />
+    <Compile Include="Models\Mapping\KN_CHUONGTRINH_CHITIETMap.cs" />
+    <Compile Include="Models\Mapping\KNTC_DON_IMPORTMap.cs" />
+    <Compile Include="Models\Mapping\KN_CHUYENXULYMap.cs" />
+    <Compile Include="Models\Mapping\KN_KIENNGHI_IMPORTMap.cs" />
+    <Compile Include="Models\Mapping\KN_NGUONDONMap.cs" />
+    <Compile Include="Models\Mapping\KN_TRALOI_PHANLOAIMap.cs" />
+    <Compile Include="Models\Mapping\LINHVUC_COQUANMap.cs" />
+    <Compile Include="Objects\KIENNGHICUTRIPHULUC.cs" />
+    <Compile Include="Objects\KIENNGHIPHULUC.cs" />
+    <Compile Include="Objects\KNTC.cs" />
+    <Compile Include="Models\Context.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\DAIBIEU.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\DANTOC.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\DIAPHUONG.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\FILE_UPLOAD.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objects\KN.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\KNTC_DON.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\KNTC_GIAMSAT.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\KNTC_LOAIDON.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\KNTC_LUUTHEODOI.cs" />
+    <Compile Include="Models\KNTC_NGUONDON.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\KNTC_NOIDUNGDON.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\KNTC_TINHCHAT.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\KNTC_VANBAN.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\KN_CHUONGTRINH.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\KN_CHUONGTRINH_DAIBIEU.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\KN_CHUONGTRINH_DIAPHUONG.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\KN_DOANGIAMSAT.cs" />
+    <Compile Include="Models\KN_DOANGIAMSAT_KIENNGHI.cs" />
+    <Compile Include="Models\KN_DOANGIAMSAT_YKIEN.cs" />
+    <Compile Include="Models\KN_GIAMSAT.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\KN_GIAMSAT_DANHGIA.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\KN_GIAMSAT_PHANLOAI.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\KN_IMPORT.cs" />
+    <Compile Include="Models\KN_KIENNGHI.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\KN_KIENNGHI_TRALOI.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\KN_TONGHOP.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\KN_TUKHOA.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\KN_VANBAN.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\LINHVUC.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\LOGIN_FAIL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\ACTIONMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\DAIBIEUMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\DANTOCMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\DIAPHUONGMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\FILE_UPLOADMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\KNTC_DONMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\KNTC_GIAMSATMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\KNTC_LOAIDONMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\KNTC_LUUTHEODOIMap.cs" />
+    <Compile Include="Models\Mapping\KNTC_NGUONDONMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\KNTC_NOIDUNGDONMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\KNTC_TINHCHATMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\KNTC_VANBANMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\KN_CHUONGTRINHMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\KN_CHUONGTRINH_DAIBIEUMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\KN_CHUONGTRINH_DIAPHUONGMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\KN_DOANGIAMSATMap.cs" />
+    <Compile Include="Models\Mapping\KN_DOANGIAMSAT_KIENNGHIMap.cs" />
+    <Compile Include="Models\Mapping\KN_DOANGIAMSAT_YKIENMap.cs" />
+    <Compile Include="Models\Mapping\KN_GIAMSATMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\KN_GIAMSAT_DANHGIAMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\KN_GIAMSAT_PHANLOAIMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\KN_IMPORTMap.cs" />
+    <Compile Include="Models\Mapping\KN_KIENNGHIMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\KN_KIENNGHI_TRALOIMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\KN_TONGHOPMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\KN_TUKHOAMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\KN_VANBANMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\LINHVUCMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\LOGIN_FAILMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\NGHENGHIEPMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\QUOCHOI_COQUANMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\QUOCHOI_KHOAMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\QUOCHOI_KYHOPMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\QUOCTICHMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\TD_VUVIECMap.cs" />
+    <Compile Include="Models\Mapping\TD_VUVIEC_XULYMap.cs" />
+    <Compile Include="Models\Mapping\TIEPDAN_DINHKYMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\TIEPDAN_DINHKY_LOAIVUVIECMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\TIEPDAN_DINHKY_VUVIECMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\TIEPDAN_THUONGXUYENMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\TIEPDAN_THUONGXUYEN_KETQUAMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\TOKENMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\TRACKINGMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\USERMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\USER_ACTIONMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\USER_CHUCVUMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\USER_GROUPMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\USER_GROUP_ACTIONMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\USER_PHONGBANMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\USER_TYPEMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\VB_DONVI_VANBANMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\VB_FILE_VANBANMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\VB_LOAIMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Mapping\VB_VANBANMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\NGHENGHIEP.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\QUOCHOI_COQUAN.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\QUOCHOI_KHOA.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\QUOCHOI_KYHOP.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\QUOCTICH.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\TD_VUVIEC.cs" />
+    <Compile Include="Models\TD_VUVIEC_XULY.cs" />
+    <Compile Include="Objects\RPT_KNTC.cs" />
+    <Compile Include="Objects\VANBAN.cs" />
+    <Compile Include="Objects\PRC_KIENNGHI.cs" />
+    <Compile Include="Objects\THIETLAP.cs" />
+    <Compile Include="Objects\TIEPDAN.cs" />
+    <Compile Include="Objects\tiepdan_cl.cs" />
+    <Compile Include="Models\TIEPDAN_DINHKY.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\TIEPDAN_DINHKY_LOAIVUVIEC.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\TIEPDAN_DINHKY_VUVIEC.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\TIEPDAN_THUONGXUYEN.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\TIEPDAN_THUONGXUYEN_KETQUA.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\TOKEN.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\TRACKING.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\USER.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\USERS.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\USER_ACTION.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\USER_CHUCVU.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\USER_GROUP.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\USER_GROUP_ACTION.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\USER_PHONGBAN.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\USER_TYPE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\VB_DONVI_VANBAN.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\VB_FILE_VANBAN.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\VB_LOAI.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\VB_VANBAN.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

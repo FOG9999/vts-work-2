@@ -1,0 +1,100 @@
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/01/06 01:18:43:1843|null|tron.tl|::1|Home/Login|1|0
+
+
+
+LOGOUT|http://localhost:2121/Home/Logout/:2121|KNCT|2018/01/06 01:18:46:1846|null|tron.tl|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/01/06 01:18:49:1849|null|admin|::1|Home/Login|1|0
+
+
+
+LOGOUT|http://localhost:2121/Home/Logout/:2121|KNCT|2018/01/06 02:35:54:3554|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/01/06 02:35:56:3556|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/01/06 08:54:09:549|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/01/06 08:58:34:5834|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/01/06 09:20:03:203|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/01/06 09:40:40:4040|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/01/06 10:11:14:1114|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/01/06 10:16:17:1617|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/01/06 10:24:43:2443|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/01/06 10:24:59:2459|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/01/06 10:26:06:266|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://kntc.ddns.net/Home/Login:80|KNCT|2018/01/06 10:32:22:3222|null|admin|192.168.1.1|Home/Login|1|0
+
+
+
+LOGIN|http://kntc.ddns.net/Home/Login:80|KNCT|2018/01/06 10:32:43:3243|null|admin|192.168.1.1|Home/Login|1|0
+
+
+
+LOGIN|http://kntc.ddns.net/Home/Login:80|KNCT|2018/01/06 10:33:36:3336|null|admin|192.168.1.1|Home/Login|1|0
+
+
+
+LOGIN|http://kntc.ddns.net/Home/Login:80|KNCT|2018/01/06 10:37:14:3714|null|linhnm14|220.231.123.139|Home/Login|1|0
+
+
+
+LOGIN|http://kntc.ddns.net/Home/Login:80|KNCT|2018/01/06 10:37:57:3757|null|admin|192.168.1.1|Home/Login|1|0
+
+
+
+LOGIN|http://kntc.ddns.net/Home/Login:80|KNCT|2018/01/06 10:39:00:390|null|linhnm14|220.231.123.139|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/01/06 10:45:00:450|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/01/06 10:52:12:5212|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/01/06 10:55:36:5536|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/01/06 10:57:39:5739|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:2121/Home/Login:2121|KNCT|2018/01/06 11:01:29:129|null|admin|::1|Home/Login|1|0

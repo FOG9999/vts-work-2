@@ -1,0 +1,20 @@
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/03/15 02:10:26:1026|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/03/15 02:14:51:1451|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/03/15 03:16:10:1610|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:1234/Home/Login:1234|KNCT|2019/03/15 04:19:58:1958|null|admin|::1|Home/Login|1|0
+
+
+
+LOGIN|http://localhost:8093/Home/Login:8093|KNCT|2019/03/15 04:21:52:2152|null|admin|::1|Home/Login|1|0

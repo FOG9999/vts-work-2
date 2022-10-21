@@ -1,0 +1,149 @@
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Phanloai/:83|KNCT|2018/06/09 09:05:25:525|unknow|Value cannot be null.
+Parameter name: input:    at System.Web.Util.HttpEncoder.UrlTokenDecode(String input)
+   at System.Web.HttpServerUtility.UrlTokenDecode(String input)
+   at Utilities.HashUtil.Decode_ID(String decodeMe, String key_cookie_url) in e:\Solution\KienNghi\Update17042018\Utilities\HashUtil.cs:line 97
+   at KienNghi.Controllers.KntcController.Phanloai() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KntcController.cs:line 3771|Hiển thị trang phân loại đơn khiếu nại đang xử lý|1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Phanloai/:83|KNCT|2018/06/09 09:05:52:552|unknow|Value cannot be null.
+Parameter name: input:    at System.Web.Util.HttpEncoder.UrlTokenDecode(String input)
+   at System.Web.HttpServerUtility.UrlTokenDecode(String input)
+   at Utilities.HashUtil.Decode_ID(String decodeMe, String key_cookie_url) in e:\Solution\KienNghi\Update17042018\Utilities\HashUtil.cs:line 97
+   at KienNghi.Controllers.KntcController.Phanloai() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KntcController.cs:line 3771|Hiển thị trang phân loại đơn khiếu nại đang xử lý|1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Phanloai/:83|KNCT|2018/06/09 09:08:30:830|unknow|Value cannot be null.
+Parameter name: input:    at System.Web.Util.HttpEncoder.UrlTokenDecode(String input)
+   at System.Web.HttpServerUtility.UrlTokenDecode(String input)
+   at Utilities.HashUtil.Decode_ID(String decodeMe, String key_cookie_url) in e:\Solution\KienNghi\Update17042018\Utilities\HashUtil.cs:line 97
+   at KienNghi.Controllers.KntcController.Phanloai() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KntcController.cs:line 3771|Hiển thị trang phân loại đơn khiếu nại đang xử lý|1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Phanloai/:83|KNCT|2018/06/09 09:09:32:932|unknow|Value cannot be null.
+Parameter name: input:    at System.Web.Util.HttpEncoder.UrlTokenDecode(String input)
+   at System.Web.HttpServerUtility.UrlTokenDecode(String input)
+   at Utilities.HashUtil.Decode_ID(String decodeMe, String key_cookie_url) in e:\Solution\KienNghi\Update17042018\Utilities\HashUtil.cs:line 97
+   at KienNghi.Controllers.KntcController.Phanloai() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KntcController.cs:line 3771|Hiển thị trang phân loại đơn khiếu nại đang xử lý|1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Phanloai/:83|KNCT|2018/06/09 09:11:19:1119|unknow|Value cannot be null.
+Parameter name: input:    at System.Web.Util.HttpEncoder.UrlTokenDecode(String input)
+   at System.Web.HttpServerUtility.UrlTokenDecode(String input)
+   at Utilities.HashUtil.Decode_ID(String decodeMe, String key_cookie_url) in e:\Solution\KienNghi\Update17042018\Utilities\HashUtil.cs:line 97
+   at KienNghi.Controllers.KntcController.Phanloai() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KntcController.cs:line 3771|Hiển thị trang phân loại đơn khiếu nại đang xử lý|1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Phanloai/:83|KNCT|2018/06/09 09:12:58:1258|unknow|Value cannot be null.
+Parameter name: input:    at System.Web.Util.HttpEncoder.UrlTokenDecode(String input)
+   at System.Web.HttpServerUtility.UrlTokenDecode(String input)
+   at Utilities.HashUtil.Decode_ID(String decodeMe, String key_cookie_url) in e:\Solution\KienNghi\Update17042018\Utilities\HashUtil.cs:line 97
+   at KienNghi.Controllers.KntcController.Phanloai() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KntcController.cs:line 3771|Hiển thị trang phân loại đơn khiếu nại đang xử lý|1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Phanloai/:83|KNCT|2018/06/09 09:14:03:143|unknow|Value cannot be null.
+Parameter name: input:    at System.Web.Util.HttpEncoder.UrlTokenDecode(String input)
+   at System.Web.HttpServerUtility.UrlTokenDecode(String input)
+   at Utilities.HashUtil.Decode_ID(String decodeMe, String key_cookie_url) in e:\Solution\KienNghi\Update17042018\Utilities\HashUtil.cs:line 97
+   at KienNghi.Controllers.KntcController.Phanloai() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KntcController.cs:line 3771|Hiển thị trang phân loại đơn khiếu nại đang xử lý|1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Phanloai/?idoncheck=NzQ1fGtudGM1&iDon=ODkzfGtudGM1:83|KNCT|2018/06/09 09:14:42:1442|unknow|Value cannot be null.
+Parameter name: input:    at System.Web.Util.HttpEncoder.UrlTokenDecode(String input)
+   at System.Web.HttpServerUtility.UrlTokenDecode(String input)
+   at Utilities.HashUtil.Decode_ID(String decodeMe, String key_cookie_url) in e:\Solution\KienNghi\Update17042018\Utilities\HashUtil.cs:line 97
+   at KienNghi.Controllers.KntcController.Phanloai() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KntcController.cs:line 3771|Hiển thị trang phân loại đơn khiếu nại đang xử lý|1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Phanloai/?idoncheck=NzYxfGtudGM1&iDon=ODkzfGtudGM1:83|KNCT|2018/06/09 09:16:05:165|unknow|Value cannot be null.
+Parameter name: input:    at System.Web.Util.HttpEncoder.UrlTokenDecode(String input)
+   at System.Web.HttpServerUtility.UrlTokenDecode(String input)
+   at Utilities.HashUtil.Decode_ID(String decodeMe, String key_cookie_url) in e:\Solution\KienNghi\Update17042018\Utilities\HashUtil.cs:line 97
+   at KienNghi.Controllers.KntcController.Phanloai() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KntcController.cs:line 3771|Hiển thị trang phân loại đơn khiếu nại đang xử lý|1
+
+
+
+ERROR|http://192.168.1.113:83/Home/Logout/:83|KNCT|2018/06/09 09:54:47:5447|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.113:83/Home/Logout/:83|KNCT|2018/06/09 09:55:51:5551|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Phanloai:83|KNCT|2018/06/09 09:57:17:5717|unknow|Index was outside the bounds of the array.:    at Utilities.HashUtil.Decode_ID(String decodeMe, String key_cookie_url) in e:\Solution\KienNghi\Update17042018\Utilities\HashUtil.cs:line 100
+   at KienNghi.Controllers.KntcController.Phanloai(FormCollection fc) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KntcController.cs:line 3860|Phân loại đơn khiếu nại đang xử lý|1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Phanloai:83|KNCT|2018/06/09 10:00:04:04|unknow|Index was outside the bounds of the array.:    at Utilities.HashUtil.Decode_ID(String decodeMe, String key_cookie_url) in e:\Solution\KienNghi\Update17042018\Utilities\HashUtil.cs:line 100
+   at KienNghi.Controllers.KntcController.Phanloai(FormCollection fc) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KntcController.cs:line 3860|Phân loại đơn khiếu nại đang xử lý|1
+
+
+
+ERROR|http://192.168.1.113:83/Home/Logout/:83|KNCT|2018/06/09 10:00:51:051|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.113:83/Home/Logout/:83|KNCT|2018/06/09 10:00:52:052|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.113:83/Home/Logout/:83|KNCT|2018/06/09 10:00:52:052|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.113:83/Home/Logout/:83|KNCT|2018/06/09 10:00:52:052|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.113:83/Home/Logout/:83|KNCT|2018/06/09 10:00:53:053|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.113:83/Home/Logout/:83|KNCT|2018/06/09 10:00:53:053|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.113:83/Home/Logout/:83|KNCT|2018/06/09 10:00:53:053|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Phanloai:83|KNCT|2018/06/09 10:02:56:256|unknow|Input string was not in a correct format.:    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at KienNghi.Controllers.KntcController.Phanloai(FormCollection fc) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KntcController.cs:line 3858|Phân loại đơn khiếu nại đang xử lý|1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Phanloai:83|KNCT|2018/06/09 10:04:20:420|unknow|Input string was not in a correct format.:    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at KienNghi.Controllers.KntcController.Phanloai(FormCollection fc) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KntcController.cs:line 3858|Phân loại đơn khiếu nại đang xử lý|1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Phanloai:83|KNCT|2018/06/09 10:24:39:2439|unknow|Index was outside the bounds of the array.:    at Utilities.HashUtil.Decode_ID(String decodeMe, String key_cookie_url) in e:\Solution\KienNghi\Update17042018\Utilities\HashUtil.cs:line 100
+   at KienNghi.Controllers.KntcController.Phanloai(FormCollection fc) in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KntcController.cs:line 3860|Phân loại đơn khiếu nại đang xử lý|1
+
+
+
+ERROR|http://192.168.1.113:83/Home/Logout/:83|KNCT|2018/06/09 11:01:36:136|unknow|Object reference not set to an instance of an object.:    at KienNghi.Controllers.HomeController.Logout() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\HomeController.cs:line 410|Đăng xuất|1
+
+
+
+ERROR|http://192.168.1.113:83/Kntc/Phanloai?id=OTAyfGtudGM1:83|KNCT|2018/06/09 11:04:49:449|unknow|Value cannot be null.
+Parameter name: input:    at System.Web.Util.HttpEncoder.UrlTokenDecode(String input)
+   at System.Web.HttpServerUtility.UrlTokenDecode(String input)
+   at Utilities.HashUtil.Decode_ID(String decodeMe, String key_cookie_url) in e:\Solution\KienNghi\Update17042018\Utilities\HashUtil.cs:line 97
+   at KienNghi.Controllers.KntcController.Phanloai() in e:\Solution\KienNghi\Update17042018\KienNghi\KienNghi\Controllers\KntcController.cs:line 3771|Hiển thị trang phân loại đơn khiếu nại đang xử lý|1

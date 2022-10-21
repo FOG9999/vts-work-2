@@ -1,0 +1,8 @@
+
+
+
+LOGIN|http://dannguyen.quochoi.vn:8006/Home/Login:8006|KNCT|2020/06/19 02:41:11:4111|null|tuantm14|27.68.241.28|Home/Login|0|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn:8006/Home/Login:8006|KNCT|2020/06/19 02:41:16:4116|null|tuantm14|27.68.241.28|Home/Login|1|0

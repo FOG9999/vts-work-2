@@ -1,0 +1,16 @@
+
+
+
+LOGIN|http://192.168.1.2/Home/Login:80|KNCT|2018/04/06 03:11:54:1154|null|admin|192.168.1.2|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.2/Home/Login:80|KNCT|2018/04/06 03:16:44:1644|null|admin|192.168.1.2|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.2/Home/Login:80|KNCT|2018/04/06 03:21:57:2157|null|admin|192.168.1.2|Home/Login|1|0
+
+
+
+LOGIN|http://192.168.1.2/Home/Login:80|KNCT|2018/04/06 03:26:51:2651|null|admin|192.168.1.2|Home/Login|1|0

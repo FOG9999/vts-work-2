@@ -1,0 +1,16 @@
+
+
+
+LOGIN|http://203.190.173.108:8006/Home/Login:8006|KNCT|2020/07/09 10:33:36:3336|null|uybanphapluat01|113.191.249.123|Home/Login|0|0
+
+
+
+LOGIN|http://203.190.173.108:8006/Home/Login:8006|KNCT|2020/07/09 10:33:57:3357|null|uybanphapluat01|113.191.249.123|Home/Login|0|0
+
+
+
+LOGIN|http://203.190.173.108:8006/Home/Login:8006|KNCT|2020/07/09 10:34:04:344|null|uybanphapluat01|113.191.249.123|Home/Login|0|0
+
+
+
+LOGIN|http://203.190.173.108:8006/Home/Login:8006|KNCT|2020/07/09 10:34:10:3410|null|uybanphapluat01|113.191.249.123|Home/Login|0|0

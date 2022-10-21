@@ -1,0 +1,5 @@
+TRUNCATE TABLE "USER_TYPE";
+INSERT INTO "USER_TYPE"("ITYPE", "CNAME") VALUES ('2', 'Lãnh đạo đơn vị');
+INSERT INTO "USER_TYPE"("ITYPE", "CNAME") VALUES ('3', 'Chuyên viên HĐND');
+INSERT INTO "USER_TYPE"("ITYPE", "CNAME") VALUES ('4', 'Chuyên viên ĐBQH');
+INSERT INTO "USER_TYPE"("ITYPE", "CNAME") VALUES ('1', 'Quản trị hệ thống');

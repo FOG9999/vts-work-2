@@ -1,0 +1,15 @@
+C:\Users\DELL\Desktop\Solution\Solution\DataAccess\Fakes\Oracle.Web.fakes : warning : Cannot generate stub for Oracle.Web.ErrRes: type is not visible to exported or assembly(Oracle.Web.4.122.1.0.Fakes).
+C:\Users\DELL\Desktop\Solution\Solution\DataAccess\Fakes\Oracle.Web.fakes : warning : Cannot generate stub for Oracle.Web.Caching.OracleCacheDependency: type is sealed.
+C:\Users\DELL\Desktop\Solution\Solution\DataAccess\Fakes\Oracle.Web.fakes : warning : Cannot generate stub for Oracle.Web.OracleConnectionHelper: type is sealed.
+C:\Users\DELL\Desktop\Solution\Solution\DataAccess\Fakes\Oracle.Web.fakes : warning : Cannot generate stub for Oracle.Web.OracleConnectionHolder: type is sealed.
+C:\Users\DELL\Desktop\Solution\Solution\DataAccess\Fakes\Oracle.Web.fakes : warning : Cannot generate stub for Oracle.Web.Personalization.OraclePersonalizationProviderHelper: type is not visible to exported or assembly(Oracle.Web.4.122.1.0.Fakes).
+C:\Users\DELL\Desktop\Solution\Solution\DataAccess\Fakes\Oracle.Web.fakes : warning : Cannot generate stub for Oracle.Web.Util: type is sealed.
+C:\Users\DELL\Desktop\Solution\Solution\DataAccess\Fakes\Oracle.Web.fakes : warning : Cannot generate stub for Oracle.Web.MsgManager: type is sealed.
+C:\Users\DELL\Desktop\Solution\Solution\DataAccess\Fakes\Oracle.Web.fakes : warning : Cannot generate shim for Oracle.Web.ErrRes: type is not visible to exported or assembly(Oracle.Web.4.122.1.0.Fakes).
+C:\Users\DELL\Desktop\Solution\Solution\DataAccess\Fakes\Oracle.Web.fakes : warning : Cannot generate shim for Oracle.Web.OracleConnectionHelper: type is not visible to exported or assembly(Oracle.Web.4.122.1.0.Fakes).
+C:\Users\DELL\Desktop\Solution\Solution\DataAccess\Fakes\Oracle.Web.fakes : warning : Cannot generate shim for Oracle.Web.OracleConnectionHolder: type is not visible to exported or assembly(Oracle.Web.4.122.1.0.Fakes).
+C:\Users\DELL\Desktop\Solution\Solution\DataAccess\Fakes\Oracle.Web.fakes : warning : Cannot generate shim for Oracle.Web.Personalization.OraclePersonalizationProvider+<>c__DisplayClass2: type is not supported because of internal limitations.
+C:\Users\DELL\Desktop\Solution\Solution\DataAccess\Fakes\Oracle.Web.fakes : warning : Cannot generate shim for Oracle.Web.Personalization.OraclePersonalizationProvider+<>c__DisplayClass8: type is not supported because of internal limitations.
+C:\Users\DELL\Desktop\Solution\Solution\DataAccess\Fakes\Oracle.Web.fakes : warning : Cannot generate shim for Oracle.Web.Personalization.OraclePersonalizationProviderHelper: type is not visible to exported or assembly(Oracle.Web.4.122.1.0.Fakes).
+C:\Users\DELL\Desktop\Solution\Solution\DataAccess\Fakes\Oracle.Web.fakes : warning : Cannot generate shim for Oracle.Web.Util: type is not visible to exported or assembly(Oracle.Web.4.122.1.0.Fakes).
+C:\Users\DELL\Desktop\Solution\Solution\DataAccess\Fakes\Oracle.Web.fakes : warning : Cannot generate shim for Oracle.Web.MsgManager: type is not visible to exported or assembly(Oracle.Web.4.122.1.0.Fakes).

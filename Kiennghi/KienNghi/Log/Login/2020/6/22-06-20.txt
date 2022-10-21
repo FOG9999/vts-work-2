@@ -1,0 +1,16 @@
+
+
+
+LOGIN|http://203.190.173.108:8006/Home/Login:8006|KNCT|2020/06/22 09:12:03:123|null|hanhttp|118.69.77.219|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn:8006/Home/Login:8006|KNCT|2020/06/22 11:02:00:20|null|lehongdung1|113.191.249.100|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn:8006/Home/Login:8006|KNCT|2020/06/22 02:38:06:386|null|kienpt|113.191.249.100|Home/Login|1|0
+
+
+
+LOGIN|http://dannguyen.quochoi.vn:8006/Home/Login:8006|KNCT|2020/06/22 02:51:42:5142|null|lehongdung1|113.191.249.100|Home/Login|1|0

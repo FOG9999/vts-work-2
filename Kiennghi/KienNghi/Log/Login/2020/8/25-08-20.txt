@@ -1,0 +1,184 @@
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 03:18:14:1814|null|tuantm14|220.231.123.134|Home/Login|0|0
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 03:18:20:1820|null|tuantm14|220.231.123.134|Home/Login|1|0
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 03:24:57:2457|null|hungnn|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 03:25:05:255|null|hungnn|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 03:25:40:2540|null|hungnn|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 03:26:14:2614|null|hungnn|113.191.249.100|Home/Login|1|0
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 03:35:27:3527|null|nhungph|113.191.249.100|Home/Login|1|0
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 03:35:35:3535|null|tokhuongduy|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 03:35:56:3556|null|tokhuongduy|113.191.249.100|Home/Login|1|0
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 03:43:33:4333|null|kienpt|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 03:43:55:4355|null|Kienpt|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 03:44:44:4444|null|Kienpt|113.191.249.100|Home/Login|0|0
+
+
+
+LOGOUT|http://203.190.173.196/Home/Logout/:80|KNCT|2020/08/25 03:45:28:4528|null|hungnn|113.191.249.100|Home/Login|1|0
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 03:45:36:4536|null|kienpt|113.191.249.100|Home/Login|1|0
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 03:46:14:4614|null|Kienpt|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 03:46:15:4615|null|Kienpt|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 03:46:26:4626|null|kienpt|113.191.249.100|Home/Login|0|0
+
+
+
+LOGOUT|http://203.190.173.196/Home/Logout/:80|KNCT|2020/08/25 03:46:27:4627|null|kienpt|113.191.249.100|Home/Login|1|0
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 03:46:30:4630|null|hungnn|113.191.249.100|Home/Login|1|0
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 03:46:34:4634|null|kienpt|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 03:46:36:4636|null|kienpt|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 03:46:50:4650|null|kienpt|113.191.249.100|Home/Login|1|0
+
+
+
+LOGOUT|http://203.190.173.196/Home/Logout/:80|KNCT|2020/08/25 03:52:32:5232|null|tokhuongduy|113.191.249.100|Home/Login|1|0
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 03:52:42:5242|null|luongminhthanh|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 03:53:21:5321|null|luongminhthanh|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 03:53:47:5347|null|luongminhthanh|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 03:53:50:5350|null|luongminhthanh|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 03:54:03:543|null|luongminhthanh|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 03:54:16:5416|null|luongminhthanh|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 03:55:09:559|null|tokhuongduy|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 03:55:14:5514|null|tokhuongduy|113.191.249.100|Home/Login|0|0
+
+
+
+LOGOUT|http://203.190.173.196/Home/Logout/:80|KNCT|2020/08/25 03:56:19:5619|null|hungnn|113.191.249.100|Home/Login|1|0
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 03:56:40:5640|null|tokhuongduy|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 03:56:53:5653|null|tokhuongduy|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 03:57:03:573|null|tokhuongduy|113.191.249.100|Home/Login|1|0
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 03:57:20:5720|null|thanhlm|113.191.249.100|Home/Login|1|0
+
+
+
+LOGOUT|http://203.190.173.196/Home/Logout/:80|KNCT|2020/08/25 03:57:25:5725|null|thanhlm|113.191.249.100|Home/Login|1|0
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 03:57:30:5730|null|hungnn|113.191.249.100|Home/Login|1|0
+
+
+
+LOGOUT|http://203.190.173.196/Home/Logout/:80|KNCT|2020/08/25 03:58:38:5838|null|tokhuongduy|113.191.249.100|Home/Login|1|0
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 03:58:50:5850|null|thanhlm|113.191.249.100|Home/Login|0|0
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 03:59:09:599|null|thanhlm|113.191.249.100|Home/Login|1|0
+
+
+
+LOGOUT|http://203.190.173.196/Home/Logout/:80|KNCT|2020/08/25 03:59:40:5940|null|thanhlm|113.191.249.100|Home/Login|1|0
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 03:59:44:5944|null|tokhuongduy|113.191.249.100|Home/Login|1|0
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 04:02:49:249|null|thanhlm|113.191.249.100|Home/Login|1|0
+
+
+
+LOGOUT|http://203.190.173.196/Home/Logout/:80|KNCT|2020/08/25 04:18:55:1855|null|hungnn|113.191.249.100|Home/Login|1|0
+
+
+
+LOGIN|http://203.190.173.196/Home/Login:80|KNCT|2020/08/25 04:18:59:1859|null|hungnn|113.191.249.100|Home/Login|1|0
