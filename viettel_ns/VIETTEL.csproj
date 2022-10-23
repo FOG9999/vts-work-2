@@ -1,0 +1,320 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <UseWPF>true</UseWPF>
+    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+    <OutputPath>bin\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Content Include="Scripts\sheet\jsSheet_dtkt.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\pub_mvc5.pubxml" />
+    <None Update="Webh.Debug.config">
+      <DependentUpon>Webh.config</DependentUpon>
+    </None>
+    <None Update="Webh.Release.config">
+      <DependentUpon>Webh.config</DependentUpon>
+    </None>
+    <None Update="Web.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Update="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Application\IOC\" />
+    <Folder Include="App_Data\ns_sync\2020\" />
+    <Folder Include="App_Data\sql\_longsam\dutoan\" />
+    <Folder Include="Areas\Admin\Views\Shared\" />
+    <Folder Include="Areas\BaoHiemXaHoi\Data\" />
+    <Folder Include="Areas\BaoHiemXaHoi\Views\Shared\" />
+    <Folder Include="Areas\CapPhat\Views\Shared\" />
+    <Folder Include="Areas\DanhMuc\Data\" />
+    <Folder Include="Areas\DuToanBS\Models\" />
+    <Folder Include="Areas\DuToanBS\Views\Shared\" />
+    <Folder Include="Areas\DuToanKT\Views\Shared\" />
+    <Folder Include="Areas\DuToan\Views\Shared\" />
+    <Folder Include="Areas\HelpPage\Views\Attachment\" />
+    <Folder Include="Areas\QLNguonNganSach\Data\" />
+    <Folder Include="Areas\QLNH\Views\DanhMucNgoaiHoi\" />
+    <Folder Include="Areas\QLVonDauTu\Data\" />
+    <Folder Include="Areas\QLVonDauTu\Models\" />
+    <Folder Include="Areas\QLVonDauTu\Model\DanhMuc\" />
+    <Folder Include="Areas\QLVonDauTu\Views\Common\" />
+    <Folder Include="Areas\QLVonDauTu\Views\Component\" />
+    <Folder Include="Areas\QLVonDauTu\Views\Default\" />
+    <Folder Include="Areas\QuyetToan\Controllers\Reports\" />
+    <Folder Include="Areas\QuyetToan\Views\Shared\" />
+    <Folder Include="Areas\SKT\Views\Shared\" />
+    <Folder Include="Report_Controllers\TongHopNganSach\thongke\" />
+    <Folder Include="Report_ExcelFrom\Shared\" />
+    <Folder Include="Report_ExcelFrom\_w\" />
+    <Folder Include="Shared\RArea\" />
+    <Folder Include="Shared\Utillities\" />
+    <Folder Include="Views\Attachment\" />
+    <Folder Include="Views\BaoHiemXaHoi\" />
+    <Folder Include="Views\CongSan\DieuChuyenTaiSan\" />
+    <Folder Include="Views\Luong\KhauTruThueChiTiet\" />
+    <Folder Include="Views\Luong\KhauTruThue\" />
+    <Folder Include="Views\QLNguonNganSach\" />
+    <Folder Include="_libs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Report_ExcelFrom\DuToanKT\rptDuToanKT_M03a - Copy %282%29.xls" />
+    <None Include="Report_ExcelFrom\NguoiCoCong\rptNCC_TH_57_A3_1.xls" />
+    <None Include="Report_ExcelFrom\NguoiCoCong\rptNCC_TH_57_A3_1_RG.xls" />
+    <None Include="Report_ExcelFrom\NguoiCoCong\rptNCC_TH_57_A3_2.xls" />
+    <None Include="Report_ExcelFrom\NguoiCoCong\rptNCC_TH_57_A3_2_RG.xls" />
+    <None Include="Report_ExcelFrom\NguoiCoCong\rptNCC_TH_57_A4_1.xls" />
+    <None Include="Report_ExcelFrom\NguoiCoCong\rptNCC_TH_57_A4_1_RG.xls" />
+    <None Include="Report_ExcelFrom\NguoiCoCong\rptNCC_TH_57_A4_2.xls" />
+    <None Include="Report_ExcelFrom\NguoiCoCong\rptNCC_TH_57_A4_2_RG.xls" />
+    <None Include="Report_ExcelFrom\NguoiCoCong\rptNCC_TongHopNganSach_57.xls" />
+    <None Include="Report_ExcelFrom\QuyetToan\QuyetToanQuanSo\vssver2.scc" />
+    <Content Include="App_Data\settings.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Views\DuToanBS\ChiTapTrung\vssver2.scc" />
+    <None Include="Views\DuToanBS\ChungTuBaoDam\vssver2.scc" />
+    <None Include="Views\DuToanBS\ChungTuChiTiet\vssver2.scc" />
+    <None Include="Views\DuToanBS\DotNganSach\vssver2.scc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Cells">
+      <HintPath>_libs\Aspose.Cells.dll</HintPath>
+    </Reference>
+    <Reference Include="DomainModel, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>_libs\DomainModel.dll</HintPath>
+    </Reference>
+    <Reference Include="FlexCel, Version=5.7.6.0, Culture=neutral, PublicKeyToken=cb8f6080e6d5a4d6, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>_libs\FlexCel.dll</HintPath>
+    </Reference>
+    <Reference Include="FlexCel.AspNet, Version=5.7.6.0, Culture=neutral, PublicKeyToken=cb8f6080e6d5a4d6, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>_libs\FlexCel.AspNet.dll</HintPath>
+    </Reference>
+    <Reference Include="SSO.Client, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>_libs\SSO.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <AdditionalFiles Include="Report_ExcelFrom\ThuNop\rptThuNopThongTri.xls" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VIETTEL.longsam\VIETTEL.longsam.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.2.2" />
+    <PackageReference Include="AutoMapper.Attributes" Version="6.0.1" />
+    <PackageReference Include="ClosedXML" Version="0.95.4" />
+    <PackageReference Include="EPPlus" Version="5.6.4" />
+    <PackageReference Include="FreeSpire.XLS" Version="10.10.0" />
+    <PackageReference Include="Microsoft.AspNet.WebApi" Version="5.2.7" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.HelpPage" Version="5.2.4" />
+    <PackageReference Include="Microsoft.jQuery.Unobtrusive.Ajax" Version="2.0.20505.0" />
+    <PackageReference Include="NUnit" Version="3.10.1" />
+    <PackageReference Include="SquishIt.Mvc" Version="1.0.0" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+    <PackageReference Include="WebIcons" Version="1.0.1.0" />
+    <PackageReference Include="System.ServiceModel.Federation" Version="4.8.1" />
+    <PackageReference Include="Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers" Version="0.4.346202">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="DapperExtensions" Version="1.7.0" />
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="Microsoft.Office.Interop.Excel" Version="14.0.0.1" />
+    <PackageReference Include="System.Linq.Dynamic" Version="1.0.8" />
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="6.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.10" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Application\Extensions\DateTimeExtension.cs" />
+    <Compile Remove="Areas\DuToan\Controllers\HomeController.cs" />
+    <Compile Remove="Areas\DuToan\Controllers\Reports\DonVi\rptDuToan_BaoDam_TungDonVi_ChiTietController_g.cs" />
+    <Compile Remove="Areas\DuToan\Controllers\Reports\rptDuToan_K11_M00Controller.cs" />
+    <Compile Remove="Areas\DuToan\Controllers\Reports\rptDuToan_K11_M01Controller.cs" />
+    <Compile Remove="Areas\DuToan\Controllers\Reports\rptDuToan_K11_M104bController.cs" />
+    <Compile Remove="Areas\DuToan\Controllers\Reports\rptDuToan_K11_M104Controller.cs" />
+    <Compile Remove="Areas\QLNguonNganSach\Models\CodeName.cs" />
+    <Compile Remove="Areas\QLVonDauTu\Model\QuyetToan\DeNghiQuyetToanPagingModel.cs" />
+    <Compile Remove="Areas\SKT\Controllers\Reports\BaoCao\rptNC_DonViController.cs" />
+    <Compile Remove="Areas\SKT\Controllers\Reports\BaoCao\rptNC_DonVi_B2Controller.cs" />
+    <Compile Remove="Areas\SKT\Controllers\Reports\BaoCao\rptNC_DonVi_TongHopController.cs" />
+    <Compile Remove="Areas\SKT\Controllers\Reports\BaoCao\rptNC_NganhController.cs" />
+    <Compile Remove="Areas\SKT\Controllers\Reports\BaoCao\rptNC_Nganh_B2Controller.cs" />
+    <Compile Remove="Areas\SKT\Controllers\Reports\BaoCao\rptSKT_BC01BVController.cs" />
+    <Compile Remove="Areas\SKT\Controllers\Reports\BaoCao\rptSKT_BC01Controller.cs" />
+    <Compile Remove="Areas\SKT\Controllers\Reports\BaoCao\rptSKT_BC01TGController.cs" />
+    <Compile Remove="Areas\SKT\Controllers\Reports\BaoCao\rptSKT_BC02Controller.cs" />
+    <Compile Remove="Areas\SKT\Controllers\Reports\BaoCao\rptSKT_BC03Controller.cs" />
+    <Compile Remove="Areas\SKT\Controllers\Reports\BaoCao\rptSKT_BC04Controller.cs" />
+    <Compile Remove="Areas\SKT\Controllers\Reports\BaoCao\rptSKT_BC05Controller.cs" />
+    <Compile Remove="Areas\SKT\Controllers\Reports\BaoCao\rptSKT_BC05THController.cs" />
+    <Compile Remove="Areas\SKT\Controllers\Reports\BaoCao\rptSKT_BCTHNTController.cs" />
+    <Compile Remove="Areas\SKT\Controllers\Reports\BaoCao\rptSKT_BCTHNT_SSController.cs" />
+    <Compile Remove="Areas\SKT\Controllers\Reports\BaoCao\rptSKT_DonViController.cs" />
+    <Compile Remove="Areas\SKT\Controllers\Reports\BaoCao\rptSKT_M03Controller.cs" />
+    <Compile Remove="Areas\SKT\Controllers\Reports\BaoCao\rptSKT_NganhController.cs" />
+    <Compile Remove="Areas\SKT\Controllers\Reports\Kiem\rptKiem_CauHinhNCMLNSController.cs" />
+    <Compile Remove="Areas\SKT\Controllers\Reports\Kiem\rptKiem_K2Controller.cs" />
+    <Compile Remove="Areas\SKT\Controllers\Reports\Kiem\rptKiem_K4Controller.cs" />
+    <Compile Remove="Areas\SKT\Controllers\Reports\Kiem\rptKiem_K4DController.cs" />
+    <Compile Remove="Areas\SKT\Controllers\Reports\Kiem\rptKiem_K5Controller.cs" />
+    <Compile Remove="Areas\SKT\Controllers\Reports\MucLuc\rptNC_MucLucController.cs" />
+    <Compile Remove="Areas\SKT\Controllers\Reports\PhuLuc\rptSKT_PL01bController.cs" />
+    <Compile Remove="Areas\SKT\Controllers\Reports\PhuLuc\rptSKT_PL02bController.cs" />
+    <Compile Remove="Areas\SKT\Controllers\Reports\PhuLuc\rptSKT_PL03_NgController.cs" />
+    <Compile Remove="Areas\SKT\Controllers\Reports\PhuLuc\rptSKT_PL04BVController.cs" />
+    <Compile Remove="Areas\SKT\Controllers\Reports\PhuLuc\rptSKT_PL04Controller.cs" />
+    <Compile Remove="Areas\SKT\Controllers\Reports\PhuLuc\rptSKT_PL05Controller.cs" />
+    <Compile Remove="Areas\SKT\Controllers\Reports\TrinhKy\rptSKT_TrinhKy_K1BVController.cs" />
+    <Compile Remove="Areas\SKT\Controllers\Reports\TrinhKy\rptSKT_TrinhKy_K1Controller.cs" />
+    <Compile Remove="Areas\SKT\Controllers\Reports\TrinhKy\rptSKT_TrinhKy_K1NController.cs" />
+    <Compile Remove="Areas\SKT\Controllers\Reports\TrinhKy\rptSKT_TrinhKy_K1N_fixController.cs" />
+    <Compile Remove="Areas\SKT\Controllers\Reports\TrinhKy\rptSKT_TrinhKy_K1_B8Controller .cs" />
+    <Compile Remove="Areas\SKT\Controllers\Reports\TrinhKy\rptSKT_TrinhKy_K1_fixController.cs" />
+    <Compile Remove="Areas\test\testAreaRegistration.cs" />
+    <Compile Remove="Common\ToPdfContentResult.cs" />
+    <Compile Remove="Controllers\DungChung\MucLucNganSach_NhaNuocController.cs" />
+    <Compile Remove="Controllers\KeToanTongHop\ConvertToFoxController.cs" />
+    <Compile Remove="Controllers\KeToanTongHop\KeToanTongHop_SoDuTaiKhoanGiaiThichController.cs" />
+    <Compile Remove="Controllers\NguonNS\ChungTuCap\ChungTuCap_ChungTuChiTietController.cs" />
+    <Compile Remove="Controllers\NguonNS\ChungTuCap\ChungTuCap_ChungTuChiTiet_PCController.cs" />
+    <Compile Remove="Controllers\NguonNS\ChungTuCap\ChungTuCap_ChungTuController.cs" />
+    <Compile Remove="Controllers\NguonNS\DanhMuc\Nguon_BTCBQPController.cs" />
+    <Compile Remove="Models\CapPhat\CapPhat_BangDuLieu_Cuc.cs" />
+    <Compile Remove="Models\CapPhat\CapPhat_ChungTuChiTiet_CucModels.cs" />
+    <Compile Remove="Models\CapPhat\CapPhat_ChungTu_CucModels.cs" />
+    <Compile Remove="Models\KeToanTongHop\KeToanTongHop_GiaiThich_DauNam_BangDuLieu.cs" />
+    <Compile Remove="Models\NguonNS\Nguon_BTCBQPCT_BangDuLieu.cs" />
+    <Compile Remove="Models\NguonNS\Nguon_BTCBQP_BangDuLieu.cs" />
+    <Compile Remove="Models\NguonNS\Nguon_CTCapChiTietPC_BangDuLieu.cs" />
+    <Compile Remove="Models\NguonNS\Nguon_CTCapChiTiet_BangDuLieu.cs" />
+    <Compile Remove="Report_Controllers\CapPhat\rptCapPhat_THChiTieu.cs" />
+    <Compile Remove="Report_Controllers\CongSan\rptCongSan_PhuLuc1Controller.cs" />
+    <Compile Remove="Report_Controllers\CongSan\rptCongSan_PhuLuc2Controller.cs" />
+    <Compile Remove="Report_Controllers\CongSan\rptCongSan_PhuLuc3Controller.cs" />
+    <Compile Remove="Report_Controllers\DuToanBS\rptDuToanBS_1040100_DotController_v1.cs" />
+    <Compile Remove="Report_Controllers\DuToanBS\rptDuToanBS_1040100_TungDonViController.cs" />
+    <Compile Remove="Report_Controllers\DuToanBS\rptDuToanBS_1040100_TungNganhController.cs" />
+    <Compile Remove="Report_Controllers\DuToanBS\rptDuToanBS_207_TungDonViController_v1.cs" />
+    <Compile Remove="Report_Controllers\DuToanBS\rptDuToanBS_207_TungNganhController.cs" />
+    <Compile Remove="Report_Controllers\DuToanBS\rptDuToanBS_ChiTieuNganSach2Controller.cs" />
+    <Compile Remove="Report_Controllers\DuToan\rptDuToan_1020800_TongHopController.cs" />
+    <Compile Remove="Report_Controllers\DuToan\rptDuToan_1020800_TungDonViController.cs" />
+    <Compile Remove="Report_Controllers\DuToan\rptDuToan_B7_NSNN.cs" />
+    <Compile Remove="Report_Controllers\DuToan\rptDuToan_B7_NSQP.cs" />
+    <Compile Remove="Report_Controllers\DuToan\rptTongHop_GiaoBanController.cs" />
+    <Compile Remove="Report_Controllers\KeToan\rptKeToan_DanhMucTaiKhoanGiaiThichController.cs" />
+    <Compile Remove="Report_Controllers\KeToan\TongHop\rptKeToanTongHop_InTaiKhoanChiTietController.cs" />
+    <Compile Remove="Report_Controllers\KeToan\TongHop\rptKTTH_ChiTietDonViBQLController.cs" />
+    <Compile Remove="Report_Controllers\KeToan\TongHop\rptKTTongHop_VonVayDauTuController.cs" />
+    <Compile Remove="Report_Controllers\QLDA\QLDA_ReportController.cs" />
+    <Compile Remove="Report_Controllers\QLDA\rptKHV_01VDT_THDACTController.cs" />
+    <Compile Remove="Report_Controllers\QLDA\rptKHV_02DT_DTQuyController.cs" />
+    <Compile Remove="Report_Controllers\QLDA\rptKHV_02VDT_THNSNNController.cs" />
+    <Compile Remove="Report_Controllers\QLDA\rptKHV_Bieu01VDTController.cs" />
+    <Compile Remove="Report_Controllers\QLDA\rptKHV_Bieu01VDTUngTruocController.cs" />
+    <Compile Remove="Report_Controllers\QLDA\rptKHV_Bieu02VDTController.cs" />
+    <Compile Remove="Report_Controllers\QLDA\rptKHV_Bieu02VDT_1Controller.cs" />
+    <Compile Remove="Report_Controllers\QLDA\rptQLDAThongTriController.cs" />
+    <Compile Remove="Report_Controllers\QLDA\rptQLDAThongTri_1Controller.cs" />
+    <Compile Remove="Report_Controllers\QLDA\rptQLDA_01CTController.cs" />
+    <Compile Remove="Report_Controllers\QLDA\rptQLDA_01DTController.cs" />
+    <Compile Remove="Report_Controllers\QLDA\rptQLDA_01DT_KHVDTController.cs" />
+    <Compile Remove="Report_Controllers\QLDA\rptQLDA_01QTNController.cs" />
+    <Compile Remove="Report_Controllers\QLDA\rptQLDA_01_CPController.cs" />
+    <Compile Remove="Report_Controllers\QLDA\rptQLDA_02CP_CPVDTController.cs" />
+    <Compile Remove="Report_Controllers\QLDA\rptQLDA_02QTNController.cs" />
+    <Compile Remove="Report_Controllers\QLDA\rptQLDA_02_CPVDTController.cs" />
+    <Compile Remove="Report_Controllers\QLDA\rptQLDA_02_QTHTController.cs" />
+    <Compile Remove="Report_Controllers\QLDA\rptQLDA_03QTNController.cs" />
+    <Compile Remove="Report_Controllers\QLDA\rptQLDA_03_CPController.cs" />
+    <Compile Remove="Report_Controllers\QLDA\rptQLDA_03_CP_1Controller.cs" />
+    <Compile Remove="Report_Controllers\QLDA\rptQLDA_04_CPController.cs" />
+    <Compile Remove="Report_Controllers\QLDA\rptQLDA_05_CPController.cs" />
+    <Compile Remove="Report_Controllers\QLDA\rptQLDA_ChiTiet_DanhMucCongTrinhController.cs" />
+    <Compile Remove="Report_Controllers\QLDA\rptQLDA_ChiTiet_DanhMucCongTrinh_1Controller.cs" />
+    <Compile Remove="Report_Controllers\QLDA\rptQLDA_DuToan_QuyController.cs" />
+    <Compile Remove="Report_Controllers\QLDA\rptQLDA_QTHT_02QTHTController.cs" />
+    <Compile Remove="Report_Controllers\QLDA\rptQLDA_ThongBaoKHVController.cs" />
+    <Compile Remove="Report_Controllers\QLDA\rptQT_08A_B16Controller.cs" />
+    <Compile Remove="Report_Controllers\QuyetToan\QuyetToanQuanSo\QLDA\QLDA_ReportController.cs" />
+    <Compile Remove="Report_Controllers\QuyetToan\QuyetToanQuanSo\QLDA\rptKHV_01VDT_THDACTController.cs" />
+    <Compile Remove="Report_Controllers\QuyetToan\QuyetToanQuanSo\QLDA\rptKHV_02DT_DTQuyController.cs" />
+    <Compile Remove="Report_Controllers\QuyetToan\QuyetToanQuanSo\QLDA\rptKHV_02VDT_THNSNNController.cs" />
+    <Compile Remove="Report_Controllers\QuyetToan\QuyetToanQuanSo\QLDA\rptKHV_Bieu01VDTController.cs" />
+    <Compile Remove="Report_Controllers\QuyetToan\QuyetToanQuanSo\QLDA\rptKHV_Bieu01VDTUngTruocController.cs" />
+    <Compile Remove="Report_Controllers\QuyetToan\QuyetToanQuanSo\QLDA\rptKHV_Bieu02VDTController.cs" />
+    <Compile Remove="Report_Controllers\QuyetToan\QuyetToanQuanSo\QLDA\rptKHV_Bieu02VDT_1Controller.cs" />
+    <Compile Remove="Report_Controllers\QuyetToan\QuyetToanQuanSo\QLDA\rptQLDAThongTriController.cs" />
+    <Compile Remove="Report_Controllers\QuyetToan\QuyetToanQuanSo\QLDA\rptQLDAThongTri_1Controller.cs" />
+    <Compile Remove="Report_Controllers\QuyetToan\QuyetToanQuanSo\QLDA\rptQLDA_01CTController.cs" />
+    <Compile Remove="Report_Controllers\QuyetToan\QuyetToanQuanSo\QLDA\rptQLDA_01DTController.cs" />
+    <Compile Remove="Report_Controllers\QuyetToan\QuyetToanQuanSo\QLDA\rptQLDA_01DT_KHVDTController.cs" />
+    <Compile Remove="Report_Controllers\QuyetToan\QuyetToanQuanSo\QLDA\rptQLDA_01QTNController.cs" />
+    <Compile Remove="Report_Controllers\QuyetToan\QuyetToanQuanSo\QLDA\rptQLDA_01_CPController.cs" />
+    <Compile Remove="Report_Controllers\QuyetToan\QuyetToanQuanSo\QLDA\rptQLDA_02CP_CPVDTController.cs" />
+    <Compile Remove="Report_Controllers\QuyetToan\QuyetToanQuanSo\QLDA\rptQLDA_02QTNController.cs" />
+    <Compile Remove="Report_Controllers\QuyetToan\QuyetToanQuanSo\QLDA\rptQLDA_02_CPVDTController.cs" />
+    <Compile Remove="Report_Controllers\QuyetToan\QuyetToanQuanSo\QLDA\rptQLDA_02_QTHTController.cs" />
+    <Compile Remove="Report_Controllers\QuyetToan\QuyetToanQuanSo\QLDA\rptQLDA_03QTNController.cs" />
+    <Compile Remove="Report_Controllers\QuyetToan\QuyetToanQuanSo\QLDA\rptQLDA_03_CPController.cs" />
+    <Compile Remove="Report_Controllers\QuyetToan\QuyetToanQuanSo\QLDA\rptQLDA_03_CP_1Controller.cs" />
+    <Compile Remove="Report_Controllers\QuyetToan\QuyetToanQuanSo\QLDA\rptQLDA_04_CPController.cs" />
+    <Compile Remove="Report_Controllers\QuyetToan\QuyetToanQuanSo\QLDA\rptQLDA_05_CPController.cs" />
+    <Compile Remove="Report_Controllers\QuyetToan\QuyetToanQuanSo\QLDA\rptQLDA_ChiTiet_DanhMucCongTrinhController.cs" />
+    <Compile Remove="Report_Controllers\QuyetToan\QuyetToanQuanSo\QLDA\rptQLDA_ChiTiet_DanhMucCongTrinh_1Controller.cs" />
+    <Compile Remove="Report_Controllers\QuyetToan\QuyetToanQuanSo\QLDA\rptQLDA_DuToan_QuyController.cs" />
+    <Compile Remove="Report_Controllers\QuyetToan\QuyetToanQuanSo\QLDA\rptQLDA_QTHT_02QTHTController.cs" />
+    <Compile Remove="Report_Controllers\QuyetToan\QuyetToanQuanSo\QLDA\rptQLDA_ThongBaoKHVController.cs" />
+    <Compile Remove="Report_Controllers\QuyetToan\QuyetToanQuanSo\QLDA\rptQT_08A_B16Controller.cs" />
+    <Compile Remove="Report_Controllers\QuyetToan\rptQuyetToan_BieuKiemTongHopController.cs" />
+    <Compile Remove="Report_Controllers\QuyetToan\rptQuyetToan_LNS_DonViController.cs" />
+    <Compile Remove="Report_Controllers\TongHopNganSach\thongke\MNSReportController.cs" />
+    <Compile Remove="Report_Controllers\TongHopNganSach\thongke\Service.cs" />
+    <Compile Remove="Shared\Utillities\Log.cs" />
+  </ItemGroup>
+  <Target Name="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(ProjectDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>36319</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

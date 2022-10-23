@@ -1,0 +1,1 @@
+D:\VTS\projects\qlns-ctc\web\upgrade .net framework\viettel_ns\obj\Debug\net6.0-windows\VIETTEL.csproj.AssemblyReference.cache

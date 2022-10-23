@@ -1,0 +1,24 @@
+D:\qlns-ctc-bqp-develop\qlns-ctc-bqp\sourcecode\VIETTEL_NS\bin\Viettel.longsam.dll.config
+D:\qlns-ctc-bqp-develop\qlns-ctc-bqp\sourcecode\VIETTEL_NS\bin\Viettel.longsam.dll
+D:\qlns-ctc-bqp-develop\qlns-ctc-bqp\sourcecode\VIETTEL_NS\bin\Viettel.longsam.pdb
+D:\qlns-ctc-bqp-develop\qlns-ctc-bqp\sourcecode\VIETTEL.longsam\obj\Debug\VIETTEL.longsam.csproj.AssemblyReference.cache
+D:\qlns-ctc-bqp-develop\qlns-ctc-bqp\sourcecode\VIETTEL.longsam\obj\Debug\VIETTEL.longsam.csproj.CoreCompileInputs.cache
+D:\qlns-ctc-bqp-develop\qlns-ctc-bqp\sourcecode\VIETTEL.longsam\obj\Debug\VIETTEL.longsam.csproj.CopyComplete
+D:\qlns-ctc-bqp-develop\qlns-ctc-bqp\sourcecode\VIETTEL.longsam\obj\Debug\Viettel.longsam.dll
+D:\qlns-ctc-bqp-develop\qlns-ctc-bqp\sourcecode\VIETTEL.longsam\obj\Debug\Viettel.longsam.pdb
+D:\VTS\save-from-github\qlns\vts-work\VIETTEL_NS\bin\Viettel.longsam.dll.config
+D:\VTS\save-from-github\qlns\vts-work\VIETTEL_NS\bin\Viettel.longsam.dll
+D:\VTS\save-from-github\qlns\vts-work\VIETTEL_NS\bin\Viettel.longsam.pdb
+D:\VTS\save-from-github\qlns\vts-work\VIETTEL.longsam\obj\Debug\VIETTEL.longsam.csproj.AssemblyReference.cache
+D:\VTS\save-from-github\qlns\vts-work\VIETTEL.longsam\obj\Debug\VIETTEL.longsam.csproj.CoreCompileInputs.cache
+D:\VTS\save-from-github\qlns\vts-work\VIETTEL.longsam\obj\Debug\VIETTEL.longsam.csproj.CopyComplete
+D:\VTS\save-from-github\qlns\vts-work\VIETTEL.longsam\obj\Debug\Viettel.longsam.dll
+D:\VTS\save-from-github\qlns\vts-work\VIETTEL.longsam\obj\Debug\Viettel.longsam.pdb
+D:\VTS\projects\qlns-ctc\web\upgrade .net framework\VIETTEL_NS\bin\Viettel.longsam.dll.config
+D:\VTS\projects\qlns-ctc\web\upgrade .net framework\VIETTEL_NS\bin\Viettel.longsam.dll
+D:\VTS\projects\qlns-ctc\web\upgrade .net framework\VIETTEL_NS\bin\Viettel.longsam.pdb
+D:\VTS\projects\qlns-ctc\web\upgrade .net framework\VIETTEL.longsam\obj\Debug\VIETTEL.longsam.csproj.AssemblyReference.cache
+D:\VTS\projects\qlns-ctc\web\upgrade .net framework\VIETTEL.longsam\obj\Debug\VIETTEL.longsam.csproj.CoreCompileInputs.cache
+D:\VTS\projects\qlns-ctc\web\upgrade .net framework\VIETTEL.longsam\obj\Debug\VIETTEL.longsam.csproj.CopyComplete
+D:\VTS\projects\qlns-ctc\web\upgrade .net framework\VIETTEL.longsam\obj\Debug\Viettel.longsam.dll
+D:\VTS\projects\qlns-ctc\web\upgrade .net framework\VIETTEL.longsam\obj\Debug\Viettel.longsam.pdb

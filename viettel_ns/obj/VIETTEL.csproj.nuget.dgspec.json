@@ -1,0 +1,175 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\VTS\\projects\\qlns-ctc\\web\\upgrade .net framework\\viettel_ns\\VIETTEL.csproj": {}
+  },
+  "projects": {
+    "D:\\VTS\\projects\\qlns-ctc\\web\\upgrade .net framework\\VIETTEL.longsam\\VIETTEL.longsam.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\VTS\\projects\\qlns-ctc\\web\\upgrade .net framework\\VIETTEL.longsam\\VIETTEL.longsam.csproj",
+        "projectName": "VIETTEL.longsam",
+        "projectPath": "D:\\VTS\\projects\\qlns-ctc\\web\\upgrade .net framework\\VIETTEL.longsam\\VIETTEL.longsam.csproj",
+        "frameworks": {
+          "net452": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net452": {}
+      }
+    },
+    "D:\\VTS\\projects\\qlns-ctc\\web\\upgrade .net framework\\viettel_ns\\VIETTEL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VTS\\projects\\qlns-ctc\\web\\upgrade .net framework\\viettel_ns\\VIETTEL.csproj",
+        "projectName": "VIETTEL",
+        "projectPath": "D:\\VTS\\projects\\qlns-ctc\\web\\upgrade .net framework\\viettel_ns\\VIETTEL.csproj",
+        "packagesPath": "C:\\Users\\NGUYEN THANG\\.nuget\\packages\\",
+        "outputPath": "D:\\VTS\\projects\\qlns-ctc\\web\\upgrade .net framework\\viettel_ns\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NGUYEN THANG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "D:\\VTS\\projects\\qlns-ctc\\web\\upgrade .net framework\\VIETTEL.longsam\\VIETTEL.longsam.csproj": {
+                "projectPath": "D:\\VTS\\projects\\qlns-ctc\\web\\upgrade .net framework\\VIETTEL.longsam\\VIETTEL.longsam.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            },
+            "AutoMapper.Attributes": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.95.4, )"
+            },
+            "DapperExtensions": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[5.6.4, )"
+            },
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "FreeSpire.XLS": {
+              "target": "Package",
+              "version": "[10.10.0, )"
+            },
+            "Microsoft.AspNet.WebApi": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNet.WebApi.HelpPage": {
+              "target": "Package",
+              "version": "[5.2.4, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.4.346202, )"
+            },
+            "Microsoft.Office.Interop.Excel": {
+              "target": "Package",
+              "version": "[14.0.0.1, )"
+            },
+            "Microsoft.Windows.Compatibility": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.jQuery.Unobtrusive.Ajax": {
+              "target": "Package",
+              "version": "[2.0.20505, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.10.1, )"
+            },
+            "SquishIt.Mvc": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Linq.Dynamic": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            },
+            "System.ServiceModel.Federation": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            },
+            "WebIcons": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+[ERROR]-[26-07-2022 09:35:41] – [Controller KeHoachVonNamDuocDuyetController][Function Save]: Object reference not set to an instance of an object.
+
+[ERROR]-[26-07-2022 09:41:51] – [Controller KeHoachVonNamDuocDuyetController][Function Save]: Object reference not set to an instance of an object.
+
+[ERROR]-[26-07-2022 09:43:07] – [Controller KeHoachVonNamDuocDuyetController][Function Save]: Object reference not set to an instance of an object.
+
+[ERROR]-[26-07-2022 09:44:59] – [Controller KeHoachVonNamDuocDuyetController][Function Save]: Object reference not set to an instance of an object.
+
+[ERROR]-[26-07-2022 10:18:56] – [Controller KeHoachVonNamDuocDuyetController][Function Save]: Unrecognized Guid format.
+
+[ERROR]-[26-07-2022 10:25:02] – [Controller KeHoachVonNamDuocDuyetController][Function Save]: Unrecognized Guid format.
+
+[ERROR]-[26-07-2022 11:52:45] – [Controller KeHoachVonNamPhanBoVonDVPheDuyetController][Function Save]: Nullable object must have a value.
+
+[ERROR]-[26-07-2022 01:51:52] – [Controller KeHoachVonNamPhanBoVonDVPheDuyetController][Function Save]: Nullable object must have a value.
+
+[ERROR]-[26-07-2022 02:07:04] – [Controller KeHoachVonNamPhanBoVonDVPheDuyetController][Function KeHoachVonNamPhanBoVonDVPheDuyetSave]: Invalid column name 'iID_KeHoachVonNam_DuocDuyetID'.
+
+[ERROR]-[26-07-2022 02:14:55] – [Controller KeHoachVonNamPhanBoVonDVPheDuyetController][Function KeHoachVonNamPhanBoVonDVPheDuyetSave]: Invalid column name 'iID_KeHoachVonNam_DuocDuyetID'.
+
+[ERROR]-[26-07-2022 02:19:34] – [Controller KeHoachVonNamPhanBoVonDVPheDuyetController][Function KeHoachVonNamPhanBoVonDVPheDuyetSave]: Invalid column name 'iID_KeHoachVonNam_DuocDuyetID'.
+
+[ERROR]-[26-07-2022 02:23:26] – [Controller KeHoachVonNamPhanBoVonDVPheDuyetController][Function Save]: Nullable object must have a value.
+
+[ERROR]-[26-07-2022 02:23:41] – [Controller KeHoachVonNamPhanBoVonDVPheDuyetController][Function KeHoachVonNamPhanBoVonDVPheDuyetSave]: Object reference not set to an instance of an object.
+
+[ERROR]-[26-07-2022 02:25:29] – [Controller KeHoachVonNamPhanBoVonDVPheDuyetController][Function KeHoachVonNamPhanBoVonDVPheDuyetSave]: Object reference not set to an instance of an object.
+

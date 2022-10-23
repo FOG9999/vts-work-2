@@ -1,0 +1,14 @@
+@using VIETTEL
+@using VIETTEL.Areas.HelpPage
+@model InvalidSample
+
+@if (HttpContextHelper.Current.IsDebuggingEnabled)
+{
+    <div class="warning-message-container">
+        <p>@Model.ErrorMessage</p>
+    </div>
+}
+else
+{
+    <p>Sample not available.</p>
+}

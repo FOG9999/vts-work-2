@@ -1,0 +1,8 @@
+[ERROR]-[12-07-2022 02:32:27] – [Controller KeHoachVonNamPhanBoVonDVPheDuyetController][Function Save]: Object reference not set to an instance of an object.
+
+[ERROR]-[12-07-2022 02:38:11] – [Controller KeHoachVonNamPhanBoVonDVPheDuyetController][Function Save]: Nullable object must have a value.
+
+[ERROR]-[12-07-2022 05:45:15] – [Controller KeHoachTrungHanDeXuatController][Function KeHoach5NamDeXuatSave]: Sequence contains no elements
+
+[ERROR]-[12-07-2022 05:52:24] – [Controller KeHoachTrungHanDeXuatController][Function KeHoach5NamDeXuatSave]: Sequence contains no elements
+

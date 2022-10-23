@@ -1,0 +1,72 @@
+D:\qlns-ctc-bqp-develop\qlns-ctc-bqp\sourcecode\sso\bin\SSO.Service.dll.config
+D:\qlns-ctc-bqp-develop\qlns-ctc-bqp\sourcecode\sso\bin\SSO.Service.dll
+D:\qlns-ctc-bqp-develop\qlns-ctc-bqp\sourcecode\sso\bin\SSO.Service.pdb
+D:\qlns-ctc-bqp-develop\qlns-ctc-bqp\sourcecode\sso\bin\DomainModel.dll
+D:\qlns-ctc-bqp-develop\qlns-ctc-bqp\sourcecode\sso\bin\System.ComponentModel.DataAnnotations.dll
+D:\qlns-ctc-bqp-develop\qlns-ctc-bqp\sourcecode\sso\bin\System.Configuration.dll
+D:\qlns-ctc-bqp-develop\qlns-ctc-bqp\sourcecode\sso\bin\System.Data.dll
+D:\qlns-ctc-bqp-develop\qlns-ctc-bqp\sourcecode\sso\bin\System.dll
+D:\qlns-ctc-bqp-develop\qlns-ctc-bqp\sourcecode\sso\bin\System.Drawing.dll
+D:\qlns-ctc-bqp-develop\qlns-ctc-bqp\sourcecode\sso\bin\System.EnterpriseServices.dll
+D:\qlns-ctc-bqp-develop\qlns-ctc-bqp\sourcecode\sso\bin\System.Runtime.Serialization.dll
+D:\qlns-ctc-bqp-develop\qlns-ctc-bqp\sourcecode\sso\bin\System.ServiceModel.dll
+D:\qlns-ctc-bqp-develop\qlns-ctc-bqp\sourcecode\sso\bin\System.ServiceModel.Web.dll
+D:\qlns-ctc-bqp-develop\qlns-ctc-bqp\sourcecode\sso\bin\System.Web.dll
+D:\qlns-ctc-bqp-develop\qlns-ctc-bqp\sourcecode\sso\bin\System.Web.Mobile.dll
+D:\qlns-ctc-bqp-develop\qlns-ctc-bqp\sourcecode\sso\bin\System.Web.Services.dll
+D:\qlns-ctc-bqp-develop\qlns-ctc-bqp\sourcecode\sso\bin\System.Xml.dll
+D:\qlns-ctc-bqp-develop\qlns-ctc-bqp\sourcecode\sso\bin\System.Web.Mvc.dll
+D:\qlns-ctc-bqp-develop\qlns-ctc-bqp\sourcecode\sso\obj\Debug\sso.csproj.AssemblyReference.cache
+D:\qlns-ctc-bqp-develop\qlns-ctc-bqp\sourcecode\sso\obj\Debug\sso.csproj.CoreCompileInputs.cache
+D:\qlns-ctc-bqp-develop\qlns-ctc-bqp\sourcecode\sso\obj\Debug\sso.csproj.CopyComplete
+D:\qlns-ctc-bqp-develop\qlns-ctc-bqp\sourcecode\sso\obj\Debug\SSO.Service.dll
+D:\qlns-ctc-bqp-develop\qlns-ctc-bqp\sourcecode\sso\obj\Debug\SSO.Service.pdb
+D:\VTS\save-from-github\qlns\vts-work\sso\bin\SSO.Service.dll.config
+D:\VTS\save-from-github\qlns\vts-work\sso\bin\SSO.Service.dll
+D:\VTS\save-from-github\qlns\vts-work\sso\bin\SSO.Service.pdb
+D:\VTS\save-from-github\qlns\vts-work\sso\bin\DomainModel.dll
+D:\VTS\save-from-github\qlns\vts-work\sso\bin\System.ComponentModel.DataAnnotations.dll
+D:\VTS\save-from-github\qlns\vts-work\sso\bin\System.Configuration.dll
+D:\VTS\save-from-github\qlns\vts-work\sso\bin\System.Data.dll
+D:\VTS\save-from-github\qlns\vts-work\sso\bin\System.dll
+D:\VTS\save-from-github\qlns\vts-work\sso\bin\System.Drawing.dll
+D:\VTS\save-from-github\qlns\vts-work\sso\bin\System.EnterpriseServices.dll
+D:\VTS\save-from-github\qlns\vts-work\sso\bin\System.Runtime.Serialization.dll
+D:\VTS\save-from-github\qlns\vts-work\sso\bin\System.ServiceModel.dll
+D:\VTS\save-from-github\qlns\vts-work\sso\bin\System.ServiceModel.Web.dll
+D:\VTS\save-from-github\qlns\vts-work\sso\bin\System.Web.dll
+D:\VTS\save-from-github\qlns\vts-work\sso\bin\System.Web.Mobile.dll
+D:\VTS\save-from-github\qlns\vts-work\sso\bin\System.Web.Services.dll
+D:\VTS\save-from-github\qlns\vts-work\sso\bin\System.Xml.dll
+D:\VTS\save-from-github\qlns\vts-work\sso\bin\System.Web.Mvc.dll
+D:\VTS\save-from-github\qlns\vts-work\sso\obj\Debug\sso.csproj.AssemblyReference.cache
+D:\VTS\save-from-github\qlns\vts-work\sso\obj\Debug\sso.csproj.CoreCompileInputs.cache
+D:\VTS\save-from-github\qlns\vts-work\sso\obj\Debug\sso.csproj.CopyComplete
+D:\VTS\save-from-github\qlns\vts-work\sso\obj\Debug\SSO.Service.dll
+D:\VTS\save-from-github\qlns\vts-work\sso\obj\Debug\SSO.Service.pdb
+D:\Coding\CI-CD\qlns_sso_build\SSO.Service.dll.config
+D:\Coding\CI-CD\qlns_sso_build\SSO.Service.dll
+D:\Coding\CI-CD\qlns_sso_build\SSO.Service.pdb
+D:\VTS\projects\qlns-ctc\web\upgrade .net framework\sso\bin\SSO.Service.dll.config
+D:\VTS\projects\qlns-ctc\web\upgrade .net framework\sso\bin\SSO.Service.dll
+D:\VTS\projects\qlns-ctc\web\upgrade .net framework\sso\bin\SSO.Service.pdb
+D:\VTS\projects\qlns-ctc\web\upgrade .net framework\sso\bin\DomainModel.dll
+D:\VTS\projects\qlns-ctc\web\upgrade .net framework\sso\bin\System.ComponentModel.DataAnnotations.dll
+D:\VTS\projects\qlns-ctc\web\upgrade .net framework\sso\bin\System.Configuration.dll
+D:\VTS\projects\qlns-ctc\web\upgrade .net framework\sso\bin\System.Data.dll
+D:\VTS\projects\qlns-ctc\web\upgrade .net framework\sso\bin\System.dll
+D:\VTS\projects\qlns-ctc\web\upgrade .net framework\sso\bin\System.Drawing.dll
+D:\VTS\projects\qlns-ctc\web\upgrade .net framework\sso\bin\System.EnterpriseServices.dll
+D:\VTS\projects\qlns-ctc\web\upgrade .net framework\sso\bin\System.Runtime.Serialization.dll
+D:\VTS\projects\qlns-ctc\web\upgrade .net framework\sso\bin\System.ServiceModel.dll
+D:\VTS\projects\qlns-ctc\web\upgrade .net framework\sso\bin\System.ServiceModel.Web.dll
+D:\VTS\projects\qlns-ctc\web\upgrade .net framework\sso\bin\System.Web.dll
+D:\VTS\projects\qlns-ctc\web\upgrade .net framework\sso\bin\System.Web.Mobile.dll
+D:\VTS\projects\qlns-ctc\web\upgrade .net framework\sso\bin\System.Web.Services.dll
+D:\VTS\projects\qlns-ctc\web\upgrade .net framework\sso\bin\System.Xml.dll
+D:\VTS\projects\qlns-ctc\web\upgrade .net framework\sso\bin\System.Web.Mvc.dll
+D:\VTS\projects\qlns-ctc\web\upgrade .net framework\sso\obj\Debug\sso.csproj.AssemblyReference.cache
+D:\VTS\projects\qlns-ctc\web\upgrade .net framework\sso\obj\Debug\sso.csproj.CoreCompileInputs.cache
+D:\VTS\projects\qlns-ctc\web\upgrade .net framework\sso\obj\Debug\sso.csproj.CopyComplete
+D:\VTS\projects\qlns-ctc\web\upgrade .net framework\sso\obj\Debug\SSO.Service.dll
+D:\VTS\projects\qlns-ctc\web\upgrade .net framework\sso\obj\Debug\SSO.Service.pdb

@@ -1,0 +1,246 @@
+[ERROR]-[17-06-2022 08:12:58] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 08:12:59] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 08:13:39] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 08:13:40] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 08:13:47] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 08:13:47] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 08:14:37] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 08:14:37] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 08:14:51] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 08:14:51] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 08:20:40] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 08:20:41] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 08:21:13] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 08:21:13] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 08:21:33] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 08:21:33] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 08:22:34] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 08:22:34] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 08:27:48] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 08:27:48] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 08:29:47] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 08:32:25] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 08:33:40] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 08:36:03] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 08:38:37] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 08:38:46] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 08:39:46] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 08:43:39] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 08:44:28] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 08:50:17] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 08:50:18] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 08:50:30] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 08:50:31] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 08:52:20] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 08:52:22] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 08:53:13] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 08:54:26] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 08:55:14] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 08:55:38] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 09:07:13] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 09:07:14] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 09:07:42] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 10:32:23] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 10:33:09] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 10:33:36] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 10:36:24] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 10:38:17] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 10:39:22] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 10:41:35] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 10:41:35] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 10:41:44] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 10:45:27] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 10:50:32] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 10:52:10] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 10:52:11] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 10:54:29] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 10:54:29] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 11:03:47] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 11:03:47] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 11:06:35] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 11:06:37] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 11:08:20] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 11:08:20] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 11:08:43] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 11:08:44] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 11:10:07] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 11:10:07] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 11:10:55] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 11:13:17] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 11:13:18] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 11:18:40] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 11:18:40] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 11:25:34] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 11:25:35] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 11:27:36] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 11:28:25] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type real. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 11:29:20] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 11:29:36] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type real. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 11:32:03] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 11:32:24] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type real. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 11:33:02] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 11:34:40] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type real. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 11:34:52] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 11:36:00] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type real. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 11:36:53] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 11:36:54] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type real. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 11:38:08] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 11:38:08] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type real. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 11:41:15] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 11:41:16] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type real. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 11:42:10] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 11:42:10] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type real. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 11:46:14] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 11:46:14] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type real. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 11:47:47] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 11:47:50] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type real. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 11:48:26] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 11:48:27] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type real. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 01:06:18] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 01:06:18] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 7 ("@fGiaTriThanhToanNN"): The supplied value is not a valid instance of data type real. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 01:19:11] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 01:19:33] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 01:19:54] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 01:20:16] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 02:04:45] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 02:06:54] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 02:07:12] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 02:07:31] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 02:07:48] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 02:10:23] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 02:21:30] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 02:43:05] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 02:43:11] – [Controller QLVonDauTuService][Function UpdatePheDuyetThanhToanChiTiet]: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 8 ("@fGiaTriThanhToanTN"): The supplied value is not a valid instance of data type real. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.
+
+[ERROR]-[17-06-2022 02:46:12] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 02:46:58] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 02:47:34] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 02:47:59] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 02:54:04] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 03:17:29] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 03:18:58] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 03:19:38] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 03:20:05] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+
+[ERROR]-[17-06-2022 03:24:16] – [Controller QLVonDauTuService][Function DeletePheDuyetThanhToanChiTietByThanhToanId]: Could not find stored procedure 'sp_delete_tonghopnguonnsdautu_giam'.
+

@@ -1,0 +1,32 @@
+@using Microsoft.AspNetCore.Mvc.Razor
+@{ HelperResult DataList(string name, IEnumerable<System.Web.Mvc.SelectListItem> selectList)
+	{
+	    @*<input list="@name" />*@
+	
+	    <datalist id="@name">
+	        @foreach (var item in selectList)
+	        {
+	            <option value="@item.Text">@item.Value</option>
+	        }
+	    </datalist>
+		return new HelperResult(w => Task.CompletedTask);
+} }
+
+@{ HelperResult Required()
+	{
+	    <span style="color:red">*</span>
+		return new HelperResult(w => Task.CompletedTask);
+} }
+
+@*@{ HelperResult DataList(string name, IEnumerable<System.Web.Mvc.SelectListItem> selectList, string htmlAttribute, string list)
+	    {
+	        <input id="@name" name="@name" @htmlAttribute list="@list" />
+	
+	        <datalist id="@list">
+	            @foreach (var item in selectList)
+	            {
+	                <option value="@item.Text">@item.Value</option>
+	            }
+	        </datalist>
+	    	return new HelperResult(w => Task.CompletedTask);
+} }*@
